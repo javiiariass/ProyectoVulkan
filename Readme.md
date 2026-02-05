@@ -1,5 +1,8 @@
 # Memoria Explicativa Animación Vulkan
 
+> [!TIP]
+> En [esta página]( https://javiiariass.github.io/ProyectoVulkan) está la documentación técnica del código (generada con doxygen a partir de los comentarios que hay en el código)
+
 ## Índice
 
 - [body.skel](#bodyskel)
