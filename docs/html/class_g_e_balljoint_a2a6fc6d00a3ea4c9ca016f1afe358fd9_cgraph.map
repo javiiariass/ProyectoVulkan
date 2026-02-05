@@ -1,0 +1,5 @@
+<map id="GEBalljoint::addChild" name="GEBalljoint::addChild">
+<area shape="rect" id="Node000001" title="Añade una articulación hija." alt="" coords="5,5,151,32"/>
+<area shape="rect" id="Node000002" href="$class_g_e_balljoint.html#a0f468b4618ae46410622a32a83569714" title="Construye una articulación." alt="" coords="199,5,358,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,16,186,19,180,19,151,21"/>
+</map>

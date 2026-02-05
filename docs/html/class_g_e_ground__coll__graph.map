@@ -1,0 +1,17 @@
+<map id="GEGround" name="GEGround">
+<area shape="rect" id="Node000001" title="Clase que describe un terreno rectangular." alt="" coords="289,223,371,249"/>
+<area shape="rect" id="Node000002" href="$class_g_e_figure.html" title="Clase que describe una figura formada por una malla de vértices." alt="" coords="292,147,368,173"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="332,187,332,224,328,221,328,190"/>
+<area shape="rect" id="Node000003" href="$struct_g_e_material.html" title="Estructura que describe las propiedades de un material." alt="" coords="5,5,92,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="59,44,85,85,101,105,120,120,151,132,196,142,294,155,289,157,195,147,149,137,117,125,97,108,80,88,59,49"/>
+<area shape="rect" id="Node000004" href="$struct_g_e_light.html" title="Estructura que describe una fuente de luz direccional." alt="" coords="116,5,184,32"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="167,42,202,82,245,120,294,147,289,147,242,125,198,86,166,47"/>
+<area shape="rect" id="Node000005" href="$class_g_e_vertex_buffer.html" title="Clase que describe un buffer de vértices." alt="" coords="208,5,319,32"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="277,44,326,146,321,146,274,48"/>
+<area shape="rect" id="Node000006" href="$class_g_e_index_buffer.html" title="Clase que describe un buffer de índices." alt="" coords="343,5,450,32"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="386,45,338,148,334,144,382,48"/>
+<area shape="rect" id="Node000007" href="$class_g_e_uniform_buffer.html" title="Clase que describe un conjunto de buffers para almacenar variables uniformes." alt="" coords="474,5,594,32"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="513,41,466,84,410,125,363,149,361,144,407,120,463,80,508,44"/>
+<area shape="rect" id="Node000008" href="$class_g_e_descriptor_set.html" title="Clase que describe un conjunto de descriptores." alt="" coords="618,5,738,32"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="667,44,639,88,620,109,598,125,554,139,492,149,369,160,368,154,492,144,553,134,595,120,617,105,635,85,663,47"/>
+</map>

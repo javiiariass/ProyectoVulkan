@@ -1,0 +1,13 @@
+<map id="pugi::xml_attribute::as_string" name="pugi::xml_attribute::as_string">
+<area shape="rect" id="Node000001" title=" " alt="" coords="953,47,1081,89"/>
+<area shape="rect" id="Node000002" href="$class_g_e_x_m_l_parser.html#af7e66e11e1a8973779770daa1ad6f653" title="Parsea una articulación y sus hijas recursivamente." alt="" coords="713,29,905,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="935,58,905,57,905,52,940,58"/>
+<area shape="rect" id="Node000003" href="$class_g_e_x_m_l_parser.html#acd9fc587fbd992edbb51df00549c1bda" title="Parsea un archivo .skel y devuelve los datos del esqueleto." alt="" coords="448,55,665,81"/>
+<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="935,68,666,71,666,65,940,68"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="843,14,832,10,809,8,787,10,775,15,773,20,778,30,774,28,767,21,772,11,786,5,809,3,834,5,848,15"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="701,54,666,60,665,54,695,54"/>
+<area shape="rect" id="Node000004" href="$class_g_e_skeleton.html#ade3f0504c12faea2597ee2c23abf22bd" title="Construye la jerarquía de articulaciones desde body.skel." alt="" coords="223,55,400,81"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="430,68,401,71,400,65,435,68"/>
+<area shape="rect" id="Node000005" href="$class_g_e_skeleton.html#ad854854fdf1e4d090553d4d6edbfe095" title="Constructor del esqueleto." alt="" coords="5,55,175,81"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="205,68,175,71,175,65,210,68"/>
+</map>

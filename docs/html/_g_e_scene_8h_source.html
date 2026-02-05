@@ -1,0 +1,203 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Animación Vulkan: Archivo de código fuente MVPVulkan/GEScene.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">var page_layout=1;</script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="side-nav" class="ui-resizable side-nav-resizable"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Animación Vulkan<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Animación de tiro libre baloncesto con motor gráfico desarrollado en clase</div>
+  </td>
+ </tr>
+   <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td></tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_g_e_scene_8h_source.html','',''); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','Buscar',true);
+});
+</script>
+<div id="main-nav"></div>
+<div id="container"><div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">GEScene.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_g_e_scene_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="_g_e_graphics_context_8h.html">GEGraphicsContext.h</a>&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;<a class="code" href="_g_e_drawing_context_8h.html">GEDrawingContext.h</a>&quot;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="_g_e_command_context_8h.html">GECommandContext.h</a>&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="_g_e_rendering_context_8h.html">GERenderingContext.h</a>&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="_g_e_figure_8h.html">GEFigure.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="_g_e_skeleton_8h.html">GESkeleton.h</a>&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &quot;<a class="code" href="_g_e_animation_8h.html">GEAnimation.h</a>&quot;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;<a class="code" href="_g_e_camera_8h.html">GECamera.h</a>&quot;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &lt;vulkan/vulkan.h&gt;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &lt;glm/glm.hpp&gt;</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span></div>
+<div class="foldopen" id="foldopen00024" data-start="{" data-end="};">
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="class_g_e_scene.html">   24</a></span><span class="keyword">class </span><a class="code hl_function" href="class_g_e_scene.html#acd8ea9948176d36d93ce1f86a4f3d186">GEScene</a></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>{</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="class_g_e_scene.html#a9fc1ec75d02a35339df5e6d2142330e1">   27</a></span>    <a class="code hl_class" href="class_g_e_rendering_context.html">GERenderingContext</a>* <a class="code hl_variable" href="class_g_e_scene.html#a9fc1ec75d02a35339df5e6d2142330e1">rc</a>; </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="class_g_e_scene.html#aef8fd98d0152d35de921b2284371dab9">   28</a></span>    <a class="code hl_class" href="class_g_e_figure.html">GEFigure</a>* <a class="code hl_variable" href="class_g_e_scene.html#aef8fd98d0152d35de921b2284371dab9">ground</a>; </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="class_g_e_scene.html#ace434e758c1b212b7a91c8e73b32cf5e">   29</a></span>    <a class="code hl_class" href="class_g_e_skeleton.html">GESkeleton</a>* <a class="code hl_variable" href="class_g_e_scene.html#ace434e758c1b212b7a91c8e73b32cf5e">skeleton</a>; </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="class_g_e_scene.html#aeeb2608e9f17b1e4d4f6d7a30514cdb1">   30</a></span>    <a class="code hl_class" href="class_g_e_animation.html">GEAnimation</a>* <a class="code hl_variable" href="class_g_e_scene.html#aeeb2608e9f17b1e4d4f6d7a30514cdb1">animation</a>; </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="class_g_e_scene.html#ac653f27d64b111051c02f542eeacd42c">   31</a></span>    <span class="keywordtype">double</span> <a class="code hl_variable" href="class_g_e_scene.html#ac653f27d64b111051c02f542eeacd42c">lastTime</a>; </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="class_g_e_scene.html#ac2bfa1e38f64a3cb6b84b507c5868ef8">   32</a></span>    <a class="code hl_class" href="class_g_e_camera.html">GECamera</a>* <a class="code hl_variable" href="class_g_e_scene.html#ac2bfa1e38f64a3cb6b84b507c5868ef8">camera</a>; </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="class_g_e_scene.html#ab9383f885dd7b590b27204d60595d889">   33</a></span>    glm::mat4 <a class="code hl_variable" href="class_g_e_scene.html#ab9383f885dd7b590b27204d60595d889">projection</a>; </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <a class="code hl_function" href="class_g_e_scene.html#acd8ea9948176d36d93ce1f86a4f3d186">GEScene</a>(<a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a>* gc, <a class="code hl_class" href="class_g_e_drawing_context.html">GEDrawingContext</a>* dc, <a class="code hl_class" href="class_g_e_command_context.html">GECommandContext</a>* cc);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_scene.html#a794daec63bc4ebb2ec6101189bc99bdb">destroy</a>(<a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a>* gc);</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_scene.html#ad8eff3027dcba4c3a0133e2295c81885">recreate</a>(<a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a>* gc, <a class="code hl_class" href="class_g_e_drawing_context.html">GEDrawingContext</a>* dc, <a class="code hl_class" href="class_g_e_command_context.html">GECommandContext</a>* cc);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_scene.html#affd624a84790679ddf7fb6d8a46db639">update</a>(<a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a>* gc, uint32_t index);</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_scene.html#a971e9b981ad219b661db89f03f6d3179">key_action</a>(<span class="keywordtype">int</span> key, <span class="keywordtype">bool</span> pressed);</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_scene.html#a7abdf2f4f0f03b4c093e0d4183753c76">aspect_ratio</a>(<span class="keywordtype">double</span> aspect);</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    <a class="code hl_class" href="class_g_e_pipeline_config.html">GEPipelineConfig</a>* <a class="code hl_function" href="class_g_e_scene.html#a233af529c8992d40f8b3a3eb134cf90a">createPipelineConfig</a>(VkExtent2D extent);</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span></div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_scene.html#ad78bdafb113e91237b67ad7119ed4252">fillCommandBuffers</a>(std::vector&lt;VkCommandBuffer&gt; commandBuffers);</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span></div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <a class="code hl_class" href="class_g_e_animation.html">GEAnimation</a>* <a class="code hl_function" href="class_g_e_scene.html#aebca9f0f770129e8aa2df69a4fa80e63">createBasketballThrowAnimation</a>();</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>};</div>
+</div>
+<div class="ttc" id="a_g_e_animation_8h_html"><div class="ttname"><a href="_g_e_animation_8h.html">GEAnimation.h</a></div><div class="ttdoc">Declaración de la clase GEAnimation para sistema de animación por keyframes.</div></div>
+<div class="ttc" id="a_g_e_camera_8h_html"><div class="ttname"><a href="_g_e_camera_8h.html">GECamera.h</a></div><div class="ttdoc">Declaración de la clase GECamera para gestión de cámara 3D.</div></div>
+<div class="ttc" id="a_g_e_command_context_8h_html"><div class="ttname"><a href="_g_e_command_context_8h.html">GECommandContext.h</a></div><div class="ttdoc">Declaración de la clase GECommandContext que gestiona buffers de comandos.</div></div>
+<div class="ttc" id="a_g_e_drawing_context_8h_html"><div class="ttname"><a href="_g_e_drawing_context_8h.html">GEDrawingContext.h</a></div><div class="ttdoc">Declaración de la clase GEDrawingContext para gestionar swapchain y present.</div></div>
+<div class="ttc" id="a_g_e_figure_8h_html"><div class="ttname"><a href="_g_e_figure_8h.html">GEFigure.h</a></div><div class="ttdoc">Declaración de la clase GEFigure para figuras de malla.</div></div>
+<div class="ttc" id="a_g_e_graphics_context_8h_html"><div class="ttname"><a href="_g_e_graphics_context_8h.html">GEGraphicsContext.h</a></div><div class="ttdoc">Declaración de la clase GEGraphicsContext que almacena el contexto gráfico de Vulkan.</div></div>
+<div class="ttc" id="a_g_e_rendering_context_8h_html"><div class="ttname"><a href="_g_e_rendering_context_8h.html">GERenderingContext.h</a></div><div class="ttdoc">Declaración de la clase GERenderingContext que describe un contexto de renderizado.</div></div>
+<div class="ttc" id="a_g_e_skeleton_8h_html"><div class="ttname"><a href="_g_e_skeleton_8h.html">GESkeleton.h</a></div><div class="ttdoc">Declaración de la clase GESkeleton que representa un esqueleto con articulaciones jerárquicas.</div></div>
+<div class="ttc" id="aclass_g_e_animation_html"><div class="ttname"><a href="class_g_e_animation.html">GEAnimation</a></div><div class="ttdoc">Sistema de animación por keyframes con interpolación lineal.</div><div class="ttdef"><b>Definition</b> GEAnimation.h:30</div></div>
+<div class="ttc" id="aclass_g_e_camera_html"><div class="ttname"><a href="class_g_e_camera.html">GECamera</a></div><div class="ttdoc">Clase que representa una cámara en el espacio 3D.</div><div class="ttdef"><b>Definition</b> GECamera.h:14</div></div>
+<div class="ttc" id="aclass_g_e_command_context_html"><div class="ttname"><a href="class_g_e_command_context.html">GECommandContext</a></div><div class="ttdoc">Clase que almacena los buffers de comandos vinculados a cada imagen de la swapchain.</div><div class="ttdef"><b>Definition</b> GECommandContext.h:18</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html"><div class="ttname"><a href="class_g_e_drawing_context.html">GEDrawingContext</a></div><div class="ttdoc">Clase que contiene la información sobre el destino de las imágenes a generar (swapchain,...</div><div class="ttdef"><b>Definition</b> GEDrawingContext.h:18</div></div>
+<div class="ttc" id="aclass_g_e_figure_html"><div class="ttname"><a href="class_g_e_figure.html">GEFigure</a></div><div class="ttdoc">Clase que describe una figura formada por una malla de vértices.</div><div class="ttdef"><b>Definition</b> GEFigure.h:26</div></div>
+<div class="ttc" id="aclass_g_e_graphics_context_html"><div class="ttname"><a href="class_g_e_graphics_context.html">GEGraphicsContext</a></div><div class="ttdoc">Clase que almacena el contexto gráfico de Vulkan (instancia y dispositivo).</div><div class="ttdef"><b>Definition</b> GEGraphicsContext.h:17</div></div>
+<div class="ttc" id="aclass_g_e_pipeline_config_html"><div class="ttname"><a href="class_g_e_pipeline_config.html">GEPipelineConfig</a></div><div class="ttdoc">Almacena la configuración de un pipeline de renderizado.</div><div class="ttdef"><b>Definition</b> GEPipelineConfig.h:15</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html"><div class="ttname"><a href="class_g_e_rendering_context.html">GERenderingContext</a></div><div class="ttdoc">Clase que describe un contexto de renderizado.</div><div class="ttdef"><b>Definition</b> GERenderingContext.h:20</div></div>
+<div class="ttc" id="aclass_g_e_scene_html_a233af529c8992d40f8b3a3eb134cf90a"><div class="ttname"><a href="class_g_e_scene.html#a233af529c8992d40f8b3a3eb134cf90a">GEScene::createPipelineConfig</a></div><div class="ttdeci">GEPipelineConfig * createPipelineConfig(VkExtent2D extent)</div><div class="ttdoc">Obtiene la configuración del pipeline para un extent dado.</div><div class="ttdef"><b>Definition</b> GEScene.cpp:625</div></div>
+<div class="ttc" id="aclass_g_e_scene_html_a794daec63bc4ebb2ec6101189bc99bdb"><div class="ttname"><a href="class_g_e_scene.html#a794daec63bc4ebb2ec6101189bc99bdb">GEScene::destroy</a></div><div class="ttdeci">void destroy(GEGraphicsContext *gc)</div><div class="ttdoc">Destruye los componentes gráficos de la escena.</div><div class="ttdef"><b>Definition</b> GEScene.cpp:472</div></div>
+<div class="ttc" id="aclass_g_e_scene_html_a7abdf2f4f0f03b4c093e0d4183753c76"><div class="ttname"><a href="class_g_e_scene.html#a7abdf2f4f0f03b4c093e0d4183753c76">GEScene::aspect_ratio</a></div><div class="ttdeci">void aspect_ratio(double aspect)</div><div class="ttdoc">Ajusta la relación de aspecto y la matriz de proyección.</div><div class="ttdef"><b>Definition</b> GEScene.cpp:608</div></div>
+<div class="ttc" id="aclass_g_e_scene_html_a971e9b981ad219b661db89f03f6d3179"><div class="ttname"><a href="class_g_e_scene.html#a971e9b981ad219b661db89f03f6d3179">GEScene::key_action</a></div><div class="ttdeci">void key_action(int key, bool pressed)</div><div class="ttdoc">Maneja acciones de teclado.</div><div class="ttdef"><b>Definition</b> GEScene.cpp:528</div></div>
+<div class="ttc" id="aclass_g_e_scene_html_a9fc1ec75d02a35339df5e6d2142330e1"><div class="ttname"><a href="class_g_e_scene.html#a9fc1ec75d02a35339df5e6d2142330e1">GEScene::rc</a></div><div class="ttdeci">GERenderingContext * rc</div><div class="ttdoc">Contexto de renderizado.</div><div class="ttdef"><b>Definition</b> GEScene.h:27</div></div>
+<div class="ttc" id="aclass_g_e_scene_html_ab9383f885dd7b590b27204d60595d889"><div class="ttname"><a href="class_g_e_scene.html#ab9383f885dd7b590b27204d60595d889">GEScene::projection</a></div><div class="ttdeci">glm::mat4 projection</div><div class="ttdoc">Matriz de proyección.</div><div class="ttdef"><b>Definition</b> GEScene.h:33</div></div>
+<div class="ttc" id="aclass_g_e_scene_html_ac2bfa1e38f64a3cb6b84b507c5868ef8"><div class="ttname"><a href="class_g_e_scene.html#ac2bfa1e38f64a3cb6b84b507c5868ef8">GEScene::camera</a></div><div class="ttdeci">GECamera * camera</div><div class="ttdoc">Cámara de la escena.</div><div class="ttdef"><b>Definition</b> GEScene.h:32</div></div>
+<div class="ttc" id="aclass_g_e_scene_html_ac653f27d64b111051c02f542eeacd42c"><div class="ttname"><a href="class_g_e_scene.html#ac653f27d64b111051c02f542eeacd42c">GEScene::lastTime</a></div><div class="ttdeci">double lastTime</div><div class="ttdoc">Tiempo de la última actualización.</div><div class="ttdef"><b>Definition</b> GEScene.h:31</div></div>
+<div class="ttc" id="aclass_g_e_scene_html_acd8ea9948176d36d93ce1f86a4f3d186"><div class="ttname"><a href="class_g_e_scene.html#acd8ea9948176d36d93ce1f86a4f3d186">GEScene::GEScene</a></div><div class="ttdeci">GEScene(GEGraphicsContext *gc, GEDrawingContext *dc, GECommandContext *cc)</div><div class="ttdoc">Construye la escena y crea los objetos gráficos.</div><div class="ttdef"><b>Definition</b> GEScene.cpp:417</div></div>
+<div class="ttc" id="aclass_g_e_scene_html_ace434e758c1b212b7a91c8e73b32cf5e"><div class="ttname"><a href="class_g_e_scene.html#ace434e758c1b212b7a91c8e73b32cf5e">GEScene::skeleton</a></div><div class="ttdeci">GESkeleton * skeleton</div><div class="ttdoc">Esqueleto de la escena.</div><div class="ttdef"><b>Definition</b> GEScene.h:29</div></div>
+<div class="ttc" id="aclass_g_e_scene_html_ad78bdafb113e91237b67ad7119ed4252"><div class="ttname"><a href="class_g_e_scene.html#ad78bdafb113e91237b67ad7119ed4252">GEScene::fillCommandBuffers</a></div><div class="ttdeci">void fillCommandBuffers(std::vector&lt; VkCommandBuffer &gt; commandBuffers)</div><div class="ttdoc">Rellena los buffers de comandos para el renderizado.</div><div class="ttdef"><b>Definition</b> GEScene.cpp:659</div></div>
+<div class="ttc" id="aclass_g_e_scene_html_ad8eff3027dcba4c3a0133e2295c81885"><div class="ttname"><a href="class_g_e_scene.html#ad8eff3027dcba4c3a0133e2295c81885">GEScene::recreate</a></div><div class="ttdeci">void recreate(GEGraphicsContext *gc, GEDrawingContext *dc, GECommandContext *cc)</div><div class="ttdoc">Reconstruye los componentes gráficos de la escena.</div><div class="ttdef"><b>Definition</b> GEScene.cpp:492</div></div>
+<div class="ttc" id="aclass_g_e_scene_html_aebca9f0f770129e8aa2df69a4fa80e63"><div class="ttname"><a href="class_g_e_scene.html#aebca9f0f770129e8aa2df69a4fa80e63">GEScene::createBasketballThrowAnimation</a></div><div class="ttdeci">GEAnimation * createBasketballThrowAnimation()</div><div class="ttdoc">Crea la animación de tiro libre.</div><div class="ttdef"><b>Definition</b> GEScene.cpp:24</div></div>
+<div class="ttc" id="aclass_g_e_scene_html_aeeb2608e9f17b1e4d4f6d7a30514cdb1"><div class="ttname"><a href="class_g_e_scene.html#aeeb2608e9f17b1e4d4f6d7a30514cdb1">GEScene::animation</a></div><div class="ttdeci">GEAnimation * animation</div><div class="ttdoc">Animación asociada.</div><div class="ttdef"><b>Definition</b> GEScene.h:30</div></div>
+<div class="ttc" id="aclass_g_e_scene_html_aef8fd98d0152d35de921b2284371dab9"><div class="ttname"><a href="class_g_e_scene.html#aef8fd98d0152d35de921b2284371dab9">GEScene::ground</a></div><div class="ttdeci">GEFigure * ground</div><div class="ttdoc">Figura del terreno.</div><div class="ttdef"><b>Definition</b> GEScene.h:28</div></div>
+<div class="ttc" id="aclass_g_e_scene_html_affd624a84790679ddf7fb6d8a46db639"><div class="ttname"><a href="class_g_e_scene.html#affd624a84790679ddf7fb6d8a46db639">GEScene::update</a></div><div class="ttdeci">void update(GEGraphicsContext *gc, uint32_t index)</div><div class="ttdoc">Actualiza la escena (animaciones y transformaciones).</div><div class="ttdef"><b>Definition</b> GEScene.cpp:505</div></div>
+<div class="ttc" id="aclass_g_e_skeleton_html"><div class="ttname"><a href="class_g_e_skeleton.html">GESkeleton</a></div><div class="ttdoc">Representa un esqueleto completo con articulaciones jerárquicas.</div><div class="ttdef"><b>Definition</b> GESkeleton.h:20</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_23ed62d68ba96d0c485cdb821755d287.html">MVPVulkan</a></li><li class="navelem"><a href="_g_e_scene_8h.html">GEScene.h</a></li>
+    <li class="footer">Generado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
+  </ul>
+</div>
+</body>
+</html>

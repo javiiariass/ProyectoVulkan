@@ -1,0 +1,9 @@
+<map id="GEGraphicsContext::findDepthFormat" name="GEGraphicsContext::findDepthFormat">
+<area shape="rect" id="Node000001" title="Busca el formato de imagen adecuado para el buffer de profundidad." alt="" coords="460,35,606,77"/>
+<area shape="rect" id="Node000002" href="$class_g_e_rendering_context.html#ab52c54295c5991f41c1202bd7d9df7bf" title="Crea los pasos de renderizado." alt="" coords="237,5,382,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="442,45,382,39,383,34,447,44"/>
+<area shape="rect" id="Node000004" href="$class_g_e_depth_buffer.html#ad70d23702ff51a80eff64902d0219172" title="Crea un buffer de profundidad (imagen, memoria y vista)." alt="" coords="207,72,412,99"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="447,67,413,74,412,69,442,68"/>
+<area shape="rect" id="Node000003" href="$class_g_e_rendering_context.html#a6cd622aab40a887d134dd524bac920b8" title="Construye el contexto de renderizado (render pass, pipeline y framebuffers)." alt="" coords="5,5,159,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="218,28,159,29,159,24,223,26"/>
+</map>

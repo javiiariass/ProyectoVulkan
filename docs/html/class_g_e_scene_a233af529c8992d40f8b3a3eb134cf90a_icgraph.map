@@ -1,0 +1,7 @@
+<map id="GEScene::createPipelineConfig" name="GEScene::createPipelineConfig">
+<area shape="rect" id="Node000001" title="Obtiene la configuración del pipeline para un extent dado." alt="" coords="195,31,400,57"/>
+<area shape="rect" id="Node000002" href="$class_g_e_scene.html#acd8ea9948176d36d93ce1f86a4f3d186" title="Construye la escena y crea los objetos gráficos." alt="" coords="5,5,147,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,31,147,29,147,24,182,30"/>
+<area shape="rect" id="Node000003" href="$class_g_e_scene.html#ad8eff3027dcba4c3a0133e2295c81885" title="Reconstruye los componentes gráficos de la escena." alt="" coords="10,56,142,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="177,58,143,64,142,59,182,57"/>
+</map>

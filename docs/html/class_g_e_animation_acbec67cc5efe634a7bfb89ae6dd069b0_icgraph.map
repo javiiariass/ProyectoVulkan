@@ -1,0 +1,5 @@
+<map id="GEAnimation::getPoseAt" name="GEAnimation::getPoseAt">
+<area shape="rect" id="Node000001" title="Obtiene la pose interpolada para una articulación." alt="" coords="256,5,423,32"/>
+<area shape="rect" id="Node000002" href="$class_g_e_animation.html#a0c0c9b1891d41bae1e7cf2ae6bde46cc" title="Aplica la animación actual al esqueleto." alt="" coords="5,5,208,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="238,19,208,21,208,16,243,19"/>
+</map>

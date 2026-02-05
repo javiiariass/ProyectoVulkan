@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['reallocate_0',['reallocate',['../structxpath__allocator.html#a5d3ba1b01ba87b2002b348674e9d50b6',1,'xpath_allocator']]],
+  ['recreate_1',['recreate',['../class_g_e_drawing_context.html#aaeccb09fc78b1f6ebf86d19e161f6a1a',1,'GEDrawingContext::recreate()'],['../class_g_e_scene.html#ad8eff3027dcba4c3a0133e2295c81885',1,'GEScene::recreate()']]],
+  ['release_2',['release',['../structauto__deleter.html#a6c02cf0240e922064cbf4672bb4363ce',1,'auto_deleter::release()'],['../structxpath__allocator.html#a9436b8bdef3e0e0ff0df28c2af6a430d',1,'xpath_allocator::release()']]],
+  ['remove_5fattribute_3',['remove_attribute',['../classpugi_1_1xml__node.html#abe97f4b6d784560048c153d977609335',1,'pugi::xml_node::remove_attribute(const xml_attribute &amp;a)'],['../classpugi_1_1xml__node.html#af8ca9132093404a89d25a81060c64293',1,'pugi::xml_node::remove_attribute(const char_t *name)'],['../pugixml_8cpp.html#a4d566745255de4bfe243b477b1882458',1,'remove_attribute():&#160;pugixml.cpp']]],
+  ['remove_5fattributes_4',['remove_attributes',['../classpugi_1_1xml__node.html#a7055d999f1a84e4ee2baf149e7db8321',1,'pugi::xml_node']]],
+  ['remove_5fchild_5',['remove_child',['../classpugi_1_1xml__node.html#abe07faa639fd2d828a340f6283404203',1,'pugi::xml_node::remove_child(const xml_node &amp;n)'],['../classpugi_1_1xml__node.html#ae169719bf580569191d0274bf6514bbc',1,'pugi::xml_node::remove_child(const char_t *name)']]],
+  ['remove_5fchildren_6',['remove_children',['../classpugi_1_1xml__node.html#a529f9679cd99f38a7cbeb0ef291cb146',1,'pugi::xml_node']]],
+  ['remove_5fduplicates_7',['remove_duplicates',['../classxpath__node__set__raw.html#a9c79c58b27de48b650f4e0e7c177e4b6',1,'xpath_node_set_raw']]],
+  ['remove_5fnode_8',['remove_node',['../pugixml_8cpp.html#a6993b82c1fa41ff2bd112a63c901290f',1,'pugixml.cpp']]],
+  ['reserve_9',['reserve',['../structxml__allocator.html#ac831a283ec3bcbe22fd3ce3be98ec347',1,'xml_allocator']]],
+  ['reset_10',['reset',['../class_g_e_animation.html#a7e65f9c9e5e72aa08164567db15da1b1',1,'GEAnimation::reset()'],['../classpugi_1_1xml__document.html#a56e84f1a61d9798b8095f633d2174ab5',1,'pugi::xml_document::reset()'],['../classpugi_1_1xml__document.html#a0706ec7644d94add7eadcf4d9636e251',1,'pugi::xml_document::reset(const xml_document &amp;proto)']]],
+  ['resetlocation_11',['resetLocation',['../class_g_e_figure.html#a01565098b0be0f8d0b907605459e008c',1,'GEFigure']]],
+  ['resize_12',['resize',['../class_g_e_application.html#aba108b6e4e758a6ffa21bf644bce3ab8',1,'GEApplication']]],
+  ['result_13',['result',['../classpugi_1_1xpath__query.html#ac3186c9619a5ffba8c4e4adc240c2899',1,'pugi::xpath_query::result()'],['../classpugi_1_1xpath__exception.html#a7e535115dade26e0cf4871666e912489',1,'pugi::xpath_exception::result()']]],
+  ['resume_14',['resume',['../class_g_e_animation.html#af64ea5f731a5bd76815b2e64a03bbb07',1,'GEAnimation']]],
+  ['resumedeviceproperties_15',['resumeDeviceProperties',['../class_g_e_graphics_context.html#ab7782a268d0c244506262dd6ce3a1571',1,'GEGraphicsContext']]],
+  ['rettype_16',['rettype',['../classxpath__ast__node.html#a2c12e34a46db2a3d0052f9f38bcf1bb6',1,'xpath_ast_node']]],
+  ['return_5ftype_17',['return_type',['../classpugi_1_1xpath__query.html#a49b400c2adedd8f4d698c621667cd0d8',1,'pugi::xpath_query']]],
+  ['reverse_18',['reverse',['../pugixml_8cpp.html#a181d689d647721b02f6db6c996550a3d',1,'pugixml.cpp']]],
+  ['revert_19',['revert',['../structxpath__allocator.html#af1c3ec117935d4488bbd16adf807fbc1',1,'xpath_allocator']]],
+  ['root_20',['root',['../classpugi_1_1xml__node.html#a0f227aa552d3c111983cea84b69f02e7',1,'pugi::xml_node']]],
+  ['rotate_21',['rotate',['../class_g_e_figure.html#ac30752501d92f4e009d3ae76ed8997c5',1,'GEFigure']]],
+  ['round_5fnearest_22',['round_nearest',['../pugixml_8cpp.html#a2ab89e4d3a6ba902d84a622f78a069e4',1,'pugixml.cpp']]],
+  ['round_5fnearest_5fnzero_23',['round_nearest_nzero',['../pugixml_8cpp.html#a9e50504865fabc7c84367a037292f79e',1,'pugixml.cpp']]],
+  ['run_24',['run',['../class_g_e_application.html#a2a7d38dd9a5bca43fc115b09704915a4',1,'GEApplication']]]
+];

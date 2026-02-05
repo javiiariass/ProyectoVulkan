@@ -1,0 +1,5 @@
+<map id="GECommandContext::createCommandBuffers" name="GECommandContext::createCommandBuffers">
+<area shape="rect" id="Node000001" title="Crea los buffers de comandos que se enviarán a la cola gráfica." alt="" coords="287,5,477,48"/>
+<area shape="rect" id="Node000002" href="$class_g_e_command_context.html#ac1855f64e10f7d09b0a3fc11efc9230f" title="Construye los buffers de comandos." alt="" coords="5,5,239,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="268,27,239,29,239,24,274,27"/>
+</map>

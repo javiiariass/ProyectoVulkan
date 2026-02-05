@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Animación Vulkan: Archivo de código fuente MVPVulkan/GEAnimation.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">var page_layout=1;</script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="side-nav" class="ui-resizable side-nav-resizable"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Animación Vulkan<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Animación de tiro libre baloncesto con motor gráfico desarrollado en clase</div>
+  </td>
+ </tr>
+   <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td></tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_g_e_animation_8h_source.html','',''); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','Buscar',true);
+});
+</script>
+<div id="main-nav"></div>
+<div id="container"><div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">GEAnimation.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_g_e_animation_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;glm/glm.hpp&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;map&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">class </span><a class="code hl_class" href="class_g_e_skeleton.html">GESkeleton</a>;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span></div>
+<div class="foldopen" id="foldopen00020" data-start="{" data-end="};">
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="struct_keyframe.html">   20</a></span><span class="keyword">struct </span><a class="code hl_struct" href="struct_keyframe.html">Keyframe</a> {</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="struct_keyframe.html#a37d057994189be22defc5bf05ab255ad">   21</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="struct_keyframe.html#a37d057994189be22defc5bf05ab255ad">time</a>;  </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="struct_keyframe.html#a66ac7e213ccf850338d6b8671498838d">   22</a></span>    std::map&lt;std::string, glm::vec3&gt; <a class="code hl_variable" href="struct_keyframe.html#a66ac7e213ccf850338d6b8671498838d">poses</a>;  </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="struct_keyframe.html#a4685b4a20cb5a9a933fc16165b2ce91c">   23</a></span>    glm::vec3 <a class="code hl_variable" href="struct_keyframe.html#a4685b4a20cb5a9a933fc16165b2ce91c">skeletonPosition</a>;  </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>};</div>
+</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span></div>
+<div class="foldopen" id="foldopen00030" data-start="{" data-end="};">
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="class_g_e_animation.html">   30</a></span><span class="keyword">class </span><a class="code hl_function" href="class_g_e_animation.html#a8888620646d70fab37aa87df829aef5b">GEAnimation</a> {</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="class_g_e_animation.html#ae3bd22a9dd6efaa5bc15ea8638776ba4">   32</a></span>    std::vector&lt;Keyframe&gt; <a class="code hl_variable" href="class_g_e_animation.html#ae3bd22a9dd6efaa5bc15ea8638776ba4">keyframes</a>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="class_g_e_animation.html#aa288d4f38171df0292a415e939edc4fd">   33</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="class_g_e_animation.html#aa288d4f38171df0292a415e939edc4fd">duration</a>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="class_g_e_animation.html#a2868b2f7a6a36cd7564e1c4a3be2c4ad">   34</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="class_g_e_animation.html#a2868b2f7a6a36cd7564e1c4a3be2c4ad">currentTime</a>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="class_g_e_animation.html#aec891cdef67374008455fe8d5b4f86e6">   35</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_g_e_animation.html#aec891cdef67374008455fe8d5b4f86e6">loop</a>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="class_g_e_animation.html#a0ce19e92fb741fcb65a897058d81de82">   36</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_g_e_animation.html#a0ce19e92fb741fcb65a897058d81de82">paused</a>;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <a class="code hl_function" href="class_g_e_animation.html#a8888620646d70fab37aa87df829aef5b">GEAnimation</a>(<span class="keywordtype">float</span> <a class="code hl_variable" href="class_g_e_animation.html#aa288d4f38171df0292a415e939edc4fd">duration</a>, <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_g_e_animation.html#aec891cdef67374008455fe8d5b4f86e6">loop</a> = <span class="keyword">true</span>);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_animation.html#aeec10aedbf6934c9609ad80bd5fca009">addKeyframe</a>(<span class="keywordtype">float</span> time, <span class="keyword">const</span> std::map&lt;std::string, glm::vec3&gt;&amp; poses,</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>                     glm::vec3 skeletonPos = glm::vec3(0.0f));</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_animation.html#afb1cc3b6f24b9280bd75ba969da5542a">update</a>(<span class="keywordtype">float</span> deltaTime);</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_animation.html#a7e65f9c9e5e72aa08164567db15da1b1">reset</a>();</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_animation.html#a5df5e6be10a672ebeddebdc75da7d347">pause</a>();</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_animation.html#af64ea5f731a5bd76815b2e64a03bbb07">resume</a>();</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_animation.html#a1a278706a917833946d5d893c1e8a722">togglePause</a>();</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    glm::vec3 <a class="code hl_function" href="class_g_e_animation.html#acbec67cc5efe634a7bfb89ae6dd069b0">getPoseAt</a>(<span class="keyword">const</span> std::string&amp; jointName) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    glm::vec3 <a class="code hl_function" href="class_g_e_animation.html#a0f23d92d8b3dd22f3a9acd9b74e2be07">getSkeletonPosition</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_animation.html#a0c0c9b1891d41bae1e7cf2ae6bde46cc">applyToSkeleton</a>(<a class="code hl_class" href="class_g_e_skeleton.html">GESkeleton</a>* skeleton);</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    </div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="keywordtype">float</span> <a class="code hl_function" href="class_g_e_animation.html#a1554fd017bed4e748145ad51723b8016">getCurrentTime</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    <span class="keywordtype">float</span> <a class="code hl_function" href="class_g_e_animation.html#a28ffa7fc0a93e491b6a609b9e8320bc6">getDuration</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_g_e_animation.html#a72a923f2be937048bcfdd0c433880ae2">getCurrentKeyframeIndex</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_g_e_animation.html#ac80671fca9f9c6fdfc3f6d6e224f479d">getKeyframeCount</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="class_g_e_animation.html#ae126b9817dfa1ecd6c80ab413eb0205f">isPaused</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    </div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_animation.html#a5d9ee8f64a791c538f84392570fcd94c">nextKeyframe</a>();</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_animation.html#a6f310656eaf3b82dce5be7924d42fd56">prevKeyframe</a>();</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>};</div>
+</div>
+<div class="ttc" id="aclass_g_e_animation_html_a0c0c9b1891d41bae1e7cf2ae6bde46cc"><div class="ttname"><a href="class_g_e_animation.html#a0c0c9b1891d41bae1e7cf2ae6bde46cc">GEAnimation::applyToSkeleton</a></div><div class="ttdeci">void applyToSkeleton(GESkeleton *skeleton)</div><div class="ttdoc">Aplica la animación actual al esqueleto.</div><div class="ttdef"><b>Definition</b> GEAnimation.cpp:172</div></div>
+<div class="ttc" id="aclass_g_e_animation_html_a0ce19e92fb741fcb65a897058d81de82"><div class="ttname"><a href="class_g_e_animation.html#a0ce19e92fb741fcb65a897058d81de82">GEAnimation::paused</a></div><div class="ttdeci">bool paused</div><div class="ttdef"><b>Definition</b> GEAnimation.h:36</div></div>
+<div class="ttc" id="aclass_g_e_animation_html_a0f23d92d8b3dd22f3a9acd9b74e2be07"><div class="ttname"><a href="class_g_e_animation.html#a0f23d92d8b3dd22f3a9acd9b74e2be07">GEAnimation::getSkeletonPosition</a></div><div class="ttdeci">glm::vec3 getSkeletonPosition() const</div><div class="ttdoc">Obtiene la posición del esqueleto interpolada.</div><div class="ttdef"><b>Definition</b> GEAnimation.cpp:143</div></div>
+<div class="ttc" id="aclass_g_e_animation_html_a1554fd017bed4e748145ad51723b8016"><div class="ttname"><a href="class_g_e_animation.html#a1554fd017bed4e748145ad51723b8016">GEAnimation::getCurrentTime</a></div><div class="ttdeci">float getCurrentTime() const</div><div class="ttdoc">Obtiene el tiempo actual de la animación.</div><div class="ttdef"><b>Definition</b> GEAnimation.cpp:201</div></div>
+<div class="ttc" id="aclass_g_e_animation_html_a1a278706a917833946d5d893c1e8a722"><div class="ttname"><a href="class_g_e_animation.html#a1a278706a917833946d5d893c1e8a722">GEAnimation::togglePause</a></div><div class="ttdeci">void togglePause()</div><div class="ttdoc">Alterna pausa/reproducción.</div><div class="ttdef"><b>Definition</b> GEAnimation.cpp:88</div></div>
+<div class="ttc" id="aclass_g_e_animation_html_a2868b2f7a6a36cd7564e1c4a3be2c4ad"><div class="ttname"><a href="class_g_e_animation.html#a2868b2f7a6a36cd7564e1c4a3be2c4ad">GEAnimation::currentTime</a></div><div class="ttdeci">float currentTime</div><div class="ttdef"><b>Definition</b> GEAnimation.h:34</div></div>
+<div class="ttc" id="aclass_g_e_animation_html_a28ffa7fc0a93e491b6a609b9e8320bc6"><div class="ttname"><a href="class_g_e_animation.html#a28ffa7fc0a93e491b6a609b9e8320bc6">GEAnimation::getDuration</a></div><div class="ttdeci">float getDuration() const</div><div class="ttdoc">Obtiene la duración de la animación.</div><div class="ttdef"><b>Definition</b> GEAnimation.cpp:210</div></div>
+<div class="ttc" id="aclass_g_e_animation_html_a5d9ee8f64a791c538f84392570fcd94c"><div class="ttname"><a href="class_g_e_animation.html#a5d9ee8f64a791c538f84392570fcd94c">GEAnimation::nextKeyframe</a></div><div class="ttdeci">void nextKeyframe()</div><div class="ttdoc">Avanza al siguiente keyframe.</div><div class="ttdef"><b>Definition</b> GEAnimation.cpp:250</div></div>
+<div class="ttc" id="aclass_g_e_animation_html_a5df5e6be10a672ebeddebdc75da7d347"><div class="ttname"><a href="class_g_e_animation.html#a5df5e6be10a672ebeddebdc75da7d347">GEAnimation::pause</a></div><div class="ttdeci">void pause()</div><div class="ttdoc">Pausa la animación.</div><div class="ttdef"><b>Definition</b> GEAnimation.cpp:72</div></div>
+<div class="ttc" id="aclass_g_e_animation_html_a6f310656eaf3b82dce5be7924d42fd56"><div class="ttname"><a href="class_g_e_animation.html#a6f310656eaf3b82dce5be7924d42fd56">GEAnimation::prevKeyframe</a></div><div class="ttdeci">void prevKeyframe()</div><div class="ttdoc">Retrocede al keyframe anterior.</div><div class="ttdef"><b>Definition</b> GEAnimation.cpp:266</div></div>
+<div class="ttc" id="aclass_g_e_animation_html_a72a923f2be937048bcfdd0c433880ae2"><div class="ttname"><a href="class_g_e_animation.html#a72a923f2be937048bcfdd0c433880ae2">GEAnimation::getCurrentKeyframeIndex</a></div><div class="ttdeci">int getCurrentKeyframeIndex() const</div><div class="ttdoc">Obtiene el índice del keyframe actual.</div><div class="ttdef"><b>Definition</b> GEAnimation.cpp:219</div></div>
+<div class="ttc" id="aclass_g_e_animation_html_a7e65f9c9e5e72aa08164567db15da1b1"><div class="ttname"><a href="class_g_e_animation.html#a7e65f9c9e5e72aa08164567db15da1b1">GEAnimation::reset</a></div><div class="ttdeci">void reset()</div><div class="ttdoc">Reinicia la animación.</div><div class="ttdef"><b>Definition</b> GEAnimation.cpp:63</div></div>
+<div class="ttc" id="aclass_g_e_animation_html_a8888620646d70fab37aa87df829aef5b"><div class="ttname"><a href="class_g_e_animation.html#a8888620646d70fab37aa87df829aef5b">GEAnimation::GEAnimation</a></div><div class="ttdeci">GEAnimation(float duration, bool loop=true)</div><div class="ttdoc">Constructor de la animación.</div><div class="ttdef"><b>Definition</b> GEAnimation.cpp:13</div></div>
+<div class="ttc" id="aclass_g_e_animation_html_aa288d4f38171df0292a415e939edc4fd"><div class="ttname"><a href="class_g_e_animation.html#aa288d4f38171df0292a415e939edc4fd">GEAnimation::duration</a></div><div class="ttdeci">float duration</div><div class="ttdef"><b>Definition</b> GEAnimation.h:33</div></div>
+<div class="ttc" id="aclass_g_e_animation_html_ac80671fca9f9c6fdfc3f6d6e224f479d"><div class="ttname"><a href="class_g_e_animation.html#ac80671fca9f9c6fdfc3f6d6e224f479d">GEAnimation::getKeyframeCount</a></div><div class="ttdeci">int getKeyframeCount() const</div><div class="ttdoc">Obtiene el número de keyframes.</div><div class="ttdef"><b>Definition</b> GEAnimation.cpp:233</div></div>
+<div class="ttc" id="aclass_g_e_animation_html_acbec67cc5efe634a7bfb89ae6dd069b0"><div class="ttname"><a href="class_g_e_animation.html#acbec67cc5efe634a7bfb89ae6dd069b0">GEAnimation::getPoseAt</a></div><div class="ttdeci">glm::vec3 getPoseAt(const std::string &amp;jointName) const</div><div class="ttdoc">Obtiene la pose interpolada para una articulación.</div><div class="ttdef"><b>Definition</b> GEAnimation.cpp:98</div></div>
+<div class="ttc" id="aclass_g_e_animation_html_ae126b9817dfa1ecd6c80ab413eb0205f"><div class="ttname"><a href="class_g_e_animation.html#ae126b9817dfa1ecd6c80ab413eb0205f">GEAnimation::isPaused</a></div><div class="ttdeci">bool isPaused() const</div><div class="ttdoc">Indica si la animación está pausada.</div><div class="ttdef"><b>Definition</b> GEAnimation.cpp:242</div></div>
+<div class="ttc" id="aclass_g_e_animation_html_ae3bd22a9dd6efaa5bc15ea8638776ba4"><div class="ttname"><a href="class_g_e_animation.html#ae3bd22a9dd6efaa5bc15ea8638776ba4">GEAnimation::keyframes</a></div><div class="ttdeci">std::vector&lt; Keyframe &gt; keyframes</div><div class="ttdef"><b>Definition</b> GEAnimation.h:32</div></div>
+<div class="ttc" id="aclass_g_e_animation_html_aec891cdef67374008455fe8d5b4f86e6"><div class="ttname"><a href="class_g_e_animation.html#aec891cdef67374008455fe8d5b4f86e6">GEAnimation::loop</a></div><div class="ttdeci">bool loop</div><div class="ttdef"><b>Definition</b> GEAnimation.h:35</div></div>
+<div class="ttc" id="aclass_g_e_animation_html_aeec10aedbf6934c9609ad80bd5fca009"><div class="ttname"><a href="class_g_e_animation.html#aeec10aedbf6934c9609ad80bd5fca009">GEAnimation::addKeyframe</a></div><div class="ttdeci">void addKeyframe(float time, const std::map&lt; std::string, glm::vec3 &gt; &amp;poses, glm::vec3 skeletonPos=glm::vec3(0.0f))</div><div class="ttdoc">Añade un keyframe a la animación.</div><div class="ttdef"><b>Definition</b> GEAnimation.cpp:24</div></div>
+<div class="ttc" id="aclass_g_e_animation_html_af64ea5f731a5bd76815b2e64a03bbb07"><div class="ttname"><a href="class_g_e_animation.html#af64ea5f731a5bd76815b2e64a03bbb07">GEAnimation::resume</a></div><div class="ttdeci">void resume()</div><div class="ttdoc">Reanuda la animación.</div><div class="ttdef"><b>Definition</b> GEAnimation.cpp:80</div></div>
+<div class="ttc" id="aclass_g_e_animation_html_afb1cc3b6f24b9280bd75ba969da5542a"><div class="ttname"><a href="class_g_e_animation.html#afb1cc3b6f24b9280bd75ba969da5542a">GEAnimation::update</a></div><div class="ttdeci">void update(float deltaTime)</div><div class="ttdoc">Actualiza el tiempo de la animación.</div><div class="ttdef"><b>Definition</b> GEAnimation.cpp:44</div></div>
+<div class="ttc" id="aclass_g_e_skeleton_html"><div class="ttname"><a href="class_g_e_skeleton.html">GESkeleton</a></div><div class="ttdoc">Representa un esqueleto completo con articulaciones jerárquicas.</div><div class="ttdef"><b>Definition</b> GESkeleton.h:20</div></div>
+<div class="ttc" id="astruct_keyframe_html"><div class="ttname"><a href="struct_keyframe.html">Keyframe</a></div><div class="ttdoc">Representa un fotograma clave de la animación.</div><div class="ttdef"><b>Definition</b> GEAnimation.h:20</div></div>
+<div class="ttc" id="astruct_keyframe_html_a37d057994189be22defc5bf05ab255ad"><div class="ttname"><a href="struct_keyframe.html#a37d057994189be22defc5bf05ab255ad">Keyframe::time</a></div><div class="ttdeci">float time</div><div class="ttdoc">Tiempo del keyframe.</div><div class="ttdef"><b>Definition</b> GEAnimation.h:21</div></div>
+<div class="ttc" id="astruct_keyframe_html_a4685b4a20cb5a9a933fc16165b2ce91c"><div class="ttname"><a href="struct_keyframe.html#a4685b4a20cb5a9a933fc16165b2ce91c">Keyframe::skeletonPosition</a></div><div class="ttdeci">glm::vec3 skeletonPosition</div><div class="ttdoc">Posición del esqueleto.</div><div class="ttdef"><b>Definition</b> GEAnimation.h:23</div></div>
+<div class="ttc" id="astruct_keyframe_html_a66ac7e213ccf850338d6b8671498838d"><div class="ttname"><a href="struct_keyframe.html#a66ac7e213ccf850338d6b8671498838d">Keyframe::poses</a></div><div class="ttdeci">std::map&lt; std::string, glm::vec3 &gt; poses</div><div class="ttdoc">Mapa de poses por nombre de articulación. nombre -&gt; (angleX, angleY, angleZ).</div><div class="ttdef"><b>Definition</b> GEAnimation.h:22</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_23ed62d68ba96d0c485cdb821755d287.html">MVPVulkan</a></li><li class="navelem"><a href="_g_e_animation_8h.html">GEAnimation.h</a></li>
+    <li class="footer">Generado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
+  </ul>
+</div>
+</body>
+</html>

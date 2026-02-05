@@ -1,0 +1,25 @@
+<map id="strconv_escape" name="strconv_escape">
+<area shape="rect" id="Node000001" title=" " alt="" coords="770,147,883,173"/>
+<area shape="rect" id="Node000002" href="$structstrconv__pcdata__impl.html#a7f14166de54e30596aa4e398568b4a5f" title=" " alt="" coords="576,5,718,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="801,135,765,99,720,62,702,51,703,46,723,58,769,95,806,136"/>
+<area shape="rect" id="Node000006" href="$structstrconv__attribute__impl.html#a078a9b175b8c7a338d58431ec959a98c" title=" " alt="" coords="572,72,722,115"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="771,141,706,118,707,113,777,141"/>
+<area shape="rect" id="Node000008" href="$structstrconv__attribute__impl.html#a56ce65fa313ef3bb4a95f5b03a959f7f" title=" " alt="" coords="572,139,722,181"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="751,160,722,163,722,157,757,160"/>
+<area shape="rect" id="Node000009" href="$structstrconv__attribute__impl.html#abb4e88a853d1bc28af060f38f3f0f8d3" title=" " alt="" coords="572,205,722,248"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="777,179,707,207,706,202,771,180"/>
+<area shape="rect" id="Node000010" href="$structstrconv__attribute__impl.html#a9e45f050f2526ac299cbc5adf4de442b" title=" " alt="" coords="572,272,722,315"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="806,184,769,225,723,262,703,274,702,269,720,258,765,221,801,186"/>
+<area shape="rect" id="Node000003" href="$pugixml_8cpp.html#a52da3e542d6ab6e06855274825508ab1" title=" " alt="" coords="385,55,520,81"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="559,46,520,57,518,51,564,44"/>
+<area shape="rect" id="Node000004" href="$structxml__parser.html#a35bac90f1975aa1a9d5de4b60b761f16" title=" " alt="" coords="179,121,333,148"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="394,88,299,123,297,118,399,86"/>
+<area shape="rect" id="Node000005" href="$structxml__parser.html#a4bf0acd166edf3fc6cc9543002ff6f5d" title=" " alt="" coords="5,121,131,148"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="161,136,132,137,130,132,165,133"/>
+<area shape="rect" id="Node000007" href="$pugixml_8cpp.html#ab206ad5e3a83ea8040ec039ea641c208" title=" " alt="" coords="381,147,524,173"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="571,119,495,149,493,144,566,121"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="363,149,334,147,333,142,368,148"/>
+<area shape="poly" id="edge9_Node000008_Node000007" title=" " alt="" coords="554,160,525,163,524,157,560,160"/>
+<area shape="poly" id="edge11_Node000009_Node000007" title=" " alt="" coords="566,200,494,177,494,171,571,200"/>
+<area shape="poly" id="edge13_Node000010_Node000007" title=" " alt="" coords="577,264,571,262,511,217,467,176,468,171,514,213,574,258,582,265"/>
+</map>

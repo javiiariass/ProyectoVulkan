@@ -1,0 +1,5 @@
+<map id="GECamera::turnUp" name="GECamera::turnUp">
+<area shape="rect" id="Node000001" title="Rota el observador un paso hacia arriba." alt="" coords="187,5,320,32"/>
+<area shape="rect" id="Node000002" href="$class_g_e_camera.html#a83e955f594a57f6eb6e65d77e8137a7b" title="Actualiza la posición y orientación según entradas." alt="" coords="5,5,139,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,19,139,21,139,16,174,18"/>
+</map>

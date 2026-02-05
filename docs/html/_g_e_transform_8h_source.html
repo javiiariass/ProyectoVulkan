@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Animación Vulkan: Archivo de código fuente MVPVulkan/GETransform.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">var page_layout=1;</script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="side-nav" class="ui-resizable side-nav-resizable"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Animación Vulkan<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Animación de tiro libre baloncesto con motor gráfico desarrollado en clase</div>
+  </td>
+ </tr>
+   <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td></tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_g_e_transform_8h_source.html','',''); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','Buscar',true);
+});
+</script>
+<div id="main-nav"></div>
+<div id="container"><div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">GETransform.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_g_e_transform_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;glm/glm.hpp&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span></div>
+<div class="foldopen" id="foldopen00014" data-start="{" data-end="};">
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="struct_g_e_transform.html">   14</a></span><span class="keyword">typedef</span> <span class="keyword">struct</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>{</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="struct_g_e_transform.html#a10927007cffe7528dfbcab0014f56a22">   16</a></span>    <span class="keyword">alignas</span>(16) glm::mat4 <a class="code hl_variable" href="struct_g_e_transform.html#a10927007cffe7528dfbcab0014f56a22">MVP</a>; </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="struct_g_e_transform.html#a95140476b53d018eae32a881a6e45b41">   17</a></span>    <span class="keyword">alignas</span>(16) glm::mat4 <a class="code hl_variable" href="struct_g_e_transform.html#a95140476b53d018eae32a881a6e45b41">ViewMatrix</a>; </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="struct_g_e_transform.html#aaeef31d1c855a6093a6a33792dd4e7d0">   18</a></span>    <span class="keyword">alignas</span>(16) glm::mat4 <a class="code hl_variable" href="struct_g_e_transform.html#aaeef31d1c855a6093a6a33792dd4e7d0">ModelViewMatrix</a>; </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>} <a class="code hl_struct" href="struct_g_e_transform.html">GETransform</a>;</div>
+</div>
+<div class="ttc" id="astruct_g_e_transform_html"><div class="ttname"><a href="struct_g_e_transform.html">GETransform</a></div><div class="ttdoc">Estructura que almacena los datos necesarios para girar las figuras.</div><div class="ttdef"><b>Definition</b> GETransform.h:15</div></div>
+<div class="ttc" id="astruct_g_e_transform_html_a10927007cffe7528dfbcab0014f56a22"><div class="ttname"><a href="struct_g_e_transform.html#a10927007cffe7528dfbcab0014f56a22">GETransform::MVP</a></div><div class="ttdeci">glm::mat4 MVP</div><div class="ttdoc">Matriz modelo-vista-proyección.</div><div class="ttdef"><b>Definition</b> GETransform.h:16</div></div>
+<div class="ttc" id="astruct_g_e_transform_html_a95140476b53d018eae32a881a6e45b41"><div class="ttname"><a href="struct_g_e_transform.html#a95140476b53d018eae32a881a6e45b41">GETransform::ViewMatrix</a></div><div class="ttdeci">glm::mat4 ViewMatrix</div><div class="ttdoc">Matriz de vista.</div><div class="ttdef"><b>Definition</b> GETransform.h:17</div></div>
+<div class="ttc" id="astruct_g_e_transform_html_aaeef31d1c855a6093a6a33792dd4e7d0"><div class="ttname"><a href="struct_g_e_transform.html#aaeef31d1c855a6093a6a33792dd4e7d0">GETransform::ModelViewMatrix</a></div><div class="ttdeci">glm::mat4 ModelViewMatrix</div><div class="ttdoc">Matriz modelo-vista.</div><div class="ttdef"><b>Definition</b> GETransform.h:18</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_23ed62d68ba96d0c485cdb821755d287.html">MVPVulkan</a></li><li class="navelem"><a href="_g_e_transform_8h.html">GETransform.h</a></li>
+    <li class="footer">Generado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
+  </ul>
+</div>
+</body>
+</html>

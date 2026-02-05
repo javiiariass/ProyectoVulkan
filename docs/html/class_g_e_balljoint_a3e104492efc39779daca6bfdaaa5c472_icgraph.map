@@ -1,0 +1,5 @@
+<map id="GEBalljoint::setLight" name="GEBalljoint::setLight">
+<area shape="rect" id="Node000001" title="Asigna las propiedades de la luz." alt="" coords="253,5,393,32"/>
+<area shape="rect" id="Node000002" href="$class_g_e_balljoint.html#aa6a8ef8eb7ca1008f034718ed3113c9a" title="Asigna la luz recursivamente." alt="" coords="5,5,205,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,19,205,21,205,16,240,19"/>
+</map>

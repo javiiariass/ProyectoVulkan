@@ -1,0 +1,55 @@
+<map id="MVPVulkan/GERenderingContext.h" name="MVPVulkan/GERenderingContext.h">
+<area shape="rect" id="Node000001" title="Declaración de la clase GERenderingContext que describe un contexto de renderizado." alt="" coords="643,5,871,32"/>
+<area shape="rect" id="Node000002" href="$_g_e_balljoint_8h.html" title="Declaración de la clase GEBalljoint para articulaciones jerárquicas." alt="" coords="360,304,530,331"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="661,37,581,62,536,79,491,99,448,125,408,155,374,190,346,231,342,242,343,252,357,272,382,288,411,303,405,304,379,293,354,275,338,254,337,241,341,228,369,187,405,151,445,120,488,95,534,74,579,57,666,34"/>
+<area shape="rect" id="Node000005" href="$_g_e_skeleton_8h.html" title="Declaración de la clase GESkeleton que representa un esqueleto con articulaciones jerárquicas." alt="" coords="104,379,279,405"/>
+<area shape="poly" id="edge31_Node000001_Node000005" title=" " alt="" coords="625,25,470,38,386,49,305,63,233,81,175,105,153,118,137,133,127,149,123,167,123,244,129,288,149,329,165,355,183,378,177,379,160,358,144,332,124,290,118,244,118,166,122,147,133,130,150,114,173,100,231,76,304,57,385,43,469,33,629,22"/>
+<area shape="rect" id="Node000006" href="$_g_e_scene_8h.html" title="Declaración de la clase GEScene que contiene la escena con esqueleto animado." alt="" coords="967,453,1128,480"/>
+<area shape="poly" id="edge30_Node000001_Node000006" title=" " alt="" coords="866,32,972,52,1077,80,1123,98,1159,118,1184,141,1190,153,1193,166,1193,319,1189,343,1180,366,1167,386,1150,404,1112,434,1076,455,1074,450,1109,430,1146,400,1162,383,1176,363,1184,342,1188,318,1188,167,1185,155,1179,144,1156,122,1120,103,1076,86,970,57,867,38"/>
+<area shape="rect" id="Node000012" href="$_g_e_descriptor_set_8h.html" title="Declaración de la clase GEDescriptorSet para gestionar conjuntos de descriptores." alt="" coords="586,80,789,107"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="736,41,701,82,698,78,732,45"/>
+<area shape="rect" id="Node000014" href="$_g_e_figure_8h.html" title="Declaración de la clase GEFigure para figuras de malla." alt="" coords="746,155,906,181"/>
+<area shape="poly" id="edge28_Node000001_Node000014" title=" " alt="" coords="778,42,803,79,818,119,826,155,821,153,813,121,798,81,777,47"/>
+<area shape="rect" id="Node000022" href="$_g_e_rendering_context_8cpp.html" title="Implementación de la clase GERenderingContext." alt="" coords="1228,80,1470,107"/>
+<area shape="poly" id="edge29_Node000001_Node000022" title=" " alt="" coords="876,32,1247,78,1242,80,876,37"/>
+<area shape="rect" id="Node000003" href="$_g_e_animation_8cpp.html" title="Implementación del sistema de animación por keyframes." alt="" coords="218,453,413,480"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="393,339,368,357,343,380,332,398,325,418,319,454,314,451,320,417,327,396,339,377,365,353,398,336"/>
+<area shape="rect" id="Node000004" href="$_g_e_balljoint_8cpp.html" title="Implementación de la clase GEBalljoint con soporte jerárquico." alt="" coords="353,379,536,405"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="446,344,447,379,442,377,443,349"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="385,337,237,380,235,376,388,333"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="226,411,296,452,291,453,226,416"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="294,399,968,456,966,461,294,405"/>
+<area shape="rect" id="Node000011" href="$_g_e_skeleton_8cpp.html" title="Implementación de GESkeleton con carga desde archivo .skel." alt="" coords="5,453,194,480"/>
+<area shape="poly" id="edge11_Node000005_Node000011" title=" " alt="" coords="162,417,117,455,113,451,165,413"/>
+<area shape="rect" id="Node000007" href="$_g_e_application_8h.html" title="Declaración de la clase GEApplication que crea y lanza la aplicación gráfica." alt="" coords="954,528,1141,555"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="1049,494,1050,529,1045,526,1046,498"/>
+<area shape="rect" id="Node000010" href="$_g_e_scene_8cpp.html" title="Escena con animación de tiro libre de baloncesto." alt="" coords="647,528,821,555"/>
+<area shape="poly" id="edge10_Node000006_Node000010" title=" " alt="" coords="981,484,790,530,789,525,975,484"/>
+<area shape="rect" id="Node000008" href="$_g_e_application_8cpp.html" title="Implementación de la clase GEApplication." alt="" coords="848,603,1050,629"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="1021,563,967,605,965,600,1016,565"/>
+<area shape="rect" id="Node000009" href="$main_8cpp.html" title="Punto de entrada principal de la aplicación MVPVulkan." alt="" coords="1073,603,1219,629"/>
+<area shape="poly" id="edge9_Node000007_Node000009" title=" " alt="" coords="1078,562,1132,603,1127,602,1076,567"/>
+<area shape="rect" id="Node000013" href="$_g_e_descriptor_set_8cpp.html" title="Implementación de la clase GEDescriptorSet." alt="" coords="506,155,723,181"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="666,116,629,156,625,152,662,120"/>
+<area shape="poly" id="edge14_Node000012_Node000014" title=" " alt="" coords="725,112,804,154,799,154,725,117"/>
+<area shape="poly" id="edge23_Node000014_Node000006" title=" " alt="" coords="921,174,980,181,1037,192,1085,207,1104,217,1116,228,1132,257,1136,289,1132,322,1121,354,1090,413,1059,455,1056,451,1085,411,1116,352,1127,320,1131,289,1127,258,1112,231,1101,221,1083,212,1036,197,979,186,922,179"/>
+<area shape="rect" id="Node000015" href="$_g_e_cylinder_8h.html" title="Declaración de la clase GECylinder." alt="" coords="544,229,716,256"/>
+<area shape="poly" id="edge15_Node000014_Node000015" title=" " alt="" coords="775,188,666,231,663,226,780,186"/>
+<area shape="rect" id="Node000017" href="$_g_e_figure_8cpp.html" title="Implementación de la clase GEFigure." alt="" coords="740,229,913,256"/>
+<area shape="poly" id="edge19_Node000014_Node000017" title=" " alt="" coords="828,195,828,230,824,228,825,199"/>
+<area shape="rect" id="Node000018" href="$_g_e_ground_8h.html" title="Declaración de la clase GEGround para terreno rectangular." alt="" coords="937,229,1102,256"/>
+<area shape="poly" id="edge20_Node000014_Node000018" title=" " alt="" coords="874,184,988,228,983,229,874,190"/>
+<area shape="rect" id="Node000020" href="$_g_e_sphere_8h.html" title="Declaración de la clase GESphere que describe una esfera." alt="" coords="356,229,520,256"/>
+<area shape="poly" id="edge24_Node000014_Node000020" title=" " alt="" coords="741,186,507,231,505,226,745,183"/>
+<area shape="poly" id="edge16_Node000015_Node000002" title=" " alt="" coords="582,263,479,306,476,301,586,261"/>
+<area shape="poly" id="edge18_Node000015_Node000010" title=" " alt="" coords="637,269,654,330,696,445,731,528,726,526,691,447,649,331,635,273"/>
+<area shape="rect" id="Node000016" href="$_g_e_cylinder_8cpp.html" title="Implementación de la clase GECylinder." alt="" coords="663,304,848,331"/>
+<area shape="poly" id="edge17_Node000015_Node000016" title=" " alt="" coords="665,261,736,303,731,303,665,267"/>
+<area shape="poly" id="edge22_Node000018_Node000010" title=" " alt="" coords="978,262,944,283,913,306,855,366,805,430,742,530,739,526,801,427,851,362,910,302,942,279,973,264"/>
+<area shape="rect" id="Node000019" href="$_g_e_ground_8cpp.html" title="Implementación de la clase GEGround." alt="" coords="923,304,1102,331"/>
+<area shape="poly" id="edge21_Node000018_Node000019" title=" " alt="" coords="1019,270,1016,305,1012,302,1015,274"/>
+<area shape="poly" id="edge25_Node000020_Node000002" title=" " alt="" coords="442,269,446,305,441,303,440,274"/>
+<area shape="poly" id="edge26_Node000020_Node000010" title=" " alt="" coords="479,261,513,279,544,302,587,347,640,412,728,528,723,527,636,415,583,350,540,306,510,284,479,266"/>
+<area shape="rect" id="Node000021" href="$_g_e_sphere_8cpp.html" title="Implementación de la clase GESphere." alt="" coords="158,304,337,331"/>
+<area shape="poly" id="edge27_Node000020_Node000021" title=" " alt="" coords="389,264,282,306,280,301,393,260"/>
+</map>

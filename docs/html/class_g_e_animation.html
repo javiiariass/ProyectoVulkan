@@ -1,0 +1,753 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Animación Vulkan: Referencia de la clase GEAnimation</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">var page_layout=1;</script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="side-nav" class="ui-resizable side-nav-resizable"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Animación Vulkan<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Animación de tiro libre baloncesto con motor gráfico desarrollado en clase</div>
+  </td>
+ </tr>
+   <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td></tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_g_e_animation.html','','class_g_e_animation-members'); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','Buscar',true);
+});
+</script>
+<div id="main-nav"></div>
+<div id="container"><div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Referencia de la clase GEAnimation</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Sistema de animación por keyframes con interpolación lineal.  
+ <a href="#details">Más...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_g_e_animation_8h_source.html">GEAnimation.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a8888620646d70fab37aa87df829aef5b" id="r_a8888620646d70fab37aa87df829aef5b"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a8888620646d70fab37aa87df829aef5b">GEAnimation</a> (float <a class="el" href="#aa288d4f38171df0292a415e939edc4fd">duration</a>, bool <a class="el" href="#aec891cdef67374008455fe8d5b4f86e6">loop</a>=true)</td></tr>
+<tr class="memdesc:a8888620646d70fab37aa87df829aef5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor de la animación.  <br /></td></tr>
+<tr class="memitem:aeec10aedbf6934c9609ad80bd5fca009" id="r_aeec10aedbf6934c9609ad80bd5fca009"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aeec10aedbf6934c9609ad80bd5fca009">addKeyframe</a> (float time, const std::map&lt; std::string, glm::vec3 &gt; &amp;poses, glm::vec3 skeletonPos=glm::vec3(0.0f))</td></tr>
+<tr class="memdesc:aeec10aedbf6934c9609ad80bd5fca009"><td class="mdescLeft">&#160;</td><td class="mdescRight">Añade un keyframe a la animación.  <br /></td></tr>
+<tr class="memitem:afb1cc3b6f24b9280bd75ba969da5542a" id="r_afb1cc3b6f24b9280bd75ba969da5542a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afb1cc3b6f24b9280bd75ba969da5542a">update</a> (float deltaTime)</td></tr>
+<tr class="memdesc:afb1cc3b6f24b9280bd75ba969da5542a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Actualiza el tiempo de la animación.  <br /></td></tr>
+<tr class="memitem:a7e65f9c9e5e72aa08164567db15da1b1" id="r_a7e65f9c9e5e72aa08164567db15da1b1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7e65f9c9e5e72aa08164567db15da1b1">reset</a> ()</td></tr>
+<tr class="memdesc:a7e65f9c9e5e72aa08164567db15da1b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reinicia la animación.  <br /></td></tr>
+<tr class="memitem:a5df5e6be10a672ebeddebdc75da7d347" id="r_a5df5e6be10a672ebeddebdc75da7d347"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5df5e6be10a672ebeddebdc75da7d347">pause</a> ()</td></tr>
+<tr class="memdesc:a5df5e6be10a672ebeddebdc75da7d347"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pausa la animación.  <br /></td></tr>
+<tr class="memitem:af64ea5f731a5bd76815b2e64a03bbb07" id="r_af64ea5f731a5bd76815b2e64a03bbb07"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af64ea5f731a5bd76815b2e64a03bbb07">resume</a> ()</td></tr>
+<tr class="memdesc:af64ea5f731a5bd76815b2e64a03bbb07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reanuda la animación.  <br /></td></tr>
+<tr class="memitem:a1a278706a917833946d5d893c1e8a722" id="r_a1a278706a917833946d5d893c1e8a722"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a1a278706a917833946d5d893c1e8a722">togglePause</a> ()</td></tr>
+<tr class="memdesc:a1a278706a917833946d5d893c1e8a722"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alterna pausa/reproducción.  <br /></td></tr>
+<tr class="memitem:acbec67cc5efe634a7bfb89ae6dd069b0" id="r_acbec67cc5efe634a7bfb89ae6dd069b0"><td class="memItemLeft">glm::vec3&#160;</td><td class="memItemRight"><a class="el" href="#acbec67cc5efe634a7bfb89ae6dd069b0">getPoseAt</a> (const std::string &amp;jointName) const</td></tr>
+<tr class="memdesc:acbec67cc5efe634a7bfb89ae6dd069b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtiene la pose interpolada para una articulación.  <br /></td></tr>
+<tr class="memitem:a0f23d92d8b3dd22f3a9acd9b74e2be07" id="r_a0f23d92d8b3dd22f3a9acd9b74e2be07"><td class="memItemLeft">glm::vec3&#160;</td><td class="memItemRight"><a class="el" href="#a0f23d92d8b3dd22f3a9acd9b74e2be07">getSkeletonPosition</a> () const</td></tr>
+<tr class="memdesc:a0f23d92d8b3dd22f3a9acd9b74e2be07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtiene la posición del esqueleto interpolada.  <br /></td></tr>
+<tr class="memitem:a0c0c9b1891d41bae1e7cf2ae6bde46cc" id="r_a0c0c9b1891d41bae1e7cf2ae6bde46cc"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0c0c9b1891d41bae1e7cf2ae6bde46cc">applyToSkeleton</a> (<a class="el" href="class_g_e_skeleton.html">GESkeleton</a> *skeleton)</td></tr>
+<tr class="memdesc:a0c0c9b1891d41bae1e7cf2ae6bde46cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aplica la animación actual al esqueleto.  <br /></td></tr>
+<tr class="memitem:a1554fd017bed4e748145ad51723b8016" id="r_a1554fd017bed4e748145ad51723b8016"><td class="memItemLeft">float&#160;</td><td class="memItemRight"><a class="el" href="#a1554fd017bed4e748145ad51723b8016">getCurrentTime</a> () const</td></tr>
+<tr class="memdesc:a1554fd017bed4e748145ad51723b8016"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtiene el tiempo actual de la animación.  <br /></td></tr>
+<tr class="memitem:a28ffa7fc0a93e491b6a609b9e8320bc6" id="r_a28ffa7fc0a93e491b6a609b9e8320bc6"><td class="memItemLeft">float&#160;</td><td class="memItemRight"><a class="el" href="#a28ffa7fc0a93e491b6a609b9e8320bc6">getDuration</a> () const</td></tr>
+<tr class="memdesc:a28ffa7fc0a93e491b6a609b9e8320bc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtiene la duración de la animación.  <br /></td></tr>
+<tr class="memitem:a72a923f2be937048bcfdd0c433880ae2" id="r_a72a923f2be937048bcfdd0c433880ae2"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a72a923f2be937048bcfdd0c433880ae2">getCurrentKeyframeIndex</a> () const</td></tr>
+<tr class="memdesc:a72a923f2be937048bcfdd0c433880ae2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtiene el índice del keyframe actual.  <br /></td></tr>
+<tr class="memitem:ac80671fca9f9c6fdfc3f6d6e224f479d" id="r_ac80671fca9f9c6fdfc3f6d6e224f479d"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#ac80671fca9f9c6fdfc3f6d6e224f479d">getKeyframeCount</a> () const</td></tr>
+<tr class="memdesc:ac80671fca9f9c6fdfc3f6d6e224f479d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtiene el número de keyframes.  <br /></td></tr>
+<tr class="memitem:ae126b9817dfa1ecd6c80ab413eb0205f" id="r_ae126b9817dfa1ecd6c80ab413eb0205f"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ae126b9817dfa1ecd6c80ab413eb0205f">isPaused</a> () const</td></tr>
+<tr class="memdesc:ae126b9817dfa1ecd6c80ab413eb0205f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indica si la animación está pausada.  <br /></td></tr>
+<tr class="memitem:a5d9ee8f64a791c538f84392570fcd94c" id="r_a5d9ee8f64a791c538f84392570fcd94c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5d9ee8f64a791c538f84392570fcd94c">nextKeyframe</a> ()</td></tr>
+<tr class="memdesc:a5d9ee8f64a791c538f84392570fcd94c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Avanza al siguiente keyframe.  <br /></td></tr>
+<tr class="memitem:a6f310656eaf3b82dce5be7924d42fd56" id="r_a6f310656eaf3b82dce5be7924d42fd56"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6f310656eaf3b82dce5be7924d42fd56">prevKeyframe</a> ()</td></tr>
+<tr class="memdesc:a6f310656eaf3b82dce5be7924d42fd56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrocede al keyframe anterior.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Atributos privados</h2></td></tr>
+<tr class="memitem:ae3bd22a9dd6efaa5bc15ea8638776ba4" id="r_ae3bd22a9dd6efaa5bc15ea8638776ba4"><td class="memItemLeft">std::vector&lt; <a class="el" href="struct_keyframe.html">Keyframe</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ae3bd22a9dd6efaa5bc15ea8638776ba4">keyframes</a></td></tr>
+<tr class="memitem:aa288d4f38171df0292a415e939edc4fd" id="r_aa288d4f38171df0292a415e939edc4fd"><td class="memItemLeft">float&#160;</td><td class="memItemRight"><a class="el" href="#aa288d4f38171df0292a415e939edc4fd">duration</a></td></tr>
+<tr class="memitem:a2868b2f7a6a36cd7564e1c4a3be2c4ad" id="r_a2868b2f7a6a36cd7564e1c4a3be2c4ad"><td class="memItemLeft">float&#160;</td><td class="memItemRight"><a class="el" href="#a2868b2f7a6a36cd7564e1c4a3be2c4ad">currentTime</a></td></tr>
+<tr class="memitem:aec891cdef67374008455fe8d5b4f86e6" id="r_aec891cdef67374008455fe8d5b4f86e6"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aec891cdef67374008455fe8d5b4f86e6">loop</a></td></tr>
+<tr class="memitem:a0ce19e92fb741fcb65a897058d81de82" id="r_a0ce19e92fb741fcb65a897058d81de82"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a0ce19e92fb741fcb65a897058d81de82">paused</a></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Sistema de animación por keyframes con interpolación lineal. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Documentación de constructores y destructores</h2>
+<a id="a8888620646d70fab37aa87df829aef5b" name="a8888620646d70fab37aa87df829aef5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8888620646d70fab37aa87df829aef5b">&#9670;&#160;</a></span>GEAnimation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GEAnimation::GEAnimation </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>duration</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>loop</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor de la animación. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname"><a class="el" href="#aa288d4f38171df0292a415e939edc4fd">duration</a></td><td>Duración de la animación en segundos. </td></tr>
+    <tr><td class="paramname"><a class="el" href="#aec891cdef67374008455fe8d5b4f86e6">loop</a></td><td>Indica si la animación se repite en bucle. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#a2868b2f7a6a36cd7564e1c4a3be2c4ad">currentTime</a>, <a class="el" href="#aa288d4f38171df0292a415e939edc4fd">duration</a>, <a class="el" href="#aec891cdef67374008455fe8d5b4f86e6">loop</a> y <a class="el" href="#a0ce19e92fb741fcb65a897058d81de82">paused</a>.</p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Documentación de funciones miembro</h2>
+<a id="aeec10aedbf6934c9609ad80bd5fca009" name="aeec10aedbf6934c9609ad80bd5fca009"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeec10aedbf6934c9609ad80bd5fca009">&#9670;&#160;</a></span>addKeyframe()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEAnimation::addKeyframe </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>time</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::map&lt; std::string, glm::vec3 &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>poses</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">glm::vec3</td>          <td class="paramname"><span class="paramname"><em>skeletonPos</em></span><span class="paramdefsep"> = </span><span class="paramdefval">glm::vec3(0.0f)</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Añade un keyframe a la animación. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time</td><td>Tiempo del keyframe. </td></tr>
+    <tr><td class="paramname">poses</td><td>Mapa de poses por nombre de articulación. </td></tr>
+    <tr><td class="paramname">skeletonPos</td><td>Posición del esqueleto en el keyframe.</td></tr>
+    <tr><td class="paramname">time</td><td>Tiempo del keyframe. </td></tr>
+    <tr><td class="paramname">poses</td><td>Mapa de poses por nombre de articulación. </td></tr>
+    <tr><td class="paramname">skeletonPos</td><td>Posición del esqueleto en el keyframe para el espacio 3D. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#ae3bd22a9dd6efaa5bc15ea8638776ba4">keyframes</a>, <a class="el" href="struct_keyframe.html#a66ac7e213ccf850338d6b8671498838d">Keyframe::poses</a>, <a class="el" href="struct_keyframe.html#a4685b4a20cb5a9a933fc16165b2ce91c">Keyframe::skeletonPosition</a> y <a class="el" href="struct_keyframe.html#a37d057994189be22defc5bf05ab255ad">Keyframe::time</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_g_e_scene.html#aebca9f0f770129e8aa2df69a4fa80e63">GEScene::createBasketballThrowAnimation()</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_g_e_animation_aeec10aedbf6934c9609ad80bd5fca009_icgraph.svg" width="614" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a0c0c9b1891d41bae1e7cf2ae6bde46cc" name="a0c0c9b1891d41bae1e7cf2ae6bde46cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c0c9b1891d41bae1e7cf2ae6bde46cc">&#9670;&#160;</a></span>applyToSkeleton()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEAnimation::applyToSkeleton </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_g_e_skeleton.html">GESkeleton</a> *</td>          <td class="paramname"><span class="paramname"><em>skeleton</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Aplica la animación actual al esqueleto. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">skeleton</td><td>Puntero al esqueleto a animar. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">Hace referencia a <a class="el" href="class_g_e_skeleton.html#ac2e620f6a7ba3d371b5e5dbeb6bbec85">GESkeleton::findJoint()</a>, <a class="el" href="#acbec67cc5efe634a7bfb89ae6dd069b0">getPoseAt()</a>, <a class="el" href="#a0f23d92d8b3dd22f3a9acd9b74e2be07">getSkeletonPosition()</a>, <a class="el" href="class_g_e_balljoint.html#af4e9dadf09e7626f4bfe7386a8d76e5b">GEBalljoint::setPose()</a> y <a class="el" href="class_g_e_skeleton.html#aea806b4224cb8d236d740defe660d042">GESkeleton::setPosition()</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_g_e_animation_a0c0c9b1891d41bae1e7cf2ae6bde46cc_cgraph.svg" width="100%" height="492"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a72a923f2be937048bcfdd0c433880ae2" name="a72a923f2be937048bcfdd0c433880ae2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72a923f2be937048bcfdd0c433880ae2">&#9670;&#160;</a></span>getCurrentKeyframeIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GEAnimation::getCurrentKeyframeIndex </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Obtiene el índice del keyframe actual. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>Índice del keyframe. </dd></dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#a2868b2f7a6a36cd7564e1c4a3be2c4ad">currentTime</a> y <a class="el" href="#ae3bd22a9dd6efaa5bc15ea8638776ba4">keyframes</a>.</p>
+
+</div>
+</div>
+<a id="a1554fd017bed4e748145ad51723b8016" name="a1554fd017bed4e748145ad51723b8016"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1554fd017bed4e748145ad51723b8016">&#9670;&#160;</a></span>getCurrentTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GEAnimation::getCurrentTime </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Obtiene el tiempo actual de la animación. </p>
+<p>Obtiene el tiempo actual.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>Tiempo actual en segundos. </dd></dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#a2868b2f7a6a36cd7564e1c4a3be2c4ad">currentTime</a>.</p>
+
+</div>
+</div>
+<a id="a28ffa7fc0a93e491b6a609b9e8320bc6" name="a28ffa7fc0a93e491b6a609b9e8320bc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28ffa7fc0a93e491b6a609b9e8320bc6">&#9670;&#160;</a></span>getDuration()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GEAnimation::getDuration </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Obtiene la duración de la animación. </p>
+<p>Obtiene la duración.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>Duración en segundos. </dd></dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#aa288d4f38171df0292a415e939edc4fd">duration</a>.</p>
+
+</div>
+</div>
+<a id="ac80671fca9f9c6fdfc3f6d6e224f479d" name="ac80671fca9f9c6fdfc3f6d6e224f479d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac80671fca9f9c6fdfc3f6d6e224f479d">&#9670;&#160;</a></span>getKeyframeCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GEAnimation::getKeyframeCount </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Obtiene el número de keyframes. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>Número de keyframes. </dd></dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#ae3bd22a9dd6efaa5bc15ea8638776ba4">keyframes</a>.</p>
+
+</div>
+</div>
+<a id="acbec67cc5efe634a7bfb89ae6dd069b0" name="acbec67cc5efe634a7bfb89ae6dd069b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbec67cc5efe634a7bfb89ae6dd069b0">&#9670;&#160;</a></span>getPoseAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::vec3 GEAnimation::getPoseAt </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>jointName</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Obtiene la pose interpolada para una articulación. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">jointName</td><td>Nombre de la articulación. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Vector con las rotaciones X, Y, Z. </dd></dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#a2868b2f7a6a36cd7564e1c4a3be2c4ad">currentTime</a>, <a class="el" href="#ae3bd22a9dd6efaa5bc15ea8638776ba4">keyframes</a>, <a class="el" href="struct_keyframe.html#a66ac7e213ccf850338d6b8671498838d">Keyframe::poses</a> y <a class="el" href="struct_keyframe.html#a37d057994189be22defc5bf05ab255ad">Keyframe::time</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="#a0c0c9b1891d41bae1e7cf2ae6bde46cc">applyToSkeleton()</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_g_e_animation_acbec67cc5efe634a7bfb89ae6dd069b0_icgraph.svg" width="428" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a0f23d92d8b3dd22f3a9acd9b74e2be07" name="a0f23d92d8b3dd22f3a9acd9b74e2be07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f23d92d8b3dd22f3a9acd9b74e2be07">&#9670;&#160;</a></span>getSkeletonPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::vec3 GEAnimation::getSkeletonPosition </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Obtiene la posición del esqueleto interpolada. </p>
+<p>Obtiene la posición del esqueleto interpolada (para salto).</p>
+<dl class="section return"><dt>Devuelve</dt><dd>Posición del esqueleto. </dd></dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#a2868b2f7a6a36cd7564e1c4a3be2c4ad">currentTime</a>, <a class="el" href="#ae3bd22a9dd6efaa5bc15ea8638776ba4">keyframes</a>, <a class="el" href="struct_keyframe.html#a4685b4a20cb5a9a933fc16165b2ce91c">Keyframe::skeletonPosition</a> y <a class="el" href="struct_keyframe.html#a37d057994189be22defc5bf05ab255ad">Keyframe::time</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="#a0c0c9b1891d41bae1e7cf2ae6bde46cc">applyToSkeleton()</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_g_e_animation_a0f23d92d8b3dd22f3a9acd9b74e2be07_icgraph.svg" width="436" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ae126b9817dfa1ecd6c80ab413eb0205f" name="ae126b9817dfa1ecd6c80ab413eb0205f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae126b9817dfa1ecd6c80ab413eb0205f">&#9670;&#160;</a></span>isPaused()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GEAnimation::isPaused </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Indica si la animación está pausada. </p>
+<p>Indica si está pausado.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>Verdadero si está pausada.</dd>
+<dd>
+Verdadero si está pausado. </dd></dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#a0ce19e92fb741fcb65a897058d81de82">paused</a>.</p>
+
+</div>
+</div>
+<a id="a5d9ee8f64a791c538f84392570fcd94c" name="a5d9ee8f64a791c538f84392570fcd94c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d9ee8f64a791c538f84392570fcd94c">&#9670;&#160;</a></span>nextKeyframe()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEAnimation::nextKeyframe </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Avanza al siguiente keyframe. </p>
+
+<p class="reference">Hace referencia a <a class="el" href="#a2868b2f7a6a36cd7564e1c4a3be2c4ad">currentTime</a> y <a class="el" href="#ae3bd22a9dd6efaa5bc15ea8638776ba4">keyframes</a>.</p>
+
+</div>
+</div>
+<a id="a5df5e6be10a672ebeddebdc75da7d347" name="a5df5e6be10a672ebeddebdc75da7d347"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5df5e6be10a672ebeddebdc75da7d347">&#9670;&#160;</a></span>pause()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEAnimation::pause </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pausa la animación. </p>
+
+<p class="reference">Hace referencia a <a class="el" href="#a0ce19e92fb741fcb65a897058d81de82">paused</a>.</p>
+
+</div>
+</div>
+<a id="a6f310656eaf3b82dce5be7924d42fd56" name="a6f310656eaf3b82dce5be7924d42fd56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f310656eaf3b82dce5be7924d42fd56">&#9670;&#160;</a></span>prevKeyframe()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEAnimation::prevKeyframe </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrocede al keyframe anterior. </p>
+
+<p class="reference">Hace referencia a <a class="el" href="#a2868b2f7a6a36cd7564e1c4a3be2c4ad">currentTime</a> y <a class="el" href="#ae3bd22a9dd6efaa5bc15ea8638776ba4">keyframes</a>.</p>
+
+</div>
+</div>
+<a id="a7e65f9c9e5e72aa08164567db15da1b1" name="a7e65f9c9e5e72aa08164567db15da1b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e65f9c9e5e72aa08164567db15da1b1">&#9670;&#160;</a></span>reset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEAnimation::reset </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reinicia la animación. </p>
+
+<p class="reference">Hace referencia a <a class="el" href="#a2868b2f7a6a36cd7564e1c4a3be2c4ad">currentTime</a> y <a class="el" href="#a0ce19e92fb741fcb65a897058d81de82">paused</a>.</p>
+
+</div>
+</div>
+<a id="af64ea5f731a5bd76815b2e64a03bbb07" name="af64ea5f731a5bd76815b2e64a03bbb07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af64ea5f731a5bd76815b2e64a03bbb07">&#9670;&#160;</a></span>resume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEAnimation::resume </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reanuda la animación. </p>
+
+<p class="reference">Hace referencia a <a class="el" href="#a0ce19e92fb741fcb65a897058d81de82">paused</a>.</p>
+
+</div>
+</div>
+<a id="a1a278706a917833946d5d893c1e8a722" name="a1a278706a917833946d5d893c1e8a722"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a278706a917833946d5d893c1e8a722">&#9670;&#160;</a></span>togglePause()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEAnimation::togglePause </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Alterna pausa/reproducción. </p>
+
+<p class="reference">Hace referencia a <a class="el" href="#a0ce19e92fb741fcb65a897058d81de82">paused</a>.</p>
+
+</div>
+</div>
+<a id="afb1cc3b6f24b9280bd75ba969da5542a" name="afb1cc3b6f24b9280bd75ba969da5542a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb1cc3b6f24b9280bd75ba969da5542a">&#9670;&#160;</a></span>update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEAnimation::update </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>deltaTime</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Actualiza el tiempo de la animación. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">deltaTime</td><td>Tiempo transcurrido desde la última actualización. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#a2868b2f7a6a36cd7564e1c4a3be2c4ad">currentTime</a>, <a class="el" href="#aa288d4f38171df0292a415e939edc4fd">duration</a>, <a class="el" href="#ae3bd22a9dd6efaa5bc15ea8638776ba4">keyframes</a>, <a class="el" href="#aec891cdef67374008455fe8d5b4f86e6">loop</a> y <a class="el" href="#a0ce19e92fb741fcb65a897058d81de82">paused</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Documentación de datos miembro</h2>
+<a id="a2868b2f7a6a36cd7564e1c4a3be2c4ad" name="a2868b2f7a6a36cd7564e1c4a3be2c4ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2868b2f7a6a36cd7564e1c4a3be2c4ad">&#9670;&#160;</a></span>currentTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GEAnimation::currentTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="#a8888620646d70fab37aa87df829aef5b">GEAnimation()</a>, <a class="el" href="#a72a923f2be937048bcfdd0c433880ae2">getCurrentKeyframeIndex()</a>, <a class="el" href="#a1554fd017bed4e748145ad51723b8016">getCurrentTime()</a>, <a class="el" href="#acbec67cc5efe634a7bfb89ae6dd069b0">getPoseAt()</a>, <a class="el" href="#a0f23d92d8b3dd22f3a9acd9b74e2be07">getSkeletonPosition()</a>, <a class="el" href="#a5d9ee8f64a791c538f84392570fcd94c">nextKeyframe()</a>, <a class="el" href="#a6f310656eaf3b82dce5be7924d42fd56">prevKeyframe()</a>, <a class="el" href="#a7e65f9c9e5e72aa08164567db15da1b1">reset()</a> y <a class="el" href="#afb1cc3b6f24b9280bd75ba969da5542a">update()</a>.</p>
+
+</div>
+</div>
+<a id="aa288d4f38171df0292a415e939edc4fd" name="aa288d4f38171df0292a415e939edc4fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa288d4f38171df0292a415e939edc4fd">&#9670;&#160;</a></span>duration</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GEAnimation::duration</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="#a8888620646d70fab37aa87df829aef5b">GEAnimation()</a>, <a class="el" href="#a28ffa7fc0a93e491b6a609b9e8320bc6">getDuration()</a> y <a class="el" href="#afb1cc3b6f24b9280bd75ba969da5542a">update()</a>.</p>
+
+</div>
+</div>
+<a id="ae3bd22a9dd6efaa5bc15ea8638776ba4" name="ae3bd22a9dd6efaa5bc15ea8638776ba4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3bd22a9dd6efaa5bc15ea8638776ba4">&#9670;&#160;</a></span>keyframes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="struct_keyframe.html">Keyframe</a>&gt; GEAnimation::keyframes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="#aeec10aedbf6934c9609ad80bd5fca009">addKeyframe()</a>, <a class="el" href="#a72a923f2be937048bcfdd0c433880ae2">getCurrentKeyframeIndex()</a>, <a class="el" href="#ac80671fca9f9c6fdfc3f6d6e224f479d">getKeyframeCount()</a>, <a class="el" href="#acbec67cc5efe634a7bfb89ae6dd069b0">getPoseAt()</a>, <a class="el" href="#a0f23d92d8b3dd22f3a9acd9b74e2be07">getSkeletonPosition()</a>, <a class="el" href="#a5d9ee8f64a791c538f84392570fcd94c">nextKeyframe()</a>, <a class="el" href="#a6f310656eaf3b82dce5be7924d42fd56">prevKeyframe()</a> y <a class="el" href="#afb1cc3b6f24b9280bd75ba969da5542a">update()</a>.</p>
+
+</div>
+</div>
+<a id="aec891cdef67374008455fe8d5b4f86e6" name="aec891cdef67374008455fe8d5b4f86e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec891cdef67374008455fe8d5b4f86e6">&#9670;&#160;</a></span>loop</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GEAnimation::loop</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="#a8888620646d70fab37aa87df829aef5b">GEAnimation()</a> y <a class="el" href="#afb1cc3b6f24b9280bd75ba969da5542a">update()</a>.</p>
+
+</div>
+</div>
+<a id="a0ce19e92fb741fcb65a897058d81de82" name="a0ce19e92fb741fcb65a897058d81de82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ce19e92fb741fcb65a897058d81de82">&#9670;&#160;</a></span>paused</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GEAnimation::paused</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="#a8888620646d70fab37aa87df829aef5b">GEAnimation()</a>, <a class="el" href="#ae126b9817dfa1ecd6c80ab413eb0205f">isPaused()</a>, <a class="el" href="#a5df5e6be10a672ebeddebdc75da7d347">pause()</a>, <a class="el" href="#a7e65f9c9e5e72aa08164567db15da1b1">reset()</a>, <a class="el" href="#af64ea5f731a5bd76815b2e64a03bbb07">resume()</a>, <a class="el" href="#a1a278706a917833946d5d893c1e8a722">togglePause()</a> y <a class="el" href="#afb1cc3b6f24b9280bd75ba969da5542a">update()</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación de esta clase está generada de los siguientes archivos:<ul>
+<li>MVPVulkan/<a class="el" href="_g_e_animation_8h_source.html">GEAnimation.h</a></li>
+<li>MVPVulkan/<a class="el" href="_g_e_animation_8cpp.html">GEAnimation.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="class_g_e_animation.html">GEAnimation</a></li>
+    <li class="footer">Generado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
+  </ul>
+</div>
+</body>
+</html>

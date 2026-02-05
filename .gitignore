@@ -1,0 +1,41 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+ipch/
+*.ipch
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+
+# Build outputs
+x64/[Dd]ebug/
+[Dd]ebug/
+*.obj
+*.pdb
+*.ilk
+*.dll
+*.lib
+*.exp
+*.iobj
+*.ipdb
+*.res
+*.log
+*.idb
+
+
+# Build logs
+*.tlog/
+*.tlog
+*.lastbuildstate
+*.Build.CppClean.log
+*.exe.recipe
+*.FileListAbsolute.txt

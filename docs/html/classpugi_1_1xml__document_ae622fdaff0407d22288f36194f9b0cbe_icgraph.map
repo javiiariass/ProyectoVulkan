@@ -1,0 +1,44 @@
+<map id="pugi::xml_document::_destroy" name="pugi::xml_document::_destroy">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1086,254,1224,297"/>
+<area shape="rect" id="Node000002" href="$classpugi_1_1xml__document.html#ab5da9502a8ac495839ee9fe58f82070d" title=" " alt="" coords="488,6,626,49"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1125,241,1079,192,1015,130,938,71,895,47,851,27,794,13,734,8,677,10,627,16,625,11,677,5,734,3,794,8,853,22,898,42,941,67,1019,126,1083,188,1130,242"/>
+<area shape="rect" id="Node000004" href="$classpugi_1_1xml__document.html#a56e84f1a61d9798b8095f633d2174ab5" title=" " alt="" coords="900,254,1038,297"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1068,276,1039,278,1038,273,1073,275"/>
+<area shape="rect" id="Node000018" href="$classpugi_1_1xml__document.html#a6216c6a80021bfb7d031d48c0ec8d9cc" title=" " alt="" coords="900,321,1038,363"/>
+<area shape="poly" id="edge24_Node000001_Node000018" title=" " alt="" coords="1082,301,1031,323,1030,317,1077,303"/>
+<area shape="rect" id="Node000003" href="$classpugi_1_1xml__document.html#af2465eda9e5f0551c2a40fd53d96c63d" title=" " alt="" coords="242,247,380,290"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="492,58,450,91,434,107,424,122,402,157,332,248,328,245,398,154,420,119,430,104,446,87,496,55"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="882,277,448,275,382,274,381,268,448,270,886,274"/>
+<area shape="rect" id="Node000005" href="$classpugi_1_1xml__document.html#ae66d084759441a5cf508b8ec85eee852" title=" " alt="" coords="488,335,626,378"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="906,302,852,322,734,344,627,355,626,350,733,339,851,317,901,303"/>
+<area shape="rect" id="Node000006" href="$classpugi_1_1xml__document.html#a8f023c497ab9e905c7c26b2ee4247cab" title=" " alt="" coords="713,522,852,565"/>
+<area shape="poly" id="edge7_Node000004_Node000006" title=" " alt="" coords="903,306,902,310,886,336,879,361,878,409,878,459,870,485,854,512,841,524,838,519,850,508,865,483,873,458,873,409,873,360,881,334,897,307,898,309"/>
+<area shape="rect" id="Node000007" href="$classpugi_1_1xml__document.html#a6caaa62694a6d0d1a5bece7fb56a2954" title=" " alt="" coords="713,103,852,146"/>
+<area shape="poly" id="edge8_Node000004_Node000007" title=" " alt="" coords="938,242,898,202,850,160,833,149,834,144,853,156,902,198,943,243"/>
+<area shape="rect" id="Node000010" href="$classpugi_1_1xml__document.html#a0f3c5474fee2548e646b54bdd042472f" title=" " alt="" coords="486,402,627,445"/>
+<area shape="poly" id="edge13_Node000004_Node000010" title=" " alt="" coords="909,303,901,311,878,332,853,351,796,376,736,394,628,417,626,412,735,389,794,371,850,346,875,327,898,306,904,306"/>
+<area shape="rect" id="Node000011" href="$classpugi_1_1xml__document.html#a0127a62dfe677cc0c77dfb9ec534a618" title=" " alt="" coords="471,218,642,261"/>
+<area shape="poly" id="edge15_Node000004_Node000011" title=" " alt="" coords="882,269,643,249,643,244,887,267"/>
+<area shape="rect" id="Node000012" href="$classpugi_1_1xml__document.html#aefb4c986984462e3972cf332156dbf00" title=" " alt="" coords="713,455,852,498"/>
+<area shape="poly" id="edge17_Node000004_Node000012" title=" " alt="" coords="904,305,902,310,890,326,883,340,877,369,872,400,865,416,854,433,826,457,824,452,850,430,860,413,867,398,872,368,878,339,885,323,898,307,899,308"/>
+<area shape="rect" id="Node000016" href="$classpugi_1_1xml__document.html#a2581b5da40f2b80155c57c7f722ee631" title=" " alt="" coords="713,37,852,79"/>
+<area shape="poly" id="edge22_Node000004_Node000016" title=" " alt="" coords="950,239,911,168,883,128,850,93,836,82,836,77,853,89,887,125,915,165,955,241"/>
+<area shape="rect" id="Node000017" href="$classpugi_1_1xml__document.html#a0706ec7644d94add7eadcf4d9636e251" title=" " alt="" coords="713,170,852,213"/>
+<area shape="poly" id="edge23_Node000004_Node000017" title=" " alt="" coords="903,247,831,216,832,210,909,247"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="478,330,373,293,373,288,483,329"/>
+<area shape="poly" id="edge9_Node000007_Node000003" title=" " alt="" coords="696,148,666,158,556,180,509,190,449,208,400,228,355,249,352,245,398,223,447,203,507,185,555,175,665,153,701,146"/>
+<area shape="rect" id="Node000008" href="$classpugi_1_1xml__document.html#ab35d1e571a3c2f7b15a1d14cc53603ae" title=" " alt="" coords="488,101,626,143"/>
+<area shape="poly" id="edge10_Node000007_Node000008" title=" " alt="" coords="695,124,627,125,625,120,700,123"/>
+<area shape="poly" id="edge11_Node000008_Node000003" title=" " alt="" coords="471,151,449,164,387,207,337,249,334,245,384,203,447,160,475,148"/>
+<area shape="rect" id="Node000009" href="$classpugi_1_1xml__document.html#a579a0a64579d568ad9e3b682f5641de7" title=" " alt="" coords="242,101,380,143"/>
+<area shape="poly" id="edge12_Node000008_Node000009" title=" " alt="" coords="470,123,382,124,380,119,474,121"/>
+<area shape="poly" id="edge14_Node000010_Node000003" title=" " alt="" coords="469,401,447,392,412,369,379,342,331,293,332,288,383,338,415,365,449,388,475,401"/>
+<area shape="poly" id="edge16_Node000011_Node000003" title=" " alt="" coords="453,252,382,263,380,258,458,250"/>
+<area shape="poly" id="edge18_Node000012_Node000003" title=" " alt="" coords="696,491,640,497,575,495,509,483,477,473,447,459,422,442,400,422,363,376,336,330,320,293,322,288,341,327,367,373,404,419,425,438,449,454,479,468,510,478,576,490,640,492,701,490"/>
+<area shape="rect" id="Node000013" href="$class_g_e_x_m_l_parser.html#acd9fc587fbd992edbb51df00549c1bda" title="Parsea un archivo .skel y devuelve los datos del esqueleto." alt="" coords="448,519,665,546"/>
+<area shape="poly" id="edge19_Node000012_Node000013" title=" " alt="" coords="701,497,614,521,613,516,695,498"/>
+<area shape="rect" id="Node000014" href="$class_g_e_skeleton.html#ade3f0504c12faea2597ee2c23abf22bd" title="Construye la jerarquía de articulaciones desde body.skel." alt="" coords="223,519,400,546"/>
+<area shape="poly" id="edge20_Node000013_Node000014" title=" " alt="" coords="430,533,401,535,400,530,435,532"/>
+<area shape="rect" id="Node000015" href="$class_g_e_skeleton.html#ad854854fdf1e4d090553d4d6edbfe095" title="Constructor del esqueleto." alt="" coords="5,519,175,546"/>
+<area shape="poly" id="edge21_Node000014_Node000015" title=" " alt="" coords="205,533,175,535,175,530,210,532"/>
+</map>

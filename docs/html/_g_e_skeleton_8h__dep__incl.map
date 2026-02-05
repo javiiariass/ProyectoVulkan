@@ -1,0 +1,17 @@
+<map id="MVPVulkan/GESkeleton.h" name="MVPVulkan/GESkeleton.h">
+<area shape="rect" id="Node000001" title="Declaración de la clase GESkeleton que representa un esqueleto con articulaciones jerárquicas." alt="" coords="220,5,394,32"/>
+<area shape="rect" id="Node000002" href="$_g_e_animation_8cpp.html" title="Implementación del sistema de animación por keyframes." alt="" coords="8,80,204,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="256,40,143,82,140,77,260,36"/>
+<area shape="rect" id="Node000003" href="$_g_e_scene_8h.html" title="Declaración de la clase GEScene que contiene la escena con esqueleto animado." alt="" coords="227,80,388,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="309,46,310,81,305,78,306,50"/>
+<area shape="rect" id="Node000008" href="$_g_e_skeleton_8cpp.html" title="Implementación de GESkeleton con carga desde archivo .skel." alt="" coords="412,80,600,107"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="356,35,474,79,469,80,356,40"/>
+<area shape="rect" id="Node000004" href="$_g_e_application_8h.html" title="Declaración de la clase GEApplication que crea y lanza la aplicación gráfica." alt="" coords="111,155,298,181"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="279,115,224,156,221,152,275,117"/>
+<area shape="rect" id="Node000007" href="$_g_e_scene_8cpp.html" title="Escena con animación de tiro libre de baloncesto." alt="" coords="323,155,497,181"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="338,113,395,154,389,154,337,119"/>
+<area shape="rect" id="Node000005" href="$_g_e_application_8cpp.html" title="Implementación de la clase GEApplication." alt="" coords="5,229,207,256"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="178,190,124,231,122,227,173,191"/>
+<area shape="rect" id="Node000006" href="$main_8cpp.html" title="Punto de entrada principal de la aplicación MVPVulkan." alt="" coords="230,229,376,256"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="235,188,289,229,284,229,233,193"/>
+</map>

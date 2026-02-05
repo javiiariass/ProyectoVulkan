@@ -1,0 +1,221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Animación Vulkan: Archivo de código fuente MVPVulkan/GERenderingContext.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">var page_layout=1;</script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="side-nav" class="ui-resizable side-nav-resizable"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Animación Vulkan<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Animación de tiro libre baloncesto con motor gráfico desarrollado en clase</div>
+  </td>
+ </tr>
+   <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td></tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_g_e_rendering_context_8h_source.html','',''); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','Buscar',true);
+});
+</script>
+<div id="main-nav"></div>
+<div id="container"><div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">GERenderingContext.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_g_e_rendering_context_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;vulkan/vulkan.h&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="_g_e_graphics_context_8h.html">GEGraphicsContext.h</a>&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="_g_e_drawing_context_8h.html">GEDrawingContext.h</a>&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="_g_e_pipeline_config_8h.html">GEPipelineConfig.h</a>&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="_g_e_depth_buffer_8h.html">GEDepthBuffer.h</a>&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span></div>
+<div class="foldopen" id="foldopen00019" data-start="{" data-end="};">
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="class_g_e_rendering_context.html">   19</a></span><span class="keyword">class </span><a class="code hl_function" href="class_g_e_rendering_context.html#a6cd622aab40a887d134dd524bac920b8">GERenderingContext</a></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="class_g_e_rendering_context.html#abb72f08ea62b58c262bcc8fdb0ef853d">   22</a></span>    uint32_t <a class="code hl_variable" href="class_g_e_rendering_context.html#abb72f08ea62b58c262bcc8fdb0ef853d">imageCount</a>; </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="class_g_e_rendering_context.html#a723a0d0b6a82c2bab61e43b9e8c1506b">   23</a></span>    VkDescriptorSetLayout <a class="code hl_variable" href="class_g_e_rendering_context.html#a723a0d0b6a82c2bab61e43b9e8c1506b">descriptorSetLayout</a>; </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="class_g_e_rendering_context.html#aa81070ad255c0bdb481e8baf4d617057">   24</a></span>    VkPipelineLayout <a class="code hl_variable" href="class_g_e_rendering_context.html#aa81070ad255c0bdb481e8baf4d617057">pipelineLayout</a>; </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="class_g_e_rendering_context.html#a1d87a3329f28f94eaec34b862fbbf593">   27</a></span>    VkFormat <a class="code hl_variable" href="class_g_e_rendering_context.html#a1d87a3329f28f94eaec34b862fbbf593">format</a>;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="class_g_e_rendering_context.html#aa91956be31ddd53b6b302baf972b86d5">   28</a></span>    VkExtent2D <a class="code hl_variable" href="class_g_e_rendering_context.html#aa91956be31ddd53b6b302baf972b86d5">extent</a>;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="class_g_e_rendering_context.html#ac7692358e600e0b18cf12b692050c4f6">   29</a></span>    VkRenderPass <a class="code hl_variable" href="class_g_e_rendering_context.html#ac7692358e600e0b18cf12b692050c4f6">renderPass</a>;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="class_g_e_rendering_context.html#a7e30f8a3a92c305eac9bd5f5d11d135d">   30</a></span>    VkPipeline <a class="code hl_variable" href="class_g_e_rendering_context.html#a7e30f8a3a92c305eac9bd5f5d11d135d">graphicsPipeline</a>;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="class_g_e_rendering_context.html#a576f45b6d7f4ef04fbf76f9d3969772b">   31</a></span>    std::vector&lt;GEDepthBuffer*&gt; <a class="code hl_variable" href="class_g_e_rendering_context.html#a576f45b6d7f4ef04fbf76f9d3969772b">depthBuffers</a>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="class_g_e_rendering_context.html#a1be06c63e92d1ca6833a0e75975bbeb3">   32</a></span>    std::vector&lt;VkFramebuffer&gt; <a class="code hl_variable" href="class_g_e_rendering_context.html#a1be06c63e92d1ca6833a0e75975bbeb3">framebuffers</a>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="class_g_e_rendering_context.html#a11da277553b10bcbf28ea520d0c571cd">   33</a></span>    VkViewport <a class="code hl_variable" href="class_g_e_rendering_context.html#a11da277553b10bcbf28ea520d0c571cd">viewport</a>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="class_g_e_rendering_context.html#aedcf5f804c2dc2cd82131c71ab826a99">   34</a></span>    VkRect2D <a class="code hl_variable" href="class_g_e_rendering_context.html#aedcf5f804c2dc2cd82131c71ab826a99">scissor</a>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <a class="code hl_function" href="class_g_e_rendering_context.html#a6cd622aab40a887d134dd524bac920b8">GERenderingContext</a>(<a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a>* gc, <a class="code hl_class" href="class_g_e_drawing_context.html">GEDrawingContext</a>* dc, <a class="code hl_class" href="class_g_e_pipeline_config.html">GEPipelineConfig</a>* config);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_rendering_context.html#a853ccf3e3b30c2947689d212545b968b">destroy</a>(<a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a>* gc);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_rendering_context.html#a03a83223ef675262b6720d5a68af84d5">startFillingCommandBuffers</a>(std::vector&lt;VkCommandBuffer&gt; commandBuffers);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_rendering_context.html#a011c5fb1464e0dd1cedc63417376401e">endFillingCommandBuffers</a>(std::vector&lt;VkCommandBuffer&gt; commandBuffers);</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="comment">// ===== Métodos de creación de componentes =====</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_rendering_context.html#ab52c54295c5991f41c1202bd7d9df7bf">createRenderPass</a>(<a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a>* gc);</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_rendering_context.html#aba96e7a9f6699afaa6b695cb3e7373e2">createGraphicsPipeline</a>(<a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a>* gc, <a class="code hl_class" href="class_g_e_pipeline_config.html">GEPipelineConfig</a>* config);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_rendering_context.html#a90496b6951e2b3830086cb2e2d038863">createDepthBuffers</a>(<a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a>* gc);</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_rendering_context.html#a306a0d9b0571d41b8a86da3f1a71b366">createFramebuffers</a>(<a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a>* gc, <a class="code hl_class" href="class_g_e_drawing_context.html">GEDrawingContext</a>* dc);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="comment">// ===== Métodos de definición del pipeline de renderizado =====</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_rendering_context.html#afbcc3fb57b630a02a26505ebaab9613b">createPipelineLayout</a>(<a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a>* gc, <a class="code hl_class" href="class_g_e_pipeline_config.html">GEPipelineConfig</a>* config);</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_rendering_context.html#aa10b997efa5b9408fefb7bbefff219cf">createVertexShaderStageCreateInfo</a>(<a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a>* gc, <span class="keywordtype">int</span> resource, VkShaderModule* vertShaderModule, VkPipelineShaderStageCreateInfo* vertShaderStageInfo);</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_rendering_context.html#a30b91a68b3ab264ec7943ba1ffa14f96">createFragmentShaderStageCreateInfo</a>(<a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a>* gc, <span class="keywordtype">int</span> resource, VkShaderModule* fragShaderModule, VkPipelineShaderStageCreateInfo* fragShaderStageInfo);</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_rendering_context.html#a0bdaf567aa35edb4521a03818a7abab0">createPipelineVertexInputStateCreateInfo</a>(<a class="code hl_class" href="class_g_e_pipeline_config.html">GEPipelineConfig</a>* config, VkPipelineVertexInputStateCreateInfo* vertexInputInfo);</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_rendering_context.html#a60ecf0b35e0a983cf9deb3c3d10cb2cc">createPipelineInputAssemblyStateCreateInfo</a>(VkPipelineInputAssemblyStateCreateInfo* inputAssembly);</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_rendering_context.html#a131bc8d204c9ae3faf715f36bfdba8f2">createPipelineViewportStateCreateInfo</a>(VkPipelineViewportStateCreateInfo* viewportState);</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_rendering_context.html#a0a4e5219ca485904f858c7eb1de15520">createPipelineRasterizationStateCreateInfo</a>(<a class="code hl_class" href="class_g_e_pipeline_config.html">GEPipelineConfig</a>* config, VkPipelineRasterizationStateCreateInfo* rasterizer);</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_rendering_context.html#a49a8f3e1323aa8bca61eff8d9a563956">createPipelineMultisampleStateCreateInfo</a>(VkPipelineMultisampleStateCreateInfo* multisampling);</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_rendering_context.html#a1ed7be455efa66dc53a325d0ef41cd31">createPipelineDepthStencilStateCreateInfo</a>(<a class="code hl_class" href="class_g_e_pipeline_config.html">GEPipelineConfig</a>* config, VkPipelineDepthStencilStateCreateInfo* depthStencil);</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_rendering_context.html#af69fff24d2239c503976bfd98496eb54">createPipelineColorBlendStateCreateInfo</a>(VkPipelineColorBlendAttachmentState* colorBlendAttachment, VkPipelineColorBlendStateCreateInfo* colorBlending);</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    <span class="comment">// ===== Métodos auxiliares =====</span></div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    VkShaderModule <a class="code hl_function" href="class_g_e_rendering_context.html#a0915e69629916660bd8b22fedf4b2e1c">createShaderModule</a>(<a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a>* gc, <span class="keyword">const</span> std::vector&lt;char&gt;&amp; code);</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    std::vector&lt;char&gt; <a class="code hl_function" href="class_g_e_rendering_context.html#a50bcdd8c7da9656f5c93d7385a5eb714">getFileFromResource</a>(<span class="keywordtype">int</span> resource);</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>};</div>
+</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="ttc" id="a_g_e_depth_buffer_8h_html"><div class="ttname"><a href="_g_e_depth_buffer_8h.html">GEDepthBuffer.h</a></div><div class="ttdoc">Declaración de la clase GEDepthBuffer que gestiona el recurso de profundidad.</div></div>
+<div class="ttc" id="a_g_e_drawing_context_8h_html"><div class="ttname"><a href="_g_e_drawing_context_8h.html">GEDrawingContext.h</a></div><div class="ttdoc">Declaración de la clase GEDrawingContext para gestionar swapchain y present.</div></div>
+<div class="ttc" id="a_g_e_graphics_context_8h_html"><div class="ttname"><a href="_g_e_graphics_context_8h.html">GEGraphicsContext.h</a></div><div class="ttdoc">Declaración de la clase GEGraphicsContext que almacena el contexto gráfico de Vulkan.</div></div>
+<div class="ttc" id="a_g_e_pipeline_config_8h_html"><div class="ttname"><a href="_g_e_pipeline_config_8h.html">GEPipelineConfig.h</a></div><div class="ttdoc">Declaración de la clase GEPipelineConfig que almacena la configuración de un pipeline de renderizado.</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html"><div class="ttname"><a href="class_g_e_drawing_context.html">GEDrawingContext</a></div><div class="ttdoc">Clase que contiene la información sobre el destino de las imágenes a generar (swapchain,...</div><div class="ttdef"><b>Definition</b> GEDrawingContext.h:18</div></div>
+<div class="ttc" id="aclass_g_e_graphics_context_html"><div class="ttname"><a href="class_g_e_graphics_context.html">GEGraphicsContext</a></div><div class="ttdoc">Clase que almacena el contexto gráfico de Vulkan (instancia y dispositivo).</div><div class="ttdef"><b>Definition</b> GEGraphicsContext.h:17</div></div>
+<div class="ttc" id="aclass_g_e_pipeline_config_html"><div class="ttname"><a href="class_g_e_pipeline_config.html">GEPipelineConfig</a></div><div class="ttdoc">Almacena la configuración de un pipeline de renderizado.</div><div class="ttdef"><b>Definition</b> GEPipelineConfig.h:15</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html_a011c5fb1464e0dd1cedc63417376401e"><div class="ttname"><a href="class_g_e_rendering_context.html#a011c5fb1464e0dd1cedc63417376401e">GERenderingContext::endFillingCommandBuffers</a></div><div class="ttdeci">void endFillingCommandBuffers(std::vector&lt; VkCommandBuffer &gt; commandBuffers)</div><div class="ttdoc">Finaliza el llenado de los buffers de comandos.</div><div class="ttdef"><b>Definition</b> GERenderingContext.cpp:92</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html_a03a83223ef675262b6720d5a68af84d5"><div class="ttname"><a href="class_g_e_rendering_context.html#a03a83223ef675262b6720d5a68af84d5">GERenderingContext::startFillingCommandBuffers</a></div><div class="ttdeci">void startFillingCommandBuffers(std::vector&lt; VkCommandBuffer &gt; commandBuffers)</div><div class="ttdoc">Prepara los buffers de comandos para añadir las operaciones de renderizado.</div><div class="ttdef"><b>Definition</b> GERenderingContext.cpp:57</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html_a0915e69629916660bd8b22fedf4b2e1c"><div class="ttname"><a href="class_g_e_rendering_context.html#a0915e69629916660bd8b22fedf4b2e1c">GERenderingContext::createShaderModule</a></div><div class="ttdeci">VkShaderModule createShaderModule(GEGraphicsContext *gc, const std::vector&lt; char &gt; &amp;code)</div><div class="ttdoc">Crea un shader a partir de su código en SPIR-V.</div><div class="ttdef"><b>Definition</b> GERenderingContext.cpp:531</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html_a0a4e5219ca485904f858c7eb1de15520"><div class="ttname"><a href="class_g_e_rendering_context.html#a0a4e5219ca485904f858c7eb1de15520">GERenderingContext::createPipelineRasterizationStateCreateInfo</a></div><div class="ttdeci">void createPipelineRasterizationStateCreateInfo(GEPipelineConfig *config, VkPipelineRasterizationStateCreateInfo *rasterizer)</div><div class="ttdoc">Crea la información de la etapa de rasterización.</div><div class="ttdef"><b>Definition</b> GERenderingContext.cpp:453</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html_a0bdaf567aa35edb4521a03818a7abab0"><div class="ttname"><a href="class_g_e_rendering_context.html#a0bdaf567aa35edb4521a03818a7abab0">GERenderingContext::createPipelineVertexInputStateCreateInfo</a></div><div class="ttdeci">void createPipelineVertexInputStateCreateInfo(GEPipelineConfig *config, VkPipelineVertexInputStateCreateInfo *vertexInputInfo)</div><div class="ttdoc">Crea la descripción de los atributos de los vértices.</div><div class="ttdef"><b>Definition</b> GERenderingContext.cpp:387</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html_a11da277553b10bcbf28ea520d0c571cd"><div class="ttname"><a href="class_g_e_rendering_context.html#a11da277553b10bcbf28ea520d0c571cd">GERenderingContext::viewport</a></div><div class="ttdeci">VkViewport viewport</div><div class="ttdef"><b>Definition</b> GERenderingContext.h:33</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html_a131bc8d204c9ae3faf715f36bfdba8f2"><div class="ttname"><a href="class_g_e_rendering_context.html#a131bc8d204c9ae3faf715f36bfdba8f2">GERenderingContext::createPipelineViewportStateCreateInfo</a></div><div class="ttdeci">void createPipelineViewportStateCreateInfo(VkPipelineViewportStateCreateInfo *viewportState)</div><div class="ttdoc">Crea la información del viewport.</div><div class="ttdef"><b>Definition</b> GERenderingContext.cpp:438</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html_a1be06c63e92d1ca6833a0e75975bbeb3"><div class="ttname"><a href="class_g_e_rendering_context.html#a1be06c63e92d1ca6833a0e75975bbeb3">GERenderingContext::framebuffers</a></div><div class="ttdeci">std::vector&lt; VkFramebuffer &gt; framebuffers</div><div class="ttdef"><b>Definition</b> GERenderingContext.h:32</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html_a1d87a3329f28f94eaec34b862fbbf593"><div class="ttname"><a href="class_g_e_rendering_context.html#a1d87a3329f28f94eaec34b862fbbf593">GERenderingContext::format</a></div><div class="ttdeci">VkFormat format</div><div class="ttdef"><b>Definition</b> GERenderingContext.h:27</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html_a1ed7be455efa66dc53a325d0ef41cd31"><div class="ttname"><a href="class_g_e_rendering_context.html#a1ed7be455efa66dc53a325d0ef41cd31">GERenderingContext::createPipelineDepthStencilStateCreateInfo</a></div><div class="ttdeci">void createPipelineDepthStencilStateCreateInfo(GEPipelineConfig *config, VkPipelineDepthStencilStateCreateInfo *depthStencil)</div><div class="ttdoc">Crea la información sobre los tests de profundidad y de plantilla.</div><div class="ttdef"><b>Definition</b> GERenderingContext.cpp:483</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html_a306a0d9b0571d41b8a86da3f1a71b366"><div class="ttname"><a href="class_g_e_rendering_context.html#a306a0d9b0571d41b8a86da3f1a71b366">GERenderingContext::createFramebuffers</a></div><div class="ttdeci">void createFramebuffers(GEGraphicsContext *gc, GEDrawingContext *dc)</div><div class="ttdoc">Crea un Framebuffer para cada imagen del swapchain.</div><div class="ttdef"><b>Definition</b> GERenderingContext.cpp:266</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html_a30b91a68b3ab264ec7943ba1ffa14f96"><div class="ttname"><a href="class_g_e_rendering_context.html#a30b91a68b3ab264ec7943ba1ffa14f96">GERenderingContext::createFragmentShaderStageCreateInfo</a></div><div class="ttdeci">void createFragmentShaderStageCreateInfo(GEGraphicsContext *gc, int resource, VkShaderModule *fragShaderModule, VkPipelineShaderStageCreateInfo *fragShaderStageInfo)</div><div class="ttdoc">Crea la información sobre el Fragment Shader.</div><div class="ttdef"><b>Definition</b> GERenderingContext.cpp:369</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html_a49a8f3e1323aa8bca61eff8d9a563956"><div class="ttname"><a href="class_g_e_rendering_context.html#a49a8f3e1323aa8bca61eff8d9a563956">GERenderingContext::createPipelineMultisampleStateCreateInfo</a></div><div class="ttdeci">void createPipelineMultisampleStateCreateInfo(VkPipelineMultisampleStateCreateInfo *multisampling)</div><div class="ttdoc">Crea la información de la etapa de muestreo.</div><div class="ttdef"><b>Definition</b> GERenderingContext.cpp:470</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html_a50bcdd8c7da9656f5c93d7385a5eb714"><div class="ttname"><a href="class_g_e_rendering_context.html#a50bcdd8c7da9656f5c93d7385a5eb714">GERenderingContext::getFileFromResource</a></div><div class="ttdeci">std::vector&lt; char &gt; getFileFromResource(int resource)</div><div class="ttdoc">Extrae el contenido de un fichero incluido como recurso de la aplicación.</div><div class="ttdef"><b>Definition</b> GERenderingContext.cpp:552</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html_a576f45b6d7f4ef04fbf76f9d3969772b"><div class="ttname"><a href="class_g_e_rendering_context.html#a576f45b6d7f4ef04fbf76f9d3969772b">GERenderingContext::depthBuffers</a></div><div class="ttdeci">std::vector&lt; GEDepthBuffer * &gt; depthBuffers</div><div class="ttdef"><b>Definition</b> GERenderingContext.h:31</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html_a60ecf0b35e0a983cf9deb3c3d10cb2cc"><div class="ttname"><a href="class_g_e_rendering_context.html#a60ecf0b35e0a983cf9deb3c3d10cb2cc">GERenderingContext::createPipelineInputAssemblyStateCreateInfo</a></div><div class="ttdeci">void createPipelineInputAssemblyStateCreateInfo(VkPipelineInputAssemblyStateCreateInfo *inputAssembly)</div><div class="ttdoc">Crea la información para el ensamblado de primitivas.</div><div class="ttdef"><b>Definition</b> GERenderingContext.cpp:426</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html_a6cd622aab40a887d134dd524bac920b8"><div class="ttname"><a href="class_g_e_rendering_context.html#a6cd622aab40a887d134dd524bac920b8">GERenderingContext::GERenderingContext</a></div><div class="ttdeci">GERenderingContext(GEGraphicsContext *gc, GEDrawingContext *dc, GEPipelineConfig *config)</div><div class="ttdoc">Construye el contexto de renderizado (render pass, pipeline y framebuffers).</div><div class="ttdef"><b>Definition</b> GERenderingContext.cpp:24</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html_a723a0d0b6a82c2bab61e43b9e8c1506b"><div class="ttname"><a href="class_g_e_rendering_context.html#a723a0d0b6a82c2bab61e43b9e8c1506b">GERenderingContext::descriptorSetLayout</a></div><div class="ttdeci">VkDescriptorSetLayout descriptorSetLayout</div><div class="ttdoc">Layout de los descriptor sets.</div><div class="ttdef"><b>Definition</b> GERenderingContext.h:23</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html_a7e30f8a3a92c305eac9bd5f5d11d135d"><div class="ttname"><a href="class_g_e_rendering_context.html#a7e30f8a3a92c305eac9bd5f5d11d135d">GERenderingContext::graphicsPipeline</a></div><div class="ttdeci">VkPipeline graphicsPipeline</div><div class="ttdef"><b>Definition</b> GERenderingContext.h:30</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html_a853ccf3e3b30c2947689d212545b968b"><div class="ttname"><a href="class_g_e_rendering_context.html#a853ccf3e3b30c2947689d212545b968b">GERenderingContext::destroy</a></div><div class="ttdeci">void destroy(GEGraphicsContext *gc)</div><div class="ttdoc">Destruye los recursos del contexto de renderizado.</div><div class="ttdef"><b>Definition</b> GERenderingContext.cpp:40</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html_a90496b6951e2b3830086cb2e2d038863"><div class="ttname"><a href="class_g_e_rendering_context.html#a90496b6951e2b3830086cb2e2d038863">GERenderingContext::createDepthBuffers</a></div><div class="ttdeci">void createDepthBuffers(GEGraphicsContext *gc)</div><div class="ttdoc">Crea los buffers de profundidad.</div><div class="ttdef"><b>Definition</b> GERenderingContext.cpp:251</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html_aa10b997efa5b9408fefb7bbefff219cf"><div class="ttname"><a href="class_g_e_rendering_context.html#aa10b997efa5b9408fefb7bbefff219cf">GERenderingContext::createVertexShaderStageCreateInfo</a></div><div class="ttdeci">void createVertexShaderStageCreateInfo(GEGraphicsContext *gc, int resource, VkShaderModule *vertShaderModule, VkPipelineShaderStageCreateInfo *vertShaderStageInfo)</div><div class="ttdoc">Crea la información sobre el Vertex Shader.</div><div class="ttdef"><b>Definition</b> GERenderingContext.cpp:349</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html_aa81070ad255c0bdb481e8baf4d617057"><div class="ttname"><a href="class_g_e_rendering_context.html#aa81070ad255c0bdb481e8baf4d617057">GERenderingContext::pipelineLayout</a></div><div class="ttdeci">VkPipelineLayout pipelineLayout</div><div class="ttdoc">Layout del pipeline.</div><div class="ttdef"><b>Definition</b> GERenderingContext.h:24</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html_aa91956be31ddd53b6b302baf972b86d5"><div class="ttname"><a href="class_g_e_rendering_context.html#aa91956be31ddd53b6b302baf972b86d5">GERenderingContext::extent</a></div><div class="ttdeci">VkExtent2D extent</div><div class="ttdef"><b>Definition</b> GERenderingContext.h:28</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html_ab52c54295c5991f41c1202bd7d9df7bf"><div class="ttname"><a href="class_g_e_rendering_context.html#ab52c54295c5991f41c1202bd7d9df7bf">GERenderingContext::createRenderPass</a></div><div class="ttdeci">void createRenderPass(GEGraphicsContext *gc)</div><div class="ttdoc">Crea los pasos de renderizado.</div><div class="ttdef"><b>Definition</b> GERenderingContext.cpp:116</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html_aba96e7a9f6699afaa6b695cb3e7373e2"><div class="ttname"><a href="class_g_e_rendering_context.html#aba96e7a9f6699afaa6b695cb3e7373e2">GERenderingContext::createGraphicsPipeline</a></div><div class="ttdeci">void createGraphicsPipeline(GEGraphicsContext *gc, GEPipelineConfig *config)</div><div class="ttdoc">Crea el Pipeline de renderizado.</div><div class="ttdef"><b>Definition</b> GERenderingContext.cpp:183</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html_abb72f08ea62b58c262bcc8fdb0ef853d"><div class="ttname"><a href="class_g_e_rendering_context.html#abb72f08ea62b58c262bcc8fdb0ef853d">GERenderingContext::imageCount</a></div><div class="ttdeci">uint32_t imageCount</div><div class="ttdoc">Número de imágenes en el swapchain.</div><div class="ttdef"><b>Definition</b> GERenderingContext.h:22</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html_ac7692358e600e0b18cf12b692050c4f6"><div class="ttname"><a href="class_g_e_rendering_context.html#ac7692358e600e0b18cf12b692050c4f6">GERenderingContext::renderPass</a></div><div class="ttdeci">VkRenderPass renderPass</div><div class="ttdef"><b>Definition</b> GERenderingContext.h:29</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html_aedcf5f804c2dc2cd82131c71ab826a99"><div class="ttname"><a href="class_g_e_rendering_context.html#aedcf5f804c2dc2cd82131c71ab826a99">GERenderingContext::scissor</a></div><div class="ttdeci">VkRect2D scissor</div><div class="ttdef"><b>Definition</b> GERenderingContext.h:34</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html_af69fff24d2239c503976bfd98496eb54"><div class="ttname"><a href="class_g_e_rendering_context.html#af69fff24d2239c503976bfd98496eb54">GERenderingContext::createPipelineColorBlendStateCreateInfo</a></div><div class="ttdeci">void createPipelineColorBlendStateCreateInfo(VkPipelineColorBlendAttachmentState *colorBlendAttachment, VkPipelineColorBlendStateCreateInfo *colorBlending)</div><div class="ttdoc">Crea la información sobre la etapa de mezcla de colores.</div><div class="ttdef"><b>Definition</b> GERenderingContext.cpp:501</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html_afbcc3fb57b630a02a26505ebaab9613b"><div class="ttname"><a href="class_g_e_rendering_context.html#afbcc3fb57b630a02a26505ebaab9613b">GERenderingContext::createPipelineLayout</a></div><div class="ttdeci">void createPipelineLayout(GEGraphicsContext *gc, GEPipelineConfig *config)</div><div class="ttdoc">Crea el esquema de los conjuntos de descriptores.</div><div class="ttdef"><b>Definition</b> GERenderingContext.cpp:304</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_23ed62d68ba96d0c485cdb821755d287.html">MVPVulkan</a></li><li class="navelem"><a href="_g_e_rendering_context_8h.html">GERenderingContext.h</a></li>
+    <li class="footer">Generado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
+  </ul>
+</div>
+</body>
+</html>

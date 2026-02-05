@@ -1,0 +1,5 @@
+<map id="GEBalljoint::getBoneEndMatrix" name="GEBalljoint::getBoneEndMatrix">
+<area shape="rect" id="Node000001" title="Obtiene la matriz en el extremo del hueso." alt="" coords="246,5,447,32"/>
+<area shape="rect" id="Node000002" href="$class_g_e_balljoint.html#a3c4302bc1926bf8e54cab4b7c3b2ef4a" title="Actualiza recursivamente con matriz del padre." alt="" coords="5,5,198,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="227,19,198,21,198,16,233,19"/>
+</map>

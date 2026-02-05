@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Animación Vulkan: Archivo de código fuente MVPVulkan/GEApplication.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">var page_layout=1;</script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="side-nav" class="ui-resizable side-nav-resizable"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Animación Vulkan<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Animación de tiro libre baloncesto con motor gráfico desarrollado en clase</div>
+  </td>
+ </tr>
+   <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td></tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_g_e_application_8h_source.html','',''); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','Buscar',true);
+});
+</script>
+<div id="main-nav"></div>
+<div id="container"><div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">GEApplication.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_g_e_application_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="_g_e_application_8h.html#ab91f325a54d3e35fe831a86d6382c2a9">    8</a></span><span class="preprocessor">#define GLFW_INCLUDE_VULKAN</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;GLFW/glfw3.h&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="_g_e_window_position_8h.html">GEWindowPosition.h</a>&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="_g_e_graphics_context_8h.html">GEGraphicsContext.h</a>&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;<a class="code" href="_g_e_drawing_context_8h.html">GEDrawingContext.h</a>&quot;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="_g_e_command_context_8h.html">GECommandContext.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="_g_e_scene_8h.html">GEScene.h</a>&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="_g_e_application_8h.html#a9649ab8139c4c2ea5c93625b30d92a05">   16</a></span><span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="_g_e_application_8h.html#a9649ab8139c4c2ea5c93625b30d92a05">WIDTH</a> = 800;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="_g_e_application_8h.html#af728b7647e0b8c49832983a31f9a2e9b">   17</a></span><span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="_g_e_application_8h.html#af728b7647e0b8c49832983a31f9a2e9b">HEIGHT</a> = 600;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span></div>
+<div class="foldopen" id="foldopen00023" data-start="{" data-end="};">
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="class_g_e_application.html">   23</a></span><span class="keyword">class </span><a class="code hl_class" href="class_g_e_application.html">GEApplication</a></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>{</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_application.html#a2a7d38dd9a5bca43fc115b09704915a4">run</a>();</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="class_g_e_application.html#a7182acd1fdf264a323f79fd0d5cd8979">   32</a></span>    GLFWwindow* <a class="code hl_variable" href="class_g_e_application.html#a7182acd1fdf264a323f79fd0d5cd8979">window</a>;  </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="class_g_e_application.html#a5cd4bcc82abe7c0492726614479016d4">   33</a></span>    <a class="code hl_struct" href="struct_g_e_window_position.html">GEWindowPosition</a> <a class="code hl_variable" href="class_g_e_application.html#a5cd4bcc82abe7c0492726614479016d4">windowPos</a>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="class_g_e_application.html#ab7a4059d5fcd64986e10b5c129f3ff11">   34</a></span>    <a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a>* <a class="code hl_variable" href="class_g_e_application.html#ab7a4059d5fcd64986e10b5c129f3ff11">gc</a>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="class_g_e_application.html#a7d8a79ccdd188f8f28d6b801a60e3ef5">   35</a></span>    <a class="code hl_class" href="class_g_e_drawing_context.html">GEDrawingContext</a>* <a class="code hl_variable" href="class_g_e_application.html#a7d8a79ccdd188f8f28d6b801a60e3ef5">dc</a>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="class_g_e_application.html#a7311fb0d8ff90c577f2055fde3273c18">   36</a></span>    <a class="code hl_class" href="class_g_e_command_context.html">GECommandContext</a>* <a class="code hl_variable" href="class_g_e_application.html#a7311fb0d8ff90c577f2055fde3273c18">cc</a>;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="class_g_e_application.html#a9661cb08b956271867f60c9ca1a9318d">   37</a></span>    <a class="code hl_class" href="class_g_e_scene.html">GEScene</a>* <a class="code hl_variable" href="class_g_e_application.html#a9661cb08b956271867f60c9ca1a9318d">scene</a>;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="comment">// ===== Métodos principales =====</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    GLFWwindow* <a class="code hl_function" href="class_g_e_application.html#ae473a6cb8cc8aa8a76a19a8df91d6e49">initWindow</a>();</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <a class="code hl_struct" href="struct_g_e_window_position.html">GEWindowPosition</a> <a class="code hl_function" href="class_g_e_application.html#ac34507dbd747e24e4e1f443b5a756dbb">initWindowPos</a>();</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_application.html#adde238fa4ed636bfebd76be73af395b7">mainLoop</a>();</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_application.html#a2b00b2d665876b63d4b227c933964c37">draw</a>();</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_application.html#a461c4a6a6d343e4a5fdd993068fb8af1">cleanup</a>();</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_application.html#ae1a2c4de09efffbc0a40eb0f1505cf96">swapFullScreen</a>();</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span></div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_application.html#aba108b6e4e758a6ffa21bf644bce3ab8">resize</a>();</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="comment">// ===== Respuesta a eventos =====</span></div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_application.html#aff889e80a2c5e7e0bf9b530b7ae3cc16">keyCallback</a>(GLFWwindow* <a class="code hl_variable" href="class_g_e_application.html#a7182acd1fdf264a323f79fd0d5cd8979">window</a>, <span class="keywordtype">int</span> key, <span class="keywordtype">int</span> scancode, <span class="keywordtype">int</span> action, <span class="keywordtype">int</span> mods);</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span></div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_application.html#a41dd9caf88a4ca14c2c177076ce4ecfd">mouseButtonCallback</a>(GLFWwindow* <a class="code hl_variable" href="class_g_e_application.html#a7182acd1fdf264a323f79fd0d5cd8979">window</a>, <span class="keywordtype">int</span> button, <span class="keywordtype">int</span> action, <span class="keywordtype">int</span> mods);</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span></div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_application.html#a028396b9bae6c5697fc358e8260b3312">cursorPositionCallback</a>(GLFWwindow* <a class="code hl_variable" href="class_g_e_application.html#a7182acd1fdf264a323f79fd0d5cd8979">window</a>, <span class="keywordtype">double</span> xpos, <span class="keywordtype">double</span> ypos);</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span></div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_application.html#ae38335734c12fd0bac757536085068fa">framebufferResizeCallback</a>(GLFWwindow* <a class="code hl_variable" href="class_g_e_application.html#a7182acd1fdf264a323f79fd0d5cd8979">window</a>, <span class="keywordtype">int</span> width, <span class="keywordtype">int</span> height);</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>};</div>
+</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
+<div class="ttc" id="a_g_e_application_8h_html_a9649ab8139c4c2ea5c93625b30d92a05"><div class="ttname"><a href="_g_e_application_8h.html#a9649ab8139c4c2ea5c93625b30d92a05">WIDTH</a></div><div class="ttdeci">const int WIDTH</div><div class="ttdef"><b>Definition</b> GEApplication.h:16</div></div>
+<div class="ttc" id="a_g_e_application_8h_html_af728b7647e0b8c49832983a31f9a2e9b"><div class="ttname"><a href="_g_e_application_8h.html#af728b7647e0b8c49832983a31f9a2e9b">HEIGHT</a></div><div class="ttdeci">const int HEIGHT</div><div class="ttdef"><b>Definition</b> GEApplication.h:17</div></div>
+<div class="ttc" id="a_g_e_command_context_8h_html"><div class="ttname"><a href="_g_e_command_context_8h.html">GECommandContext.h</a></div><div class="ttdoc">Declaración de la clase GECommandContext que gestiona buffers de comandos.</div></div>
+<div class="ttc" id="a_g_e_drawing_context_8h_html"><div class="ttname"><a href="_g_e_drawing_context_8h.html">GEDrawingContext.h</a></div><div class="ttdoc">Declaración de la clase GEDrawingContext para gestionar swapchain y present.</div></div>
+<div class="ttc" id="a_g_e_graphics_context_8h_html"><div class="ttname"><a href="_g_e_graphics_context_8h.html">GEGraphicsContext.h</a></div><div class="ttdoc">Declaración de la clase GEGraphicsContext que almacena el contexto gráfico de Vulkan.</div></div>
+<div class="ttc" id="a_g_e_scene_8h_html"><div class="ttname"><a href="_g_e_scene_8h.html">GEScene.h</a></div><div class="ttdoc">Declaración de la clase GEScene que contiene la escena con esqueleto animado.</div></div>
+<div class="ttc" id="a_g_e_window_position_8h_html"><div class="ttname"><a href="_g_e_window_position_8h.html">GEWindowPosition.h</a></div><div class="ttdoc">Declaración de la estructura GEWindowPosition para ventanas.</div></div>
+<div class="ttc" id="aclass_g_e_application_html"><div class="ttname"><a href="class_g_e_application.html">GEApplication</a></div><div class="ttdoc">Clase que crea y lanza la aplicación gráfica.</div><div class="ttdef"><b>Definition</b> GEApplication.h:24</div></div>
+<div class="ttc" id="aclass_g_e_application_html_a028396b9bae6c5697fc358e8260b3312"><div class="ttname"><a href="class_g_e_application.html#a028396b9bae6c5697fc358e8260b3312">GEApplication::cursorPositionCallback</a></div><div class="ttdeci">static void cursorPositionCallback(GLFWwindow *window, double xpos, double ypos)</div><div class="ttdoc">Respuesta a un evento de movimiento del cursor.</div><div class="ttdef"><b>Definition</b> GEApplication.cpp:178</div></div>
+<div class="ttc" id="aclass_g_e_application_html_a2a7d38dd9a5bca43fc115b09704915a4"><div class="ttname"><a href="class_g_e_application.html#a2a7d38dd9a5bca43fc115b09704915a4">GEApplication::run</a></div><div class="ttdeci">void run()</div><div class="ttdoc">Ejecuta la aplicación.</div><div class="ttdef"><b>Definition</b> GEApplication.cpp:20</div></div>
+<div class="ttc" id="aclass_g_e_application_html_a2b00b2d665876b63d4b227c933964c37"><div class="ttname"><a href="class_g_e_application.html#a2b00b2d665876b63d4b227c933964c37">GEApplication::draw</a></div><div class="ttdeci">void draw()</div><div class="ttdoc">Lanza la generación del dibujo.</div><div class="ttdef"><b>Definition</b> GEApplication.cpp:97</div></div>
+<div class="ttc" id="aclass_g_e_application_html_a41dd9caf88a4ca14c2c177076ce4ecfd"><div class="ttname"><a href="class_g_e_application.html#a41dd9caf88a4ca14c2c177076ce4ecfd">GEApplication::mouseButtonCallback</a></div><div class="ttdeci">static void mouseButtonCallback(GLFWwindow *window, int button, int action, int mods)</div><div class="ttdoc">Respuesta a un evento de botón de ratón.</div><div class="ttdef"><b>Definition</b> GEApplication.cpp:168</div></div>
+<div class="ttc" id="aclass_g_e_application_html_a461c4a6a6d343e4a5fdd993068fb8af1"><div class="ttname"><a href="class_g_e_application.html#a461c4a6a6d343e4a5fdd993068fb8af1">GEApplication::cleanup</a></div><div class="ttdeci">void cleanup()</div><div class="ttdoc">Libera los recursos y finaliza la aplicación.</div><div class="ttdef"><b>Definition</b> GEApplication.cpp:108</div></div>
+<div class="ttc" id="aclass_g_e_application_html_a5cd4bcc82abe7c0492726614479016d4"><div class="ttname"><a href="class_g_e_application.html#a5cd4bcc82abe7c0492726614479016d4">GEApplication::windowPos</a></div><div class="ttdeci">GEWindowPosition windowPos</div><div class="ttdef"><b>Definition</b> GEApplication.h:33</div></div>
+<div class="ttc" id="aclass_g_e_application_html_a7182acd1fdf264a323f79fd0d5cd8979"><div class="ttname"><a href="class_g_e_application.html#a7182acd1fdf264a323f79fd0d5cd8979">GEApplication::window</a></div><div class="ttdeci">GLFWwindow * window</div><div class="ttdoc">Ventana GLFW.</div><div class="ttdef"><b>Definition</b> GEApplication.h:32</div></div>
+<div class="ttc" id="aclass_g_e_application_html_a7311fb0d8ff90c577f2055fde3273c18"><div class="ttname"><a href="class_g_e_application.html#a7311fb0d8ff90c577f2055fde3273c18">GEApplication::cc</a></div><div class="ttdeci">GECommandContext * cc</div><div class="ttdef"><b>Definition</b> GEApplication.h:36</div></div>
+<div class="ttc" id="aclass_g_e_application_html_a7d8a79ccdd188f8f28d6b801a60e3ef5"><div class="ttname"><a href="class_g_e_application.html#a7d8a79ccdd188f8f28d6b801a60e3ef5">GEApplication::dc</a></div><div class="ttdeci">GEDrawingContext * dc</div><div class="ttdef"><b>Definition</b> GEApplication.h:35</div></div>
+<div class="ttc" id="aclass_g_e_application_html_a9661cb08b956271867f60c9ca1a9318d"><div class="ttname"><a href="class_g_e_application.html#a9661cb08b956271867f60c9ca1a9318d">GEApplication::scene</a></div><div class="ttdeci">GEScene * scene</div><div class="ttdef"><b>Definition</b> GEApplication.h:37</div></div>
+<div class="ttc" id="aclass_g_e_application_html_ab7a4059d5fcd64986e10b5c129f3ff11"><div class="ttname"><a href="class_g_e_application.html#ab7a4059d5fcd64986e10b5c129f3ff11">GEApplication::gc</a></div><div class="ttdeci">GEGraphicsContext * gc</div><div class="ttdef"><b>Definition</b> GEApplication.h:34</div></div>
+<div class="ttc" id="aclass_g_e_application_html_aba108b6e4e758a6ffa21bf644bce3ab8"><div class="ttname"><a href="class_g_e_application.html#aba108b6e4e758a6ffa21bf644bce3ab8">GEApplication::resize</a></div><div class="ttdeci">void resize()</div><div class="ttdoc">Reconstruye los objetos con el nuevo tamaño de ventana.</div><div class="ttdef"><b>Definition</b> GEApplication.cpp:200</div></div>
+<div class="ttc" id="aclass_g_e_application_html_ac34507dbd747e24e4e1f443b5a756dbb"><div class="ttname"><a href="class_g_e_application.html#ac34507dbd747e24e4e1f443b5a756dbb">GEApplication::initWindowPos</a></div><div class="ttdeci">GEWindowPosition initWindowPos()</div><div class="ttdoc">Inicializa la posición de la ventana.</div><div class="ttdef"><b>Definition</b> GEApplication.cpp:67</div></div>
+<div class="ttc" id="aclass_g_e_application_html_adde238fa4ed636bfebd76be73af395b7"><div class="ttname"><a href="class_g_e_application.html#adde238fa4ed636bfebd76be73af395b7">GEApplication::mainLoop</a></div><div class="ttdeci">void mainLoop()</div><div class="ttdoc">Bucle principal que procesa eventos y dibuja cada frame.</div><div class="ttdef"><b>Definition</b> GEApplication.cpp:85</div></div>
+<div class="ttc" id="aclass_g_e_application_html_ae1a2c4de09efffbc0a40eb0f1505cf96"><div class="ttname"><a href="class_g_e_application.html#ae1a2c4de09efffbc0a40eb0f1505cf96">GEApplication::swapFullScreen</a></div><div class="ttdeci">void swapFullScreen()</div><div class="ttdoc">Cambia entre pantalla completa y modo ventana.</div><div class="ttdef"><b>Definition</b> GEApplication.cpp:124</div></div>
+<div class="ttc" id="aclass_g_e_application_html_ae38335734c12fd0bac757536085068fa"><div class="ttname"><a href="class_g_e_application.html#ae38335734c12fd0bac757536085068fa">GEApplication::framebufferResizeCallback</a></div><div class="ttdeci">static void framebufferResizeCallback(GLFWwindow *window, int width, int height)</div><div class="ttdoc">Respuesta a un evento de redimensionamiento de la ventana.</div><div class="ttdef"><b>Definition</b> GEApplication.cpp:188</div></div>
+<div class="ttc" id="aclass_g_e_application_html_ae473a6cb8cc8aa8a76a19a8df91d6e49"><div class="ttname"><a href="class_g_e_application.html#ae473a6cb8cc8aa8a76a19a8df91d6e49">GEApplication::initWindow</a></div><div class="ttdeci">GLFWwindow * initWindow()</div><div class="ttdoc">Inicializa la ventana GLFW.</div><div class="ttdef"><b>Definition</b> GEApplication.cpp:39</div></div>
+<div class="ttc" id="aclass_g_e_application_html_aff889e80a2c5e7e0bf9b530b7ae3cc16"><div class="ttname"><a href="class_g_e_application.html#aff889e80a2c5e7e0bf9b530b7ae3cc16">GEApplication::keyCallback</a></div><div class="ttdeci">static void keyCallback(GLFWwindow *window, int key, int scancode, int action, int mods)</div><div class="ttdoc">Respuesta a un evento de teclado.</div><div class="ttdef"><b>Definition</b> GEApplication.cpp:150</div></div>
+<div class="ttc" id="aclass_g_e_command_context_html"><div class="ttname"><a href="class_g_e_command_context.html">GECommandContext</a></div><div class="ttdoc">Clase que almacena los buffers de comandos vinculados a cada imagen de la swapchain.</div><div class="ttdef"><b>Definition</b> GECommandContext.h:18</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html"><div class="ttname"><a href="class_g_e_drawing_context.html">GEDrawingContext</a></div><div class="ttdoc">Clase que contiene la información sobre el destino de las imágenes a generar (swapchain,...</div><div class="ttdef"><b>Definition</b> GEDrawingContext.h:18</div></div>
+<div class="ttc" id="aclass_g_e_graphics_context_html"><div class="ttname"><a href="class_g_e_graphics_context.html">GEGraphicsContext</a></div><div class="ttdoc">Clase que almacena el contexto gráfico de Vulkan (instancia y dispositivo).</div><div class="ttdef"><b>Definition</b> GEGraphicsContext.h:17</div></div>
+<div class="ttc" id="aclass_g_e_scene_html"><div class="ttname"><a href="class_g_e_scene.html">GEScene</a></div><div class="ttdoc">Escena con esqueleto animado realizando tiro libre.</div><div class="ttdef"><b>Definition</b> GEScene.h:25</div></div>
+<div class="ttc" id="astruct_g_e_window_position_html"><div class="ttname"><a href="struct_g_e_window_position.html">GEWindowPosition</a></div><div class="ttdoc">Estructura que almacena la posición y el tamaño de la ventana gráfica.</div><div class="ttdef"><b>Definition</b> GEWindowPosition.h:12</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_23ed62d68ba96d0c485cdb821755d287.html">MVPVulkan</a></li><li class="navelem"><a href="_g_e_application_8h.html">GEApplication.h</a></li>
+    <li class="footer">Generado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<map id="GEBalljoint::setLimits" name="GEBalljoint::setLimits">
+<area shape="rect" id="Node000001" title="Asigna los límites de rotación." alt="" coords="717,29,865,56"/>
+<area shape="rect" id="Node000002" href="$class_g_e_skeleton.html#a24b0dd5ddd9c940fb8e95eaceb720ea0" title="Crea recursivamente las articulaciones desde los datos parseados." alt="" coords="448,29,669,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="699,43,670,45,670,40,705,43"/>
+<area shape="poly" id="edge4_Node000002_Node000002" title=" " alt="" coords="598,14,585,10,559,8,534,10,521,15,518,20,524,30,519,28,513,21,517,11,533,5,559,3,587,5,603,15"/>
+<area shape="rect" id="Node000003" href="$class_g_e_skeleton.html#ade3f0504c12faea2597ee2c23abf22bd" title="Construye la jerarquía de articulaciones desde body.skel." alt="" coords="223,29,400,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="430,43,401,45,400,40,435,43"/>
+<area shape="rect" id="Node000004" href="$class_g_e_skeleton.html#ad854854fdf1e4d090553d4d6edbfe095" title="Constructor del esqueleto." alt="" coords="5,29,175,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="205,43,175,45,175,40,210,43"/>
+</map>

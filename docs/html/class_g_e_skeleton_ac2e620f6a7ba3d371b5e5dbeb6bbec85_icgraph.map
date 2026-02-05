@@ -1,0 +1,5 @@
+<map id="GESkeleton::findJoint" name="GESkeleton::findJoint">
+<area shape="rect" id="Node000001" title="Busca una articulación por nombre." alt="" coords="256,5,404,32"/>
+<area shape="rect" id="Node000002" href="$class_g_e_animation.html#a0c0c9b1891d41bae1e7cf2ae6bde46cc" title="Aplica la animación actual al esqueleto." alt="" coords="5,5,208,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="237,19,208,21,208,16,243,19"/>
+</map>

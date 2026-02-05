@@ -1,0 +1,5 @@
+<map id="GEBalljoint::initialize" name="GEBalljoint::initialize">
+<area shape="rect" id="Node000001" title="Inicializa las piezas de la articulación." alt="" coords="254,5,395,32"/>
+<area shape="rect" id="Node000002" href="$class_g_e_balljoint.html#a2f2063c302507432f32a5f07333f934a" title="Inicializa recursivamente esta articulación y sus hijas." alt="" coords="5,5,206,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="236,19,206,21,206,16,241,19"/>
+</map>

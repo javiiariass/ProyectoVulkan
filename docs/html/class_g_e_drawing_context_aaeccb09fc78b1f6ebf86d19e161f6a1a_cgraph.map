@@ -1,0 +1,11 @@
+<map id="GEDrawingContext::recreate" name="GEDrawingContext::recreate">
+<area shape="rect" id="Node000001" title="Reconstruye el contexto de dibujo tras un cambio de tamaño." alt="" coords="5,47,195,73"/>
+<area shape="rect" id="Node000002" href="$class_g_e_drawing_context.html#af0d8bbc2b1fe8119e6d1aa65d497b3b0" title="Crea una vista para cada imagen del swapchain." alt="" coords="243,5,421,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,44,230,41,225,43,196,49"/>
+<area shape="rect" id="Node000003" href="$class_g_e_drawing_context.html#addf8c95330fdbf47864e9244ccc417db" title="Crea el swapchain y obtiene las imágenes y formatos adecuados." alt="" coords="243,72,421,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="195,71,230,78,225,79,195,76"/>
+<area shape="rect" id="Node000004" href="$class_g_e_drawing_context.html#acdb6b25fca397b27f3563080db3c130b" title="Selecciona la extensión (tamaño) adecuada para las imágenes del swapchain." alt="" coords="469,39,653,81"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="421,78,456,75,451,76,422,83"/>
+<area shape="rect" id="Node000005" href="$class_g_e_drawing_context.html#a3b9ad39a37755665d94e149b73d99a43" title="Escoge el formato de imagen entre los soportados por la superficie." alt="" coords="469,105,653,148"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="422,104,456,111,451,111,421,109"/>
+</map>

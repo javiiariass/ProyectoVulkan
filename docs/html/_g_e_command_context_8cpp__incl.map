@@ -1,0 +1,16 @@
+<map id="MVPVulkan/GECommandContext.cpp" name="MVPVulkan/GECommandContext.cpp">
+<area shape="rect" id="Node000001" title="Implementación de la clase GECommandContext." alt="" coords="45,5,288,32"/>
+<area shape="rect" id="Node000002" href="$_g_e_command_context_8h.html" title="Declaración de la clase GECommandContext que gestiona buffers de comandos." alt="" coords="19,80,176,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="153,35,122,70,118,67,156,30"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="200,80,272,107"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="179,30,216,68,211,69,179,35"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,229,118,256"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="84,110,71,130,59,155,55,185,58,215,52,214,50,185,54,154,67,127,87,105"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="69,155,126,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="99,105,100,140,95,138,96,110"/>
+<area shape="rect" id="Node000005" href="$_g_e_graphics_context_8h.html" title="Declaración de la clase GEGraphicsContext que almacena el contexto gráfico de Vulkan." alt="" coords="151,155,300,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="120,105,192,146,187,148,119,110"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="200,182,105,225,103,220,194,181"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="173,229,278,256"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="227,180,228,215,223,212,224,184"/>
+</map>

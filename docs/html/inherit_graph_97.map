@@ -1,0 +1,11 @@
+<map id="Gráfico de jerarquía de clases" name="Gráfico de jerarquía de clases">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,81,111,108"/>
+<area shape="rect" id="Node000001" href="$structxpath__variable__boolean.html" title=" " alt="" coords="163,5,320,32"/>
+<area shape="poly" id="edge10_Node000000_Node000001" title=" " alt="" coords="95,71,158,42,193,31,188,34,160,46,98,76"/>
+<area shape="rect" id="Node000002" href="$structxpath__variable__node__set.html" title=" " alt="" coords="159,56,324,83"/>
+<area shape="poly" id="edge11_Node000000_Node000002" title=" " alt="" coords="125,83,161,80,156,82,127,88"/>
+<area shape="rect" id="Node000003" href="$structxpath__variable__number.html" title=" " alt="" coords="164,107,319,133"/>
+<area shape="poly" id="edge12_Node000000_Node000003" title=" " alt="" coords="126,101,166,108,161,110,126,107"/>
+<area shape="rect" id="Node000004" href="$structxpath__variable__string.html" title=" " alt="" coords="169,157,314,184"/>
+<area shape="poly" id="edge13_Node000000_Node000004" title=" " alt="" coords="97,113,160,143,193,157,188,157,158,148,96,118"/>
+</map>

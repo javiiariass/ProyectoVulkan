@@ -1,0 +1,5 @@
+<map id="GEDrawingContext::createSyncObjects" name="GEDrawingContext::createSyncObjects">
+<area shape="rect" id="Node000001" title="Crea semáforos y fences para sincronización entre frames." alt="" coords="263,5,441,48"/>
+<area shape="rect" id="Node000002" href="$class_g_e_drawing_context.html#a29f15ea54b46e71e37d45067270349ae" title="Crea el contexto de dibujo (swapchain, vistas y sincronización)." alt="" coords="5,5,215,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="244,27,215,29,215,24,250,27"/>
+</map>

@@ -1,0 +1,266 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Animación Vulkan: Archivo de código fuente MVPVulkan/GEBalljoint.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">var page_layout=1;</script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="side-nav" class="ui-resizable side-nav-resizable"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Animación Vulkan<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Animación de tiro libre baloncesto con motor gráfico desarrollado en clase</div>
+  </td>
+ </tr>
+   <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td></tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_g_e_balljoint_8h_source.html','',''); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','Buscar',true);
+});
+</script>
+<div id="main-nav"></div>
+<div id="container"><div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">GEBalljoint.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_g_e_balljoint_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;<a class="code" href="_g_e_graphics_context_8h.html">GEGraphicsContext.h</a>&quot;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="_g_e_rendering_context_8h.html">GERenderingContext.h</a>&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="_g_e_sphere_8h.html">GESphere.h</a>&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;<a class="code" href="_g_e_cylinder_8h.html">GECylinder.h</a>&quot;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="_g_e_light_8h.html">GELight.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;glm/glm.hpp&gt;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &quot;<a class="code" href="_d_e_b_u_g_8h.html">DEBUG.h</a>&quot;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span></div>
+<div class="foldopen" id="foldopen00025" data-start="{" data-end="};">
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="class_g_e_balljoint.html">   25</a></span><span class="keyword">class </span><a class="code hl_function" href="class_g_e_balljoint.html#a0f468b4618ae46410622a32a83569714">GEBalljoint</a></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>{</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="comment">// ===== Propiedades básicas =====</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="class_g_e_balljoint.html#a3808e09cbcfdc20b80c10891ec733de1">   29</a></span>    GLfloat <a class="code hl_variable" href="class_g_e_balljoint.html#a3808e09cbcfdc20b80c10891ec733de1">length</a>;       </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="class_g_e_balljoint.html#afe0fb912a06a42c2ee93f8f9a3e8c7b3">   30</a></span>    glm::vec3 <a class="code hl_variable" href="class_g_e_balljoint.html#afe0fb912a06a42c2ee93f8f9a3e8c7b3">location</a>;   </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="class_g_e_balljoint.html#a5b1d959a664235263d7d4cee97463b6b">   31</a></span>    glm::vec3 <a class="code hl_variable" href="class_g_e_balljoint.html#a5b1d959a664235263d7d4cee97463b6b">dir</a>;        </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="class_g_e_balljoint.html#acd1060f947b91ab92822042eb739dd36">   32</a></span>    glm::vec3 <a class="code hl_variable" href="class_g_e_balljoint.html#acd1060f947b91ab92822042eb739dd36">up</a>;         </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="class_g_e_balljoint.html#a563183a13549b89cddacb778c13e7710">   33</a></span>    glm::vec3 <a class="code hl_variable" href="class_g_e_balljoint.html#a563183a13549b89cddacb778c13e7710">right</a>;      </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="class_g_e_balljoint.html#a4b22321cfbcf06e995abb900405643e4">   34</a></span>    GLfloat <a class="code hl_variable" href="class_g_e_balljoint.html#a4b22321cfbcf06e995abb900405643e4">angles</a>[3];    </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="class_g_e_balljoint.html#a732425a76ee397d5c16b050df04c5bc0">   35</a></span>    <a class="code hl_class" href="class_g_e_sphere.html">GESphere</a> *<a class="code hl_variable" href="class_g_e_balljoint.html#a732425a76ee397d5c16b050df04c5bc0">joint</a>;      </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="class_g_e_balljoint.html#ae7de650e1da9a57114ceab4d8ac960bf">   36</a></span>    <a class="code hl_class" href="class_g_e_cylinder.html">GECylinder</a> *<a class="code hl_variable" href="class_g_e_balljoint.html#ae7de650e1da9a57114ceab4d8ac960bf">bone</a>;     </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="comment">// ===== Jerarquía =====</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="class_g_e_balljoint.html#a7771f881f39def94b3056122989d3cd5">   39</a></span>    std::string <a class="code hl_variable" href="class_g_e_balljoint.html#a7771f881f39def94b3056122989d3cd5">name</a>;                   </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="class_g_e_balljoint.html#a73a31c9874090c2d2c676e054d537ef7">   40</a></span>    glm::vec3 <a class="code hl_variable" href="class_g_e_balljoint.html#a73a31c9874090c2d2c676e054d537ef7">offset</a>;                   </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="class_g_e_balljoint.html#a54072c930afb2fbe0f2a9688d72e2040">   41</a></span>    glm::vec3 <a class="code hl_variable" href="class_g_e_balljoint.html#a54072c930afb2fbe0f2a9688d72e2040">localZAxis</a>;               </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="class_g_e_balljoint.html#aff7b02716987276a301d28d72ebc2cb0">   42</a></span>    glm::vec3 <a class="code hl_variable" href="class_g_e_balljoint.html#aff7b02716987276a301d28d72ebc2cb0">localYAxis</a>;               </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="class_g_e_balljoint.html#af4af153f99293f21334379d878686f1e">   43</a></span>    std::vector&lt;GEBalljoint *&gt; <a class="code hl_variable" href="class_g_e_balljoint.html#af4af153f99293f21334379d878686f1e">children</a>; </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="class_g_e_balljoint.html#a83ba75d5513bb25327f2709898de3817">   44</a></span>    glm::mat4 <a class="code hl_variable" href="class_g_e_balljoint.html#a83ba75d5513bb25327f2709898de3817">worldMatrix</a>;              </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span></div>
+<div class="foldopen" id="foldopen00050" data-start="{" data-end="};">
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="struct_g_e_balljoint_1_1_limits.html">   50</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="struct_g_e_balljoint_1_1_limits.html">Limits</a></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    {</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="struct_g_e_balljoint_1_1_limits.html#a058e27f440e7c7fe124da76b3b4257ae">   52</a></span>        glm::vec3 <a class="code hl_variable" href="struct_g_e_balljoint_1_1_limits.html#a058e27f440e7c7fe124da76b3b4257ae">min</a>;  </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="struct_g_e_balljoint_1_1_limits.html#ad45e7b1fd68c166a20974303aa340ea1">   53</a></span>        glm::vec3 <a class="code hl_variable" href="struct_g_e_balljoint_1_1_limits.html#ad45e7b1fd68c166a20974303aa340ea1">max</a>;  </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="struct_g_e_balljoint_1_1_limits.html#aa5fd17fa5f81d6a7cadea598eb3886ab">   54</a></span>        <span class="keywordtype">bool</span> <a class="code hl_variable" href="struct_g_e_balljoint_1_1_limits.html#aa5fd17fa5f81d6a7cadea598eb3886ab">enabled</a>;   </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="comment">// Test</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="comment">// Si macro definida en main, mostrar si algún valor en las articulaciones alcanza límite</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="preprocessor">#ifdef DEBUG</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <span class="keywordtype">bool</span> wasLimited; </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="class_g_e_balljoint.html#a9121a2c8de96b0e902b21bcacf8944bf">   60</a></span>    } <a class="code hl_variable" href="class_g_e_balljoint.html#a9121a2c8de96b0e902b21bcacf8944bf">limits</a>; </div>
+</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_balljoint.html#a26c862fcf041ae1703e1f2b5faa701d7">ComputeMatrix</a>();</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_balljoint.html#a26c862fcf041ae1703e1f2b5faa701d7">ComputeMatrix</a>(glm::mat4 parentMatrix);</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <a class="code hl_function" href="class_g_e_balljoint.html#a0f468b4618ae46410622a32a83569714">GEBalljoint</a>(<span class="keywordtype">float</span> <a class="code hl_variable" href="class_g_e_balljoint.html#a3808e09cbcfdc20b80c10891ec733de1">length</a>);</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span></div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    <a class="code hl_function" href="class_g_e_balljoint.html#a0f468b4618ae46410622a32a83569714">GEBalljoint</a>(<span class="keyword">const</span> std::string &amp;<a class="code hl_variable" href="class_g_e_balljoint.html#a7771f881f39def94b3056122989d3cd5">name</a>, <span class="keywordtype">float</span> <a class="code hl_variable" href="class_g_e_balljoint.html#a3808e09cbcfdc20b80c10891ec733de1">length</a>,</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>                glm::vec3 <a class="code hl_variable" href="class_g_e_balljoint.html#a73a31c9874090c2d2c676e054d537ef7">offset</a>, glm::vec3 zAxis, glm::vec3 yAxis);</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    <span class="comment">// Ciclo de vida</span></div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_balljoint.html#a24be8e14789a18a48061b2beb7b27cac">initialize</a>(<a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a> *gc, <a class="code hl_class" href="class_g_e_rendering_context.html">GERenderingContext</a> *rc);</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_balljoint.html#ae61d59436dfd3ecde5bfc3d73bc16c48">destroy</a>(<a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a> *gc);</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_balljoint.html#ace7cdc556f1583ec09405db12e8b002e">addCommands</a>(VkCommandBuffer commandBuffer, VkPipelineLayout pipelineLayout, <span class="keywordtype">int</span> index);</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_balljoint.html#af5d47555933b7c5b8c66644bad354497">update</a>(<a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a> *gc, uint32_t index, glm::mat4 view, glm::mat4 projection);</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span> </div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <span class="comment">// Métodos recursivos</span></div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_balljoint.html#a2f2063c302507432f32a5f07333f934a">initializeRecursive</a>(<a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a> *gc, <a class="code hl_class" href="class_g_e_rendering_context.html">GERenderingContext</a> *rc);</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_balljoint.html#ae0edee978f755049ef8a01876f7b488b">destroyRecursive</a>(<a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a> *gc);</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_balljoint.html#a6a9ddcc116846ced45b1f238e1d2daf0">addCommandsRecursive</a>(VkCommandBuffer commandBuffer, VkPipelineLayout pipelineLayout, <span class="keywordtype">int</span> index);</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_balljoint.html#a3c4302bc1926bf8e54cab4b7c3b2ef4a">updateRecursive</a>(<a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a> *gc, uint32_t index,</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>                         glm::mat4 parentMatrix, glm::mat4 view, glm::mat4 projection);</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_balljoint.html#aa6a8ef8eb7ca1008f034718ed3113c9a">setLightRecursive</a>(<a class="code hl_struct" href="struct_g_e_light.html">GELight</a> l);</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span> </div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>    <span class="comment">// Setters</span></div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_balljoint.html#a3e104492efc39779daca6bfdaaa5c472">setLight</a>(<a class="code hl_struct" href="struct_g_e_light.html">GELight</a> l);</div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_balljoint.html#abfdd7d5e7ed563d568b6f5d0cef41527">setLocation</a>(glm::vec3 loc);</div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_balljoint.html#abbaee46230674d60e6b22e9fb386fc0d">setOrientation</a>(glm::vec3 nDir, glm::vec3 nUp);</div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_balljoint.html#af4e9dadf09e7626f4bfe7386a8d76e5b">setPose</a>(<span class="keywordtype">float</span> xrot, <span class="keywordtype">float</span> yrot, <span class="keywordtype">float</span> zrot);</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_balljoint.html#a57203edfebb0ba0bf9979e34fe472274">setLimits</a>(glm::vec3 min, glm::vec3 max);</div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span> </div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>    <span class="comment">// Jerarquía</span></div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_balljoint.html#a2a6fc6d00a3ea4c9ca016f1afe358fd9">addChild</a>(<a class="code hl_class" href="class_g_e_balljoint.html">GEBalljoint</a> *child);</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>    <a class="code hl_class" href="class_g_e_balljoint.html">GEBalljoint</a> *<a class="code hl_function" href="class_g_e_balljoint.html#a13e4735bffa31009035f084f415a5955">findChild</a>(<span class="keyword">const</span> std::string &amp;searchName);</div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span> </div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>    <span class="comment">// Getters</span></div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>    <span class="keyword">const</span> std::string &amp;<a class="code hl_function" href="class_g_e_balljoint.html#ade5b9c3dd4ce607d16f512bcc9bc2237">getName</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>    <span class="keyword">const</span> std::vector&lt;GEBalljoint *&gt; &amp;<a class="code hl_function" href="class_g_e_balljoint.html#a3dcb411c132c1d5245a8a98e353d8cc9">getChildren</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>    glm::mat4 <a class="code hl_function" href="class_g_e_balljoint.html#a5f823f19f0920057d43593b0ac6b74d6">getWorldMatrix</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>    glm::mat4 <a class="code hl_function" href="class_g_e_balljoint.html#ad45612bbae85e9d9fe8003847d22bda6">getBoneEndMatrix</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>};</div>
+</div>
+<div class="ttc" id="a_d_e_b_u_g_8h_html"><div class="ttname"><a href="_d_e_b_u_g_8h.html">DEBUG.h</a></div><div class="ttdoc">Macros de depuración para desarrollo.</div></div>
+<div class="ttc" id="a_g_e_cylinder_8h_html"><div class="ttname"><a href="_g_e_cylinder_8h.html">GECylinder.h</a></div><div class="ttdoc">Declaración de la clase GECylinder.</div></div>
+<div class="ttc" id="a_g_e_graphics_context_8h_html"><div class="ttname"><a href="_g_e_graphics_context_8h.html">GEGraphicsContext.h</a></div><div class="ttdoc">Declaración de la clase GEGraphicsContext que almacena el contexto gráfico de Vulkan.</div></div>
+<div class="ttc" id="a_g_e_light_8h_html"><div class="ttname"><a href="_g_e_light_8h.html">GELight.h</a></div><div class="ttdoc">Declaración de la estructura GELight para iluminación.</div></div>
+<div class="ttc" id="a_g_e_rendering_context_8h_html"><div class="ttname"><a href="_g_e_rendering_context_8h.html">GERenderingContext.h</a></div><div class="ttdoc">Declaración de la clase GERenderingContext que describe un contexto de renderizado.</div></div>
+<div class="ttc" id="a_g_e_sphere_8h_html"><div class="ttname"><a href="_g_e_sphere_8h.html">GESphere.h</a></div><div class="ttdoc">Declaración de la clase GESphere que describe una esfera.</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html"><div class="ttname"><a href="class_g_e_balljoint.html">GEBalljoint</a></div><div class="ttdoc">Representa una articulación esférica con 3 grados de libertad.</div><div class="ttdef"><b>Definition</b> GEBalljoint.h:26</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_a0f468b4618ae46410622a32a83569714"><div class="ttname"><a href="class_g_e_balljoint.html#a0f468b4618ae46410622a32a83569714">GEBalljoint::GEBalljoint</a></div><div class="ttdeci">GEBalljoint(float length)</div><div class="ttdoc">Construye una articulación.</div><div class="ttdef"><b>Definition</b> GEBalljoint.cpp:16</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_a13e4735bffa31009035f084f415a5955"><div class="ttname"><a href="class_g_e_balljoint.html#a13e4735bffa31009035f084f415a5955">GEBalljoint::findChild</a></div><div class="ttdeci">GEBalljoint * findChild(const std::string &amp;searchName)</div><div class="ttdoc">Busca una articulación hija por nombre.</div><div class="ttdef"><b>Definition</b> GEBalljoint.cpp:460</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_a24be8e14789a18a48061b2beb7b27cac"><div class="ttname"><a href="class_g_e_balljoint.html#a24be8e14789a18a48061b2beb7b27cac">GEBalljoint::initialize</a></div><div class="ttdeci">void initialize(GEGraphicsContext *gc, GERenderingContext *rc)</div><div class="ttdoc">Inicializa las piezas de la articulación.</div><div class="ttdef"><b>Definition</b> GEBalljoint.cpp:216</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_a26c862fcf041ae1703e1f2b5faa701d7"><div class="ttname"><a href="class_g_e_balljoint.html#a26c862fcf041ae1703e1f2b5faa701d7">GEBalljoint::ComputeMatrix</a></div><div class="ttdeci">void ComputeMatrix()</div><div class="ttdoc">Calcula la matriz de transformación local.</div><div class="ttdef"><b>Definition</b> GEBalljoint.cpp:97</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_a2a6fc6d00a3ea4c9ca016f1afe358fd9"><div class="ttname"><a href="class_g_e_balljoint.html#a2a6fc6d00a3ea4c9ca016f1afe358fd9">GEBalljoint::addChild</a></div><div class="ttdeci">void addChild(GEBalljoint *child)</div><div class="ttdoc">Añade una articulación hija.</div><div class="ttdef"><b>Definition</b> GEBalljoint.cpp:450</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_a2f2063c302507432f32a5f07333f934a"><div class="ttname"><a href="class_g_e_balljoint.html#a2f2063c302507432f32a5f07333f934a">GEBalljoint::initializeRecursive</a></div><div class="ttdeci">void initializeRecursive(GEGraphicsContext *gc, GERenderingContext *rc)</div><div class="ttdoc">Inicializa recursivamente esta articulación y sus hijas.</div><div class="ttdef"><b>Definition</b> GEBalljoint.cpp:246</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_a3808e09cbcfdc20b80c10891ec733de1"><div class="ttname"><a href="class_g_e_balljoint.html#a3808e09cbcfdc20b80c10891ec733de1">GEBalljoint::length</a></div><div class="ttdeci">GLfloat length</div><div class="ttdoc">Longitud del hueso.</div><div class="ttdef"><b>Definition</b> GEBalljoint.h:29</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_a3c4302bc1926bf8e54cab4b7c3b2ef4a"><div class="ttname"><a href="class_g_e_balljoint.html#a3c4302bc1926bf8e54cab4b7c3b2ef4a">GEBalljoint::updateRecursive</a></div><div class="ttdeci">void updateRecursive(GEGraphicsContext *gc, uint32_t index, glm::mat4 parentMatrix, glm::mat4 view, glm::mat4 projection)</div><div class="ttdoc">Actualiza recursivamente con matriz del padre.</div><div class="ttdef"><b>Definition</b> GEBalljoint.cpp:274</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_a3dcb411c132c1d5245a8a98e353d8cc9"><div class="ttname"><a href="class_g_e_balljoint.html#a3dcb411c132c1d5245a8a98e353d8cc9">GEBalljoint::getChildren</a></div><div class="ttdeci">const std::vector&lt; GEBalljoint * &gt; &amp; getChildren() const</div><div class="ttdoc">Obtiene la lista de hijos.</div><div class="ttdef"><b>Definition</b> GEBalljoint.cpp:490</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_a3e104492efc39779daca6bfdaaa5c472"><div class="ttname"><a href="class_g_e_balljoint.html#a3e104492efc39779daca6bfdaaa5c472">GEBalljoint::setLight</a></div><div class="ttdeci">void setLight(GELight l)</div><div class="ttdoc">Asigna las propiedades de la luz.</div><div class="ttdef"><b>Definition</b> GEBalljoint.cpp:426</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_a4b22321cfbcf06e995abb900405643e4"><div class="ttname"><a href="class_g_e_balljoint.html#a4b22321cfbcf06e995abb900405643e4">GEBalljoint::angles</a></div><div class="ttdeci">GLfloat angles[3]</div><div class="ttdoc">Ángulos de rotación (X, Y, Z).</div><div class="ttdef"><b>Definition</b> GEBalljoint.h:34</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_a54072c930afb2fbe0f2a9688d72e2040"><div class="ttname"><a href="class_g_e_balljoint.html#a54072c930afb2fbe0f2a9688d72e2040">GEBalljoint::localZAxis</a></div><div class="ttdeci">glm::vec3 localZAxis</div><div class="ttdoc">Eje Z local.</div><div class="ttdef"><b>Definition</b> GEBalljoint.h:41</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_a563183a13549b89cddacb778c13e7710"><div class="ttname"><a href="class_g_e_balljoint.html#a563183a13549b89cddacb778c13e7710">GEBalljoint::right</a></div><div class="ttdeci">glm::vec3 right</div><div class="ttdoc">Vector derecha local.</div><div class="ttdef"><b>Definition</b> GEBalljoint.h:33</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_a57203edfebb0ba0bf9979e34fe472274"><div class="ttname"><a href="class_g_e_balljoint.html#a57203edfebb0ba0bf9979e34fe472274">GEBalljoint::setLimits</a></div><div class="ttdeci">void setLimits(glm::vec3 min, glm::vec3 max)</div><div class="ttdoc">Asigna los límites de rotación.</div><div class="ttdef"><b>Definition</b> GEBalljoint.cpp:392</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_a5b1d959a664235263d7d4cee97463b6b"><div class="ttname"><a href="class_g_e_balljoint.html#a5b1d959a664235263d7d4cee97463b6b">GEBalljoint::dir</a></div><div class="ttdeci">glm::vec3 dir</div><div class="ttdoc">Dirección del hueso.</div><div class="ttdef"><b>Definition</b> GEBalljoint.h:31</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_a5f823f19f0920057d43593b0ac6b74d6"><div class="ttname"><a href="class_g_e_balljoint.html#a5f823f19f0920057d43593b0ac6b74d6">GEBalljoint::getWorldMatrix</a></div><div class="ttdeci">glm::mat4 getWorldMatrix() const</div><div class="ttdoc">Obtiene la matriz mundo.</div><div class="ttdef"><b>Definition</b> GEBalljoint.cpp:499</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_a6a9ddcc116846ced45b1f238e1d2daf0"><div class="ttname"><a href="class_g_e_balljoint.html#a6a9ddcc116846ced45b1f238e1d2daf0">GEBalljoint::addCommandsRecursive</a></div><div class="ttdeci">void addCommandsRecursive(VkCommandBuffer commandBuffer, VkPipelineLayout pipelineLayout, int index)</div><div class="ttdoc">Añade comandos recursivamente.</div><div class="ttdef"><b>Definition</b> GEBalljoint.cpp:414</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_a732425a76ee397d5c16b050df04c5bc0"><div class="ttname"><a href="class_g_e_balljoint.html#a732425a76ee397d5c16b050df04c5bc0">GEBalljoint::joint</a></div><div class="ttdeci">GESphere * joint</div><div class="ttdoc">Esfera que representa la articulación.</div><div class="ttdef"><b>Definition</b> GEBalljoint.h:35</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_a73a31c9874090c2d2c676e054d537ef7"><div class="ttname"><a href="class_g_e_balljoint.html#a73a31c9874090c2d2c676e054d537ef7">GEBalljoint::offset</a></div><div class="ttdeci">glm::vec3 offset</div><div class="ttdoc">Desplazamiento respecto al padre.</div><div class="ttdef"><b>Definition</b> GEBalljoint.h:40</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_a7771f881f39def94b3056122989d3cd5"><div class="ttname"><a href="class_g_e_balljoint.html#a7771f881f39def94b3056122989d3cd5">GEBalljoint::name</a></div><div class="ttdeci">std::string name</div><div class="ttdoc">Nombre de la articulación.</div><div class="ttdef"><b>Definition</b> GEBalljoint.h:39</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_a83ba75d5513bb25327f2709898de3817"><div class="ttname"><a href="class_g_e_balljoint.html#a83ba75d5513bb25327f2709898de3817">GEBalljoint::worldMatrix</a></div><div class="ttdeci">glm::mat4 worldMatrix</div><div class="ttdoc">Matriz de transformación mundo.</div><div class="ttdef"><b>Definition</b> GEBalljoint.h:44</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_a9121a2c8de96b0e902b21bcacf8944bf"><div class="ttname"><a href="class_g_e_balljoint.html#a9121a2c8de96b0e902b21bcacf8944bf">GEBalljoint::limits</a></div><div class="ttdeci">struct GEBalljoint::Limits limits</div><div class="ttdoc">Límites de rotación de esta articulación.</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_aa6a8ef8eb7ca1008f034718ed3113c9a"><div class="ttname"><a href="class_g_e_balljoint.html#aa6a8ef8eb7ca1008f034718ed3113c9a">GEBalljoint::setLightRecursive</a></div><div class="ttdeci">void setLightRecursive(GELight l)</div><div class="ttdoc">Asigna la luz recursivamente.</div><div class="ttdef"><b>Definition</b> GEBalljoint.cpp:438</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_abbaee46230674d60e6b22e9fb386fc0d"><div class="ttname"><a href="class_g_e_balljoint.html#abbaee46230674d60e6b22e9fb386fc0d">GEBalljoint::setOrientation</a></div><div class="ttdeci">void setOrientation(glm::vec3 nDir, glm::vec3 nUp)</div><div class="ttdoc">Asigna la orientación de la articulación.</div><div class="ttdef"><b>Definition</b> GEBalljoint.cpp:336</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_abfdd7d5e7ed563d568b6f5d0cef41527"><div class="ttname"><a href="class_g_e_balljoint.html#abfdd7d5e7ed563d568b6f5d0cef41527">GEBalljoint::setLocation</a></div><div class="ttdeci">void setLocation(glm::vec3 loc)</div><div class="ttdoc">Asigna la posición de la articulación.</div><div class="ttdef"><b>Definition</b> GEBalljoint.cpp:325</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_acd1060f947b91ab92822042eb739dd36"><div class="ttname"><a href="class_g_e_balljoint.html#acd1060f947b91ab92822042eb739dd36">GEBalljoint::up</a></div><div class="ttdeci">glm::vec3 up</div><div class="ttdoc">Vector arriba local.</div><div class="ttdef"><b>Definition</b> GEBalljoint.h:32</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_ace7cdc556f1583ec09405db12e8b002e"><div class="ttname"><a href="class_g_e_balljoint.html#ace7cdc556f1583ec09405db12e8b002e">GEBalljoint::addCommands</a></div><div class="ttdeci">void addCommands(VkCommandBuffer commandBuffer, VkPipelineLayout pipelineLayout, int index)</div><div class="ttdoc">Añade los comandos de dibujo.</div><div class="ttdef"><b>Definition</b> GEBalljoint.cpp:402</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_ad45612bbae85e9d9fe8003847d22bda6"><div class="ttname"><a href="class_g_e_balljoint.html#ad45612bbae85e9d9fe8003847d22bda6">GEBalljoint::getBoneEndMatrix</a></div><div class="ttdeci">glm::mat4 getBoneEndMatrix() const</div><div class="ttdoc">Obtiene la matriz en el extremo del hueso.</div><div class="ttdef"><b>Definition</b> GEBalljoint.cpp:508</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_ade5b9c3dd4ce607d16f512bcc9bc2237"><div class="ttname"><a href="class_g_e_balljoint.html#ade5b9c3dd4ce607d16f512bcc9bc2237">GEBalljoint::getName</a></div><div class="ttdeci">const std::string &amp; getName() const</div><div class="ttdoc">Obtiene el nombre de la articulación.</div><div class="ttdef"><b>Definition</b> GEBalljoint.cpp:481</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_ae0edee978f755049ef8a01876f7b488b"><div class="ttname"><a href="class_g_e_balljoint.html#ae0edee978f755049ef8a01876f7b488b">GEBalljoint::destroyRecursive</a></div><div class="ttdeci">void destroyRecursive(GEGraphicsContext *gc)</div><div class="ttdoc">Destruye recursivamente esta articulación y sus hijas.</div><div class="ttdef"><b>Definition</b> GEBalljoint.cpp:310</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_ae61d59436dfd3ecde5bfc3d73bc16c48"><div class="ttname"><a href="class_g_e_balljoint.html#ae61d59436dfd3ecde5bfc3d73bc16c48">GEBalljoint::destroy</a></div><div class="ttdeci">void destroy(GEGraphicsContext *gc)</div><div class="ttdoc">Destruye los buffers de las piezas.</div><div class="ttdef"><b>Definition</b> GEBalljoint.cpp:291</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_ae7de650e1da9a57114ceab4d8ac960bf"><div class="ttname"><a href="class_g_e_balljoint.html#ae7de650e1da9a57114ceab4d8ac960bf">GEBalljoint::bone</a></div><div class="ttdeci">GECylinder * bone</div><div class="ttdoc">Cilindro que representa el hueso.</div><div class="ttdef"><b>Definition</b> GEBalljoint.h:36</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_af4af153f99293f21334379d878686f1e"><div class="ttname"><a href="class_g_e_balljoint.html#af4af153f99293f21334379d878686f1e">GEBalljoint::children</a></div><div class="ttdeci">std::vector&lt; GEBalljoint * &gt; children</div><div class="ttdoc">Articulaciones hijas.</div><div class="ttdef"><b>Definition</b> GEBalljoint.h:43</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_af4e9dadf09e7626f4bfe7386a8d76e5b"><div class="ttname"><a href="class_g_e_balljoint.html#af4e9dadf09e7626f4bfe7386a8d76e5b">GEBalljoint::setPose</a></div><div class="ttdeci">void setPose(float xrot, float yrot, float zrot)</div><div class="ttdoc">Asigna la rotación de la articulación (respetando límites).</div><div class="ttdef"><b>Definition</b> GEBalljoint.cpp:350</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_af5d47555933b7c5b8c66644bad354497"><div class="ttname"><a href="class_g_e_balljoint.html#af5d47555933b7c5b8c66644bad354497">GEBalljoint::update</a></div><div class="ttdeci">void update(GEGraphicsContext *gc, uint32_t index, glm::mat4 view, glm::mat4 projection)</div><div class="ttdoc">Actualiza las variables uniformes.</div><div class="ttdef"><b>Definition</b> GEBalljoint.cpp:262</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_afe0fb912a06a42c2ee93f8f9a3e8c7b3"><div class="ttname"><a href="class_g_e_balljoint.html#afe0fb912a06a42c2ee93f8f9a3e8c7b3">GEBalljoint::location</a></div><div class="ttdeci">glm::vec3 location</div><div class="ttdoc">Posición de la articulación.</div><div class="ttdef"><b>Definition</b> GEBalljoint.h:30</div></div>
+<div class="ttc" id="aclass_g_e_balljoint_html_aff7b02716987276a301d28d72ebc2cb0"><div class="ttname"><a href="class_g_e_balljoint.html#aff7b02716987276a301d28d72ebc2cb0">GEBalljoint::localYAxis</a></div><div class="ttdeci">glm::vec3 localYAxis</div><div class="ttdoc">Eje Y local.</div><div class="ttdef"><b>Definition</b> GEBalljoint.h:42</div></div>
+<div class="ttc" id="aclass_g_e_cylinder_html"><div class="ttname"><a href="class_g_e_cylinder.html">GECylinder</a></div><div class="ttdoc">Clase que describe un cilindro.</div><div class="ttdef"><b>Definition</b> GECylinder.h:15</div></div>
+<div class="ttc" id="aclass_g_e_graphics_context_html"><div class="ttname"><a href="class_g_e_graphics_context.html">GEGraphicsContext</a></div><div class="ttdoc">Clase que almacena el contexto gráfico de Vulkan (instancia y dispositivo).</div><div class="ttdef"><b>Definition</b> GEGraphicsContext.h:17</div></div>
+<div class="ttc" id="aclass_g_e_rendering_context_html"><div class="ttname"><a href="class_g_e_rendering_context.html">GERenderingContext</a></div><div class="ttdoc">Clase que describe un contexto de renderizado.</div><div class="ttdef"><b>Definition</b> GERenderingContext.h:20</div></div>
+<div class="ttc" id="aclass_g_e_sphere_html"><div class="ttname"><a href="class_g_e_sphere.html">GESphere</a></div><div class="ttdoc">Clase que describe una esfera.</div><div class="ttdef"><b>Definition</b> GESphere.h:15</div></div>
+<div class="ttc" id="astruct_g_e_balljoint_1_1_limits_html"><div class="ttname"><a href="struct_g_e_balljoint_1_1_limits.html">GEBalljoint::Limits</a></div><div class="ttdoc">Estructura que almacena los límites de rotación de la articulación.</div><div class="ttdef"><b>Definition</b> GEBalljoint.h:51</div></div>
+<div class="ttc" id="astruct_g_e_balljoint_1_1_limits_html_a058e27f440e7c7fe124da76b3b4257ae"><div class="ttname"><a href="struct_g_e_balljoint_1_1_limits.html#a058e27f440e7c7fe124da76b3b4257ae">GEBalljoint::Limits::min</a></div><div class="ttdeci">glm::vec3 min</div><div class="ttdoc">Límites mínimos de rotación (X, Y, Z).</div><div class="ttdef"><b>Definition</b> GEBalljoint.h:52</div></div>
+<div class="ttc" id="astruct_g_e_balljoint_1_1_limits_html_aa5fd17fa5f81d6a7cadea598eb3886ab"><div class="ttname"><a href="struct_g_e_balljoint_1_1_limits.html#aa5fd17fa5f81d6a7cadea598eb3886ab">GEBalljoint::Limits::enabled</a></div><div class="ttdeci">bool enabled</div><div class="ttdoc">Indica si los límites están activos.</div><div class="ttdef"><b>Definition</b> GEBalljoint.h:54</div></div>
+<div class="ttc" id="astruct_g_e_balljoint_1_1_limits_html_ad45e7b1fd68c166a20974303aa340ea1"><div class="ttname"><a href="struct_g_e_balljoint_1_1_limits.html#ad45e7b1fd68c166a20974303aa340ea1">GEBalljoint::Limits::max</a></div><div class="ttdeci">glm::vec3 max</div><div class="ttdoc">Límites máximos de rotación (X, Y, Z).</div><div class="ttdef"><b>Definition</b> GEBalljoint.h:53</div></div>
+<div class="ttc" id="astruct_g_e_light_html"><div class="ttname"><a href="struct_g_e_light.html">GELight</a></div><div class="ttdoc">Estructura que describe una fuente de luz direccional.</div><div class="ttdef"><b>Definition</b> GELight.h:15</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_23ed62d68ba96d0c485cdb821755d287.html">MVPVulkan</a></li><li class="navelem"><a href="_g_e_balljoint_8h.html">GEBalljoint.h</a></li>
+    <li class="footer">Generado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
+  </ul>
+</div>
+</body>
+</html>

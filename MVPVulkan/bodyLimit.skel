@@ -1,0 +1,177 @@
+
+<skeleton name="body">
+	<offset x="0.0" y="1.0" z="0.0" />
+	<zaxis x="0.0" y="0.0" z="1.0" />
+	<yaxis x="0.0" y="1.0" z="0.0" />
+	<balljoint name="pelvis" length="0.3" >
+		<offset x="0.0" y="0.0" z="0.0" />
+		<zaxis x="0.0" y="1.0" z="0.0" />
+		<yaxis x="0.0" y="0.0" z="1.0" />
+		<limits>
+			<min x="-100.0" y="-25.0" z="-30.0" />
+			<max x="20.0" y="25.0" z="30.0" />
+		</limits>
+		<balljoint name="spine" length="0.4" >
+			<offset x="0.0" y="0.0" z="0.0" />
+			<zaxis x="0.0" y="0.0" z="1.0" />
+			<yaxis x="0.0" y="1.0" z="0.0" />
+			<limits>
+				<min x="-80.0" y="-35.0" z="-45.0" />
+				<max x="30.0" y="35.0" z="45.0" />
+			</limits>
+			<balljoint name="neck" length="0.35" >
+				<offset x="0.0" y="0.0" z="0.0" />
+				<zaxis x="0.0" y="0.0" z="1.0" />
+				<yaxis x="0.0" y="1.0" z="0.0" />
+				<limits>
+					<min x="-50.0" y="-45.0" z="-80.0" />
+					<max x="60.0" y="45.0" z="80.0" />
+				</limits>
+			</balljoint>
+			<balljoint name="clavicle_l" length="0.25" >
+				<offset x="-0.05" y="0.0" z="-0.05" />
+				<zaxis x="-1.0" y="0.0" z="0.0" />
+				<yaxis x="0.0" y="1.0" z="0.0" />
+				<limits>
+					<min x="-45.0" y="-15.0" z="0.0" />
+					<max x="10.0" y="15.0" z="0.0" />
+				</limits>
+				<balljoint name="shoulder_l" length="0.35" >
+					<offset x="0.0" y="0.0" z="0.0" />
+					<zaxis x="0.0" y="0.0" z="1.0" />
+					<yaxis x="1.0" y="0.0" z="0.0" />
+					<limits>
+						<min x="-90.0" y="-140.0" z="-90.0" />
+						<max x="90.0" y="30.0" z="70.0" />
+					</limits>
+					<balljoint name="elbow_l" length="0.30" >
+						<offset x="0.0" y="0.0" z="0.0" />
+						<zaxis x="0.0" y="0.0" z="1.0" />
+						<yaxis x="0.0" y="1.0" z="0.0" />
+						<limits>
+							<min x="-150.0" y="0.0" z="0.0" />
+							<max x="0.0" y="0.0" z="0.0" />
+						</limits>
+						<balljoint name="wrist_l" length="0.20" >
+							<offset x="0.0" y="0.0" z="0.0" />
+							<zaxis x="0.0" y="0.0" z="1.0" />
+							<yaxis x="0.0" y="1.0" z="0.0" />
+							<limits>
+								<min x="-70.0" y="-20.0" z="-90.0" />
+								<max x="80.0" y="30.0" z="90.0" />
+							</limits>
+						</balljoint>
+					</balljoint>
+				</balljoint>
+			</balljoint>
+			<balljoint name="clavicle_r" length="0.25" >
+				<offset x="0.05" y="0.0" z="-0.05" />
+				<zaxis x="1.0" y="0.0" z="0.0" />
+				<yaxis x="0.0" y="1.0" z="0.0" />
+				<limits>
+					<min x="-45.0" y="-15.0" z="0.0" />
+					<max x="10.0" y="15.0" z="0.0" />
+				</limits>
+				<balljoint name="shoulder_r" length="0.35" >
+					<offset x="0.0" y="0.0" z="0.0" />
+					<zaxis x="0.0" y="0.0" z="1.0" />
+					<yaxis x="-1.0" y="0.0" z="0.0" />
+					<limits>
+						<min x="-90.0" y="-30.0" z="-70.0" />
+						<max x="90.0" y="140.0" z="90.0" />
+					</limits>
+					<balljoint name="elbow_r" length="0.30" >
+						<offset x="0.0" y="0.0" z="0.0" />
+						<zaxis x="0.0" y="0.0" z="1.0" />
+						<yaxis x="0.0" y="1.0" z="0.0" />
+						<limits>
+							<min x="-150.0" y="0.0" z="0.0" />
+							<max x="0.0" y="0.0" z="0.0" />
+						</limits>
+						<balljoint name="wrist_r" length="0.20" >
+							<offset x="0.0" y="0.0" z="0.0" />
+							<zaxis x="0.0" y="0.0" z="1.0" />
+							<yaxis x="0.0" y="1.0" z="0.0" />
+							<limits>
+								<min x="-70.0" y="-30.0" z="-90.0" />
+								<max x="80.0" y="20.0" z="90.0" />
+							</limits>
+						</balljoint>
+					</balljoint>
+				</balljoint>
+			</balljoint>
+		</balljoint>
+	</balljoint>
+	<balljoint name="hip_l" length="0.2">
+		<offset x="0.05" y="-0.05" z="0.0" />
+		<zaxis x="1.0" y="0.0" z="0.0" />
+		<yaxis x="0.0" y="1.0" z="0.0" />
+		<limits>
+			<min x="0.0" y="0.0" z="0.0" />
+			<max x="0.0" y="0.0" z="0.0" />
+		</limits>
+		<balljoint name="leg_l" length="0.5">
+			<offset x="0.0" y="0.0" z="0.0" />
+			<zaxis x="0.0" y="-1.0" z="0.0" />	
+			<yaxis x="-1.0" y="0.0" z="0.0" />
+			<limits>
+				<min x="-120.0" y="-45.0" z="-45.0" />
+				<max x="30.0" y="30.0" z="45.0" />
+			</limits>
+			<balljoint name="knee_l" length="0.4">
+				<offset x="0.0" y="0.0" z="0.0" />
+				<zaxis x="0.0" y="0.0" z="1.0" />	
+				<yaxis x="0.0" y="1.0" z="0.0" />
+				<limits>
+					<min x="0.0" y="0.0" z="0.0" />
+					<max x="140.0" y="0.0" z="0.0" />
+				</limits>
+				<balljoint name="ankle_l" length="0.25">
+					<offset x="0.0" y="0.0" z="0.0" />
+					<zaxis x="0.0" y="1.0" z="0.0" />
+					<yaxis x="0.0" y="0.0" z="-1.0" />
+					<limits>
+						<min x="-20.0" y="-25.0" z="-20.0" />
+						<max x="50.0" y="35.0" z="40.0" />
+					</limits>
+				</balljoint>
+			</balljoint>
+		</balljoint>
+	</balljoint>
+	<balljoint name="hip_r" length="0.2">
+		<offset x="-0.05" y="-0.05" z="0.0" />
+		<zaxis x="-1.0" y="0.0" z="0.0" />
+		<yaxis x="0.0" y="1.0" z="0.0" />
+		<limits>
+			<min x="0.0" y="0.0" z="0.0" />
+			<max x="0.0" y="0.0" z="0.0" />
+		</limits>
+		<balljoint name="leg_r" length="0.5">
+			<offset x="0.0" y="0.0" z="0.0" />
+			<zaxis x="0.0" y="-1.0" z="0.0" />	
+			<yaxis x="1.0" y="0.0" z="0.0" />
+			<limits>
+				<min x="-120.0" y="-45.0" z="-45.0" />
+				<max x="30.0" y="30.0" z="45.0" />
+			</limits>
+			<balljoint name="knee_r" length="0.4">
+				<offset x="0.0" y="0.0" z="0.0" />
+				<zaxis x="0.0" y="0.0" z="1.0" />	
+				<yaxis x="0.0" y="1.0" z="0.0" />
+				<limits>
+					<min x="0.0" y="0.0" z="0.0" />
+					<max x="140.0" y="0.0" z="0.0" />
+				</limits>
+				<balljoint name="ankle_r" length="0.25">
+					<offset x="0.0" y="0.0" z="0.0" />
+					<zaxis x="0.0" y="1.0" z="0.0" />
+					<yaxis x="0.0" y="0.0" z="-1.0" />
+					<limits>
+						<min x="-20.0" y="-25.0" z="-20.0" />
+						<max x="50.0" y="35.0" z="40.0" />
+					</limits>
+				</balljoint>
+			</balljoint>
+		</balljoint>
+	</balljoint>
+</skeleton>

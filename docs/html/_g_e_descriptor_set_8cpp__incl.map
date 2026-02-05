@@ -1,0 +1,42 @@
+<map id="MVPVulkan/GEDescriptorSet.cpp" name="MVPVulkan/GEDescriptorSet.cpp">
+<area shape="rect" id="Node000001" title="Implementación de la clase GEDescriptorSet." alt="" coords="85,5,302,32"/>
+<area shape="rect" id="Node000002" href="$_g_e_descriptor_set_8h.html" title="Declaración de la clase GEDescriptorSet para gestionar conjuntos de descriptores." alt="" coords="128,80,259,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,30,196,65,191,64,193,35"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="807,229,878,256"/>
+<area shape="poly" id="edge27_Node000001_Node000008" title=" " alt="" coords="233,30,606,152,798,223,793,224,604,157,233,35"/>
+<area shape="rect" id="Node000013" href="$_g_e_uniform_buffer_8h.html" title=" " alt="" coords="25,229,156,256"/>
+<area shape="poly" id="edge26_Node000001_Node000013" title=" " alt="" coords="167,35,142,54,118,81,104,115,96,150,92,214,86,213,90,149,99,113,114,79,139,50,170,30"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="329,379,441,405"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="155,109,103,133,48,166,27,186,13,208,8,230,16,255,41,290,73,318,111,341,152,358,194,371,237,379,316,390,311,390,236,384,193,376,150,363,109,345,70,323,37,293,11,257,3,231,8,206,23,183,45,162,101,128,158,105"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="183,304,241,331"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="196,106,212,289,207,289,192,109"/>
+<area shape="rect" id="Node000005" href="$_g_e_graphics_context_8h.html" title="Declaración de la clase GEGraphicsContext que almacena el contexto gráfico de Vulkan." alt="" coords="695,304,844,331"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="259,94,415,104,606,126,700,143,783,165,849,193,874,209,893,228,899,240,899,251,886,271,861,288,831,301,829,296,859,283,882,268,894,250,894,241,888,231,871,214,847,198,781,170,699,148,606,131,414,109,260,99"/>
+<area shape="rect" id="Node000007" href="$_g_e_rendering_context_8h.html" title="Declaración de la clase GERenderingContext que describe un contexto de renderizado." alt="" coords="436,155,593,181"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="249,105,446,149,441,152,250,110"/>
+<area shape="poly" id="edge22_Node000002_Node000013" title=" " alt="" coords="183,110,110,218,106,215,186,105"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="705,331,457,380,456,375,699,331"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="717,379,822,405"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="771,329,771,365,767,361,767,333"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="491,181,460,204,433,231,415,264,402,299,390,365,385,361,397,298,410,262,428,228,456,199,486,183"/>
+<area shape="poly" id="edge10_Node000007_Node000005" title=" " alt="" coords="593,168,632,174,673,185,712,202,746,227,756,241,764,257,770,290,766,287,759,258,752,244,742,231,709,207,671,190,631,179,593,174"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="572,179,794,230,789,231,572,185"/>
+<area shape="rect" id="Node000009" href="$_g_e_drawing_context_8h.html" title="Declaración de la clase GEDrawingContext para gestionar swapchain y present." alt="" coords="442,229,587,256"/>
+<area shape="poly" id="edge11_Node000007_Node000009" title=" " alt="" coords="516,180,517,215,512,212,513,184"/>
+<area shape="rect" id="Node000011" href="$_g_e_pipeline_config_8h.html" title="Declaración de la clase GEPipelineConfig que almacena la configuración de un pipeline de renderizado." alt="" coords="231,229,366,256"/>
+<area shape="poly" id="edge16_Node000007_Node000011" title=" " alt="" coords="475,183,352,226,350,221,479,181"/>
+<area shape="rect" id="Node000012" href="$_g_e_depth_buffer_8h.html" title="Declaración de la clase GEDepthBuffer que gestiona el recurso de profundidad." alt="" coords="612,229,732,256"/>
+<area shape="poly" id="edge19_Node000007_Node000012" title=" " alt="" coords="542,179,633,222,628,223,542,185"/>
+<area shape="poly" id="edge12_Node000009_Node000003" title=" " alt="" coords="537,254,559,269,578,288,589,310,589,321,583,332,558,357,526,375,491,386,457,392,457,386,490,380,524,370,554,353,579,329,583,320,584,311,574,291,556,273,536,259"/>
+<area shape="poly" id="edge13_Node000009_Node000004" title=" " alt="" coords="459,258,256,308,255,303,464,255"/>
+<area shape="poly" id="edge14_Node000009_Node000005" title=" " alt="" coords="559,254,713,299,708,300,559,259"/>
+<area shape="rect" id="Node000010" href="$_g_e_window_position_8h.html" title="Declaración de la estructura GEWindowPosition para ventanas." alt="" coords="423,304,569,331"/>
+<area shape="poly" id="edge15_Node000009_Node000010" title=" " alt="" coords="513,255,505,291,501,287,509,258"/>
+<area shape="poly" id="edge17_Node000011_Node000003" title=" " alt="" coords="307,254,373,366,368,365,304,259"/>
+<area shape="poly" id="edge18_Node000011_Node000004" title=" " alt="" coords="286,255,240,296,237,292,281,258"/>
+<area shape="poly" id="edge20_Node000012_Node000003" title=" " alt="" coords="668,255,643,295,625,315,604,333,569,352,531,367,457,385,456,380,529,362,567,347,601,328,622,312,639,292,663,257"/>
+<area shape="poly" id="edge21_Node000012_Node000005" title=" " alt="" coords="690,254,743,295,738,294,688,259"/>
+<area shape="poly" id="edge24_Node000013_Node000003" title=" " alt="" coords="99,254,130,292,150,312,172,328,206,346,243,360,316,381,311,381,241,365,204,351,169,333,146,316,126,295,98,259"/>
+<area shape="poly" id="edge25_Node000013_Node000004" title=" " alt="" coords="112,254,180,295,175,297,111,259"/>
+<area shape="poly" id="edge23_Node000013_Node000005" title=" " alt="" coords="157,248,680,304,678,309,157,254"/>
+</map>

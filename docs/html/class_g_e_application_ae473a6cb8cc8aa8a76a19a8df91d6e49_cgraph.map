@@ -1,0 +1,17 @@
+<map id="GEApplication::initWindow" name="GEApplication::initWindow">
+<area shape="rect" id="Node000001" title="Inicializa la ventana GLFW." alt="" coords="5,109,182,136"/>
+<area shape="rect" id="Node000002" href="$class_g_e_application.html#a028396b9bae6c5697fc358e8260b3312" title="Respuesta a un evento de movimiento del cursor." alt="" coords="230,5,425,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,107,229,58,248,52,243,55,231,62,124,111"/>
+<area shape="rect" id="Node000003" href="$class_g_e_application.html#ae38335734c12fd0bac757536085068fa" title="Respuesta a un evento de redimensionamiento de la ventana." alt="" coords="239,72,416,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="181,109,225,105,220,107,183,114"/>
+<area shape="rect" id="Node000005" href="$class_g_e_application.html#aff889e80a2c5e7e0bf9b530b7ae3cc16" title="Respuesta a un evento de teclado." alt="" coords="235,139,420,165"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="182,131,222,138,217,139,183,136"/>
+<area shape="rect" id="Node000008" href="$class_g_e_application.html#a41dd9caf88a4ca14c2c177076ce4ecfd" title="Respuesta a un evento de botón de ratón." alt="" coords="233,189,422,232"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="128,134,231,175,249,184,244,184,229,180,127,139"/>
+<area shape="rect" id="Node000004" href="$class_g_e_application.html#aba108b6e4e758a6ffa21bf644bce3ab8" title="Reconstruye los objetos con el nuevo tamaño de ventana." alt="" coords="502,80,649,107"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="416,91,489,93,484,94,417,96"/>
+<area shape="rect" id="Node000006" href="$class_g_e_scene.html#a971e9b981ad219b661db89f03f6d3179" title="Maneja acciones de teclado." alt="" coords="502,135,650,161"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="420,148,489,149,483,150,420,153"/>
+<area shape="rect" id="Node000007" href="$class_g_e_application.html#ae1a2c4de09efffbc0a40eb0f1505cf96" title="Cambia entre pantalla completa y modo ventana." alt="" coords="473,185,678,212"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="402,163,488,182,483,182,402,169"/>
+</map>

@@ -1,0 +1,28 @@
+<map id="MVPVulkan/GERenderingContext.h" name="MVPVulkan/GERenderingContext.h">
+<area shape="rect" id="Node000001" title="Declaración de la clase GERenderingContext que describe un contexto de renderizado." alt="" coords="263,5,491,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="325,229,437,256"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="467,30,509,48,527,62,542,79,548,91,549,106,541,136,527,164,512,183,480,208,444,226,442,221,478,204,509,179,523,161,536,134,543,105,542,92,538,81,523,66,506,53,467,35"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="603,80,674,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="423,30,590,77,585,79,423,35"/>
+<area shape="rect" id="Node000004" href="$_g_e_graphics_context_8h.html" title="Declaración de la clase GEGraphicsContext que almacena el contexto gráfico de Vulkan." alt="" coords="24,155,173,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="329,34,274,55,213,82,165,114,124,147,121,143,162,110,211,78,272,50,333,31"/>
+<area shape="rect" id="Node000006" href="$_g_e_drawing_context_8h.html" title="Declaración de la clase GEDrawingContext para gestionar swapchain y present." alt="" coords="223,80,368,107"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="365,31,323,72,319,68,361,34"/>
+<area shape="rect" id="Node000009" href="$_g_e_pipeline_config_8h.html" title="Declaración de la clase GEPipelineConfig que almacena la configuración de un pipeline de renderizado." alt="" coords="392,80,527,107"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="392,30,437,70,432,70,391,35"/>
+<area shape="rect" id="Node000010" href="$_g_e_depth_buffer_8h.html" title="Declaración de la clase GEDepthBuffer que gestiona el recurso de profundidad." alt="" coords="28,80,148,107"/>
+<area shape="poly" id="edge14_Node000001_Node000010" title=" " alt="" coords="325,35,154,78,152,73,328,30"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="148,179,319,223,315,227,147,185"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="46,229,151,256"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="100,180,101,215,96,213,97,184"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="313,105,337,126,358,153,371,183,379,215,374,212,366,185,354,156,333,130,312,110"/>
+<area shape="poly" id="edge9_Node000006_Node000004" title=" " alt="" coords="260,109,149,151,146,146,263,105"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="419,155,476,181"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="323,105,410,147,405,148,322,110"/>
+<area shape="rect" id="Node000008" href="$_g_e_window_position_8h.html" title="Declaración de la estructura GEWindowPosition para ventanas." alt="" coords="198,155,343,181"/>
+<area shape="poly" id="edge10_Node000006_Node000008" title=" " alt="" coords="293,105,282,141,278,138,289,109"/>
+<area shape="poly" id="edge12_Node000009_Node000002" title=" " alt="" coords="471,105,493,141,497,162,492,183,469,208,440,225,438,220,466,204,487,180,491,162,488,143,469,110"/>
+<area shape="poly" id="edge13_Node000009_Node000007" title=" " alt="" coords="460,105,454,141,450,138,456,109"/>
+<area shape="poly" id="edge15_Node000010_Node000002" title=" " alt="" coords="62,109,41,124,20,142,9,162,9,170,14,179,27,187,53,195,130,210,311,232,308,237,129,215,51,200,25,192,10,183,4,172,3,160,16,139,38,120,64,105"/>
+<area shape="poly" id="edge16_Node000010_Node000004" title=" " alt="" coords="91,105,97,140,92,139,89,110"/>
+</map>

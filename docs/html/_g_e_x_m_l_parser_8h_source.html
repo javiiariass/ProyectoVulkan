@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Animación Vulkan: Archivo de código fuente MVPVulkan/GEXMLParser.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">var page_layout=1;</script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="side-nav" class="ui-resizable side-nav-resizable"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Animación Vulkan<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Animación de tiro libre baloncesto con motor gráfico desarrollado en clase</div>
+  </td>
+ </tr>
+   <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td></tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_g_e_x_m_l_parser_8h_source.html','',''); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','Buscar',true);
+});
+</script>
+<div id="main-nav"></div>
+<div id="container"><div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">GEXMLParser.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_g_e_x_m_l_parser_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;glm/glm.hpp&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="pugixml_8hpp.html">pugixml/pugixml.hpp</a>&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span></div>
+<div class="foldopen" id="foldopen00017" data-start="{" data-end="};">
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="struct_g_e_joint_data.html">   17</a></span><span class="keyword">struct </span><a class="code hl_struct" href="struct_g_e_joint_data.html">GEJointData</a> {</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="struct_g_e_joint_data.html#a5365cd6a44e1fa8cc69da3e23a08779a">   18</a></span>    std::string <a class="code hl_variable" href="struct_g_e_joint_data.html#a5365cd6a44e1fa8cc69da3e23a08779a">name</a>;                   </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="struct_g_e_joint_data.html#a82a5340c459851d3e177d8c069f6f9e1">   19</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="struct_g_e_joint_data.html#a82a5340c459851d3e177d8c069f6f9e1">length</a>;                       </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="struct_g_e_joint_data.html#a139f26fd0c0f318d5613e75d88e65af4">   20</a></span>    glm::vec3 <a class="code hl_variable" href="struct_g_e_joint_data.html#a139f26fd0c0f318d5613e75d88e65af4">offset</a>;                   </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="struct_g_e_joint_data.html#a5e58acac566b65d4f910c2f2a1a61bb3">   21</a></span>    glm::vec3 <a class="code hl_variable" href="struct_g_e_joint_data.html#a5e58acac566b65d4f910c2f2a1a61bb3">zAxis</a>;                    </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="struct_g_e_joint_data.html#a7b439102e59ac28e749efa162d8e6f73">   22</a></span>    glm::vec3 <a class="code hl_variable" href="struct_g_e_joint_data.html#a7b439102e59ac28e749efa162d8e6f73">yAxis</a>;                    </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="struct_g_e_joint_data.html#a758468a28abbaf3651c1087868ab61b7">   23</a></span>    glm::vec3 <a class="code hl_variable" href="struct_g_e_joint_data.html#a758468a28abbaf3651c1087868ab61b7">limitsMin</a>;                </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="struct_g_e_joint_data.html#a652de1699876d5f18f76021b7a45f8b0">   24</a></span>    glm::vec3 <a class="code hl_variable" href="struct_g_e_joint_data.html#a652de1699876d5f18f76021b7a45f8b0">limitsMax</a>;                </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="struct_g_e_joint_data.html#a7e984a819b1d8dddbbc0bb12a07c81f9">   25</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="struct_g_e_joint_data.html#a7e984a819b1d8dddbbc0bb12a07c81f9">hasLimits</a>;                     </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="struct_g_e_joint_data.html#a3c83c666c08184040b564d963d1fa256">   26</a></span>    std::vector&lt;GEJointData&gt; <a class="code hl_variable" href="struct_g_e_joint_data.html#a3c83c666c08184040b564d963d1fa256">children</a>;  </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>};</div>
+</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span></div>
+<div class="foldopen" id="foldopen00033" data-start="{" data-end="};">
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="struct_g_e_skeleton_data.html">   33</a></span><span class="keyword">struct </span><a class="code hl_struct" href="struct_g_e_skeleton_data.html">GESkeletonData</a> {</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="struct_g_e_skeleton_data.html#a10fc816ffe4de323fe6d0bd6da10ff7b">   34</a></span>    std::string <a class="code hl_variable" href="struct_g_e_skeleton_data.html#a10fc816ffe4de323fe6d0bd6da10ff7b">name</a>;                   </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="struct_g_e_skeleton_data.html#a79c1f9dbace82d6c1737c085f41a9cf0">   35</a></span>    glm::vec3 <a class="code hl_variable" href="struct_g_e_skeleton_data.html#a79c1f9dbace82d6c1737c085f41a9cf0">offset</a>;                   </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="struct_g_e_skeleton_data.html#a37238ee6d87ecf6ae27ad75b28ceedd3">   36</a></span>    glm::vec3 <a class="code hl_variable" href="struct_g_e_skeleton_data.html#a37238ee6d87ecf6ae27ad75b28ceedd3">zAxis</a>;                    </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="struct_g_e_skeleton_data.html#a6478c5bc5786e7d2fc271f41050b4df0">   37</a></span>    glm::vec3 <a class="code hl_variable" href="struct_g_e_skeleton_data.html#a6478c5bc5786e7d2fc271f41050b4df0">yAxis</a>;                    </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="struct_g_e_skeleton_data.html#a5656f8fae0b9b2bbf5d8e38980eccaa9">   38</a></span>    std::vector&lt;GEJointData&gt; <a class="code hl_variable" href="struct_g_e_skeleton_data.html#a5656f8fae0b9b2bbf5d8e38980eccaa9">rootJoints</a>;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>};</div>
+</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span></div>
+<div class="foldopen" id="foldopen00045" data-start="{" data-end="};">
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="class_g_e_x_m_l_parser.html">   45</a></span><span class="keyword">class </span><a class="code hl_class" href="class_g_e_x_m_l_parser.html">GEXMLParser</a> {</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="class_g_e_x_m_l_parser.html#acd9fc587fbd992edbb51df00549c1bda">parseSkeletonFile</a>(<span class="keyword">const</span> std::string&amp; filename, <a class="code hl_struct" href="struct_g_e_skeleton_data.html">GESkeletonData</a>&amp; outData);</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keyword">static</span> glm::vec3 <a class="code hl_function" href="class_g_e_x_m_l_parser.html#aa8e732df591d508941d3c717188b7266">parseVec3</a>(<a class="code hl_class" href="classpugi_1_1xml__node.html">pugi::xml_node</a> node);</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keyword">static</span> <a class="code hl_struct" href="struct_g_e_joint_data.html">GEJointData</a> <a class="code hl_function" href="class_g_e_x_m_l_parser.html#af7e66e11e1a8973779770daa1ad6f653">parseBalljoint</a>(<a class="code hl_class" href="classpugi_1_1xml__node.html">pugi::xml_node</a> node);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>};</div>
+</div>
+<div class="ttc" id="aclass_g_e_x_m_l_parser_html"><div class="ttname"><a href="class_g_e_x_m_l_parser.html">GEXMLParser</a></div><div class="ttdoc">Parser para archivos .skel en formato XML usando pugixml.</div><div class="ttdef"><b>Definition</b> GEXMLParser.h:45</div></div>
+<div class="ttc" id="aclass_g_e_x_m_l_parser_html_aa8e732df591d508941d3c717188b7266"><div class="ttname"><a href="class_g_e_x_m_l_parser.html#aa8e732df591d508941d3c717188b7266">GEXMLParser::parseVec3</a></div><div class="ttdeci">static glm::vec3 parseVec3(pugi::xml_node node)</div><div class="ttdoc">Parsea un nodo vec3 (offset, zaxis, yaxis).</div><div class="ttdef"><b>Definition</b> GEXMLParser.cpp:12</div></div>
+<div class="ttc" id="aclass_g_e_x_m_l_parser_html_acd9fc587fbd992edbb51df00549c1bda"><div class="ttname"><a href="class_g_e_x_m_l_parser.html#acd9fc587fbd992edbb51df00549c1bda">GEXMLParser::parseSkeletonFile</a></div><div class="ttdeci">static bool parseSkeletonFile(const std::string &amp;filename, GESkeletonData &amp;outData)</div><div class="ttdoc">Parsea un archivo .skel y devuelve los datos del esqueleto.</div><div class="ttdef"><b>Definition</b> GEXMLParser.cpp:81</div></div>
+<div class="ttc" id="aclass_g_e_x_m_l_parser_html_af7e66e11e1a8973779770daa1ad6f653"><div class="ttname"><a href="class_g_e_x_m_l_parser.html#af7e66e11e1a8973779770daa1ad6f653">GEXMLParser::parseBalljoint</a></div><div class="ttdeci">static GEJointData parseBalljoint(pugi::xml_node node)</div><div class="ttdoc">Parsea una articulación y sus hijas recursivamente.</div><div class="ttdef"><b>Definition</b> GEXMLParser.cpp:23</div></div>
+<div class="ttc" id="aclasspugi_1_1xml__node_html"><div class="ttname"><a href="classpugi_1_1xml__node.html">pugi::xml_node</a></div><div class="ttdef"><b>Definition</b> pugixml.hpp:506</div></div>
+<div class="ttc" id="apugixml_8hpp_html"><div class="ttname"><a href="pugixml_8hpp.html">pugixml.hpp</a></div></div>
+<div class="ttc" id="astruct_g_e_joint_data_html"><div class="ttname"><a href="struct_g_e_joint_data.html">GEJointData</a></div><div class="ttdoc">Estructura para almacenar los datos de una articulación parseada.</div><div class="ttdef"><b>Definition</b> GEXMLParser.h:17</div></div>
+<div class="ttc" id="astruct_g_e_joint_data_html_a139f26fd0c0f318d5613e75d88e65af4"><div class="ttname"><a href="struct_g_e_joint_data.html#a139f26fd0c0f318d5613e75d88e65af4">GEJointData::offset</a></div><div class="ttdeci">glm::vec3 offset</div><div class="ttdoc">Desplazamiento local respecto al padre.</div><div class="ttdef"><b>Definition</b> GEXMLParser.h:20</div></div>
+<div class="ttc" id="astruct_g_e_joint_data_html_a3c83c666c08184040b564d963d1fa256"><div class="ttname"><a href="struct_g_e_joint_data.html#a3c83c666c08184040b564d963d1fa256">GEJointData::children</a></div><div class="ttdeci">std::vector&lt; GEJointData &gt; children</div><div class="ttdoc">Articulaciones hijas.</div><div class="ttdef"><b>Definition</b> GEXMLParser.h:26</div></div>
+<div class="ttc" id="astruct_g_e_joint_data_html_a5365cd6a44e1fa8cc69da3e23a08779a"><div class="ttname"><a href="struct_g_e_joint_data.html#a5365cd6a44e1fa8cc69da3e23a08779a">GEJointData::name</a></div><div class="ttdeci">std::string name</div><div class="ttdoc">Nombre de la articulación.</div><div class="ttdef"><b>Definition</b> GEXMLParser.h:18</div></div>
+<div class="ttc" id="astruct_g_e_joint_data_html_a5e58acac566b65d4f910c2f2a1a61bb3"><div class="ttname"><a href="struct_g_e_joint_data.html#a5e58acac566b65d4f910c2f2a1a61bb3">GEJointData::zAxis</a></div><div class="ttdeci">glm::vec3 zAxis</div><div class="ttdoc">Eje Z local (dirección del hueso).</div><div class="ttdef"><b>Definition</b> GEXMLParser.h:21</div></div>
+<div class="ttc" id="astruct_g_e_joint_data_html_a652de1699876d5f18f76021b7a45f8b0"><div class="ttname"><a href="struct_g_e_joint_data.html#a652de1699876d5f18f76021b7a45f8b0">GEJointData::limitsMax</a></div><div class="ttdeci">glm::vec3 limitsMax</div><div class="ttdoc">Límites máximos de rotación (grados).</div><div class="ttdef"><b>Definition</b> GEXMLParser.h:24</div></div>
+<div class="ttc" id="astruct_g_e_joint_data_html_a758468a28abbaf3651c1087868ab61b7"><div class="ttname"><a href="struct_g_e_joint_data.html#a758468a28abbaf3651c1087868ab61b7">GEJointData::limitsMin</a></div><div class="ttdeci">glm::vec3 limitsMin</div><div class="ttdoc">Límites mínimos de rotación (grados).</div><div class="ttdef"><b>Definition</b> GEXMLParser.h:23</div></div>
+<div class="ttc" id="astruct_g_e_joint_data_html_a7b439102e59ac28e749efa162d8e6f73"><div class="ttname"><a href="struct_g_e_joint_data.html#a7b439102e59ac28e749efa162d8e6f73">GEJointData::yAxis</a></div><div class="ttdeci">glm::vec3 yAxis</div><div class="ttdoc">Eje Y local (orientación &quot;arriba&quot;).</div><div class="ttdef"><b>Definition</b> GEXMLParser.h:22</div></div>
+<div class="ttc" id="astruct_g_e_joint_data_html_a7e984a819b1d8dddbbc0bb12a07c81f9"><div class="ttname"><a href="struct_g_e_joint_data.html#a7e984a819b1d8dddbbc0bb12a07c81f9">GEJointData::hasLimits</a></div><div class="ttdeci">bool hasLimits</div><div class="ttdoc">Indica si tiene límites definidos.</div><div class="ttdef"><b>Definition</b> GEXMLParser.h:25</div></div>
+<div class="ttc" id="astruct_g_e_joint_data_html_a82a5340c459851d3e177d8c069f6f9e1"><div class="ttname"><a href="struct_g_e_joint_data.html#a82a5340c459851d3e177d8c069f6f9e1">GEJointData::length</a></div><div class="ttdeci">float length</div><div class="ttdoc">Longitud del hueso.</div><div class="ttdef"><b>Definition</b> GEXMLParser.h:19</div></div>
+<div class="ttc" id="astruct_g_e_skeleton_data_html"><div class="ttname"><a href="struct_g_e_skeleton_data.html">GESkeletonData</a></div><div class="ttdoc">Estructura para almacenar los datos completos del esqueleto.</div><div class="ttdef"><b>Definition</b> GEXMLParser.h:33</div></div>
+<div class="ttc" id="astruct_g_e_skeleton_data_html_a10fc816ffe4de323fe6d0bd6da10ff7b"><div class="ttname"><a href="struct_g_e_skeleton_data.html#a10fc816ffe4de323fe6d0bd6da10ff7b">GESkeletonData::name</a></div><div class="ttdeci">std::string name</div><div class="ttdoc">Nombre del esqueleto.</div><div class="ttdef"><b>Definition</b> GEXMLParser.h:34</div></div>
+<div class="ttc" id="astruct_g_e_skeleton_data_html_a37238ee6d87ecf6ae27ad75b28ceedd3"><div class="ttname"><a href="struct_g_e_skeleton_data.html#a37238ee6d87ecf6ae27ad75b28ceedd3">GESkeletonData::zAxis</a></div><div class="ttdeci">glm::vec3 zAxis</div><div class="ttdoc">Eje Z del esqueleto.</div><div class="ttdef"><b>Definition</b> GEXMLParser.h:36</div></div>
+<div class="ttc" id="astruct_g_e_skeleton_data_html_a5656f8fae0b9b2bbf5d8e38980eccaa9"><div class="ttname"><a href="struct_g_e_skeleton_data.html#a5656f8fae0b9b2bbf5d8e38980eccaa9">GESkeletonData::rootJoints</a></div><div class="ttdeci">std::vector&lt; GEJointData &gt; rootJoints</div><div class="ttdoc">Articulaciones raíz (hijas directas del skeleton).</div><div class="ttdef"><b>Definition</b> GEXMLParser.h:38</div></div>
+<div class="ttc" id="astruct_g_e_skeleton_data_html_a6478c5bc5786e7d2fc271f41050b4df0"><div class="ttname"><a href="struct_g_e_skeleton_data.html#a6478c5bc5786e7d2fc271f41050b4df0">GESkeletonData::yAxis</a></div><div class="ttdeci">glm::vec3 yAxis</div><div class="ttdoc">Eje Y del esqueleto.</div><div class="ttdef"><b>Definition</b> GEXMLParser.h:37</div></div>
+<div class="ttc" id="astruct_g_e_skeleton_data_html_a79c1f9dbace82d6c1737c085f41a9cf0"><div class="ttname"><a href="struct_g_e_skeleton_data.html#a79c1f9dbace82d6c1737c085f41a9cf0">GESkeletonData::offset</a></div><div class="ttdeci">glm::vec3 offset</div><div class="ttdoc">Offset global del esqueleto.</div><div class="ttdef"><b>Definition</b> GEXMLParser.h:35</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_23ed62d68ba96d0c485cdb821755d287.html">MVPVulkan</a></li><li class="navelem"><a href="_g_e_x_m_l_parser_8h.html">GEXMLParser.h</a></li>
+    <li class="footer">Generado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
+  </ul>
+</div>
+</body>
+</html>

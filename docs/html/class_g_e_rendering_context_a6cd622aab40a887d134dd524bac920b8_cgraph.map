@@ -1,0 +1,45 @@
+<map id="GERenderingContext::GERenderingContext" name="GERenderingContext::GERenderingContext">
+<area shape="rect" id="Node000001" title="Construye el contexto de renderizado (render pass, pipeline y framebuffers)." alt="" coords="5,477,159,520"/>
+<area shape="rect" id="Node000002" href="$class_g_e_rendering_context.html#a90496b6951e2b3830086cb2e2d038863" title="Crea los buffers de profundidad." alt="" coords="235,277,380,320"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,476,135,404,167,364,205,330,223,321,219,325,208,334,171,368,139,407,96,478"/>
+<area shape="rect" id="Node000003" href="$class_g_e_rendering_context.html#a306a0d9b0571d41b8a86da3f1a71b366" title="Crea un Framebuffer para cada imagen del swapchain." alt="" coords="235,344,380,387"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="103,475,148,435,205,396,222,390,218,394,208,401,152,440,107,478"/>
+<area shape="rect" id="Node000004" href="$class_g_e_rendering_context.html#aba96e7a9f6699afaa6b695cb3e7373e2" title="Crea el Pipeline de renderizado." alt="" coords="226,411,389,453"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="155,475,220,456,216,460,158,479"/>
+<area shape="rect" id="Node000017" href="$class_g_e_rendering_context.html#ab52c54295c5991f41c1202bd7d9df7bf" title="Crea los pasos de renderizado." alt="" coords="235,477,380,520"/>
+<area shape="poly" id="edge18_Node000001_Node000017" title=" " alt="" coords="158,496,221,497,217,500,160,501"/>
+<area shape="rect" id="Node000019" href="$class_g_e_drawing_context.html#aadd6a6e9fe0b128b7559c1066a94f153" title="Obtiene la extensión de la imagen." alt="" coords="208,544,406,571"/>
+<area shape="poly" id="edge20_Node000001_Node000019" title=" " alt="" coords="158,517,207,529,238,539,234,541,206,535,160,522"/>
+<area shape="rect" id="Node000020" href="$class_g_e_drawing_context.html#aaee25336f1556a0ea07e3bcabc38a352" title="Obtiene el formato de la imagen." alt="" coords="207,595,408,621"/>
+<area shape="poly" id="edge21_Node000001_Node000020" title=" " alt="" coords="109,518,155,550,208,580,226,589,221,590,206,585,152,555,110,523"/>
+<area shape="rect" id="Node000021" href="$class_g_e_drawing_context.html#a7b8a62f39a8390f5b08dd40e6d94da9e" title="Obtiene el número de imágenes de la swapchain." alt="" coords="209,645,406,688"/>
+<area shape="poly" id="edge22_Node000001_Node000021" title=" " alt="" coords="98,518,144,575,175,605,208,631,217,638,212,638,205,636,171,609,140,578,98,523"/>
+<area shape="rect" id="Node000005" href="$class_g_e_rendering_context.html#a30b91a68b3ab264ec7943ba1ffa14f96" title="Crea la información sobre el Fragment Shader." alt="" coords="478,320,673,379"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="378,408,466,382,461,385,380,412"/>
+<area shape="rect" id="Node000008" href="$class_g_e_rendering_context.html#af69fff24d2239c503976bfd98496eb54" title="Crea la información sobre la etapa de mezcla de colores." alt="" coords="488,403,663,461"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="389,429,474,431,469,433,391,435"/>
+<area shape="rect" id="Node000009" href="$class_g_e_rendering_context.html#a1ed7be455efa66dc53a325d0ef41cd31" title="Crea la información sobre los tests de profundidad y de plantilla." alt="" coords="482,485,668,544"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="379,451,470,481,465,482,379,457"/>
+<area shape="rect" id="Node000010" href="$class_g_e_rendering_context.html#a60ecf0b35e0a983cf9deb3c3d10cb2cc" title="Crea la información para el ensamblado de primitivas." alt="" coords="476,568,674,627"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="389,450,410,463,428,487,435,510,441,532,458,554,466,562,460,561,454,558,436,535,430,511,423,489,406,467,390,456"/>
+<area shape="rect" id="Node000011" href="$class_g_e_rendering_context.html#afbcc3fb57b630a02a26505ebaab9613b" title="Crea el esquema de los conjuntos de descriptores." alt="" coords="500,651,650,693"/>
+<area shape="poly" id="edge10_Node000004_Node000011" title=" " alt="" coords="389,448,410,463,426,486,433,508,434,552,435,595,442,616,458,637,488,658,483,658,454,641,438,619,430,596,429,553,428,509,421,488,406,467,389,454"/>
+<area shape="rect" id="Node000012" href="$class_g_e_rendering_context.html#a49a8f3e1323aa8bca61eff8d9a563956" title="Crea la información de la etapa de muestreo." alt="" coords="484,717,666,776"/>
+<area shape="poly" id="edge11_Node000004_Node000012" title=" " alt="" coords="389,448,410,464,430,495,438,525,439,556,435,585,431,615,431,644,439,674,458,704,474,719,468,718,454,707,434,676,426,645,426,615,430,585,433,555,433,526,425,497,406,467,389,453"/>
+<area shape="rect" id="Node000013" href="$class_g_e_rendering_context.html#a0a4e5219ca485904f858c7eb1de15520" title="Crea la información de la etapa de rasterización." alt="" coords="481,5,669,64"/>
+<area shape="poly" id="edge12_Node000004_Node000013" title=" " alt="" coords="388,412,406,397,421,377,430,357,439,317,437,278,430,238,422,198,420,158,429,117,439,95,454,74,470,62,466,66,458,78,444,98,434,118,425,158,427,198,435,237,442,277,444,317,436,358,425,379,410,400,391,416"/>
+<area shape="rect" id="Node000014" href="$class_g_e_rendering_context.html#a0bdaf567aa35edb4521a03818a7abab0" title="Crea la descripción de los atributos de los vértices." alt="" coords="486,88,664,147"/>
+<area shape="poly" id="edge13_Node000004_Node000014" title=" " alt="" coords="387,412,406,397,425,367,433,338,433,309,430,279,426,249,426,219,434,188,454,157,475,142,472,146,458,160,439,190,431,220,431,249,435,279,439,308,438,339,430,369,410,400,391,416"/>
+<area shape="rect" id="Node000015" href="$class_g_e_rendering_context.html#a131bc8d204c9ae3faf715f36bfdba8f2" title="Crea la información del viewport." alt="" coords="478,171,672,229"/>
+<area shape="poly" id="edge14_Node000004_Node000015" title=" " alt="" coords="387,411,406,397,420,378,427,359,429,320,432,280,439,260,454,240,468,231,464,235,458,243,444,262,437,281,435,320,432,360,425,380,410,401,391,415"/>
+<area shape="rect" id="Node000016" href="$class_g_e_rendering_context.html#aa10b997efa5b9408fefb7bbefff219cf" title="Crea la información sobre el Vertex Shader." alt="" coords="456,253,694,296"/>
+<area shape="poly" id="edge15_Node000004_Node000016" title=" " alt="" coords="388,409,406,397,423,375,429,352,436,329,454,306,463,303,459,306,458,310,441,331,434,354,428,377,410,401,391,413"/>
+<area shape="rect" id="Node000006" href="$class_g_e_rendering_context.html#a0915e69629916660bd8b22fedf4b2e1c" title="Crea un shader a partir de su código en SPIR&#45;V." alt="" coords="745,256,894,299"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="672,318,733,302,728,305,675,323"/>
+<area shape="rect" id="Node000007" href="$class_g_e_rendering_context.html#a50bcdd8c7da9656f5c93d7385a5eb714" title="Extrae el contenido de un fichero incluido como recurso de la aplicación." alt="" coords="742,324,897,367"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="673,345,729,346,724,348,674,350"/>
+<area shape="poly" id="edge16_Node000016_Node000006" title=" " alt="" coords="694,273,732,275,727,277,696,279"/>
+<area shape="poly" id="edge17_Node000016_Node000007" title=" " alt="" coords="654,294,695,305,734,319,729,320,694,311,655,299"/>
+<area shape="rect" id="Node000018" href="$class_g_e_graphics_context.html#a0d7cc8d858bf9deed9bf31b2d5b7ea36" title="Busca el formato de imagen adecuado para el buffer de profundidad." alt="" coords="502,800,648,843"/>
+<area shape="poly" id="edge19_Node000017_Node000018" title=" " alt="" coords="381,510,410,530,431,564,439,597,439,629,434,661,429,693,429,724,437,755,458,786,472,798,490,810,485,809,469,802,454,790,432,757,424,725,424,692,429,660,433,629,434,597,426,566,406,534,381,515"/>
+</map>

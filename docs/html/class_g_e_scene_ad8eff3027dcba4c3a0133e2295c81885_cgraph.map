@@ -1,0 +1,9 @@
+<map id="GEScene::recreate" name="GEScene::recreate">
+<area shape="rect" id="Node000001" title="Reconstruye los componentes gráficos de la escena." alt="" coords="5,56,138,83"/>
+<area shape="rect" id="Node000002" href="$class_g_e_scene.html#a233af529c8992d40f8b3a3eb134cf90a" title="Obtiene la configuración del pipeline para un extent dado." alt="" coords="186,5,391,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,53,216,35,211,38,133,58"/>
+<area shape="rect" id="Node000003" href="$class_g_e_scene.html#ad78bdafb113e91237b67ad7119ed4252" title="Rellena los buffers de comandos para el renderizado." alt="" coords="189,56,388,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="138,67,176,69,170,70,139,72"/>
+<area shape="rect" id="Node000004" href="$class_g_e_drawing_context.html#aadd6a6e9fe0b128b7559c1066a94f153" title="Obtiene la extensión de la imagen." alt="" coords="189,107,388,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="132,81,216,102,211,104,132,86"/>
+</map>

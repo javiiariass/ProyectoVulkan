@@ -1,0 +1,1718 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Animación Vulkan: Referencia de la clase GECamera</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">var page_layout=1;</script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="side-nav" class="ui-resizable side-nav-resizable"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Animación Vulkan<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Animación de tiro libre baloncesto con motor gráfico desarrollado en clase</div>
+  </td>
+ </tr>
+   <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td></tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_g_e_camera.html','','class_g_e_camera-members'); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','Buscar',true);
+});
+</script>
+<div id="main-nav"></div>
+<div id="container"><div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Referencia de la clase GECamera</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Clase que representa una cámara en el espacio 3D.  
+ <a href="#details">Más...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_g_e_camera_8h_source.html">GECamera.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a9e7395942078a1ffa1945f8e14cf1bb1" id="r_a9e7395942078a1ffa1945f8e14cf1bb1"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a9e7395942078a1ffa1945f8e14cf1bb1">GECamera</a> ()</td></tr>
+<tr class="memdesc:a9e7395942078a1ffa1945f8e14cf1bb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor por defecto.  <br /></td></tr>
+<tr class="memitem:a94ad7be54a42a1e44514cae0b3e912c6" id="r_a94ad7be54a42a1e44514cae0b3e912c6"><td class="memItemLeft">glm::mat4&#160;</td><td class="memItemRight"><a class="el" href="#a94ad7be54a42a1e44514cae0b3e912c6">getViewMatrix</a> ()</td></tr>
+<tr class="memdesc:a94ad7be54a42a1e44514cae0b3e912c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtiene la matriz View para situar la cámara.  <br /></td></tr>
+<tr class="memitem:ac04254305c65d438a4727d088fd97b73" id="r_ac04254305c65d438a4727d088fd97b73"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac04254305c65d438a4727d088fd97b73">setPosition</a> (glm::vec3 pos)</td></tr>
+<tr class="memdesc:ac04254305c65d438a4727d088fd97b73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Asigna la posición de la cámara.  <br /></td></tr>
+<tr class="memitem:abcba93d88cbb1345a92217b2ba67d81c" id="r_abcba93d88cbb1345a92217b2ba67d81c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#abcba93d88cbb1345a92217b2ba67d81c">setDirection</a> (glm::vec3 dir, glm::vec3 up)</td></tr>
+<tr class="memdesc:abcba93d88cbb1345a92217b2ba67d81c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Asigna la orientación de la cámara.  <br /></td></tr>
+<tr class="memitem:a1740eab0afd63dcb2064d31d66a2f6a1" id="r_a1740eab0afd63dcb2064d31d66a2f6a1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a1740eab0afd63dcb2064d31d66a2f6a1">setMoveStep</a> (float step)</td></tr>
+<tr class="memdesc:a1740eab0afd63dcb2064d31d66a2f6a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Asigna el avance en cada paso.  <br /></td></tr>
+<tr class="memitem:a557a7e16476d82e62b491e39aa7698c2" id="r_a557a7e16476d82e62b491e39aa7698c2"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a557a7e16476d82e62b491e39aa7698c2">setTurnStep</a> (float step)</td></tr>
+<tr class="memdesc:a557a7e16476d82e62b491e39aa7698c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Asigna el ángulo de giro en cada paso.  <br /></td></tr>
+<tr class="memitem:a52e28dd24484996bccd3001ac9da7000" id="r_a52e28dd24484996bccd3001ac9da7000"><td class="memItemLeft">glm::vec3&#160;</td><td class="memItemRight"><a class="el" href="#a52e28dd24484996bccd3001ac9da7000">getPosition</a> ()</td></tr>
+<tr class="memdesc:a52e28dd24484996bccd3001ac9da7000"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtiene la posición de la cámara.  <br /></td></tr>
+<tr class="memitem:a2bf1fb52be984e328e5b192a43e119a0" id="r_a2bf1fb52be984e328e5b192a43e119a0"><td class="memItemLeft">glm::vec3&#160;</td><td class="memItemRight"><a class="el" href="#a2bf1fb52be984e328e5b192a43e119a0">getDirection</a> ()</td></tr>
+<tr class="memdesc:a2bf1fb52be984e328e5b192a43e119a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtiene la dirección (eje Z) de la cámara.  <br /></td></tr>
+<tr class="memitem:af139d3595799b6623db7665da3da36c4" id="r_af139d3595799b6623db7665da3da36c4"><td class="memItemLeft">glm::vec3&#160;</td><td class="memItemRight"><a class="el" href="#af139d3595799b6623db7665da3da36c4">getUpDirection</a> ()</td></tr>
+<tr class="memdesc:af139d3595799b6623db7665da3da36c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtiene el vector arriba (eje Y) de la cámara.  <br /></td></tr>
+<tr class="memitem:a5d5d9fe952b19076a7a25602348cf2dc" id="r_a5d5d9fe952b19076a7a25602348cf2dc"><td class="memItemLeft">float&#160;</td><td class="memItemRight"><a class="el" href="#a5d5d9fe952b19076a7a25602348cf2dc">getMoveStep</a> ()</td></tr>
+<tr class="memdesc:a5d5d9fe952b19076a7a25602348cf2dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtiene el avance en cada paso.  <br /></td></tr>
+<tr class="memitem:a3a785cd4fca91c82a1dd7ae547913f5f" id="r_a3a785cd4fca91c82a1dd7ae547913f5f"><td class="memItemLeft">float&#160;</td><td class="memItemRight"><a class="el" href="#a3a785cd4fca91c82a1dd7ae547913f5f">getTurnStep</a> ()</td></tr>
+<tr class="memdesc:a3a785cd4fca91c82a1dd7ae547913f5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtiene el ángulo de giro en cada paso.  <br /></td></tr>
+<tr class="memitem:a83e955f594a57f6eb6e65d77e8137a7b" id="r_a83e955f594a57f6eb6e65d77e8137a7b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a83e955f594a57f6eb6e65d77e8137a7b">update</a> ()</td></tr>
+<tr class="memdesc:a83e955f594a57f6eb6e65d77e8137a7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Actualiza la posición y orientación según entradas.  <br /></td></tr>
+<tr class="memitem:a7d755a413b50bcc902e3f0c4c803de6e" id="r_a7d755a413b50bcc902e3f0c4c803de6e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7d755a413b50bcc902e3f0c4c803de6e">setTurnLeft</a> (bool flag)</td></tr>
+<tr class="memdesc:a7d755a413b50bcc902e3f0c4c803de6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activa o desactiva el giro a la izquierda.  <br /></td></tr>
+<tr class="memitem:a7d637377864e79f85cbee144b57a418e" id="r_a7d637377864e79f85cbee144b57a418e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7d637377864e79f85cbee144b57a418e">setTurnRight</a> (bool flag)</td></tr>
+<tr class="memdesc:a7d637377864e79f85cbee144b57a418e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activa o desactiva el giro a la derecha.  <br /></td></tr>
+<tr class="memitem:a5c728ee60fe4075b60bf66c8ae3ebadf" id="r_a5c728ee60fe4075b60bf66c8ae3ebadf"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5c728ee60fe4075b60bf66c8ae3ebadf">setTurnUp</a> (bool flag)</td></tr>
+<tr class="memdesc:a5c728ee60fe4075b60bf66c8ae3ebadf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activa o desactiva el giro hacia arriba.  <br /></td></tr>
+<tr class="memitem:a88d35ebff2168dcea237596c59f52ab8" id="r_a88d35ebff2168dcea237596c59f52ab8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a88d35ebff2168dcea237596c59f52ab8">setTurnDown</a> (bool flag)</td></tr>
+<tr class="memdesc:a88d35ebff2168dcea237596c59f52ab8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activa o desactiva el giro hacia abajo.  <br /></td></tr>
+<tr class="memitem:a0156e3495d01528cc5e5117094005338" id="r_a0156e3495d01528cc5e5117094005338"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0156e3495d01528cc5e5117094005338">setTurnCW</a> (bool flag)</td></tr>
+<tr class="memdesc:a0156e3495d01528cc5e5117094005338"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activa o desactiva el giro horario.  <br /></td></tr>
+<tr class="memitem:a444d037d8969a1bddace0548c98f117b" id="r_a444d037d8969a1bddace0548c98f117b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a444d037d8969a1bddace0548c98f117b">setTurnCCW</a> (bool flag)</td></tr>
+<tr class="memdesc:a444d037d8969a1bddace0548c98f117b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activa o desactiva el giro antihorario.  <br /></td></tr>
+<tr class="memitem:a4ddee042912f80dd5489333a2f40c276" id="r_a4ddee042912f80dd5489333a2f40c276"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4ddee042912f80dd5489333a2f40c276">setMoveLeft</a> (bool flag)</td></tr>
+<tr class="memdesc:a4ddee042912f80dd5489333a2f40c276"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activa o desactiva el desplazamiento a la izquierda.  <br /></td></tr>
+<tr class="memitem:af160a8000655866c7782b9192f794c96" id="r_af160a8000655866c7782b9192f794c96"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af160a8000655866c7782b9192f794c96">setMoveRight</a> (bool flag)</td></tr>
+<tr class="memdesc:af160a8000655866c7782b9192f794c96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activa o desactiva el desplazamiento a la derecha.  <br /></td></tr>
+<tr class="memitem:a893c9fb8bc739bc9c9e9b8efed91503c" id="r_a893c9fb8bc739bc9c9e9b8efed91503c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a893c9fb8bc739bc9c9e9b8efed91503c">setMoveUp</a> (bool flag)</td></tr>
+<tr class="memdesc:a893c9fb8bc739bc9c9e9b8efed91503c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activa o desactiva el desplazamiento hacia arriba.  <br /></td></tr>
+<tr class="memitem:aa9b0bdf5881f665fb6e24c2648159b2e" id="r_aa9b0bdf5881f665fb6e24c2648159b2e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa9b0bdf5881f665fb6e24c2648159b2e">setMoveDown</a> (bool flag)</td></tr>
+<tr class="memdesc:aa9b0bdf5881f665fb6e24c2648159b2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activa o desactiva el desplazamiento hacia abajo.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Métodos privados</h2></td></tr>
+<tr class="memitem:a9ab05a0f84590249c876a64b128b565e" id="r_a9ab05a0f84590249c876a64b128b565e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9ab05a0f84590249c876a64b128b565e">turnRight</a> ()</td></tr>
+<tr class="memdesc:a9ab05a0f84590249c876a64b128b565e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rota el observador un paso hacia su derecha.  <br /></td></tr>
+<tr class="memitem:afd8491948b0482d6b542983b3052915f" id="r_afd8491948b0482d6b542983b3052915f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afd8491948b0482d6b542983b3052915f">turnLeft</a> ()</td></tr>
+<tr class="memdesc:afd8491948b0482d6b542983b3052915f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rota el observador un paso hacia su izquierda.  <br /></td></tr>
+<tr class="memitem:adea234ba1f06e6408ac1937d53acbb7b" id="r_adea234ba1f06e6408ac1937d53acbb7b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#adea234ba1f06e6408ac1937d53acbb7b">turnUp</a> ()</td></tr>
+<tr class="memdesc:adea234ba1f06e6408ac1937d53acbb7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rota el observador un paso hacia arriba.  <br /></td></tr>
+<tr class="memitem:ab19eedafa22b07fb557d0359890ab15e" id="r_ab19eedafa22b07fb557d0359890ab15e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab19eedafa22b07fb557d0359890ab15e">turnDown</a> ()</td></tr>
+<tr class="memdesc:ab19eedafa22b07fb557d0359890ab15e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rota el observador un paso hacia abajo.  <br /></td></tr>
+<tr class="memitem:a73173ea24e7abd46e6eef216bf1de839" id="r_a73173ea24e7abd46e6eef216bf1de839"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a73173ea24e7abd46e6eef216bf1de839">turnCW</a> ()</td></tr>
+<tr class="memdesc:a73173ea24e7abd46e6eef216bf1de839"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rota el observador un paso en sentido horario.  <br /></td></tr>
+<tr class="memitem:aaed635fd6f4b799143bcce2a5646553d" id="r_aaed635fd6f4b799143bcce2a5646553d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aaed635fd6f4b799143bcce2a5646553d">turnCCW</a> ()</td></tr>
+<tr class="memdesc:aaed635fd6f4b799143bcce2a5646553d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rota el observador un paso en sentido antihorario.  <br /></td></tr>
+<tr class="memitem:a1ba0d6addb4272f2ac627cf8beb0c264" id="r_a1ba0d6addb4272f2ac627cf8beb0c264"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a1ba0d6addb4272f2ac627cf8beb0c264">moveLeft</a> ()</td></tr>
+<tr class="memdesc:a1ba0d6addb4272f2ac627cf8beb0c264"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mueve el observador un paso hacia la izquierda.  <br /></td></tr>
+<tr class="memitem:a641f83f1c26619950565d60efc21e3cf" id="r_a641f83f1c26619950565d60efc21e3cf"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a641f83f1c26619950565d60efc21e3cf">moveRight</a> ()</td></tr>
+<tr class="memdesc:a641f83f1c26619950565d60efc21e3cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mueve el observador un paso hacia la derecha.  <br /></td></tr>
+<tr class="memitem:a79904b61df7fbfd2a66299cfbe6a69e6" id="r_a79904b61df7fbfd2a66299cfbe6a69e6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a79904b61df7fbfd2a66299cfbe6a69e6">moveUp</a> ()</td></tr>
+<tr class="memdesc:a79904b61df7fbfd2a66299cfbe6a69e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mueve el observador un paso hacia arriba.  <br /></td></tr>
+<tr class="memitem:aa920ec52e1d44bbc8cc89aece25421ce" id="r_aa920ec52e1d44bbc8cc89aece25421ce"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa920ec52e1d44bbc8cc89aece25421ce">moveDown</a> ()</td></tr>
+<tr class="memdesc:aa920ec52e1d44bbc8cc89aece25421ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mueve el observador un paso hacia abajo.  <br /></td></tr>
+<tr class="memitem:a777f0cd36c79b1e8e24f09249862e544" id="r_a777f0cd36c79b1e8e24f09249862e544"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a777f0cd36c79b1e8e24f09249862e544">moveFront</a> ()</td></tr>
+<tr class="memdesc:a777f0cd36c79b1e8e24f09249862e544"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mueve el observador un paso hacia adelante (dirección -Dir).  <br /></td></tr>
+<tr class="memitem:aa42a4e31f36f7e15d156750165578de5" id="r_aa42a4e31f36f7e15d156750165578de5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa42a4e31f36f7e15d156750165578de5">moveBack</a> ()</td></tr>
+<tr class="memdesc:aa42a4e31f36f7e15d156750165578de5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mueve el observador un paso hacia atrás (dirección Dir).  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Atributos privados</h2></td></tr>
+<tr class="memitem:a0661cce91c328f174c45efaecf4ef274" id="r_a0661cce91c328f174c45efaecf4ef274"><td class="memItemLeft">glm::vec3&#160;</td><td class="memItemRight"><a class="el" href="#a0661cce91c328f174c45efaecf4ef274">Pos</a></td></tr>
+<tr class="memdesc:a0661cce91c328f174c45efaecf4ef274"><td class="mdescLeft">&#160;</td><td class="mdescRight">Posición de la cámara en coordenadas del mundo.  <br /></td></tr>
+<tr class="memitem:a4a6e9f68b5f17d27ef5b7cf216cda00f" id="r_a4a6e9f68b5f17d27ef5b7cf216cda00f"><td class="memItemLeft">glm::vec3&#160;</td><td class="memItemRight"><a class="el" href="#a4a6e9f68b5f17d27ef5b7cf216cda00f">Dir</a></td></tr>
+<tr class="memdesc:a4a6e9f68b5f17d27ef5b7cf216cda00f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector dirección (eje Z) de la cámara.  <br /></td></tr>
+<tr class="memitem:ac9a2e62258ededf818af284ebd9f13c1" id="r_ac9a2e62258ededf818af284ebd9f13c1"><td class="memItemLeft">glm::vec3&#160;</td><td class="memItemRight"><a class="el" href="#ac9a2e62258ededf818af284ebd9f13c1">Up</a></td></tr>
+<tr class="memdesc:ac9a2e62258ededf818af284ebd9f13c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector 'arriba' (eje Y) de la cámara.  <br /></td></tr>
+<tr class="memitem:ade00dc2b91eaf5adcf816b20bebc7402" id="r_ade00dc2b91eaf5adcf816b20bebc7402"><td class="memItemLeft">glm::vec3&#160;</td><td class="memItemRight"><a class="el" href="#ade00dc2b91eaf5adcf816b20bebc7402">Right</a></td></tr>
+<tr class="memdesc:ade00dc2b91eaf5adcf816b20bebc7402"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector derecho (eje X) de la cámara.  <br /></td></tr>
+<tr class="memitem:acde5044640e663d1459bc2848444073a" id="r_acde5044640e663d1459bc2848444073a"><td class="memItemLeft">float&#160;</td><td class="memItemRight"><a class="el" href="#acde5044640e663d1459bc2848444073a">moveStep</a></td></tr>
+<tr class="memdesc:acde5044640e663d1459bc2848444073a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tamaño del paso para movimientos.  <br /></td></tr>
+<tr class="memitem:ad577e1bc8b89f7b8004321fa48ed08dc" id="r_ad577e1bc8b89f7b8004321fa48ed08dc"><td class="memItemLeft">float&#160;</td><td class="memItemRight"><a class="el" href="#ad577e1bc8b89f7b8004321fa48ed08dc">turnStep</a></td></tr>
+<tr class="memdesc:ad577e1bc8b89f7b8004321fa48ed08dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ángulo de giro en grados.  <br /></td></tr>
+<tr class="memitem:a528d768a443a827b61c51a0d41cda45c" id="r_a528d768a443a827b61c51a0d41cda45c"><td class="memItemLeft">float&#160;</td><td class="memItemRight"><a class="el" href="#a528d768a443a827b61c51a0d41cda45c">cosAngle</a></td></tr>
+<tr class="memdesc:a528d768a443a827b61c51a0d41cda45c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coseno del ángulo de giro (cache).  <br /></td></tr>
+<tr class="memitem:ae553809257c980b24fe9ba458e5c9a89" id="r_ae553809257c980b24fe9ba458e5c9a89"><td class="memItemLeft">float&#160;</td><td class="memItemRight"><a class="el" href="#ae553809257c980b24fe9ba458e5c9a89">sinAngle</a></td></tr>
+<tr class="memdesc:ae553809257c980b24fe9ba458e5c9a89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Seno del ángulo de giro (cache).  <br /></td></tr>
+<tr class="memitem:a3efe60c1146de74d0f1244916ca99cc1" id="r_a3efe60c1146de74d0f1244916ca99cc1"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a3efe60c1146de74d0f1244916ca99cc1">turnLeftPressed</a></td></tr>
+<tr class="memdesc:a3efe60c1146de74d0f1244916ca99cc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag de giro a la izquierda.  <br /></td></tr>
+<tr class="memitem:a67a4a46a1a6de759827e42487f28e783" id="r_a67a4a46a1a6de759827e42487f28e783"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a67a4a46a1a6de759827e42487f28e783">turnRightPressed</a></td></tr>
+<tr class="memdesc:a67a4a46a1a6de759827e42487f28e783"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag de giro a la derecha.  <br /></td></tr>
+<tr class="memitem:a437888b21b4dcbe18bba7ee69ef4bc04" id="r_a437888b21b4dcbe18bba7ee69ef4bc04"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a437888b21b4dcbe18bba7ee69ef4bc04">turnUpPressed</a></td></tr>
+<tr class="memdesc:a437888b21b4dcbe18bba7ee69ef4bc04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag de giro hacia arriba.  <br /></td></tr>
+<tr class="memitem:a9d56e27cdfdc5f0cd1b286fcd614ca19" id="r_a9d56e27cdfdc5f0cd1b286fcd614ca19"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a9d56e27cdfdc5f0cd1b286fcd614ca19">turnDownPressed</a></td></tr>
+<tr class="memdesc:a9d56e27cdfdc5f0cd1b286fcd614ca19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag de giro hacia abajo.  <br /></td></tr>
+<tr class="memitem:a63bbd979358c4d4c3f23a59ba5bd6d96" id="r_a63bbd979358c4d4c3f23a59ba5bd6d96"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a63bbd979358c4d4c3f23a59ba5bd6d96">turnCWPressed</a></td></tr>
+<tr class="memdesc:a63bbd979358c4d4c3f23a59ba5bd6d96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag de giro horario.  <br /></td></tr>
+<tr class="memitem:ae78ed7ec6c1b8dc6c337e1dfb1467d58" id="r_ae78ed7ec6c1b8dc6c337e1dfb1467d58"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ae78ed7ec6c1b8dc6c337e1dfb1467d58">turnCCWPressed</a></td></tr>
+<tr class="memdesc:ae78ed7ec6c1b8dc6c337e1dfb1467d58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag de giro antihorario.  <br /></td></tr>
+<tr class="memitem:a119132ad1811388ea75a44c89b9b5c39" id="r_a119132ad1811388ea75a44c89b9b5c39"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a119132ad1811388ea75a44c89b9b5c39">moveLeftPressed</a></td></tr>
+<tr class="memdesc:a119132ad1811388ea75a44c89b9b5c39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag de desplazamiento a la izquierda.  <br /></td></tr>
+<tr class="memitem:a9ea1f501e87211cb7f61487b54ed14ca" id="r_a9ea1f501e87211cb7f61487b54ed14ca"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a9ea1f501e87211cb7f61487b54ed14ca">moveRightPressed</a></td></tr>
+<tr class="memdesc:a9ea1f501e87211cb7f61487b54ed14ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag de desplazamiento a la derecha.  <br /></td></tr>
+<tr class="memitem:a7999381d67c21191ac145bd57c6c9c18" id="r_a7999381d67c21191ac145bd57c6c9c18"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a7999381d67c21191ac145bd57c6c9c18">moveUpPressed</a></td></tr>
+<tr class="memdesc:a7999381d67c21191ac145bd57c6c9c18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag de desplazamiento hacia arriba.  <br /></td></tr>
+<tr class="memitem:aed8c0881dc3dabdb9316969b7ecc22b1" id="r_aed8c0881dc3dabdb9316969b7ecc22b1"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aed8c0881dc3dabdb9316969b7ecc22b1">moveDownPressed</a></td></tr>
+<tr class="memdesc:aed8c0881dc3dabdb9316969b7ecc22b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag de desplazamiento hacia abajo.  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Clase que representa una cámara en el espacio 3D. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Documentación de constructores y destructores</h2>
+<a id="a9e7395942078a1ffa1945f8e14cf1bb1" name="a9e7395942078a1ffa1945f8e14cf1bb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e7395942078a1ffa1945f8e14cf1bb1">&#9670;&#160;</a></span>GECamera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GECamera::GECamera </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor por defecto. </p>
+<p>Construye una cámara.</p>
+<p>La posición inicial es (0,0,0). La orientación inicial es el sistema de coordenadas del modelo. El tamaño del paso inicial es 0.1. El tamaño del giro inicial es 1.0 grados. </p>
+
+<p class="reference">Hace referencia a <a class="el" href="#a528d768a443a827b61c51a0d41cda45c">cosAngle</a>, <a class="el" href="#a4a6e9f68b5f17d27ef5b7cf216cda00f">Dir</a>, <a class="el" href="#aed8c0881dc3dabdb9316969b7ecc22b1">moveDownPressed</a>, <a class="el" href="#a119132ad1811388ea75a44c89b9b5c39">moveLeftPressed</a>, <a class="el" href="#a9ea1f501e87211cb7f61487b54ed14ca">moveRightPressed</a>, <a class="el" href="#acde5044640e663d1459bc2848444073a">moveStep</a>, <a class="el" href="#a7999381d67c21191ac145bd57c6c9c18">moveUpPressed</a>, <a class="el" href="#a0661cce91c328f174c45efaecf4ef274">Pos</a>, <a class="el" href="#ade00dc2b91eaf5adcf816b20bebc7402">Right</a>, <a class="el" href="#ae553809257c980b24fe9ba458e5c9a89">sinAngle</a>, <a class="el" href="#ae78ed7ec6c1b8dc6c337e1dfb1467d58">turnCCWPressed</a>, <a class="el" href="#a63bbd979358c4d4c3f23a59ba5bd6d96">turnCWPressed</a>, <a class="el" href="#a9d56e27cdfdc5f0cd1b286fcd614ca19">turnDownPressed</a>, <a class="el" href="#a3efe60c1146de74d0f1244916ca99cc1">turnLeftPressed</a>, <a class="el" href="#a67a4a46a1a6de759827e42487f28e783">turnRightPressed</a>, <a class="el" href="#ad577e1bc8b89f7b8004321fa48ed08dc">turnStep</a>, <a class="el" href="#a437888b21b4dcbe18bba7ee69ef4bc04">turnUpPressed</a> y <a class="el" href="#ac9a2e62258ededf818af284ebd9f13c1">Up</a>.</p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Documentación de funciones miembro</h2>
+<a id="a2bf1fb52be984e328e5b192a43e119a0" name="a2bf1fb52be984e328e5b192a43e119a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bf1fb52be984e328e5b192a43e119a0">&#9670;&#160;</a></span>getDirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::vec3 GECamera::getDirection </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Obtiene la dirección (eje Z) de la cámara. </p>
+<p>Obtiene la orientación de la cámara (eje Z).</p>
+<dl class="section return"><dt>Devuelve</dt><dd>Dirección de la cámara. </dd></dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#a4a6e9f68b5f17d27ef5b7cf216cda00f">Dir</a>.</p>
+
+</div>
+</div>
+<a id="a5d5d9fe952b19076a7a25602348cf2dc" name="a5d5d9fe952b19076a7a25602348cf2dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d5d9fe952b19076a7a25602348cf2dc">&#9670;&#160;</a></span>getMoveStep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GECamera::getMoveStep </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Obtiene el avance en cada paso. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>Tamaño del paso. </dd></dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#acde5044640e663d1459bc2848444073a">moveStep</a>.</p>
+
+</div>
+</div>
+<a id="a52e28dd24484996bccd3001ac9da7000" name="a52e28dd24484996bccd3001ac9da7000"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52e28dd24484996bccd3001ac9da7000">&#9670;&#160;</a></span>getPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::vec3 GECamera::getPosition </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Obtiene la posición de la cámara. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>Posición de la cámara. </dd></dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#a0661cce91c328f174c45efaecf4ef274">Pos</a>.</p>
+
+</div>
+</div>
+<a id="a3a785cd4fca91c82a1dd7ae547913f5f" name="a3a785cd4fca91c82a1dd7ae547913f5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a785cd4fca91c82a1dd7ae547913f5f">&#9670;&#160;</a></span>getTurnStep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GECamera::getTurnStep </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Obtiene el ángulo de giro en cada paso. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>Ángulo de giro en grados. </dd></dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#ad577e1bc8b89f7b8004321fa48ed08dc">turnStep</a>.</p>
+
+</div>
+</div>
+<a id="af139d3595799b6623db7665da3da36c4" name="af139d3595799b6623db7665da3da36c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af139d3595799b6623db7665da3da36c4">&#9670;&#160;</a></span>getUpDirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::vec3 GECamera::getUpDirection </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Obtiene el vector arriba (eje Y) de la cámara. </p>
+<p>Obtiene la orientación cenital de la cámara (eje Y).</p>
+<dl class="section return"><dt>Devuelve</dt><dd>Vector arriba.</dd>
+<dd>
+Vector arriba de la cámara. </dd></dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#ac9a2e62258ededf818af284ebd9f13c1">Up</a>.</p>
+
+</div>
+</div>
+<a id="a94ad7be54a42a1e44514cae0b3e912c6" name="a94ad7be54a42a1e44514cae0b3e912c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94ad7be54a42a1e44514cae0b3e912c6">&#9670;&#160;</a></span>getViewMatrix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::mat4 GECamera::getViewMatrix </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Obtiene la matriz View para situar la cámara. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>Matriz de vista. </dd></dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#a4a6e9f68b5f17d27ef5b7cf216cda00f">Dir</a>, <a class="el" href="#a0661cce91c328f174c45efaecf4ef274">Pos</a> y <a class="el" href="#ac9a2e62258ededf818af284ebd9f13c1">Up</a>.</p>
+
+</div>
+</div>
+<a id="aa42a4e31f36f7e15d156750165578de5" name="aa42a4e31f36f7e15d156750165578de5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa42a4e31f36f7e15d156750165578de5">&#9670;&#160;</a></span>moveBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GECamera::moveBack </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Mueve el observador un paso hacia atrás (dirección Dir). </p>
+
+<p class="reference">Hace referencia a <a class="el" href="#a4a6e9f68b5f17d27ef5b7cf216cda00f">Dir</a>, <a class="el" href="#acde5044640e663d1459bc2848444073a">moveStep</a> y <a class="el" href="#a0661cce91c328f174c45efaecf4ef274">Pos</a>.</p>
+
+</div>
+</div>
+<a id="aa920ec52e1d44bbc8cc89aece25421ce" name="aa920ec52e1d44bbc8cc89aece25421ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa920ec52e1d44bbc8cc89aece25421ce">&#9670;&#160;</a></span>moveDown()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GECamera::moveDown </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Mueve el observador un paso hacia abajo. </p>
+
+<p class="reference">Hace referencia a <a class="el" href="#a0661cce91c328f174c45efaecf4ef274">Pos</a> y <a class="el" href="#ac9a2e62258ededf818af284ebd9f13c1">Up</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="#a83e955f594a57f6eb6e65d77e8137a7b">update()</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_g_e_camera_aa920ec52e1d44bbc8cc89aece25421ce_icgraph.svg" width="352" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a777f0cd36c79b1e8e24f09249862e544" name="a777f0cd36c79b1e8e24f09249862e544"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a777f0cd36c79b1e8e24f09249862e544">&#9670;&#160;</a></span>moveFront()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GECamera::moveFront </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Mueve el observador un paso hacia adelante (dirección -Dir). </p>
+
+<p class="reference">Hace referencia a <a class="el" href="#a4a6e9f68b5f17d27ef5b7cf216cda00f">Dir</a>, <a class="el" href="#acde5044640e663d1459bc2848444073a">moveStep</a> y <a class="el" href="#a0661cce91c328f174c45efaecf4ef274">Pos</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="#a83e955f594a57f6eb6e65d77e8137a7b">update()</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_g_e_camera_a777f0cd36c79b1e8e24f09249862e544_icgraph.svg" width="348" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a1ba0d6addb4272f2ac627cf8beb0c264" name="a1ba0d6addb4272f2ac627cf8beb0c264"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ba0d6addb4272f2ac627cf8beb0c264">&#9670;&#160;</a></span>moveLeft()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GECamera::moveLeft </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Mueve el observador un paso hacia la izquierda. </p>
+
+<p class="reference">Hace referencia a <a class="el" href="#a0661cce91c328f174c45efaecf4ef274">Pos</a> y <a class="el" href="#ade00dc2b91eaf5adcf816b20bebc7402">Right</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="#a83e955f594a57f6eb6e65d77e8137a7b">update()</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_g_e_camera_a1ba0d6addb4272f2ac627cf8beb0c264_icgraph.svg" width="340" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a641f83f1c26619950565d60efc21e3cf" name="a641f83f1c26619950565d60efc21e3cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a641f83f1c26619950565d60efc21e3cf">&#9670;&#160;</a></span>moveRight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GECamera::moveRight </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Mueve el observador un paso hacia la derecha. </p>
+
+<p class="reference">Hace referencia a <a class="el" href="#a0661cce91c328f174c45efaecf4ef274">Pos</a> y <a class="el" href="#ade00dc2b91eaf5adcf816b20bebc7402">Right</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="#a83e955f594a57f6eb6e65d77e8137a7b">update()</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_g_e_camera_a641f83f1c26619950565d60efc21e3cf_icgraph.svg" width="350" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a79904b61df7fbfd2a66299cfbe6a69e6" name="a79904b61df7fbfd2a66299cfbe6a69e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79904b61df7fbfd2a66299cfbe6a69e6">&#9670;&#160;</a></span>moveUp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GECamera::moveUp </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Mueve el observador un paso hacia arriba. </p>
+
+<p class="reference">Hace referencia a <a class="el" href="#a0661cce91c328f174c45efaecf4ef274">Pos</a> y <a class="el" href="#ac9a2e62258ededf818af284ebd9f13c1">Up</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="#a83e955f594a57f6eb6e65d77e8137a7b">update()</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_g_e_camera_a79904b61df7fbfd2a66299cfbe6a69e6_icgraph.svg" width="336" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="abcba93d88cbb1345a92217b2ba67d81c" name="abcba93d88cbb1345a92217b2ba67d81c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcba93d88cbb1345a92217b2ba67d81c">&#9670;&#160;</a></span>setDirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GECamera::setDirection </td>
+          <td>(</td>
+          <td class="paramtype">glm::vec3</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">glm::vec3</td>          <td class="paramname"><span class="paramname"><em>up</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Asigna la orientación de la cámara. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dir</td><td>Dirección de la cámara. </td></tr>
+    <tr><td class="paramname">up</td><td>Vector arriba. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#a4a6e9f68b5f17d27ef5b7cf216cda00f">Dir</a>, <a class="el" href="#ade00dc2b91eaf5adcf816b20bebc7402">Right</a> y <a class="el" href="#ac9a2e62258ededf818af284ebd9f13c1">Up</a>.</p>
+
+</div>
+</div>
+<a id="aa9b0bdf5881f665fb6e24c2648159b2e" name="aa9b0bdf5881f665fb6e24c2648159b2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9b0bdf5881f665fb6e24c2648159b2e">&#9670;&#160;</a></span>setMoveDown()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GECamera::setMoveDown </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>flag</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Activa o desactiva el desplazamiento hacia abajo. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">flag</td><td>true para activar, false para desactivar. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#aed8c0881dc3dabdb9316969b7ecc22b1">moveDownPressed</a>.</p>
+
+</div>
+</div>
+<a id="a4ddee042912f80dd5489333a2f40c276" name="a4ddee042912f80dd5489333a2f40c276"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ddee042912f80dd5489333a2f40c276">&#9670;&#160;</a></span>setMoveLeft()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GECamera::setMoveLeft </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>flag</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Activa o desactiva el desplazamiento a la izquierda. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">flag</td><td>true para activar, false para desactivar. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#a119132ad1811388ea75a44c89b9b5c39">moveLeftPressed</a>.</p>
+
+</div>
+</div>
+<a id="af160a8000655866c7782b9192f794c96" name="af160a8000655866c7782b9192f794c96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af160a8000655866c7782b9192f794c96">&#9670;&#160;</a></span>setMoveRight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GECamera::setMoveRight </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>flag</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Activa o desactiva el desplazamiento a la derecha. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">flag</td><td>true para activar, false para desactivar. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#a9ea1f501e87211cb7f61487b54ed14ca">moveRightPressed</a>.</p>
+
+</div>
+</div>
+<a id="a1740eab0afd63dcb2064d31d66a2f6a1" name="a1740eab0afd63dcb2064d31d66a2f6a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1740eab0afd63dcb2064d31d66a2f6a1">&#9670;&#160;</a></span>setMoveStep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GECamera::setMoveStep </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>step</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Asigna el avance en cada paso. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">step</td><td>Tamaño del paso. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#acde5044640e663d1459bc2848444073a">moveStep</a>.</p>
+
+</div>
+</div>
+<a id="a893c9fb8bc739bc9c9e9b8efed91503c" name="a893c9fb8bc739bc9c9e9b8efed91503c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a893c9fb8bc739bc9c9e9b8efed91503c">&#9670;&#160;</a></span>setMoveUp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GECamera::setMoveUp </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>flag</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Activa o desactiva el desplazamiento hacia arriba. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">flag</td><td>true para activar, false para desactivar. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#a7999381d67c21191ac145bd57c6c9c18">moveUpPressed</a>.</p>
+
+</div>
+</div>
+<a id="ac04254305c65d438a4727d088fd97b73" name="ac04254305c65d438a4727d088fd97b73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac04254305c65d438a4727d088fd97b73">&#9670;&#160;</a></span>setPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GECamera::setPosition </td>
+          <td>(</td>
+          <td class="paramtype">glm::vec3</td>          <td class="paramname"><span class="paramname"><em>pos</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Asigna la posición de la cámara. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pos</td><td>Posición en coordenadas del modelo. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#a0661cce91c328f174c45efaecf4ef274">Pos</a>.</p>
+
+</div>
+</div>
+<a id="a444d037d8969a1bddace0548c98f117b" name="a444d037d8969a1bddace0548c98f117b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a444d037d8969a1bddace0548c98f117b">&#9670;&#160;</a></span>setTurnCCW()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GECamera::setTurnCCW </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>flag</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Activa o desactiva el giro antihorario. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">flag</td><td>true para activar, false para desactivar. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#ae78ed7ec6c1b8dc6c337e1dfb1467d58">turnCCWPressed</a>.</p>
+
+</div>
+</div>
+<a id="a0156e3495d01528cc5e5117094005338" name="a0156e3495d01528cc5e5117094005338"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0156e3495d01528cc5e5117094005338">&#9670;&#160;</a></span>setTurnCW()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GECamera::setTurnCW </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>flag</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Activa o desactiva el giro horario. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">flag</td><td>true para activar, false para desactivar. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#a63bbd979358c4d4c3f23a59ba5bd6d96">turnCWPressed</a>.</p>
+
+</div>
+</div>
+<a id="a88d35ebff2168dcea237596c59f52ab8" name="a88d35ebff2168dcea237596c59f52ab8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88d35ebff2168dcea237596c59f52ab8">&#9670;&#160;</a></span>setTurnDown()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GECamera::setTurnDown </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>flag</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Activa o desactiva el giro hacia abajo. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">flag</td><td>true para activar, false para desactivar. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#a9d56e27cdfdc5f0cd1b286fcd614ca19">turnDownPressed</a>.</p>
+
+</div>
+</div>
+<a id="a7d755a413b50bcc902e3f0c4c803de6e" name="a7d755a413b50bcc902e3f0c4c803de6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d755a413b50bcc902e3f0c4c803de6e">&#9670;&#160;</a></span>setTurnLeft()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GECamera::setTurnLeft </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>flag</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Activa o desactiva el giro a la izquierda. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">flag</td><td>true para activar, false para desactivar. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#a3efe60c1146de74d0f1244916ca99cc1">turnLeftPressed</a>.</p>
+
+</div>
+</div>
+<a id="a7d637377864e79f85cbee144b57a418e" name="a7d637377864e79f85cbee144b57a418e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d637377864e79f85cbee144b57a418e">&#9670;&#160;</a></span>setTurnRight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GECamera::setTurnRight </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>flag</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Activa o desactiva el giro a la derecha. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">flag</td><td>true para activar, false para desactivar. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#a67a4a46a1a6de759827e42487f28e783">turnRightPressed</a>.</p>
+
+</div>
+</div>
+<a id="a557a7e16476d82e62b491e39aa7698c2" name="a557a7e16476d82e62b491e39aa7698c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a557a7e16476d82e62b491e39aa7698c2">&#9670;&#160;</a></span>setTurnStep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GECamera::setTurnStep </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>step</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Asigna el ángulo de giro en cada paso. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">step</td><td>Ángulo de giro en grados. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#a528d768a443a827b61c51a0d41cda45c">cosAngle</a>, <a class="el" href="#ae553809257c980b24fe9ba458e5c9a89">sinAngle</a> y <a class="el" href="#ad577e1bc8b89f7b8004321fa48ed08dc">turnStep</a>.</p>
+
+</div>
+</div>
+<a id="a5c728ee60fe4075b60bf66c8ae3ebadf" name="a5c728ee60fe4075b60bf66c8ae3ebadf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c728ee60fe4075b60bf66c8ae3ebadf">&#9670;&#160;</a></span>setTurnUp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GECamera::setTurnUp </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>flag</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Activa o desactiva el giro hacia arriba. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">flag</td><td>true para activar, false para desactivar. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#a437888b21b4dcbe18bba7ee69ef4bc04">turnUpPressed</a>.</p>
+
+</div>
+</div>
+<a id="aaed635fd6f4b799143bcce2a5646553d" name="aaed635fd6f4b799143bcce2a5646553d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaed635fd6f4b799143bcce2a5646553d">&#9670;&#160;</a></span>turnCCW()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GECamera::turnCCW </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Rota el observador un paso en sentido antihorario. </p>
+
+<p class="reference">Hace referencia a <a class="el" href="#a528d768a443a827b61c51a0d41cda45c">cosAngle</a>, <a class="el" href="#a4a6e9f68b5f17d27ef5b7cf216cda00f">Dir</a>, <a class="el" href="#ade00dc2b91eaf5adcf816b20bebc7402">Right</a>, <a class="el" href="#ae553809257c980b24fe9ba458e5c9a89">sinAngle</a> y <a class="el" href="#ac9a2e62258ededf818af284ebd9f13c1">Up</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="#a83e955f594a57f6eb6e65d77e8137a7b">update()</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_g_e_camera_aaed635fd6f4b799143bcce2a5646553d_icgraph.svg" width="342" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a73173ea24e7abd46e6eef216bf1de839" name="a73173ea24e7abd46e6eef216bf1de839"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73173ea24e7abd46e6eef216bf1de839">&#9670;&#160;</a></span>turnCW()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GECamera::turnCW </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Rota el observador un paso en sentido horario. </p>
+
+<p class="reference">Hace referencia a <a class="el" href="#a528d768a443a827b61c51a0d41cda45c">cosAngle</a>, <a class="el" href="#a4a6e9f68b5f17d27ef5b7cf216cda00f">Dir</a>, <a class="el" href="#ade00dc2b91eaf5adcf816b20bebc7402">Right</a>, <a class="el" href="#ae553809257c980b24fe9ba458e5c9a89">sinAngle</a> y <a class="el" href="#ac9a2e62258ededf818af284ebd9f13c1">Up</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="#a83e955f594a57f6eb6e65d77e8137a7b">update()</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_g_e_camera_a73173ea24e7abd46e6eef216bf1de839_icgraph.svg" width="332" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ab19eedafa22b07fb557d0359890ab15e" name="ab19eedafa22b07fb557d0359890ab15e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab19eedafa22b07fb557d0359890ab15e">&#9670;&#160;</a></span>turnDown()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GECamera::turnDown </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Rota el observador un paso hacia abajo. </p>
+
+<p class="reference">Hace referencia a <a class="el" href="#a528d768a443a827b61c51a0d41cda45c">cosAngle</a>, <a class="el" href="#a4a6e9f68b5f17d27ef5b7cf216cda00f">Dir</a>, <a class="el" href="#ade00dc2b91eaf5adcf816b20bebc7402">Right</a>, <a class="el" href="#ae553809257c980b24fe9ba458e5c9a89">sinAngle</a> y <a class="el" href="#ac9a2e62258ededf818af284ebd9f13c1">Up</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="#a83e955f594a57f6eb6e65d77e8137a7b">update()</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_g_e_camera_ab19eedafa22b07fb557d0359890ab15e_icgraph.svg" width="343" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="afd8491948b0482d6b542983b3052915f" name="afd8491948b0482d6b542983b3052915f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd8491948b0482d6b542983b3052915f">&#9670;&#160;</a></span>turnLeft()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GECamera::turnLeft </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Rota el observador un paso hacia su izquierda. </p>
+
+<p class="reference">Hace referencia a <a class="el" href="#a528d768a443a827b61c51a0d41cda45c">cosAngle</a>, <a class="el" href="#a4a6e9f68b5f17d27ef5b7cf216cda00f">Dir</a>, <a class="el" href="#ade00dc2b91eaf5adcf816b20bebc7402">Right</a>, <a class="el" href="#ae553809257c980b24fe9ba458e5c9a89">sinAngle</a> y <a class="el" href="#ac9a2e62258ededf818af284ebd9f13c1">Up</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="#a83e955f594a57f6eb6e65d77e8137a7b">update()</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_g_e_camera_afd8491948b0482d6b542983b3052915f_icgraph.svg" width="331" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a9ab05a0f84590249c876a64b128b565e" name="a9ab05a0f84590249c876a64b128b565e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ab05a0f84590249c876a64b128b565e">&#9670;&#160;</a></span>turnRight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GECamera::turnRight </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Rota el observador un paso hacia su derecha. </p>
+
+<p class="reference">Hace referencia a <a class="el" href="#a528d768a443a827b61c51a0d41cda45c">cosAngle</a>, <a class="el" href="#a4a6e9f68b5f17d27ef5b7cf216cda00f">Dir</a>, <a class="el" href="#ade00dc2b91eaf5adcf816b20bebc7402">Right</a>, <a class="el" href="#ae553809257c980b24fe9ba458e5c9a89">sinAngle</a> y <a class="el" href="#ac9a2e62258ededf818af284ebd9f13c1">Up</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="#a83e955f594a57f6eb6e65d77e8137a7b">update()</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_g_e_camera_a9ab05a0f84590249c876a64b128b565e_icgraph.svg" width="340" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="adea234ba1f06e6408ac1937d53acbb7b" name="adea234ba1f06e6408ac1937d53acbb7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adea234ba1f06e6408ac1937d53acbb7b">&#9670;&#160;</a></span>turnUp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GECamera::turnUp </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Rota el observador un paso hacia arriba. </p>
+
+<p class="reference">Hace referencia a <a class="el" href="#a528d768a443a827b61c51a0d41cda45c">cosAngle</a>, <a class="el" href="#a4a6e9f68b5f17d27ef5b7cf216cda00f">Dir</a>, <a class="el" href="#ade00dc2b91eaf5adcf816b20bebc7402">Right</a>, <a class="el" href="#ae553809257c980b24fe9ba458e5c9a89">sinAngle</a> y <a class="el" href="#ac9a2e62258ededf818af284ebd9f13c1">Up</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="#a83e955f594a57f6eb6e65d77e8137a7b">update()</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_g_e_camera_adea234ba1f06e6408ac1937d53acbb7b_icgraph.svg" width="326" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a83e955f594a57f6eb6e65d77e8137a7b" name="a83e955f594a57f6eb6e65d77e8137a7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83e955f594a57f6eb6e65d77e8137a7b">&#9670;&#160;</a></span>update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GECamera::update </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Actualiza la posición y orientación según entradas. </p>
+<p>Actualiza la posición y orientación de la cámara. </p>
+
+<p class="reference">Hace referencia a <a class="el" href="#aa920ec52e1d44bbc8cc89aece25421ce">moveDown()</a>, <a class="el" href="#aed8c0881dc3dabdb9316969b7ecc22b1">moveDownPressed</a>, <a class="el" href="#a777f0cd36c79b1e8e24f09249862e544">moveFront()</a>, <a class="el" href="#a1ba0d6addb4272f2ac627cf8beb0c264">moveLeft()</a>, <a class="el" href="#a119132ad1811388ea75a44c89b9b5c39">moveLeftPressed</a>, <a class="el" href="#a641f83f1c26619950565d60efc21e3cf">moveRight()</a>, <a class="el" href="#a9ea1f501e87211cb7f61487b54ed14ca">moveRightPressed</a>, <a class="el" href="#a79904b61df7fbfd2a66299cfbe6a69e6">moveUp()</a>, <a class="el" href="#a7999381d67c21191ac145bd57c6c9c18">moveUpPressed</a>, <a class="el" href="#aaed635fd6f4b799143bcce2a5646553d">turnCCW()</a>, <a class="el" href="#ae78ed7ec6c1b8dc6c337e1dfb1467d58">turnCCWPressed</a>, <a class="el" href="#a73173ea24e7abd46e6eef216bf1de839">turnCW()</a>, <a class="el" href="#a63bbd979358c4d4c3f23a59ba5bd6d96">turnCWPressed</a>, <a class="el" href="#ab19eedafa22b07fb557d0359890ab15e">turnDown()</a>, <a class="el" href="#a9d56e27cdfdc5f0cd1b286fcd614ca19">turnDownPressed</a>, <a class="el" href="#afd8491948b0482d6b542983b3052915f">turnLeft()</a>, <a class="el" href="#a3efe60c1146de74d0f1244916ca99cc1">turnLeftPressed</a>, <a class="el" href="#a9ab05a0f84590249c876a64b128b565e">turnRight()</a>, <a class="el" href="#a67a4a46a1a6de759827e42487f28e783">turnRightPressed</a>, <a class="el" href="#adea234ba1f06e6408ac1937d53acbb7b">turnUp()</a> y <a class="el" href="#a437888b21b4dcbe18bba7ee69ef4bc04">turnUpPressed</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_g_e_camera_a83e955f594a57f6eb6e65d77e8137a7b_cgraph.svg" width="352" height="544"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Documentación de datos miembro</h2>
+<a id="a528d768a443a827b61c51a0d41cda45c" name="a528d768a443a827b61c51a0d41cda45c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a528d768a443a827b61c51a0d41cda45c">&#9670;&#160;</a></span>cosAngle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GECamera::cosAngle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Coseno del ángulo de giro (cache). </p>
+
+<p class="reference">Referenciado por <a class="el" href="#a9e7395942078a1ffa1945f8e14cf1bb1">GECamera()</a>, <a class="el" href="#a557a7e16476d82e62b491e39aa7698c2">setTurnStep()</a>, <a class="el" href="#aaed635fd6f4b799143bcce2a5646553d">turnCCW()</a>, <a class="el" href="#a73173ea24e7abd46e6eef216bf1de839">turnCW()</a>, <a class="el" href="#ab19eedafa22b07fb557d0359890ab15e">turnDown()</a>, <a class="el" href="#afd8491948b0482d6b542983b3052915f">turnLeft()</a>, <a class="el" href="#a9ab05a0f84590249c876a64b128b565e">turnRight()</a> y <a class="el" href="#adea234ba1f06e6408ac1937d53acbb7b">turnUp()</a>.</p>
+
+</div>
+</div>
+<a id="a4a6e9f68b5f17d27ef5b7cf216cda00f" name="a4a6e9f68b5f17d27ef5b7cf216cda00f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a6e9f68b5f17d27ef5b7cf216cda00f">&#9670;&#160;</a></span>Dir</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::vec3 GECamera::Dir</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Vector dirección (eje Z) de la cámara. </p>
+
+<p class="reference">Referenciado por <a class="el" href="#a9e7395942078a1ffa1945f8e14cf1bb1">GECamera()</a>, <a class="el" href="#a2bf1fb52be984e328e5b192a43e119a0">getDirection()</a>, <a class="el" href="#a94ad7be54a42a1e44514cae0b3e912c6">getViewMatrix()</a>, <a class="el" href="#aa42a4e31f36f7e15d156750165578de5">moveBack()</a>, <a class="el" href="#a777f0cd36c79b1e8e24f09249862e544">moveFront()</a>, <a class="el" href="#abcba93d88cbb1345a92217b2ba67d81c">setDirection()</a>, <a class="el" href="#aaed635fd6f4b799143bcce2a5646553d">turnCCW()</a>, <a class="el" href="#a73173ea24e7abd46e6eef216bf1de839">turnCW()</a>, <a class="el" href="#ab19eedafa22b07fb557d0359890ab15e">turnDown()</a>, <a class="el" href="#afd8491948b0482d6b542983b3052915f">turnLeft()</a>, <a class="el" href="#a9ab05a0f84590249c876a64b128b565e">turnRight()</a> y <a class="el" href="#adea234ba1f06e6408ac1937d53acbb7b">turnUp()</a>.</p>
+
+</div>
+</div>
+<a id="aed8c0881dc3dabdb9316969b7ecc22b1" name="aed8c0881dc3dabdb9316969b7ecc22b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed8c0881dc3dabdb9316969b7ecc22b1">&#9670;&#160;</a></span>moveDownPressed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GECamera::moveDownPressed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Flag de desplazamiento hacia abajo. </p>
+
+<p class="reference">Referenciado por <a class="el" href="#a9e7395942078a1ffa1945f8e14cf1bb1">GECamera()</a>, <a class="el" href="#aa9b0bdf5881f665fb6e24c2648159b2e">setMoveDown()</a> y <a class="el" href="#a83e955f594a57f6eb6e65d77e8137a7b">update()</a>.</p>
+
+</div>
+</div>
+<a id="a119132ad1811388ea75a44c89b9b5c39" name="a119132ad1811388ea75a44c89b9b5c39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a119132ad1811388ea75a44c89b9b5c39">&#9670;&#160;</a></span>moveLeftPressed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GECamera::moveLeftPressed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Flag de desplazamiento a la izquierda. </p>
+
+<p class="reference">Referenciado por <a class="el" href="#a9e7395942078a1ffa1945f8e14cf1bb1">GECamera()</a>, <a class="el" href="#a4ddee042912f80dd5489333a2f40c276">setMoveLeft()</a> y <a class="el" href="#a83e955f594a57f6eb6e65d77e8137a7b">update()</a>.</p>
+
+</div>
+</div>
+<a id="a9ea1f501e87211cb7f61487b54ed14ca" name="a9ea1f501e87211cb7f61487b54ed14ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ea1f501e87211cb7f61487b54ed14ca">&#9670;&#160;</a></span>moveRightPressed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GECamera::moveRightPressed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Flag de desplazamiento a la derecha. </p>
+
+<p class="reference">Referenciado por <a class="el" href="#a9e7395942078a1ffa1945f8e14cf1bb1">GECamera()</a>, <a class="el" href="#af160a8000655866c7782b9192f794c96">setMoveRight()</a> y <a class="el" href="#a83e955f594a57f6eb6e65d77e8137a7b">update()</a>.</p>
+
+</div>
+</div>
+<a id="acde5044640e663d1459bc2848444073a" name="acde5044640e663d1459bc2848444073a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acde5044640e663d1459bc2848444073a">&#9670;&#160;</a></span>moveStep</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GECamera::moveStep</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Tamaño del paso para movimientos. </p>
+
+<p class="reference">Referenciado por <a class="el" href="#a9e7395942078a1ffa1945f8e14cf1bb1">GECamera()</a>, <a class="el" href="#a5d5d9fe952b19076a7a25602348cf2dc">getMoveStep()</a>, <a class="el" href="#aa42a4e31f36f7e15d156750165578de5">moveBack()</a>, <a class="el" href="#a777f0cd36c79b1e8e24f09249862e544">moveFront()</a> y <a class="el" href="#a1740eab0afd63dcb2064d31d66a2f6a1">setMoveStep()</a>.</p>
+
+</div>
+</div>
+<a id="a7999381d67c21191ac145bd57c6c9c18" name="a7999381d67c21191ac145bd57c6c9c18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7999381d67c21191ac145bd57c6c9c18">&#9670;&#160;</a></span>moveUpPressed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GECamera::moveUpPressed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Flag de desplazamiento hacia arriba. </p>
+
+<p class="reference">Referenciado por <a class="el" href="#a9e7395942078a1ffa1945f8e14cf1bb1">GECamera()</a>, <a class="el" href="#a893c9fb8bc739bc9c9e9b8efed91503c">setMoveUp()</a> y <a class="el" href="#a83e955f594a57f6eb6e65d77e8137a7b">update()</a>.</p>
+
+</div>
+</div>
+<a id="a0661cce91c328f174c45efaecf4ef274" name="a0661cce91c328f174c45efaecf4ef274"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0661cce91c328f174c45efaecf4ef274">&#9670;&#160;</a></span>Pos</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::vec3 GECamera::Pos</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Posición de la cámara en coordenadas del mundo. </p>
+
+<p class="reference">Referenciado por <a class="el" href="#a9e7395942078a1ffa1945f8e14cf1bb1">GECamera()</a>, <a class="el" href="#a52e28dd24484996bccd3001ac9da7000">getPosition()</a>, <a class="el" href="#a94ad7be54a42a1e44514cae0b3e912c6">getViewMatrix()</a>, <a class="el" href="#aa42a4e31f36f7e15d156750165578de5">moveBack()</a>, <a class="el" href="#aa920ec52e1d44bbc8cc89aece25421ce">moveDown()</a>, <a class="el" href="#a777f0cd36c79b1e8e24f09249862e544">moveFront()</a>, <a class="el" href="#a1ba0d6addb4272f2ac627cf8beb0c264">moveLeft()</a>, <a class="el" href="#a641f83f1c26619950565d60efc21e3cf">moveRight()</a>, <a class="el" href="#a79904b61df7fbfd2a66299cfbe6a69e6">moveUp()</a> y <a class="el" href="#ac04254305c65d438a4727d088fd97b73">setPosition()</a>.</p>
+
+</div>
+</div>
+<a id="ade00dc2b91eaf5adcf816b20bebc7402" name="ade00dc2b91eaf5adcf816b20bebc7402"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade00dc2b91eaf5adcf816b20bebc7402">&#9670;&#160;</a></span>Right</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::vec3 GECamera::Right</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Vector derecho (eje X) de la cámara. </p>
+
+<p class="reference">Referenciado por <a class="el" href="#a9e7395942078a1ffa1945f8e14cf1bb1">GECamera()</a>, <a class="el" href="#a1ba0d6addb4272f2ac627cf8beb0c264">moveLeft()</a>, <a class="el" href="#a641f83f1c26619950565d60efc21e3cf">moveRight()</a>, <a class="el" href="#abcba93d88cbb1345a92217b2ba67d81c">setDirection()</a>, <a class="el" href="#aaed635fd6f4b799143bcce2a5646553d">turnCCW()</a>, <a class="el" href="#a73173ea24e7abd46e6eef216bf1de839">turnCW()</a>, <a class="el" href="#ab19eedafa22b07fb557d0359890ab15e">turnDown()</a>, <a class="el" href="#afd8491948b0482d6b542983b3052915f">turnLeft()</a>, <a class="el" href="#a9ab05a0f84590249c876a64b128b565e">turnRight()</a> y <a class="el" href="#adea234ba1f06e6408ac1937d53acbb7b">turnUp()</a>.</p>
+
+</div>
+</div>
+<a id="ae553809257c980b24fe9ba458e5c9a89" name="ae553809257c980b24fe9ba458e5c9a89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae553809257c980b24fe9ba458e5c9a89">&#9670;&#160;</a></span>sinAngle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GECamera::sinAngle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Seno del ángulo de giro (cache). </p>
+
+<p class="reference">Referenciado por <a class="el" href="#a9e7395942078a1ffa1945f8e14cf1bb1">GECamera()</a>, <a class="el" href="#a557a7e16476d82e62b491e39aa7698c2">setTurnStep()</a>, <a class="el" href="#aaed635fd6f4b799143bcce2a5646553d">turnCCW()</a>, <a class="el" href="#a73173ea24e7abd46e6eef216bf1de839">turnCW()</a>, <a class="el" href="#ab19eedafa22b07fb557d0359890ab15e">turnDown()</a>, <a class="el" href="#afd8491948b0482d6b542983b3052915f">turnLeft()</a>, <a class="el" href="#a9ab05a0f84590249c876a64b128b565e">turnRight()</a> y <a class="el" href="#adea234ba1f06e6408ac1937d53acbb7b">turnUp()</a>.</p>
+
+</div>
+</div>
+<a id="ae78ed7ec6c1b8dc6c337e1dfb1467d58" name="ae78ed7ec6c1b8dc6c337e1dfb1467d58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae78ed7ec6c1b8dc6c337e1dfb1467d58">&#9670;&#160;</a></span>turnCCWPressed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GECamera::turnCCWPressed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Flag de giro antihorario. </p>
+
+<p class="reference">Referenciado por <a class="el" href="#a9e7395942078a1ffa1945f8e14cf1bb1">GECamera()</a>, <a class="el" href="#a444d037d8969a1bddace0548c98f117b">setTurnCCW()</a> y <a class="el" href="#a83e955f594a57f6eb6e65d77e8137a7b">update()</a>.</p>
+
+</div>
+</div>
+<a id="a63bbd979358c4d4c3f23a59ba5bd6d96" name="a63bbd979358c4d4c3f23a59ba5bd6d96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63bbd979358c4d4c3f23a59ba5bd6d96">&#9670;&#160;</a></span>turnCWPressed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GECamera::turnCWPressed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Flag de giro horario. </p>
+
+<p class="reference">Referenciado por <a class="el" href="#a9e7395942078a1ffa1945f8e14cf1bb1">GECamera()</a>, <a class="el" href="#a0156e3495d01528cc5e5117094005338">setTurnCW()</a> y <a class="el" href="#a83e955f594a57f6eb6e65d77e8137a7b">update()</a>.</p>
+
+</div>
+</div>
+<a id="a9d56e27cdfdc5f0cd1b286fcd614ca19" name="a9d56e27cdfdc5f0cd1b286fcd614ca19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d56e27cdfdc5f0cd1b286fcd614ca19">&#9670;&#160;</a></span>turnDownPressed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GECamera::turnDownPressed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Flag de giro hacia abajo. </p>
+
+<p class="reference">Referenciado por <a class="el" href="#a9e7395942078a1ffa1945f8e14cf1bb1">GECamera()</a>, <a class="el" href="#a88d35ebff2168dcea237596c59f52ab8">setTurnDown()</a> y <a class="el" href="#a83e955f594a57f6eb6e65d77e8137a7b">update()</a>.</p>
+
+</div>
+</div>
+<a id="a3efe60c1146de74d0f1244916ca99cc1" name="a3efe60c1146de74d0f1244916ca99cc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3efe60c1146de74d0f1244916ca99cc1">&#9670;&#160;</a></span>turnLeftPressed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GECamera::turnLeftPressed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Flag de giro a la izquierda. </p>
+
+<p class="reference">Referenciado por <a class="el" href="#a9e7395942078a1ffa1945f8e14cf1bb1">GECamera()</a>, <a class="el" href="#a7d755a413b50bcc902e3f0c4c803de6e">setTurnLeft()</a> y <a class="el" href="#a83e955f594a57f6eb6e65d77e8137a7b">update()</a>.</p>
+
+</div>
+</div>
+<a id="a67a4a46a1a6de759827e42487f28e783" name="a67a4a46a1a6de759827e42487f28e783"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67a4a46a1a6de759827e42487f28e783">&#9670;&#160;</a></span>turnRightPressed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GECamera::turnRightPressed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Flag de giro a la derecha. </p>
+
+<p class="reference">Referenciado por <a class="el" href="#a9e7395942078a1ffa1945f8e14cf1bb1">GECamera()</a>, <a class="el" href="#a7d637377864e79f85cbee144b57a418e">setTurnRight()</a> y <a class="el" href="#a83e955f594a57f6eb6e65d77e8137a7b">update()</a>.</p>
+
+</div>
+</div>
+<a id="ad577e1bc8b89f7b8004321fa48ed08dc" name="ad577e1bc8b89f7b8004321fa48ed08dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad577e1bc8b89f7b8004321fa48ed08dc">&#9670;&#160;</a></span>turnStep</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GECamera::turnStep</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Ángulo de giro en grados. </p>
+
+<p class="reference">Referenciado por <a class="el" href="#a9e7395942078a1ffa1945f8e14cf1bb1">GECamera()</a>, <a class="el" href="#a3a785cd4fca91c82a1dd7ae547913f5f">getTurnStep()</a> y <a class="el" href="#a557a7e16476d82e62b491e39aa7698c2">setTurnStep()</a>.</p>
+
+</div>
+</div>
+<a id="a437888b21b4dcbe18bba7ee69ef4bc04" name="a437888b21b4dcbe18bba7ee69ef4bc04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a437888b21b4dcbe18bba7ee69ef4bc04">&#9670;&#160;</a></span>turnUpPressed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GECamera::turnUpPressed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Flag de giro hacia arriba. </p>
+
+<p class="reference">Referenciado por <a class="el" href="#a9e7395942078a1ffa1945f8e14cf1bb1">GECamera()</a>, <a class="el" href="#a5c728ee60fe4075b60bf66c8ae3ebadf">setTurnUp()</a> y <a class="el" href="#a83e955f594a57f6eb6e65d77e8137a7b">update()</a>.</p>
+
+</div>
+</div>
+<a id="ac9a2e62258ededf818af284ebd9f13c1" name="ac9a2e62258ededf818af284ebd9f13c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9a2e62258ededf818af284ebd9f13c1">&#9670;&#160;</a></span>Up</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::vec3 GECamera::Up</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Vector 'arriba' (eje Y) de la cámara. </p>
+
+<p class="reference">Referenciado por <a class="el" href="#a9e7395942078a1ffa1945f8e14cf1bb1">GECamera()</a>, <a class="el" href="#af139d3595799b6623db7665da3da36c4">getUpDirection()</a>, <a class="el" href="#a94ad7be54a42a1e44514cae0b3e912c6">getViewMatrix()</a>, <a class="el" href="#aa920ec52e1d44bbc8cc89aece25421ce">moveDown()</a>, <a class="el" href="#a79904b61df7fbfd2a66299cfbe6a69e6">moveUp()</a>, <a class="el" href="#abcba93d88cbb1345a92217b2ba67d81c">setDirection()</a>, <a class="el" href="#aaed635fd6f4b799143bcce2a5646553d">turnCCW()</a>, <a class="el" href="#a73173ea24e7abd46e6eef216bf1de839">turnCW()</a>, <a class="el" href="#ab19eedafa22b07fb557d0359890ab15e">turnDown()</a>, <a class="el" href="#afd8491948b0482d6b542983b3052915f">turnLeft()</a>, <a class="el" href="#a9ab05a0f84590249c876a64b128b565e">turnRight()</a> y <a class="el" href="#adea234ba1f06e6408ac1937d53acbb7b">turnUp()</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación de esta clase está generada de los siguientes archivos:<ul>
+<li>MVPVulkan/<a class="el" href="_g_e_camera_8h_source.html">GECamera.h</a></li>
+<li>MVPVulkan/<a class="el" href="_g_e_camera_8cpp.html">GECamera.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="class_g_e_camera.html">GECamera</a></li>
+    <li class="footer">Generado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
+  </ul>
+</div>
+</body>
+</html>

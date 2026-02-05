@@ -1,0 +1,13 @@
+<map id="GEGraphicsContext::GEGraphicsContext" name="GEGraphicsContext::GEGraphicsContext">
+<area shape="rect" id="Node000001" title="Construye el contexto gráfico de Vulkan." alt="" coords="5,105,152,148"/>
+<area shape="rect" id="Node000002" href="$class_g_e_graphics_context.html#a537d64701b6e6ecb96c2eb16bf5cb43c" title="Crea la instancia de Vulkan." alt="" coords="200,5,346,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,103,198,58,212,54,207,57,201,62,119,107"/>
+<area shape="rect" id="Node000003" href="$class_g_e_graphics_context.html#aee42a876bc9fbc67c6ef46dbda09491f" title="Crea el dispositivo lógico y configura las colas." alt="" coords="200,72,346,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="151,112,187,107,182,110,153,117"/>
+<area shape="rect" id="Node000004" href="$class_g_e_graphics_context.html#a8345f73d6f391f9afde8febbc4c8dc8b" title="Crea la superficie para la ventana GLFW." alt="" coords="200,139,346,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="152,137,187,144,182,146,153,142"/>
+<area shape="rect" id="Node000005" href="$class_g_e_graphics_context.html#a0fa73d6028a93f4912e510309846da86" title="Selecciona el dispositivo físico adecuado." alt="" coords="200,205,346,248"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="118,146,201,191,212,198,207,198,198,196,117,151"/>
+<area shape="rect" id="Node000006" href="$class_g_e_graphics_context.html#a8d07ce73bc62675db9b9ec97659e3187" title="Comprueba si un dispositivo físico es adecuado." alt="" coords="394,205,540,248"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="347,224,382,227,376,227,347,229"/>
+</map>

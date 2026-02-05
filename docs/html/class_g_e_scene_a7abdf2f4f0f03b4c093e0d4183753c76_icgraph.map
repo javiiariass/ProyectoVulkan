@@ -1,0 +1,5 @@
+<map id="GEScene::aspect_ratio" name="GEScene::aspect_ratio">
+<area shape="rect" id="Node000001" title="Ajusta la relación de aspecto y la matriz de proyección." alt="" coords="195,5,351,32"/>
+<area shape="rect" id="Node000002" href="$class_g_e_scene.html#acd8ea9948176d36d93ce1f86a4f3d186" title="Construye la escena y crea los objetos gráficos." alt="" coords="5,5,147,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,19,147,21,147,16,182,19"/>
+</map>

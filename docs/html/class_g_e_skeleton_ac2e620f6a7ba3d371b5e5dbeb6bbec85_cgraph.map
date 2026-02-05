@@ -1,0 +1,7 @@
+<map id="GESkeleton::findJoint" name="GESkeleton::findJoint">
+<area shape="rect" id="Node000001" title="Busca una articulación por nombre." alt="" coords="5,5,154,32"/>
+<area shape="rect" id="Node000002" href="$class_g_e_balljoint.html#a13e4735bffa31009035f084f415a5955" title="Busca una articulación hija por nombre." alt="" coords="202,5,347,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,16,189,19,184,19,154,21"/>
+<area shape="rect" id="Node000003" href="$class_g_e_balljoint.html#a0f468b4618ae46410622a32a83569714" title="Construye una articulación." alt="" coords="395,5,554,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="348,16,382,19,377,19,348,21"/>
+</map>

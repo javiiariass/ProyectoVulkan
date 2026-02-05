@@ -1,0 +1,16 @@
+<map id="pugi::xml_attribute::as_float" name="pugi::xml_attribute::as_float">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1175,47,1303,89"/>
+<area shape="rect" id="Node000002" href="$class_g_e_x_m_l_parser.html#af7e66e11e1a8973779770daa1ad6f653" title="Parsea una articulación y sus hijas recursivamente." alt="" coords="713,29,905,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1157,63,905,51,905,46,1162,63"/>
+<area shape="rect" id="Node000006" href="$class_g_e_x_m_l_parser.html#aa8e732df591d508941d3c717188b7266" title="Parsea un nodo vec3 (offset, zaxis, yaxis)." alt="" coords="953,80,1127,107"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="1162,78,1128,85,1127,80,1157,78"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="848,14,836,10,809,8,785,10,772,15,768,20,775,30,770,28,763,21,768,11,784,5,809,3,837,5,853,15"/>
+<area shape="rect" id="Node000003" href="$class_g_e_x_m_l_parser.html#acd9fc587fbd992edbb51df00549c1bda" title="Parsea un archivo .skel y devuelve los datos del esqueleto." alt="" coords="448,55,665,81"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="701,54,666,60,665,54,695,54"/>
+<area shape="rect" id="Node000004" href="$class_g_e_skeleton.html#ade3f0504c12faea2597ee2c23abf22bd" title="Construye la jerarquía de articulaciones desde body.skel." alt="" coords="223,55,400,81"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="430,68,401,71,400,65,435,68"/>
+<area shape="rect" id="Node000005" href="$class_g_e_skeleton.html#ad854854fdf1e4d090553d4d6edbfe095" title="Constructor del esqueleto." alt="" coords="5,55,175,81"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="205,68,175,71,175,65,210,68"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="958,76,873,59,873,54,964,76"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="934,88,666,76,666,71,940,88"/>
+</map>

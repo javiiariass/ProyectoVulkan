@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Animación Vulkan: Archivo de código fuente MVPVulkan/GEDrawingContext.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">var page_layout=1;</script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="side-nav" class="ui-resizable side-nav-resizable"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Animación Vulkan<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Animación de tiro libre baloncesto con motor gráfico desarrollado en clase</div>
+  </td>
+ </tr>
+   <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td></tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_g_e_drawing_context_8h_source.html','',''); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','Buscar',true);
+});
+</script>
+<div id="main-nav"></div>
+<div id="container"><div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">GEDrawingContext.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_g_e_drawing_context_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;vulkan/vulkan.h&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="_g_e_graphics_context_8h.html">GEGraphicsContext.h</a>&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="_g_e_window_position_8h.html">GEWindowPosition.h</a>&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span></div>
+<div class="foldopen" id="foldopen00017" data-start="{" data-end="};">
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="class_g_e_drawing_context.html">   17</a></span><span class="keyword">class </span><a class="code hl_function" href="class_g_e_drawing_context.html#a29f15ea54b46e71e37d45067270349ae">GEDrawingContext</a></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="class_g_e_drawing_context.html#a573a7a2dccd95d1301171b0cc9fa7af8">   20</a></span>    std::vector&lt;VkImageView&gt; <a class="code hl_variable" href="class_g_e_drawing_context.html#a573a7a2dccd95d1301171b0cc9fa7af8">imageViews</a>; </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="comment">// ===== Campos auxiliares =====</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="class_g_e_drawing_context.html#a27388fe608e71d042cc44951b768732c">   24</a></span>    uint32_t <a class="code hl_variable" href="class_g_e_drawing_context.html#a27388fe608e71d042cc44951b768732c">imageCount</a>; </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="class_g_e_drawing_context.html#a94ff4fad1812b20cc70a00231cb79ad0">   25</a></span>    uint32_t <a class="code hl_variable" href="class_g_e_drawing_context.html#a94ff4fad1812b20cc70a00231cb79ad0">frameCount</a>; </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="class_g_e_drawing_context.html#adb6fa1c02b3d0b5687dde8401eedf107">   26</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_variable" href="class_g_e_drawing_context.html#adb6fa1c02b3d0b5687dde8401eedf107">currentFrame</a> = 0; </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="class_g_e_drawing_context.html#a47744f17ac9b09d110eeca78e5296a8d">   27</a></span>    uint32_t <a class="code hl_variable" href="class_g_e_drawing_context.html#a47744f17ac9b09d110eeca78e5296a8d">currentImage</a> = 0; </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="comment">// ===== Componentes gráficos =====</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="class_g_e_drawing_context.html#a2eb27acb7c5f6eaa4e0d4fcffa10604d">   30</a></span>    VkSwapchainKHR <a class="code hl_variable" href="class_g_e_drawing_context.html#a2eb27acb7c5f6eaa4e0d4fcffa10604d">swapChain</a>; </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="class_g_e_drawing_context.html#afc75f4f3d76f45a0a3e45a2cfc0b5563">   31</a></span>    VkFormat <a class="code hl_variable" href="class_g_e_drawing_context.html#afc75f4f3d76f45a0a3e45a2cfc0b5563">imageFormat</a>; </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="class_g_e_drawing_context.html#a1a644c27b1bce861011aec4b383722ea">   32</a></span>    VkExtent2D <a class="code hl_variable" href="class_g_e_drawing_context.html#a1a644c27b1bce861011aec4b383722ea">imageExtent</a>; </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="class_g_e_drawing_context.html#a27b1e9a7fc02c0714b65b4e5b04a7cc0">   33</a></span>    std::vector&lt;VkImage&gt; <a class="code hl_variable" href="class_g_e_drawing_context.html#a27b1e9a7fc02c0714b65b4e5b04a7cc0">images</a>; </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="class_g_e_drawing_context.html#abd5968d181d4b9b42bbd85f3e547f4fd">   34</a></span>    VkQueue <a class="code hl_variable" href="class_g_e_drawing_context.html#abd5968d181d4b9b42bbd85f3e547f4fd">graphicsQueue</a>; </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="class_g_e_drawing_context.html#a238d03893fbe32c27e28cc40eb7b698f">   35</a></span>    VkQueue <a class="code hl_variable" href="class_g_e_drawing_context.html#a238d03893fbe32c27e28cc40eb7b698f">presentQueue</a>; </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="comment">// ===== Sincronización entre imágenes =====</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="class_g_e_drawing_context.html#a87e9ce200da98dc8ccb23d67b9d0a09d">   38</a></span>    std::vector&lt;VkSemaphore&gt; <a class="code hl_variable" href="class_g_e_drawing_context.html#a87e9ce200da98dc8ccb23d67b9d0a09d">imageAvailableSemaphores</a>; </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="class_g_e_drawing_context.html#a30a16963cffe5c605031a050464b5b63">   39</a></span>    std::vector&lt;VkSemaphore&gt; <a class="code hl_variable" href="class_g_e_drawing_context.html#a30a16963cffe5c605031a050464b5b63">renderFinishedSemaphores</a>; </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="class_g_e_drawing_context.html#ad4318cf74fbd3931d319e1054022c356">   40</a></span>    std::vector&lt;VkFence&gt; <a class="code hl_variable" href="class_g_e_drawing_context.html#ad4318cf74fbd3931d319e1054022c356">inFlightFences</a>; </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="class_g_e_drawing_context.html#a095192db5370cec31f880f3cf3a181e9">   41</a></span>    std::vector&lt;VkFence&gt; <a class="code hl_variable" href="class_g_e_drawing_context.html#a095192db5370cec31f880f3cf3a181e9">imagesInFlight</a>; </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <a class="code hl_function" href="class_g_e_drawing_context.html#a29f15ea54b46e71e37d45067270349ae">GEDrawingContext</a>(<a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a>* gc, <a class="code hl_struct" href="struct_g_e_window_position.html">GEWindowPosition</a> wpos);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_drawing_context.html#a6452623682c0fd047e657c208f03575f">destroy</a>(<a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a>* gc);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_drawing_context.html#aaeccb09fc78b1f6ebf86d19e161f6a1a">recreate</a>(<a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a>* gc, <a class="code hl_struct" href="struct_g_e_window_position.html">GEWindowPosition</a> wpos);</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    VkFormat <a class="code hl_function" href="class_g_e_drawing_context.html#aaee25336f1556a0ea07e3bcabc38a352">getFormat</a>();</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span></div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    VkExtent2D <a class="code hl_function" href="class_g_e_drawing_context.html#aadd6a6e9fe0b128b7559c1066a94f153">getExtent</a>();</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span></div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    uint32_t <a class="code hl_function" href="class_g_e_drawing_context.html#a7b8a62f39a8390f5b08dd40e6d94da9e">getImageCount</a>();</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span></div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    uint32_t <a class="code hl_function" href="class_g_e_drawing_context.html#ae38bce872de0c2c50ed3a80b3bb73728">getCurrentImage</a>();</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    <span class="comment">// ===== Métodos de generación de la imagen =====</span></div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_drawing_context.html#a480c44e7d10888633cd8e8554405faf0">waitForNextImage</a>(<a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a>* gc);</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span></div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_drawing_context.html#a496872a1cf2f8dcb21afbb6fcc811032">submitGraphicsCommands</a>(<a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a>* gc, std::vector&lt;VkCommandBuffer&gt; commandBuffers);</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span></div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_drawing_context.html#ae571d299e6b8e1512fac267d975332de">submitPresentCommands</a>(<a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a>* gc);</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    <span class="comment">// ===== Métodos de creación de componentes =====</span></div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_drawing_context.html#addf8c95330fdbf47864e9244ccc417db">createSwapChain</a>(<a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a>* gc, <a class="code hl_struct" href="struct_g_e_window_position.html">GEWindowPosition</a> wpos);</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_drawing_context.html#af0d8bbc2b1fe8119e6d1aa65d497b3b0">createImageViews</a>(VkDevice device);</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_drawing_context.html#abc7ed5e420a7ba2f4718baa43f897475">createSyncObjects</a>(VkDevice device);</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_drawing_context.html#a6ec9944df81a299e39fab513d9e4211f">createQueues</a>(<a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a>* gc);</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    <span class="comment">// ===== Métodos auxiliares =====</span></div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    VkSurfaceFormatKHR <a class="code hl_function" href="class_g_e_drawing_context.html#a3b9ad39a37755665d94e149b73d99a43">chooseSwapSurfaceFormat</a>(<span class="keyword">const</span> std::vector&lt;VkSurfaceFormatKHR&gt;&amp; availableFormats);</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    VkExtent2D <a class="code hl_function" href="class_g_e_drawing_context.html#acdb6b25fca397b27f3563080db3c130b">chooseSwapExtent</a>(<span class="keyword">const</span> VkSurfaceCapabilitiesKHR&amp; capabilities, <a class="code hl_struct" href="struct_g_e_window_position.html">GEWindowPosition</a> wpos);</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>};</div>
+</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span> </div>
+<div class="ttc" id="a_g_e_graphics_context_8h_html"><div class="ttname"><a href="_g_e_graphics_context_8h.html">GEGraphicsContext.h</a></div><div class="ttdoc">Declaración de la clase GEGraphicsContext que almacena el contexto gráfico de Vulkan.</div></div>
+<div class="ttc" id="a_g_e_window_position_8h_html"><div class="ttname"><a href="_g_e_window_position_8h.html">GEWindowPosition.h</a></div><div class="ttdoc">Declaración de la estructura GEWindowPosition para ventanas.</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html_a095192db5370cec31f880f3cf3a181e9"><div class="ttname"><a href="class_g_e_drawing_context.html#a095192db5370cec31f880f3cf3a181e9">GEDrawingContext::imagesInFlight</a></div><div class="ttdeci">std::vector&lt; VkFence &gt; imagesInFlight</div><div class="ttdoc">Fence por imagen.</div><div class="ttdef"><b>Definition</b> GEDrawingContext.h:41</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html_a1a644c27b1bce861011aec4b383722ea"><div class="ttname"><a href="class_g_e_drawing_context.html#a1a644c27b1bce861011aec4b383722ea">GEDrawingContext::imageExtent</a></div><div class="ttdeci">VkExtent2D imageExtent</div><div class="ttdoc">Extensión de las imágenes.</div><div class="ttdef"><b>Definition</b> GEDrawingContext.h:32</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html_a238d03893fbe32c27e28cc40eb7b698f"><div class="ttname"><a href="class_g_e_drawing_context.html#a238d03893fbe32c27e28cc40eb7b698f">GEDrawingContext::presentQueue</a></div><div class="ttdeci">VkQueue presentQueue</div><div class="ttdoc">Cola de presentación.</div><div class="ttdef"><b>Definition</b> GEDrawingContext.h:35</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html_a27388fe608e71d042cc44951b768732c"><div class="ttname"><a href="class_g_e_drawing_context.html#a27388fe608e71d042cc44951b768732c">GEDrawingContext::imageCount</a></div><div class="ttdeci">uint32_t imageCount</div><div class="ttdoc">Número de imágenes en la swapchain.</div><div class="ttdef"><b>Definition</b> GEDrawingContext.h:24</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html_a27b1e9a7fc02c0714b65b4e5b04a7cc0"><div class="ttname"><a href="class_g_e_drawing_context.html#a27b1e9a7fc02c0714b65b4e5b04a7cc0">GEDrawingContext::images</a></div><div class="ttdeci">std::vector&lt; VkImage &gt; images</div><div class="ttdoc">Imágenes de la swapchain.</div><div class="ttdef"><b>Definition</b> GEDrawingContext.h:33</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html_a29f15ea54b46e71e37d45067270349ae"><div class="ttname"><a href="class_g_e_drawing_context.html#a29f15ea54b46e71e37d45067270349ae">GEDrawingContext::GEDrawingContext</a></div><div class="ttdeci">GEDrawingContext(GEGraphicsContext *gc, GEWindowPosition wpos)</div><div class="ttdoc">Crea el contexto de dibujo (swapchain, vistas y sincronización).</div><div class="ttdef"><b>Definition</b> GEDrawingContext.cpp:23</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html_a2eb27acb7c5f6eaa4e0d4fcffa10604d"><div class="ttname"><a href="class_g_e_drawing_context.html#a2eb27acb7c5f6eaa4e0d4fcffa10604d">GEDrawingContext::swapChain</a></div><div class="ttdeci">VkSwapchainKHR swapChain</div><div class="ttdoc">Swapchain de Vulkan.</div><div class="ttdef"><b>Definition</b> GEDrawingContext.h:30</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html_a30a16963cffe5c605031a050464b5b63"><div class="ttname"><a href="class_g_e_drawing_context.html#a30a16963cffe5c605031a050464b5b63">GEDrawingContext::renderFinishedSemaphores</a></div><div class="ttdeci">std::vector&lt; VkSemaphore &gt; renderFinishedSemaphores</div><div class="ttdoc">Semáforos de render terminado.</div><div class="ttdef"><b>Definition</b> GEDrawingContext.h:39</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html_a3b9ad39a37755665d94e149b73d99a43"><div class="ttname"><a href="class_g_e_drawing_context.html#a3b9ad39a37755665d94e149b73d99a43">GEDrawingContext::chooseSwapSurfaceFormat</a></div><div class="ttdeci">VkSurfaceFormatKHR chooseSwapSurfaceFormat(const std::vector&lt; VkSurfaceFormatKHR &gt; &amp;availableFormats)</div><div class="ttdoc">Escoge el formato de imagen entre los soportados por la superficie.</div><div class="ttdef"><b>Definition</b> GEDrawingContext.cpp:363</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html_a47744f17ac9b09d110eeca78e5296a8d"><div class="ttname"><a href="class_g_e_drawing_context.html#a47744f17ac9b09d110eeca78e5296a8d">GEDrawingContext::currentImage</a></div><div class="ttdeci">uint32_t currentImage</div><div class="ttdoc">Índice de la imagen actual.</div><div class="ttdef"><b>Definition</b> GEDrawingContext.h:27</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html_a480c44e7d10888633cd8e8554405faf0"><div class="ttname"><a href="class_g_e_drawing_context.html#a480c44e7d10888633cd8e8554405faf0">GEDrawingContext::waitForNextImage</a></div><div class="ttdeci">void waitForNextImage(GEGraphicsContext *gc)</div><div class="ttdoc">Espera y adquiere la siguiente imagen disponible.</div><div class="ttdef"><b>Definition</b> GEDrawingContext.cpp:273</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html_a496872a1cf2f8dcb21afbb6fcc811032"><div class="ttname"><a href="class_g_e_drawing_context.html#a496872a1cf2f8dcb21afbb6fcc811032">GEDrawingContext::submitGraphicsCommands</a></div><div class="ttdeci">void submitGraphicsCommands(GEGraphicsContext *gc, std::vector&lt; VkCommandBuffer &gt; commandBuffers)</div><div class="ttdoc">Envía los comandos gráficos para la imagen actual.</div><div class="ttdef"><b>Definition</b> GEDrawingContext.cpp:292</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html_a573a7a2dccd95d1301171b0cc9fa7af8"><div class="ttname"><a href="class_g_e_drawing_context.html#a573a7a2dccd95d1301171b0cc9fa7af8">GEDrawingContext::imageViews</a></div><div class="ttdeci">std::vector&lt; VkImageView &gt; imageViews</div><div class="ttdoc">Vistas de las imágenes del swapchain.</div><div class="ttdef"><b>Definition</b> GEDrawingContext.h:20</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html_a6452623682c0fd047e657c208f03575f"><div class="ttname"><a href="class_g_e_drawing_context.html#a6452623682c0fd047e657c208f03575f">GEDrawingContext::destroy</a></div><div class="ttdeci">void destroy(GEGraphicsContext *gc)</div><div class="ttdoc">Destruye los recursos del contexto de dibujo.</div><div class="ttdef"><b>Definition</b> GEDrawingContext.cpp:35</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html_a6ec9944df81a299e39fab513d9e4211f"><div class="ttname"><a href="class_g_e_drawing_context.html#a6ec9944df81a299e39fab513d9e4211f">GEDrawingContext::createQueues</a></div><div class="ttdeci">void createQueues(GEGraphicsContext *gc)</div><div class="ttdoc">Obtiene las colas gráficas y de presentación del dispositivo.</div><div class="ttdef"><b>Definition</b> GEDrawingContext.cpp:257</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html_a7b8a62f39a8390f5b08dd40e6d94da9e"><div class="ttname"><a href="class_g_e_drawing_context.html#a7b8a62f39a8390f5b08dd40e6d94da9e">GEDrawingContext::getImageCount</a></div><div class="ttdeci">uint32_t getImageCount()</div><div class="ttdoc">Obtiene el número de imágenes de la swapchain.</div><div class="ttdef"><b>Definition</b> GEDrawingContext.cpp:90</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html_a87e9ce200da98dc8ccb23d67b9d0a09d"><div class="ttname"><a href="class_g_e_drawing_context.html#a87e9ce200da98dc8ccb23d67b9d0a09d">GEDrawingContext::imageAvailableSemaphores</a></div><div class="ttdeci">std::vector&lt; VkSemaphore &gt; imageAvailableSemaphores</div><div class="ttdoc">Semáforos de imagen disponible.</div><div class="ttdef"><b>Definition</b> GEDrawingContext.h:38</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html_a94ff4fad1812b20cc70a00231cb79ad0"><div class="ttname"><a href="class_g_e_drawing_context.html#a94ff4fad1812b20cc70a00231cb79ad0">GEDrawingContext::frameCount</a></div><div class="ttdeci">uint32_t frameCount</div><div class="ttdoc">Número de frames en vuelo.</div><div class="ttdef"><b>Definition</b> GEDrawingContext.h:25</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html_aadd6a6e9fe0b128b7559c1066a94f153"><div class="ttname"><a href="class_g_e_drawing_context.html#aadd6a6e9fe0b128b7559c1066a94f153">GEDrawingContext::getExtent</a></div><div class="ttdeci">VkExtent2D getExtent()</div><div class="ttdoc">Obtiene la extensión de la imagen.</div><div class="ttdef"><b>Definition</b> GEDrawingContext.cpp:81</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html_aaeccb09fc78b1f6ebf86d19e161f6a1a"><div class="ttname"><a href="class_g_e_drawing_context.html#aaeccb09fc78b1f6ebf86d19e161f6a1a">GEDrawingContext::recreate</a></div><div class="ttdeci">void recreate(GEGraphicsContext *gc, GEWindowPosition wpos)</div><div class="ttdoc">Reconstruye el contexto de dibujo tras un cambio de tamaño.</div><div class="ttdef"><b>Definition</b> GEDrawingContext.cpp:56</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html_aaee25336f1556a0ea07e3bcabc38a352"><div class="ttname"><a href="class_g_e_drawing_context.html#aaee25336f1556a0ea07e3bcabc38a352">GEDrawingContext::getFormat</a></div><div class="ttdeci">VkFormat getFormat()</div><div class="ttdoc">Obtiene el formato de la imagen.</div><div class="ttdef"><b>Definition</b> GEDrawingContext.cpp:72</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html_abc7ed5e420a7ba2f4718baa43f897475"><div class="ttname"><a href="class_g_e_drawing_context.html#abc7ed5e420a7ba2f4718baa43f897475">GEDrawingContext::createSyncObjects</a></div><div class="ttdeci">void createSyncObjects(VkDevice device)</div><div class="ttdoc">Crea semáforos y fences para sincronización entre frames.</div><div class="ttdef"><b>Definition</b> GEDrawingContext.cpp:227</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html_abd5968d181d4b9b42bbd85f3e547f4fd"><div class="ttname"><a href="class_g_e_drawing_context.html#abd5968d181d4b9b42bbd85f3e547f4fd">GEDrawingContext::graphicsQueue</a></div><div class="ttdeci">VkQueue graphicsQueue</div><div class="ttdoc">Cola gráfica.</div><div class="ttdef"><b>Definition</b> GEDrawingContext.h:34</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html_acdb6b25fca397b27f3563080db3c130b"><div class="ttname"><a href="class_g_e_drawing_context.html#acdb6b25fca397b27f3563080db3c130b">GEDrawingContext::chooseSwapExtent</a></div><div class="ttdeci">VkExtent2D chooseSwapExtent(const VkSurfaceCapabilitiesKHR &amp;capabilities, GEWindowPosition wpos)</div><div class="ttdoc">Selecciona la extensión (tamaño) adecuada para las imágenes del swapchain.</div><div class="ttdef"><b>Definition</b> GEDrawingContext.cpp:382</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html_ad4318cf74fbd3931d319e1054022c356"><div class="ttname"><a href="class_g_e_drawing_context.html#ad4318cf74fbd3931d319e1054022c356">GEDrawingContext::inFlightFences</a></div><div class="ttdeci">std::vector&lt; VkFence &gt; inFlightFences</div><div class="ttdoc">Fences por frame.</div><div class="ttdef"><b>Definition</b> GEDrawingContext.h:40</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html_adb6fa1c02b3d0b5687dde8401eedf107"><div class="ttname"><a href="class_g_e_drawing_context.html#adb6fa1c02b3d0b5687dde8401eedf107">GEDrawingContext::currentFrame</a></div><div class="ttdeci">size_t currentFrame</div><div class="ttdoc">Índice del frame actual.</div><div class="ttdef"><b>Definition</b> GEDrawingContext.h:26</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html_addf8c95330fdbf47864e9244ccc417db"><div class="ttname"><a href="class_g_e_drawing_context.html#addf8c95330fdbf47864e9244ccc417db">GEDrawingContext::createSwapChain</a></div><div class="ttdeci">void createSwapChain(GEGraphicsContext *gc, GEWindowPosition wpos)</div><div class="ttdoc">Crea el swapchain y obtiene las imágenes y formatos adecuados.</div><div class="ttdef"><b>Definition</b> GEDrawingContext.cpp:115</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html_ae38bce872de0c2c50ed3a80b3bb73728"><div class="ttname"><a href="class_g_e_drawing_context.html#ae38bce872de0c2c50ed3a80b3bb73728">GEDrawingContext::getCurrentImage</a></div><div class="ttdeci">uint32_t getCurrentImage()</div><div class="ttdoc">Obtiene el índice de la imagen actual.</div><div class="ttdef"><b>Definition</b> GEDrawingContext.cpp:99</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html_ae571d299e6b8e1512fac267d975332de"><div class="ttname"><a href="class_g_e_drawing_context.html#ae571d299e6b8e1512fac267d975332de">GEDrawingContext::submitPresentCommands</a></div><div class="ttdeci">void submitPresentCommands(GEGraphicsContext *gc)</div><div class="ttdoc">Envía los comandos de presentación para la imagen actual.</div><div class="ttdef"><b>Definition</b> GEDrawingContext.cpp:328</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html_af0d8bbc2b1fe8119e6d1aa65d497b3b0"><div class="ttname"><a href="class_g_e_drawing_context.html#af0d8bbc2b1fe8119e6d1aa65d497b3b0">GEDrawingContext::createImageViews</a></div><div class="ttdeci">void createImageViews(VkDevice device)</div><div class="ttdoc">Crea una vista para cada imagen del swapchain.</div><div class="ttdef"><b>Definition</b> GEDrawingContext.cpp:194</div></div>
+<div class="ttc" id="aclass_g_e_drawing_context_html_afc75f4f3d76f45a0a3e45a2cfc0b5563"><div class="ttname"><a href="class_g_e_drawing_context.html#afc75f4f3d76f45a0a3e45a2cfc0b5563">GEDrawingContext::imageFormat</a></div><div class="ttdeci">VkFormat imageFormat</div><div class="ttdoc">Formato de imagen.</div><div class="ttdef"><b>Definition</b> GEDrawingContext.h:31</div></div>
+<div class="ttc" id="aclass_g_e_graphics_context_html"><div class="ttname"><a href="class_g_e_graphics_context.html">GEGraphicsContext</a></div><div class="ttdoc">Clase que almacena el contexto gráfico de Vulkan (instancia y dispositivo).</div><div class="ttdef"><b>Definition</b> GEGraphicsContext.h:17</div></div>
+<div class="ttc" id="astruct_g_e_window_position_html"><div class="ttname"><a href="struct_g_e_window_position.html">GEWindowPosition</a></div><div class="ttdoc">Estructura que almacena la posición y el tamaño de la ventana gráfica.</div><div class="ttdef"><b>Definition</b> GEWindowPosition.h:12</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_23ed62d68ba96d0c485cdb821755d287.html">MVPVulkan</a></li><li class="navelem"><a href="_g_e_drawing_context_8h.html">GEDrawingContext.h</a></li>
+    <li class="footer">Generado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
+  </ul>
+</div>
+</body>
+</html>

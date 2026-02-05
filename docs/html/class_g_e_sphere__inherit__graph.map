@@ -1,0 +1,5 @@
+<map id="GESphere" name="GESphere">
+<area shape="rect" id="Node000001" title="Clase que describe una esfera." alt="" coords="5,80,87,107"/>
+<area shape="rect" id="Node000002" href="$class_g_e_figure.html" title="Clase que describe una figura formada por una malla de vértices." alt="" coords="8,5,84,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="48,46,49,80,43,79,44,50"/>
+</map>

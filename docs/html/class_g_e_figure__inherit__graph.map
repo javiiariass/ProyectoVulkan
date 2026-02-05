@@ -1,0 +1,9 @@
+<map id="GEFigure" name="GEFigure">
+<area shape="rect" id="Node000001" title="Clase que describe una figura formada por una malla de vértices." alt="" coords="121,5,197,32"/>
+<area shape="rect" id="Node000002" href="$class_g_e_cylinder.html" title="Clase que describe un cilindro." alt="" coords="5,80,94,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,42,70,82,67,77,124,40"/>
+<area shape="rect" id="Node000003" href="$class_g_e_ground.html" title="Clase que describe un terreno rectangular." alt="" coords="118,80,200,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="161,46,161,81,157,78,157,50"/>
+<area shape="rect" id="Node000004" href="$class_g_e_sphere.html" title="Clase que describe una esfera." alt="" coords="224,80,305,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="190,38,248,79,243,79,189,44"/>
+</map>

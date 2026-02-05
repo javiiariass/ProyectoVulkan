@@ -1,0 +1,7 @@
+<map id="GERenderingContext::createFragmentShaderStageCreateInfo" name="GERenderingContext::createFragmentShaderStageCreateInfo">
+<area shape="rect" id="Node000001" title="Crea la información sobre el Fragment Shader." alt="" coords="5,31,201,89"/>
+<area shape="rect" id="Node000002" href="$class_g_e_rendering_context.html#a0915e69629916660bd8b22fedf4b2e1c" title="Crea un shader a partir de su código en SPIR&#45;V." alt="" coords="252,5,400,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,43,239,39,234,41,201,48"/>
+<area shape="rect" id="Node000003" href="$class_g_e_rendering_context.html#a50bcdd8c7da9656f5c93d7385a5eb714" title="Extrae el contenido de un fichero incluido como recurso de la aplicación." alt="" coords="249,72,403,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="201,72,236,79,231,80,201,77"/>
+</map>

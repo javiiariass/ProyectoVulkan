@@ -1,0 +1,34 @@
+<map id="MVPVulkan/GERenderingContext.cpp" name="MVPVulkan/GERenderingContext.cpp">
+<area shape="rect" id="Node000001" title="Implementación de la clase GERenderingContext." alt="" coords="400,5,642,32"/>
+<area shape="rect" id="Node000002" href="$_g_e_rendering_context_8h.html" title="Declaración de la clase GERenderingContext que describe un contexto de renderizado." alt="" coords="299,80,455,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="494,34,417,75,415,70,498,31"/>
+<area shape="rect" id="Node000012" href="$resource_8h.html" title=" " alt="" coords="480,80,562,107"/>
+<area shape="poly" id="edge18_Node000001_Node000012" title=" " alt="" coords="523,30,523,66,519,63,520,35"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="586,80,669,107"/>
+<area shape="poly" id="edge19_Node000001_Node000013" title=" " alt="" coords="540,30,599,71,594,71,539,35"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="325,304,437,331"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="456,101,504,120,525,134,542,153,548,166,549,180,541,210,527,238,512,258,480,283,444,301,442,296,478,279,509,254,523,235,536,209,543,180,542,167,538,156,521,138,501,124,456,107"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="603,155,674,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="423,105,590,152,585,153,423,110"/>
+<area shape="rect" id="Node000005" href="$_g_e_graphics_context_8h.html" title="Declaración de la clase GEGraphicsContext que almacena el contexto gráfico de Vulkan." alt="" coords="24,229,173,256"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="329,109,274,129,213,157,165,189,124,221,121,217,162,184,211,152,272,125,333,106"/>
+<area shape="rect" id="Node000007" href="$_g_e_drawing_context_8h.html" title="Declaración de la clase GEDrawingContext para gestionar swapchain y present." alt="" coords="223,155,368,181"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="365,106,323,146,319,142,361,109"/>
+<area shape="rect" id="Node000010" href="$_g_e_pipeline_config_8h.html" title="Declaración de la clase GEPipelineConfig que almacena la configuración de un pipeline de renderizado." alt="" coords="392,155,527,181"/>
+<area shape="poly" id="edge12_Node000002_Node000010" title=" " alt="" coords="392,105,437,144,432,144,391,110"/>
+<area shape="rect" id="Node000011" href="$_g_e_depth_buffer_8h.html" title="Declaración de la clase GEDepthBuffer que gestiona el recurso de profundidad." alt="" coords="28,155,148,181"/>
+<area shape="poly" id="edge15_Node000002_Node000011" title=" " alt="" coords="325,109,154,153,152,148,328,105"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="148,254,319,298,315,302,147,259"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="46,304,151,331"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="100,255,101,289,96,287,97,259"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="313,179,337,201,358,228,371,258,379,290,374,287,366,260,354,231,333,204,312,184"/>
+<area shape="poly" id="edge10_Node000007_Node000005" title=" " alt="" coords="260,184,149,226,146,221,263,180"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="419,229,476,256"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="323,179,410,222,405,223,322,185"/>
+<area shape="rect" id="Node000009" href="$_g_e_window_position_8h.html" title="Declaración de la estructura GEWindowPosition para ventanas." alt="" coords="198,229,343,256"/>
+<area shape="poly" id="edge11_Node000007_Node000009" title=" " alt="" coords="293,180,282,216,278,213,289,184"/>
+<area shape="poly" id="edge13_Node000010_Node000003" title=" " alt="" coords="471,179,493,215,497,237,492,257,469,282,440,300,438,295,466,278,487,255,491,237,488,217,469,184"/>
+<area shape="poly" id="edge14_Node000010_Node000008" title=" " alt="" coords="460,180,454,216,450,212,456,184"/>
+<area shape="poly" id="edge16_Node000011_Node000003" title=" " alt="" coords="62,184,41,199,20,217,9,236,9,245,14,254,27,262,53,270,130,285,311,307,308,312,129,290,51,275,25,267,10,258,4,247,3,235,16,214,38,195,64,180"/>
+<area shape="poly" id="edge17_Node000011_Node000005" title=" " alt="" coords="91,179,97,214,92,214,89,184"/>
+</map>

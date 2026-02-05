@@ -1,0 +1,16 @@
+<map id="MVPVulkan/GEUniformBuffer.cpp" name="MVPVulkan/GEUniformBuffer.cpp">
+<area shape="rect" id="Node000001" title="Implementación de la clase GEUniformBuffer." alt="" coords="146,5,363,32"/>
+<area shape="rect" id="Node000002" href="$_g_e_uniform_buffer_8h.html" title=" " alt="" coords="126,80,258,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="246,31,215,70,211,66,242,34"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="282,80,353,107"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="266,30,299,68,294,68,265,35"/>
+<area shape="rect" id="Node000003" href="$_g_e_graphics_context_8h.html" title="Declaración de la clase GEGraphicsContext que almacena el contexto gráfico de Vulkan." alt="" coords="5,155,155,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="171,109,114,148,111,144,174,105"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="136,229,248,256"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="194,106,195,215,189,213,190,109"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="230,155,287,181"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="204,105,240,143,234,143,203,110"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="6,229,111,256"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="78,180,69,216,64,213,74,184"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="100,179,162,220,157,222,99,184"/>
+</map>

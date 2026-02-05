@@ -1,0 +1,7 @@
+<map id="Gráfico de jerarquía de clases" name="Gráfico de jerarquía de clases">
+<area shape="rect" id="Node000000" href="$classpugi_1_1xml__writer.html" title=" " alt="" coords="5,31,119,57"/>
+<area shape="rect" id="Node000001" href="$classpugi_1_1xml__writer__file.html" title=" " alt="" coords="178,5,316,32"/>
+<area shape="poly" id="edge5_Node000000_Node000001" title=" " alt="" coords="133,32,181,27,175,29,134,37"/>
+<area shape="rect" id="Node000002" href="$classpugi_1_1xml__writer__stream.html" title=" " alt="" coords="167,56,327,83"/>
+<area shape="poly" id="edge6_Node000000_Node000002" title=" " alt="" coords="134,51,169,58,163,59,134,56"/>
+</map>

@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Animación Vulkan: Archivo de código fuente MVPVulkan/GEGraphicsContext.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">var page_layout=1;</script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="side-nav" class="ui-resizable side-nav-resizable"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Animación Vulkan<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Animación de tiro libre baloncesto con motor gráfico desarrollado en clase</div>
+  </td>
+ </tr>
+   <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td></tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_g_e_graphics_context_8h_source.html','',''); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','Buscar',true);
+});
+</script>
+<div id="main-nav"></div>
+<div id="container"><div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">GEGraphicsContext.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_g_e_graphics_context_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="_g_e_graphics_context_8h.html#ab91f325a54d3e35fe831a86d6382c2a9">    8</a></span><span class="preprocessor">#define GLFW_INCLUDE_VULKAN</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;GLFW/glfw3.h&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;vulkan/vulkan.h&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span></div>
+<div class="foldopen" id="foldopen00016" data-start="{" data-end="};">
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="class_g_e_graphics_context.html">   16</a></span><span class="keyword">class </span><a class="code hl_function" href="class_g_e_graphics_context.html#ad05a5cd5b918fc0b820616688057c39a">GEGraphicsContext</a></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="class_g_e_graphics_context.html#a3db6fa7a902054f1888a231a8d9481ab">   19</a></span>    VkInstance <a class="code hl_variable" href="class_g_e_graphics_context.html#a3db6fa7a902054f1888a231a8d9481ab">instance</a>; </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="class_g_e_graphics_context.html#abecf5540e98b76e56d9c1fdf35935613">   20</a></span>    VkSurfaceKHR <a class="code hl_variable" href="class_g_e_graphics_context.html#abecf5540e98b76e56d9c1fdf35935613">surface</a>; </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="class_g_e_graphics_context.html#a4233726461cb8666e4d18f8174c773f5">   21</a></span>    VkPhysicalDevice <a class="code hl_variable" href="class_g_e_graphics_context.html#a4233726461cb8666e4d18f8174c773f5">physicalDevice</a>; </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="class_g_e_graphics_context.html#a0a2e27af4ff18bb5a509deaa7992cc14">   22</a></span>    VkDevice <a class="code hl_variable" href="class_g_e_graphics_context.html#a0a2e27af4ff18bb5a509deaa7992cc14">device</a>; </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="class_g_e_graphics_context.html#a62a5721b6200e93767498e34d24ca9d2">   23</a></span>    uint32_t <a class="code hl_variable" href="class_g_e_graphics_context.html#a62a5721b6200e93767498e34d24ca9d2">graphicsQueueFamilyIndex</a>; </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="class_g_e_graphics_context.html#a1cbd4b005cfda695edcdbf622f67b835">   24</a></span>    uint32_t <a class="code hl_variable" href="class_g_e_graphics_context.html#a1cbd4b005cfda695edcdbf622f67b835">presentQueueFamilyIndex</a>; </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="class_g_e_graphics_context.html#a1fd04d777db576d78fa11e7a1ff0b7ce">   27</a></span>    VkPhysicalDeviceMemoryProperties <a class="code hl_variable" href="class_g_e_graphics_context.html#a1fd04d777db576d78fa11e7a1ff0b7ce">memProperties</a>; </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <a class="code hl_function" href="class_g_e_graphics_context.html#ad05a5cd5b918fc0b820616688057c39a">GEGraphicsContext</a>(GLFWwindow* window);</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <a class="code hl_function" href="class_g_e_graphics_context.html#afb054d883b64cf080abf636c18b81426">~GEGraphicsContext</a>();</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    uint32_t <a class="code hl_function" href="class_g_e_graphics_context.html#ad35321242b0a2bb7e00b2ef0a515d402">findMemoryType</a>(uint32_t typeFilter, VkMemoryPropertyFlags properties);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    VkFormat <a class="code hl_function" href="class_g_e_graphics_context.html#a0d7cc8d858bf9deed9bf31b2d5b7ea36">findDepthFormat</a>();</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="comment">// ===== Métodos de inicialización de Vulkan =====</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_graphics_context.html#a537d64701b6e6ecb96c2eb16bf5cb43c">createInstance</a>();</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_graphics_context.html#a8345f73d6f391f9afde8febbc4c8dc8b">createSurface</a>(GLFWwindow* window);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_graphics_context.html#a0fa73d6028a93f4912e510309846da86">pickPhysicalDevice</a>();</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_graphics_context.html#aee42a876bc9fbc67c6ef46dbda09491f">createLogicalDevice</a>();</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="comment">// ===== Métodos auxiliares =====</span></div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_graphics_context.html#ab7132fb73eff3eafe6fdece3fc8b21e7">showInstanceProperties</a>();</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span></div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="class_g_e_graphics_context.html#a8d07ce73bc62675db9b9ec97659e3187">isDeviceSuitable</a>(VkPhysicalDevice pDevice);</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span></div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_graphics_context.html#aaf6502eeb2b63c29b12729b657b0ee95">showDevices</a>();</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span></div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_graphics_context.html#ab7782a268d0c244506262dd6ce3a1571">resumeDeviceProperties</a>(VkPhysicalDevice pDevice, <span class="keywordtype">int</span> index);</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>};</div>
+</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
+<div class="ttc" id="aclass_g_e_graphics_context_html_a0a2e27af4ff18bb5a509deaa7992cc14"><div class="ttname"><a href="class_g_e_graphics_context.html#a0a2e27af4ff18bb5a509deaa7992cc14">GEGraphicsContext::device</a></div><div class="ttdeci">VkDevice device</div><div class="ttdoc">Dispositivo lógico.</div><div class="ttdef"><b>Definition</b> GEGraphicsContext.h:22</div></div>
+<div class="ttc" id="aclass_g_e_graphics_context_html_a0d7cc8d858bf9deed9bf31b2d5b7ea36"><div class="ttname"><a href="class_g_e_graphics_context.html#a0d7cc8d858bf9deed9bf31b2d5b7ea36">GEGraphicsContext::findDepthFormat</a></div><div class="ttdeci">VkFormat findDepthFormat()</div><div class="ttdoc">Busca el formato de imagen adecuado para el buffer de profundidad.</div><div class="ttdef"><b>Definition</b> GEGraphicsContext.cpp:65</div></div>
+<div class="ttc" id="aclass_g_e_graphics_context_html_a0fa73d6028a93f4912e510309846da86"><div class="ttname"><a href="class_g_e_graphics_context.html#a0fa73d6028a93f4912e510309846da86">GEGraphicsContext::pickPhysicalDevice</a></div><div class="ttdeci">void pickPhysicalDevice()</div><div class="ttdoc">Selecciona el dispositivo físico adecuado.</div><div class="ttdef"><b>Definition</b> GEGraphicsContext.cpp:141</div></div>
+<div class="ttc" id="aclass_g_e_graphics_context_html_a1cbd4b005cfda695edcdbf622f67b835"><div class="ttname"><a href="class_g_e_graphics_context.html#a1cbd4b005cfda695edcdbf622f67b835">GEGraphicsContext::presentQueueFamilyIndex</a></div><div class="ttdeci">uint32_t presentQueueFamilyIndex</div><div class="ttdoc">Índice de la familia de colas para presentación.</div><div class="ttdef"><b>Definition</b> GEGraphicsContext.h:24</div></div>
+<div class="ttc" id="aclass_g_e_graphics_context_html_a1fd04d777db576d78fa11e7a1ff0b7ce"><div class="ttname"><a href="class_g_e_graphics_context.html#a1fd04d777db576d78fa11e7a1ff0b7ce">GEGraphicsContext::memProperties</a></div><div class="ttdeci">VkPhysicalDeviceMemoryProperties memProperties</div><div class="ttdoc">Propiedades de memoria del dispositivo.</div><div class="ttdef"><b>Definition</b> GEGraphicsContext.h:27</div></div>
+<div class="ttc" id="aclass_g_e_graphics_context_html_a3db6fa7a902054f1888a231a8d9481ab"><div class="ttname"><a href="class_g_e_graphics_context.html#a3db6fa7a902054f1888a231a8d9481ab">GEGraphicsContext::instance</a></div><div class="ttdeci">VkInstance instance</div><div class="ttdoc">Instancia de Vulkan.</div><div class="ttdef"><b>Definition</b> GEGraphicsContext.h:19</div></div>
+<div class="ttc" id="aclass_g_e_graphics_context_html_a4233726461cb8666e4d18f8174c773f5"><div class="ttname"><a href="class_g_e_graphics_context.html#a4233726461cb8666e4d18f8174c773f5">GEGraphicsContext::physicalDevice</a></div><div class="ttdeci">VkPhysicalDevice physicalDevice</div><div class="ttdoc">Dispositivo físico seleccionado.</div><div class="ttdef"><b>Definition</b> GEGraphicsContext.h:21</div></div>
+<div class="ttc" id="aclass_g_e_graphics_context_html_a537d64701b6e6ecb96c2eb16bf5cb43c"><div class="ttname"><a href="class_g_e_graphics_context.html#a537d64701b6e6ecb96c2eb16bf5cb43c">GEGraphicsContext::createInstance</a></div><div class="ttdeci">void createInstance()</div><div class="ttdoc">Crea la instancia de Vulkan.</div><div class="ttdef"><b>Definition</b> GEGraphicsContext.cpp:98</div></div>
+<div class="ttc" id="aclass_g_e_graphics_context_html_a62a5721b6200e93767498e34d24ca9d2"><div class="ttname"><a href="class_g_e_graphics_context.html#a62a5721b6200e93767498e34d24ca9d2">GEGraphicsContext::graphicsQueueFamilyIndex</a></div><div class="ttdeci">uint32_t graphicsQueueFamilyIndex</div><div class="ttdoc">Índice de la familia de colas para gráficos.</div><div class="ttdef"><b>Definition</b> GEGraphicsContext.h:23</div></div>
+<div class="ttc" id="aclass_g_e_graphics_context_html_a8345f73d6f391f9afde8febbc4c8dc8b"><div class="ttname"><a href="class_g_e_graphics_context.html#a8345f73d6f391f9afde8febbc4c8dc8b">GEGraphicsContext::createSurface</a></div><div class="ttdeci">void createSurface(GLFWwindow *window)</div><div class="ttdoc">Crea la superficie para la ventana GLFW.</div><div class="ttdef"><b>Definition</b> GEGraphicsContext.cpp:130</div></div>
+<div class="ttc" id="aclass_g_e_graphics_context_html_a8d07ce73bc62675db9b9ec97659e3187"><div class="ttname"><a href="class_g_e_graphics_context.html#a8d07ce73bc62675db9b9ec97659e3187">GEGraphicsContext::isDeviceSuitable</a></div><div class="ttdeci">bool isDeviceSuitable(VkPhysicalDevice pDevice)</div><div class="ttdoc">Comprueba si un dispositivo físico es adecuado.</div><div class="ttdef"><b>Definition</b> GEGraphicsContext.cpp:292</div></div>
+<div class="ttc" id="aclass_g_e_graphics_context_html_aaf6502eeb2b63c29b12729b657b0ee95"><div class="ttname"><a href="class_g_e_graphics_context.html#aaf6502eeb2b63c29b12729b657b0ee95">GEGraphicsContext::showDevices</a></div><div class="ttdeci">void showDevices()</div><div class="ttdoc">Muestra y escribe en fichero las propiedades de los dispositivos detectados.</div><div class="ttdef"><b>Definition</b> GEGraphicsContext.cpp:342</div></div>
+<div class="ttc" id="aclass_g_e_graphics_context_html_ab7132fb73eff3eafe6fdece3fc8b21e7"><div class="ttname"><a href="class_g_e_graphics_context.html#ab7132fb73eff3eafe6fdece3fc8b21e7">GEGraphicsContext::showInstanceProperties</a></div><div class="ttdeci">void showInstanceProperties()</div><div class="ttdoc">Muestra propiedades de la instancia Vulkan (depuración).</div><div class="ttdef"><b>Definition</b> GEGraphicsContext.cpp:263</div></div>
+<div class="ttc" id="aclass_g_e_graphics_context_html_ab7782a268d0c244506262dd6ce3a1571"><div class="ttname"><a href="class_g_e_graphics_context.html#ab7782a268d0c244506262dd6ce3a1571">GEGraphicsContext::resumeDeviceProperties</a></div><div class="ttdeci">void resumeDeviceProperties(VkPhysicalDevice pDevice, int index)</div><div class="ttdoc">Escribe en fichero las características detalladas de un dispositivo.</div><div class="ttdef"><b>Definition</b> GEGraphicsContext.cpp:372</div></div>
+<div class="ttc" id="aclass_g_e_graphics_context_html_abecf5540e98b76e56d9c1fdf35935613"><div class="ttname"><a href="class_g_e_graphics_context.html#abecf5540e98b76e56d9c1fdf35935613">GEGraphicsContext::surface</a></div><div class="ttdeci">VkSurfaceKHR surface</div><div class="ttdoc">Superficie de presentación.</div><div class="ttdef"><b>Definition</b> GEGraphicsContext.h:20</div></div>
+<div class="ttc" id="aclass_g_e_graphics_context_html_ad05a5cd5b918fc0b820616688057c39a"><div class="ttname"><a href="class_g_e_graphics_context.html#ad05a5cd5b918fc0b820616688057c39a">GEGraphicsContext::GEGraphicsContext</a></div><div class="ttdeci">GEGraphicsContext(GLFWwindow *window)</div><div class="ttdoc">Construye el contexto gráfico de Vulkan.</div><div class="ttdef"><b>Definition</b> GEGraphicsContext.cpp:22</div></div>
+<div class="ttc" id="aclass_g_e_graphics_context_html_ad35321242b0a2bb7e00b2ef0a515d402"><div class="ttname"><a href="class_g_e_graphics_context.html#ad35321242b0a2bb7e00b2ef0a515d402">GEGraphicsContext::findMemoryType</a></div><div class="ttdeci">uint32_t findMemoryType(uint32_t typeFilter, VkMemoryPropertyFlags properties)</div><div class="ttdoc">Busca el tipo de memoria adecuado para un filtro y propiedades dadas.</div><div class="ttdef"><b>Definition</b> GEGraphicsContext.cpp:48</div></div>
+<div class="ttc" id="aclass_g_e_graphics_context_html_aee42a876bc9fbc67c6ef46dbda09491f"><div class="ttname"><a href="class_g_e_graphics_context.html#aee42a876bc9fbc67c6ef46dbda09491f">GEGraphicsContext::createLogicalDevice</a></div><div class="ttdeci">void createLogicalDevice()</div><div class="ttdoc">Crea el dispositivo lógico y configura las colas.</div><div class="ttdef"><b>Definition</b> GEGraphicsContext.cpp:189</div></div>
+<div class="ttc" id="aclass_g_e_graphics_context_html_afb054d883b64cf080abf636c18b81426"><div class="ttname"><a href="class_g_e_graphics_context.html#afb054d883b64cf080abf636c18b81426">GEGraphicsContext::~GEGraphicsContext</a></div><div class="ttdeci">~GEGraphicsContext()</div><div class="ttdoc">Destruye el contexto gráfico y libera recursos.</div><div class="ttdef"><b>Definition</b> GEGraphicsContext.cpp:35</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_23ed62d68ba96d0c485cdb821755d287.html">MVPVulkan</a></li><li class="navelem"><a href="_g_e_graphics_context_8h.html">GEGraphicsContext.h</a></li>
+    <li class="footer">Generado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
+  </ul>
+</div>
+</body>
+</html>

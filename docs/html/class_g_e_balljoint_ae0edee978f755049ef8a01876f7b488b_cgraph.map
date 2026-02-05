@@ -1,0 +1,7 @@
+<map id="GEBalljoint::destroyRecursive" name="GEBalljoint::destroyRecursive">
+<area shape="rect" id="Node000001" title="Destruye recursivamente esta articulación y sus hijas." alt="" coords="5,31,202,57"/>
+<area shape="rect" id="Node000002" href="$class_g_e_balljoint.html#ae61d59436dfd3ecde5bfc3d73bc16c48" title="Destruye los buffers de las piezas." alt="" coords="261,5,398,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,30,248,28,243,29,202,36"/>
+<area shape="rect" id="Node000003" href="$class_g_e_balljoint.html#a0f468b4618ae46410622a32a83569714" title="Construye una articulación." alt="" coords="250,56,409,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="202,52,237,59,231,59,202,58"/>
+</map>

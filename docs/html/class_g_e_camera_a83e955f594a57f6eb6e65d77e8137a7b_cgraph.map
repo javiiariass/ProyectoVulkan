@@ -1,0 +1,25 @@
+<map id="GECamera::update" name="GECamera::update">
+<area shape="rect" id="Node000001" title="Actualiza la posición y orientación según entradas." alt="" coords="5,259,139,285"/>
+<area shape="rect" id="Node000002" href="$class_g_e_camera.html#aa920ec52e1d44bbc8cc89aece25421ce" title="Mueve el observador un paso hacia abajo." alt="" coords="187,5,347,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="74,258,85,216,106,158,139,96,160,67,185,42,193,38,190,42,188,46,164,71,143,99,111,160,90,218,79,259"/>
+<area shape="rect" id="Node000003" href="$class_g_e_camera.html#a777f0cd36c79b1e8e24f09249862e544" title="Mueve el observador un paso hacia adelante (dirección &#45;Dir)." alt="" coords="189,56,345,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="76,257,90,224,113,180,145,133,185,93,195,88,191,92,188,97,149,136,118,182,95,226,81,259"/>
+<area shape="rect" id="Node000004" href="$class_g_e_camera.html#a1ba0d6addb4272f2ac627cf8beb0c264" title="Mueve el observador un paso hacia la izquierda." alt="" coords="193,107,341,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="80,257,121,202,151,170,185,143,197,138,194,142,188,148,154,174,125,206,84,260"/>
+<area shape="rect" id="Node000005" href="$class_g_e_camera.html#a641f83f1c26619950565d60efc21e3cf" title="Mueve el observador un paso hacia la derecha." alt="" coords="188,157,346,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="88,257,131,225,185,194,203,188,199,192,188,198,134,230,92,260"/>
+<area shape="rect" id="Node000006" href="$class_g_e_camera.html#a79904b61df7fbfd2a66299cfbe6a69e6" title="Mueve el observador un paso hacia arriba." alt="" coords="195,208,338,235"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="125,256,200,237,196,241,128,260"/>
+<area shape="rect" id="Node000007" href="$class_g_e_camera.html#aaed635fd6f4b799143bcce2a5646553d" title="Rota el observador un paso en sentido antihorario." alt="" coords="192,259,342,285"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="138,270,179,270,174,274,140,274"/>
+<area shape="rect" id="Node000008" href="$class_g_e_camera.html#a73173ea24e7abd46e6eef216bf1de839" title="Rota el observador un paso en sentido horario." alt="" coords="197,309,336,336"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="126,283,200,303,196,306,127,289"/>
+<area shape="rect" id="Node000009" href="$class_g_e_camera.html#ab19eedafa22b07fb557d0359890ab15e" title="Rota el observador un paso hacia abajo." alt="" coords="192,360,342,387"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="90,283,134,314,188,346,204,354,198,355,185,350,131,319,91,288"/>
+<area shape="rect" id="Node000010" href="$class_g_e_camera.html#afd8491948b0482d6b542983b3052915f" title="Rota el observador un paso hacia su izquierda." alt="" coords="198,411,336,437"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="82,283,125,338,154,370,188,396,198,404,193,404,185,401,151,374,121,342,82,288"/>
+<area shape="rect" id="Node000011" href="$class_g_e_camera.html#a9ab05a0f84590249c876a64b128b565e" title="Rota el observador un paso hacia su derecha." alt="" coords="193,461,340,488"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="78,283,95,318,118,362,149,408,188,447,196,454,190,454,185,451,145,411,113,364,90,320,78,288"/>
+<area shape="rect" id="Node000012" href="$class_g_e_camera.html#adea234ba1f06e6408ac1937d53acbb7b" title="Rota el observador un paso hacia arriba." alt="" coords="200,512,334,539"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="76,283,90,326,111,384,143,445,164,473,188,498,195,505,189,504,185,502,160,477,139,448,106,386,85,328,76,288"/>
+</map>

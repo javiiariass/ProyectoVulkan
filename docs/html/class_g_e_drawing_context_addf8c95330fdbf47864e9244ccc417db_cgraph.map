@@ -1,0 +1,7 @@
+<map id="GEDrawingContext::createSwapChain" name="GEDrawingContext::createSwapChain">
+<area shape="rect" id="Node000001" title="Crea el swapchain y obtiene las imágenes y formatos adecuados." alt="" coords="5,39,184,81"/>
+<area shape="rect" id="Node000002" href="$class_g_e_drawing_context.html#acdb6b25fca397b27f3563080db3c130b" title="Selecciona la extensión (tamaño) adecuada para las imágenes del swapchain." alt="" coords="232,5,416,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,44,219,42,214,43,185,50"/>
+<area shape="rect" id="Node000003" href="$class_g_e_drawing_context.html#a3b9ad39a37755665d94e149b73d99a43" title="Escoge el formato de imagen entre los soportados por la superficie." alt="" coords="232,72,416,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="184,70,219,77,213,78,184,76"/>
+</map>

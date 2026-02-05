@@ -1,0 +1,12 @@
+<map id="GERenderingContext::getFileFromResource" name="GERenderingContext::getFileFromResource">
+<area shape="rect" id="Node000001" title="Extrae el contenido de un fichero incluido como recurso de la aplicación." alt="" coords="704,51,859,93"/>
+<area shape="rect" id="Node000002" href="$class_g_e_rendering_context.html#a30b91a68b3ab264ec7943ba1ffa14f96" title="Crea la información sobre el Fragment Shader." alt="" coords="440,5,635,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="686,58,635,52,635,47,691,58"/>
+<area shape="rect" id="Node000005" href="$class_g_e_rendering_context.html#aa10b997efa5b9408fefb7bbefff219cf" title="Crea la información sobre el Vertex Shader." alt="" coords="418,88,656,131"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="691,86,657,94,657,88,686,86"/>
+<area shape="rect" id="Node000003" href="$class_g_e_rendering_context.html#aba96e7a9f6699afaa6b695cb3e7373e2" title="Crea el Pipeline de renderizado." alt="" coords="207,51,370,93"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="421,52,371,62,370,57,427,51"/>
+<area shape="rect" id="Node000004" href="$class_g_e_rendering_context.html#a6cd622aab40a887d134dd524bac920b8" title="Construye el contexto de renderizado (render pass, pipeline y framebuffers)." alt="" coords="5,51,159,93"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="189,73,160,75,159,69,194,71"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="400,89,370,87,371,82,405,89"/>
+</map>

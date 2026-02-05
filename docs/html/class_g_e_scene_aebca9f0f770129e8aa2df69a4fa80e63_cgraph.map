@@ -1,0 +1,5 @@
+<map id="GEScene::createBasketballThrowAnimation" name="GEScene::createBasketballThrowAnimation">
+<area shape="rect" id="Node000001" title="Crea la animación de tiro libre." alt="" coords="5,5,188,48"/>
+<area shape="rect" id="Node000002" href="$class_g_e_animation.html#aeec10aedbf6934c9609ad80bd5fca009" title="Añade un keyframe a la animación." alt="" coords="236,13,419,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,24,223,26,218,27,188,29"/>
+</map>

@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Animación Vulkan: Archivo de código fuente MVPVulkan/GEPipelineConfig.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">var page_layout=1;</script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="side-nav" class="ui-resizable side-nav-resizable"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Animación Vulkan<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Animación de tiro libre baloncesto con motor gráfico desarrollado en clase</div>
+  </td>
+ </tr>
+   <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td></tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_g_e_pipeline_config_8h_source.html','',''); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','Buscar',true);
+});
+</script>
+<div id="main-nav"></div>
+<div id="container"><div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">GEPipelineConfig.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_g_e_pipeline_config_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;vulkan/vulkan.h&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span></div>
+<div class="foldopen" id="foldopen00015" data-start="{" data-end="};">
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="class_g_e_pipeline_config.html">   15</a></span><span class="keyword">class </span><a class="code hl_function" href="class_g_e_pipeline_config.html#a8f6cbb9edebea542ddc51a9f6949ba3a">GEPipelineConfig</a> {</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="class_g_e_pipeline_config.html#a670254c6a1b24c753d8b8bbefe42b21b">   17</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="class_g_e_pipeline_config.html#a670254c6a1b24c753d8b8bbefe42b21b">vertex_shader</a>; </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="class_g_e_pipeline_config.html#a0fe4ceed3727a341b5132ae6685886ff">   18</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="class_g_e_pipeline_config.html#a0fe4ceed3727a341b5132ae6685886ff">fragment_shader</a>; </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="class_g_e_pipeline_config.html#a2ff57c208266fafc5cb414e4983a0a72">   20</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="class_g_e_pipeline_config.html#a2ff57c208266fafc5cb414e4983a0a72">attrStride</a>; </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="class_g_e_pipeline_config.html#ad589edabb35d5488b89f18b92acc2d05">   21</a></span>    std::vector&lt;VkFormat&gt; <a class="code hl_variable" href="class_g_e_pipeline_config.html#ad589edabb35d5488b89f18b92acc2d05">attrFormats</a>; </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="class_g_e_pipeline_config.html#ad3e9839e975310e478679d3374171ed3">   22</a></span>    std::vector&lt;int&gt; <a class="code hl_variable" href="class_g_e_pipeline_config.html#ad3e9839e975310e478679d3374171ed3">attrOffsets</a>; </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="class_g_e_pipeline_config.html#a233c93a34eda53f4ad0027c70c77ca76">   24</a></span>    std::vector&lt;VkDescriptorType&gt; <a class="code hl_variable" href="class_g_e_pipeline_config.html#a233c93a34eda53f4ad0027c70c77ca76">descriptorTypes</a>; </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="class_g_e_pipeline_config.html#a53b64d70d783e38ec257477604546781">   25</a></span>    std::vector&lt;VkShaderStageFlags&gt; <a class="code hl_variable" href="class_g_e_pipeline_config.html#a53b64d70d783e38ec257477604546781">descriptorStages</a>; </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="class_g_e_pipeline_config.html#a49bb76eec48e38519078c4fca9de5352">   27</a></span>    VkBool32 <a class="code hl_variable" href="class_g_e_pipeline_config.html#a49bb76eec48e38519078c4fca9de5352">depthTestEnable</a>; </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="class_g_e_pipeline_config.html#abff8ab1c70f8b7c3a6815d851d79b953">   28</a></span>    VkCullModeFlags <a class="code hl_variable" href="class_g_e_pipeline_config.html#abff8ab1c70f8b7c3a6815d851d79b953">cullMode</a>; </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="class_g_e_pipeline_config.html#ae50f425a9976dd614c36199b56d7ace4">   29</a></span>    VkExtent2D <a class="code hl_variable" href="class_g_e_pipeline_config.html#ae50f425a9976dd614c36199b56d7ace4">extent</a>; </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <a class="code hl_function" href="class_g_e_pipeline_config.html#a8f6cbb9edebea542ddc51a9f6949ba3a">GEPipelineConfig</a>();</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>};</div>
+</div>
+<div class="ttc" id="aclass_g_e_pipeline_config_html_a0fe4ceed3727a341b5132ae6685886ff"><div class="ttname"><a href="class_g_e_pipeline_config.html#a0fe4ceed3727a341b5132ae6685886ff">GEPipelineConfig::fragment_shader</a></div><div class="ttdeci">int fragment_shader</div><div class="ttdoc">Identificador del recurso del shader de fragmento.</div><div class="ttdef"><b>Definition</b> GEPipelineConfig.h:18</div></div>
+<div class="ttc" id="aclass_g_e_pipeline_config_html_a233c93a34eda53f4ad0027c70c77ca76"><div class="ttname"><a href="class_g_e_pipeline_config.html#a233c93a34eda53f4ad0027c70c77ca76">GEPipelineConfig::descriptorTypes</a></div><div class="ttdeci">std::vector&lt; VkDescriptorType &gt; descriptorTypes</div><div class="ttdoc">Tipos de descriptores usados por el pipeline.</div><div class="ttdef"><b>Definition</b> GEPipelineConfig.h:24</div></div>
+<div class="ttc" id="aclass_g_e_pipeline_config_html_a2ff57c208266fafc5cb414e4983a0a72"><div class="ttname"><a href="class_g_e_pipeline_config.html#a2ff57c208266fafc5cb414e4983a0a72">GEPipelineConfig::attrStride</a></div><div class="ttdeci">int attrStride</div><div class="ttdoc">Tamaño en bytes del stride de los atributos de vértice.</div><div class="ttdef"><b>Definition</b> GEPipelineConfig.h:20</div></div>
+<div class="ttc" id="aclass_g_e_pipeline_config_html_a49bb76eec48e38519078c4fca9de5352"><div class="ttname"><a href="class_g_e_pipeline_config.html#a49bb76eec48e38519078c4fca9de5352">GEPipelineConfig::depthTestEnable</a></div><div class="ttdeci">VkBool32 depthTestEnable</div><div class="ttdoc">Habilita test de profundidad.</div><div class="ttdef"><b>Definition</b> GEPipelineConfig.h:27</div></div>
+<div class="ttc" id="aclass_g_e_pipeline_config_html_a53b64d70d783e38ec257477604546781"><div class="ttname"><a href="class_g_e_pipeline_config.html#a53b64d70d783e38ec257477604546781">GEPipelineConfig::descriptorStages</a></div><div class="ttdeci">std::vector&lt; VkShaderStageFlags &gt; descriptorStages</div><div class="ttdoc">Etapas de shader para cada descriptor.</div><div class="ttdef"><b>Definition</b> GEPipelineConfig.h:25</div></div>
+<div class="ttc" id="aclass_g_e_pipeline_config_html_a670254c6a1b24c753d8b8bbefe42b21b"><div class="ttname"><a href="class_g_e_pipeline_config.html#a670254c6a1b24c753d8b8bbefe42b21b">GEPipelineConfig::vertex_shader</a></div><div class="ttdeci">int vertex_shader</div><div class="ttdoc">Identificador del recurso del shader de vértices.</div><div class="ttdef"><b>Definition</b> GEPipelineConfig.h:17</div></div>
+<div class="ttc" id="aclass_g_e_pipeline_config_html_a8f6cbb9edebea542ddc51a9f6949ba3a"><div class="ttname"><a href="class_g_e_pipeline_config.html#a8f6cbb9edebea542ddc51a9f6949ba3a">GEPipelineConfig::GEPipelineConfig</a></div><div class="ttdeci">GEPipelineConfig()</div><div class="ttdoc">Construye un objeto con valores por defecto.</div><div class="ttdef"><b>Definition</b> GEPipelineConfig.cpp:11</div></div>
+<div class="ttc" id="aclass_g_e_pipeline_config_html_abff8ab1c70f8b7c3a6815d851d79b953"><div class="ttname"><a href="class_g_e_pipeline_config.html#abff8ab1c70f8b7c3a6815d851d79b953">GEPipelineConfig::cullMode</a></div><div class="ttdeci">VkCullModeFlags cullMode</div><div class="ttdoc">Modo de culling.</div><div class="ttdef"><b>Definition</b> GEPipelineConfig.h:28</div></div>
+<div class="ttc" id="aclass_g_e_pipeline_config_html_ad3e9839e975310e478679d3374171ed3"><div class="ttname"><a href="class_g_e_pipeline_config.html#ad3e9839e975310e478679d3374171ed3">GEPipelineConfig::attrOffsets</a></div><div class="ttdeci">std::vector&lt; int &gt; attrOffsets</div><div class="ttdoc">Offsets de los atributos dentro del vértice.</div><div class="ttdef"><b>Definition</b> GEPipelineConfig.h:22</div></div>
+<div class="ttc" id="aclass_g_e_pipeline_config_html_ad589edabb35d5488b89f18b92acc2d05"><div class="ttname"><a href="class_g_e_pipeline_config.html#ad589edabb35d5488b89f18b92acc2d05">GEPipelineConfig::attrFormats</a></div><div class="ttdeci">std::vector&lt; VkFormat &gt; attrFormats</div><div class="ttdoc">Formatos de los atributos de vértice.</div><div class="ttdef"><b>Definition</b> GEPipelineConfig.h:21</div></div>
+<div class="ttc" id="aclass_g_e_pipeline_config_html_ae50f425a9976dd614c36199b56d7ace4"><div class="ttname"><a href="class_g_e_pipeline_config.html#ae50f425a9976dd614c36199b56d7ace4">GEPipelineConfig::extent</a></div><div class="ttdeci">VkExtent2D extent</div><div class="ttdoc">Extensión de la imagen (swapchain).</div><div class="ttdef"><b>Definition</b> GEPipelineConfig.h:29</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_23ed62d68ba96d0c485cdb821755d287.html">MVPVulkan</a></li><li class="navelem"><a href="_g_e_pipeline_config_8h.html">GEPipelineConfig.h</a></li>
+    <li class="footer">Generado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
+  </ul>
+</div>
+</body>
+</html>

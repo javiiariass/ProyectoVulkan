@@ -1,0 +1,5 @@
+<map id="GEBalljoint::setOrientation" name="GEBalljoint::setOrientation">
+<area shape="rect" id="Node000001" title="Asigna la orientación de la articulación." alt="" coords="5,5,181,32"/>
+<area shape="rect" id="Node000002" href="$class_g_e_balljoint.html#a26c862fcf041ae1703e1f2b5faa701d7" title="Calcula la matriz de transformación local." alt="" coords="229,5,412,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,16,216,19,211,19,181,21"/>
+</map>

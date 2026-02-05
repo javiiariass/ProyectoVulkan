@@ -1,0 +1,265 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Animación Vulkan: Archivo de código fuente MVPVulkan/GECamera.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">var page_layout=1;</script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="side-nav" class="ui-resizable side-nav-resizable"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Animación Vulkan<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Animación de tiro libre baloncesto con motor gráfico desarrollado en clase</div>
+  </td>
+ </tr>
+   <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td></tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_g_e_camera_8h_source.html','',''); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','Buscar',true);
+});
+</script>
+<div id="main-nav"></div>
+<div id="container"><div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">GECamera.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_g_e_camera_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;glm/glm.hpp&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span></div>
+<div class="foldopen" id="foldopen00014" data-start="{" data-end="};">
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="class_g_e_camera.html">   14</a></span><span class="keyword">class </span><a class="code hl_function" href="class_g_e_camera.html#a9e7395942078a1ffa1945f8e14cf1bb1">GECamera</a> {</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <a class="code hl_function" href="class_g_e_camera.html#a9e7395942078a1ffa1945f8e14cf1bb1">GECamera</a>();</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    glm::mat4 <a class="code hl_function" href="class_g_e_camera.html#a94ad7be54a42a1e44514cae0b3e912c6">getViewMatrix</a>();</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_camera.html#ac04254305c65d438a4727d088fd97b73">setPosition</a>(glm::vec3 pos);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_camera.html#abcba93d88cbb1345a92217b2ba67d81c">setDirection</a>(glm::vec3 dir, glm::vec3 up);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_camera.html#a1740eab0afd63dcb2064d31d66a2f6a1">setMoveStep</a>(<span class="keywordtype">float</span> step);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_camera.html#a557a7e16476d82e62b491e39aa7698c2">setTurnStep</a>(<span class="keywordtype">float</span> step);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    glm::vec3 <a class="code hl_function" href="class_g_e_camera.html#a52e28dd24484996bccd3001ac9da7000">getPosition</a>();</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    glm::vec3 <a class="code hl_function" href="class_g_e_camera.html#a2bf1fb52be984e328e5b192a43e119a0">getDirection</a>();</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    glm::vec3 <a class="code hl_function" href="class_g_e_camera.html#af139d3595799b6623db7665da3da36c4">getUpDirection</a>();</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span></div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keywordtype">float</span> <a class="code hl_function" href="class_g_e_camera.html#a5d5d9fe952b19076a7a25602348cf2dc">getMoveStep</a>();</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span></div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keywordtype">float</span> <a class="code hl_function" href="class_g_e_camera.html#a3a785cd4fca91c82a1dd7ae547913f5f">getTurnStep</a>();</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span></div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_camera.html#a83e955f594a57f6eb6e65d77e8137a7b">update</a>();</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span></div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_camera.html#a7d755a413b50bcc902e3f0c4c803de6e">setTurnLeft</a>(<span class="keywordtype">bool</span> flag);</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_camera.html#a7d637377864e79f85cbee144b57a418e">setTurnRight</a>(<span class="keywordtype">bool</span> flag);</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_camera.html#a5c728ee60fe4075b60bf66c8ae3ebadf">setTurnUp</a>(<span class="keywordtype">bool</span> flag);</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_camera.html#a88d35ebff2168dcea237596c59f52ab8">setTurnDown</a>(<span class="keywordtype">bool</span> flag);</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_camera.html#a0156e3495d01528cc5e5117094005338">setTurnCW</a>(<span class="keywordtype">bool</span> flag);</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_camera.html#a444d037d8969a1bddace0548c98f117b">setTurnCCW</a>(<span class="keywordtype">bool</span> flag);</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_camera.html#a4ddee042912f80dd5489333a2f40c276">setMoveLeft</a>(<span class="keywordtype">bool</span> flag);</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_camera.html#af160a8000655866c7782b9192f794c96">setMoveRight</a>(<span class="keywordtype">bool</span> flag);</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_camera.html#a893c9fb8bc739bc9c9e9b8efed91503c">setMoveUp</a>(<span class="keywordtype">bool</span> flag);</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_camera.html#aa9b0bdf5881f665fb6e24c2648159b2e">setMoveDown</a>(<span class="keywordtype">bool</span> flag);</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno"><a class="line" href="class_g_e_camera.html#a0661cce91c328f174c45efaecf4ef274">  103</a></span>    glm::vec3 <a class="code hl_variable" href="class_g_e_camera.html#a0661cce91c328f174c45efaecf4ef274">Pos</a>;   </div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno"><a class="line" href="class_g_e_camera.html#a4a6e9f68b5f17d27ef5b7cf216cda00f">  104</a></span>    glm::vec3 <a class="code hl_variable" href="class_g_e_camera.html#a4a6e9f68b5f17d27ef5b7cf216cda00f">Dir</a>;   </div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="class_g_e_camera.html#ac9a2e62258ededf818af284ebd9f13c1">  105</a></span>    glm::vec3 <a class="code hl_variable" href="class_g_e_camera.html#ac9a2e62258ededf818af284ebd9f13c1">Up</a>;    </div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno"><a class="line" href="class_g_e_camera.html#ade00dc2b91eaf5adcf816b20bebc7402">  106</a></span>    glm::vec3 <a class="code hl_variable" href="class_g_e_camera.html#ade00dc2b91eaf5adcf816b20bebc7402">Right</a>; </div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="class_g_e_camera.html#acde5044640e663d1459bc2848444073a">  108</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="class_g_e_camera.html#acde5044640e663d1459bc2848444073a">moveStep</a>; </div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="class_g_e_camera.html#ad577e1bc8b89f7b8004321fa48ed08dc">  109</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="class_g_e_camera.html#ad577e1bc8b89f7b8004321fa48ed08dc">turnStep</a>; </div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno"><a class="line" href="class_g_e_camera.html#a528d768a443a827b61c51a0d41cda45c">  110</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="class_g_e_camera.html#a528d768a443a827b61c51a0d41cda45c">cosAngle</a>; </div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno"><a class="line" href="class_g_e_camera.html#ae553809257c980b24fe9ba458e5c9a89">  111</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="class_g_e_camera.html#ae553809257c980b24fe9ba458e5c9a89">sinAngle</a>; </div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno"><a class="line" href="class_g_e_camera.html#a3efe60c1146de74d0f1244916ca99cc1">  113</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_g_e_camera.html#a3efe60c1146de74d0f1244916ca99cc1">turnLeftPressed</a>;  </div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno"><a class="line" href="class_g_e_camera.html#a67a4a46a1a6de759827e42487f28e783">  114</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_g_e_camera.html#a67a4a46a1a6de759827e42487f28e783">turnRightPressed</a>; </div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno"><a class="line" href="class_g_e_camera.html#a437888b21b4dcbe18bba7ee69ef4bc04">  115</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_g_e_camera.html#a437888b21b4dcbe18bba7ee69ef4bc04">turnUpPressed</a>;    </div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno"><a class="line" href="class_g_e_camera.html#a9d56e27cdfdc5f0cd1b286fcd614ca19">  116</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_g_e_camera.html#a9d56e27cdfdc5f0cd1b286fcd614ca19">turnDownPressed</a>;  </div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="class_g_e_camera.html#a63bbd979358c4d4c3f23a59ba5bd6d96">  117</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_g_e_camera.html#a63bbd979358c4d4c3f23a59ba5bd6d96">turnCWPressed</a>;    </div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno"><a class="line" href="class_g_e_camera.html#ae78ed7ec6c1b8dc6c337e1dfb1467d58">  118</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_g_e_camera.html#ae78ed7ec6c1b8dc6c337e1dfb1467d58">turnCCWPressed</a>;   </div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno"><a class="line" href="class_g_e_camera.html#a119132ad1811388ea75a44c89b9b5c39">  119</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_g_e_camera.html#a119132ad1811388ea75a44c89b9b5c39">moveLeftPressed</a>;  </div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno"><a class="line" href="class_g_e_camera.html#a9ea1f501e87211cb7f61487b54ed14ca">  120</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_g_e_camera.html#a9ea1f501e87211cb7f61487b54ed14ca">moveRightPressed</a>; </div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno"><a class="line" href="class_g_e_camera.html#a7999381d67c21191ac145bd57c6c9c18">  121</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_g_e_camera.html#a7999381d67c21191ac145bd57c6c9c18">moveUpPressed</a>;    </div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno"><a class="line" href="class_g_e_camera.html#aed8c0881dc3dabdb9316969b7ecc22b1">  122</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_g_e_camera.html#aed8c0881dc3dabdb9316969b7ecc22b1">moveDownPressed</a>;  </div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span></div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_camera.html#a9ab05a0f84590249c876a64b128b565e">turnRight</a>();</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span></div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_camera.html#afd8491948b0482d6b542983b3052915f">turnLeft</a>();</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span></div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_camera.html#adea234ba1f06e6408ac1937d53acbb7b">turnUp</a>();</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span></div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_camera.html#ab19eedafa22b07fb557d0359890ab15e">turnDown</a>();</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span></div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_camera.html#a73173ea24e7abd46e6eef216bf1de839">turnCW</a>();</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span></div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_camera.html#aaed635fd6f4b799143bcce2a5646553d">turnCCW</a>();</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span></div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_camera.html#a1ba0d6addb4272f2ac627cf8beb0c264">moveLeft</a>();</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span></div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_camera.html#a641f83f1c26619950565d60efc21e3cf">moveRight</a>();</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span></div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_camera.html#a79904b61df7fbfd2a66299cfbe6a69e6">moveUp</a>();</div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span></div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_camera.html#aa920ec52e1d44bbc8cc89aece25421ce">moveDown</a>();</div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span></div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_camera.html#a777f0cd36c79b1e8e24f09249862e544">moveFront</a>();</div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span></div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_camera.html#aa42a4e31f36f7e15d156750165578de5">moveBack</a>();</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>};</div>
+</div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span> </div>
+<div class="ttc" id="aclass_g_e_camera_html_a0156e3495d01528cc5e5117094005338"><div class="ttname"><a href="class_g_e_camera.html#a0156e3495d01528cc5e5117094005338">GECamera::setTurnCW</a></div><div class="ttdeci">void setTurnCW(bool flag)</div><div class="ttdoc">Activa o desactiva el giro horario.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:328</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a0661cce91c328f174c45efaecf4ef274"><div class="ttname"><a href="class_g_e_camera.html#a0661cce91c328f174c45efaecf4ef274">GECamera::Pos</a></div><div class="ttdeci">glm::vec3 Pos</div><div class="ttdoc">Posición de la cámara en coordenadas del mundo.</div><div class="ttdef"><b>Definition</b> GECamera.h:103</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a119132ad1811388ea75a44c89b9b5c39"><div class="ttname"><a href="class_g_e_camera.html#a119132ad1811388ea75a44c89b9b5c39">GECamera::moveLeftPressed</a></div><div class="ttdeci">bool moveLeftPressed</div><div class="ttdoc">Flag de desplazamiento a la izquierda.</div><div class="ttdef"><b>Definition</b> GECamera.h:119</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a1740eab0afd63dcb2064d31d66a2f6a1"><div class="ttname"><a href="class_g_e_camera.html#a1740eab0afd63dcb2064d31d66a2f6a1">GECamera::setMoveStep</a></div><div class="ttdeci">void setMoveStep(float step)</div><div class="ttdoc">Asigna el avance en cada paso.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:77</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a1ba0d6addb4272f2ac627cf8beb0c264"><div class="ttname"><a href="class_g_e_camera.html#a1ba0d6addb4272f2ac627cf8beb0c264">GECamera::moveLeft</a></div><div class="ttdeci">void moveLeft()</div><div class="ttdoc">Mueve el observador un paso hacia la izquierda.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:177</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a2bf1fb52be984e328e5b192a43e119a0"><div class="ttname"><a href="class_g_e_camera.html#a2bf1fb52be984e328e5b192a43e119a0">GECamera::getDirection</a></div><div class="ttdeci">glm::vec3 getDirection()</div><div class="ttdoc">Obtiene la dirección (eje Z) de la cámara.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:106</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a3a785cd4fca91c82a1dd7ae547913f5f"><div class="ttname"><a href="class_g_e_camera.html#a3a785cd4fca91c82a1dd7ae547913f5f">GECamera::getTurnStep</a></div><div class="ttdeci">float getTurnStep()</div><div class="ttdoc">Obtiene el ángulo de giro en cada paso.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:133</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a3efe60c1146de74d0f1244916ca99cc1"><div class="ttname"><a href="class_g_e_camera.html#a3efe60c1146de74d0f1244916ca99cc1">GECamera::turnLeftPressed</a></div><div class="ttdeci">bool turnLeftPressed</div><div class="ttdoc">Flag de giro a la izquierda.</div><div class="ttdef"><b>Definition</b> GECamera.h:113</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a437888b21b4dcbe18bba7ee69ef4bc04"><div class="ttname"><a href="class_g_e_camera.html#a437888b21b4dcbe18bba7ee69ef4bc04">GECamera::turnUpPressed</a></div><div class="ttdeci">bool turnUpPressed</div><div class="ttdoc">Flag de giro hacia arriba.</div><div class="ttdef"><b>Definition</b> GECamera.h:115</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a444d037d8969a1bddace0548c98f117b"><div class="ttname"><a href="class_g_e_camera.html#a444d037d8969a1bddace0548c98f117b">GECamera::setTurnCCW</a></div><div class="ttdeci">void setTurnCCW(bool flag)</div><div class="ttdoc">Activa o desactiva el giro antihorario.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:337</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a4a6e9f68b5f17d27ef5b7cf216cda00f"><div class="ttname"><a href="class_g_e_camera.html#a4a6e9f68b5f17d27ef5b7cf216cda00f">GECamera::Dir</a></div><div class="ttdeci">glm::vec3 Dir</div><div class="ttdoc">Vector dirección (eje Z) de la cámara.</div><div class="ttdef"><b>Definition</b> GECamera.h:104</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a4ddee042912f80dd5489333a2f40c276"><div class="ttname"><a href="class_g_e_camera.html#a4ddee042912f80dd5489333a2f40c276">GECamera::setMoveLeft</a></div><div class="ttdeci">void setMoveLeft(bool flag)</div><div class="ttdoc">Activa o desactiva el desplazamiento a la izquierda.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:346</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a528d768a443a827b61c51a0d41cda45c"><div class="ttname"><a href="class_g_e_camera.html#a528d768a443a827b61c51a0d41cda45c">GECamera::cosAngle</a></div><div class="ttdeci">float cosAngle</div><div class="ttdoc">Coseno del ángulo de giro (cache).</div><div class="ttdef"><b>Definition</b> GECamera.h:110</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a52e28dd24484996bccd3001ac9da7000"><div class="ttname"><a href="class_g_e_camera.html#a52e28dd24484996bccd3001ac9da7000">GECamera::getPosition</a></div><div class="ttdeci">glm::vec3 getPosition()</div><div class="ttdoc">Obtiene la posición de la cámara.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:97</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a557a7e16476d82e62b491e39aa7698c2"><div class="ttname"><a href="class_g_e_camera.html#a557a7e16476d82e62b491e39aa7698c2">GECamera::setTurnStep</a></div><div class="ttdeci">void setTurnStep(float step)</div><div class="ttdoc">Asigna el ángulo de giro en cada paso.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:86</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a5c728ee60fe4075b60bf66c8ae3ebadf"><div class="ttname"><a href="class_g_e_camera.html#a5c728ee60fe4075b60bf66c8ae3ebadf">GECamera::setTurnUp</a></div><div class="ttdeci">void setTurnUp(bool flag)</div><div class="ttdoc">Activa o desactiva el giro hacia arriba.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:310</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a5d5d9fe952b19076a7a25602348cf2dc"><div class="ttname"><a href="class_g_e_camera.html#a5d5d9fe952b19076a7a25602348cf2dc">GECamera::getMoveStep</a></div><div class="ttdeci">float getMoveStep()</div><div class="ttdoc">Obtiene el avance en cada paso.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:124</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a63bbd979358c4d4c3f23a59ba5bd6d96"><div class="ttname"><a href="class_g_e_camera.html#a63bbd979358c4d4c3f23a59ba5bd6d96">GECamera::turnCWPressed</a></div><div class="ttdeci">bool turnCWPressed</div><div class="ttdoc">Flag de giro horario.</div><div class="ttdef"><b>Definition</b> GECamera.h:117</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a641f83f1c26619950565d60efc21e3cf"><div class="ttname"><a href="class_g_e_camera.html#a641f83f1c26619950565d60efc21e3cf">GECamera::moveRight</a></div><div class="ttdeci">void moveRight()</div><div class="ttdoc">Mueve el observador un paso hacia la derecha.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:186</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a67a4a46a1a6de759827e42487f28e783"><div class="ttname"><a href="class_g_e_camera.html#a67a4a46a1a6de759827e42487f28e783">GECamera::turnRightPressed</a></div><div class="ttdeci">bool turnRightPressed</div><div class="ttdoc">Flag de giro a la derecha.</div><div class="ttdef"><b>Definition</b> GECamera.h:114</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a73173ea24e7abd46e6eef216bf1de839"><div class="ttname"><a href="class_g_e_camera.html#a73173ea24e7abd46e6eef216bf1de839">GECamera::turnCW</a></div><div class="ttdeci">void turnCW()</div><div class="ttdoc">Rota el observador un paso en sentido horario.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:265</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a777f0cd36c79b1e8e24f09249862e544"><div class="ttname"><a href="class_g_e_camera.html#a777f0cd36c79b1e8e24f09249862e544">GECamera::moveFront</a></div><div class="ttdeci">void moveFront()</div><div class="ttdoc">Mueve el observador un paso hacia adelante (dirección -Dir).</div><div class="ttdef"><b>Definition</b> GECamera.cpp:160</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a79904b61df7fbfd2a66299cfbe6a69e6"><div class="ttname"><a href="class_g_e_camera.html#a79904b61df7fbfd2a66299cfbe6a69e6">GECamera::moveUp</a></div><div class="ttdeci">void moveUp()</div><div class="ttdoc">Mueve el observador un paso hacia arriba.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:195</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a7999381d67c21191ac145bd57c6c9c18"><div class="ttname"><a href="class_g_e_camera.html#a7999381d67c21191ac145bd57c6c9c18">GECamera::moveUpPressed</a></div><div class="ttdeci">bool moveUpPressed</div><div class="ttdoc">Flag de desplazamiento hacia arriba.</div><div class="ttdef"><b>Definition</b> GECamera.h:121</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a7d637377864e79f85cbee144b57a418e"><div class="ttname"><a href="class_g_e_camera.html#a7d637377864e79f85cbee144b57a418e">GECamera::setTurnRight</a></div><div class="ttdeci">void setTurnRight(bool flag)</div><div class="ttdoc">Activa o desactiva el giro a la derecha.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:301</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a7d755a413b50bcc902e3f0c4c803de6e"><div class="ttname"><a href="class_g_e_camera.html#a7d755a413b50bcc902e3f0c4c803de6e">GECamera::setTurnLeft</a></div><div class="ttdeci">void setTurnLeft(bool flag)</div><div class="ttdoc">Activa o desactiva el giro a la izquierda.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:292</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a83e955f594a57f6eb6e65d77e8137a7b"><div class="ttname"><a href="class_g_e_camera.html#a83e955f594a57f6eb6e65d77e8137a7b">GECamera::update</a></div><div class="ttdeci">void update()</div><div class="ttdoc">Actualiza la posición y orientación según entradas.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:141</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a88d35ebff2168dcea237596c59f52ab8"><div class="ttname"><a href="class_g_e_camera.html#a88d35ebff2168dcea237596c59f52ab8">GECamera::setTurnDown</a></div><div class="ttdeci">void setTurnDown(bool flag)</div><div class="ttdoc">Activa o desactiva el giro hacia abajo.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:319</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a893c9fb8bc739bc9c9e9b8efed91503c"><div class="ttname"><a href="class_g_e_camera.html#a893c9fb8bc739bc9c9e9b8efed91503c">GECamera::setMoveUp</a></div><div class="ttdeci">void setMoveUp(bool flag)</div><div class="ttdoc">Activa o desactiva el desplazamiento hacia arriba.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:364</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a94ad7be54a42a1e44514cae0b3e912c6"><div class="ttname"><a href="class_g_e_camera.html#a94ad7be54a42a1e44514cae0b3e912c6">GECamera::getViewMatrix</a></div><div class="ttdeci">glm::mat4 getViewMatrix()</div><div class="ttdoc">Obtiene la matriz View para situar la cámara.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:47</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a9ab05a0f84590249c876a64b128b565e"><div class="ttname"><a href="class_g_e_camera.html#a9ab05a0f84590249c876a64b128b565e">GECamera::turnRight</a></div><div class="ttdeci">void turnRight()</div><div class="ttdoc">Rota el observador un paso hacia su derecha.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:213</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a9d56e27cdfdc5f0cd1b286fcd614ca19"><div class="ttname"><a href="class_g_e_camera.html#a9d56e27cdfdc5f0cd1b286fcd614ca19">GECamera::turnDownPressed</a></div><div class="ttdeci">bool turnDownPressed</div><div class="ttdoc">Flag de giro hacia abajo.</div><div class="ttdef"><b>Definition</b> GECamera.h:116</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a9e7395942078a1ffa1945f8e14cf1bb1"><div class="ttname"><a href="class_g_e_camera.html#a9e7395942078a1ffa1945f8e14cf1bb1">GECamera::GECamera</a></div><div class="ttdeci">GECamera()</div><div class="ttdoc">Constructor por defecto.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:19</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_a9ea1f501e87211cb7f61487b54ed14ca"><div class="ttname"><a href="class_g_e_camera.html#a9ea1f501e87211cb7f61487b54ed14ca">GECamera::moveRightPressed</a></div><div class="ttdeci">bool moveRightPressed</div><div class="ttdoc">Flag de desplazamiento a la derecha.</div><div class="ttdef"><b>Definition</b> GECamera.h:120</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_aa42a4e31f36f7e15d156750165578de5"><div class="ttname"><a href="class_g_e_camera.html#aa42a4e31f36f7e15d156750165578de5">GECamera::moveBack</a></div><div class="ttdeci">void moveBack()</div><div class="ttdoc">Mueve el observador un paso hacia atrás (dirección Dir).</div><div class="ttdef"><b>Definition</b> GECamera.cpp:169</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_aa920ec52e1d44bbc8cc89aece25421ce"><div class="ttname"><a href="class_g_e_camera.html#aa920ec52e1d44bbc8cc89aece25421ce">GECamera::moveDown</a></div><div class="ttdeci">void moveDown()</div><div class="ttdoc">Mueve el observador un paso hacia abajo.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:204</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_aa9b0bdf5881f665fb6e24c2648159b2e"><div class="ttname"><a href="class_g_e_camera.html#aa9b0bdf5881f665fb6e24c2648159b2e">GECamera::setMoveDown</a></div><div class="ttdeci">void setMoveDown(bool flag)</div><div class="ttdoc">Activa o desactiva el desplazamiento hacia abajo.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:373</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_aaed635fd6f4b799143bcce2a5646553d"><div class="ttname"><a href="class_g_e_camera.html#aaed635fd6f4b799143bcce2a5646553d">GECamera::turnCCW</a></div><div class="ttdeci">void turnCCW()</div><div class="ttdoc">Rota el observador un paso en sentido antihorario.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:278</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_ab19eedafa22b07fb557d0359890ab15e"><div class="ttname"><a href="class_g_e_camera.html#ab19eedafa22b07fb557d0359890ab15e">GECamera::turnDown</a></div><div class="ttdeci">void turnDown()</div><div class="ttdoc">Rota el observador un paso hacia abajo.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:252</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_abcba93d88cbb1345a92217b2ba67d81c"><div class="ttname"><a href="class_g_e_camera.html#abcba93d88cbb1345a92217b2ba67d81c">GECamera::setDirection</a></div><div class="ttdeci">void setDirection(glm::vec3 dir, glm::vec3 up)</div><div class="ttdoc">Asigna la orientación de la cámara.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:66</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_ac04254305c65d438a4727d088fd97b73"><div class="ttname"><a href="class_g_e_camera.html#ac04254305c65d438a4727d088fd97b73">GECamera::setPosition</a></div><div class="ttdeci">void setPosition(glm::vec3 pos)</div><div class="ttdoc">Asigna la posición de la cámara.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:56</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_ac9a2e62258ededf818af284ebd9f13c1"><div class="ttname"><a href="class_g_e_camera.html#ac9a2e62258ededf818af284ebd9f13c1">GECamera::Up</a></div><div class="ttdeci">glm::vec3 Up</div><div class="ttdoc">Vector &#39;arriba&#39; (eje Y) de la cámara.</div><div class="ttdef"><b>Definition</b> GECamera.h:105</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_acde5044640e663d1459bc2848444073a"><div class="ttname"><a href="class_g_e_camera.html#acde5044640e663d1459bc2848444073a">GECamera::moveStep</a></div><div class="ttdeci">float moveStep</div><div class="ttdoc">Tamaño del paso para movimientos.</div><div class="ttdef"><b>Definition</b> GECamera.h:108</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_ad577e1bc8b89f7b8004321fa48ed08dc"><div class="ttname"><a href="class_g_e_camera.html#ad577e1bc8b89f7b8004321fa48ed08dc">GECamera::turnStep</a></div><div class="ttdeci">float turnStep</div><div class="ttdoc">Ángulo de giro en grados.</div><div class="ttdef"><b>Definition</b> GECamera.h:109</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_ade00dc2b91eaf5adcf816b20bebc7402"><div class="ttname"><a href="class_g_e_camera.html#ade00dc2b91eaf5adcf816b20bebc7402">GECamera::Right</a></div><div class="ttdeci">glm::vec3 Right</div><div class="ttdoc">Vector derecho (eje X) de la cámara.</div><div class="ttdef"><b>Definition</b> GECamera.h:106</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_adea234ba1f06e6408ac1937d53acbb7b"><div class="ttname"><a href="class_g_e_camera.html#adea234ba1f06e6408ac1937d53acbb7b">GECamera::turnUp</a></div><div class="ttdeci">void turnUp()</div><div class="ttdoc">Rota el observador un paso hacia arriba.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:239</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_ae553809257c980b24fe9ba458e5c9a89"><div class="ttname"><a href="class_g_e_camera.html#ae553809257c980b24fe9ba458e5c9a89">GECamera::sinAngle</a></div><div class="ttdeci">float sinAngle</div><div class="ttdoc">Seno del ángulo de giro (cache).</div><div class="ttdef"><b>Definition</b> GECamera.h:111</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_ae78ed7ec6c1b8dc6c337e1dfb1467d58"><div class="ttname"><a href="class_g_e_camera.html#ae78ed7ec6c1b8dc6c337e1dfb1467d58">GECamera::turnCCWPressed</a></div><div class="ttdeci">bool turnCCWPressed</div><div class="ttdoc">Flag de giro antihorario.</div><div class="ttdef"><b>Definition</b> GECamera.h:118</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_aed8c0881dc3dabdb9316969b7ecc22b1"><div class="ttname"><a href="class_g_e_camera.html#aed8c0881dc3dabdb9316969b7ecc22b1">GECamera::moveDownPressed</a></div><div class="ttdeci">bool moveDownPressed</div><div class="ttdoc">Flag de desplazamiento hacia abajo.</div><div class="ttdef"><b>Definition</b> GECamera.h:122</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_af139d3595799b6623db7665da3da36c4"><div class="ttname"><a href="class_g_e_camera.html#af139d3595799b6623db7665da3da36c4">GECamera::getUpDirection</a></div><div class="ttdeci">glm::vec3 getUpDirection()</div><div class="ttdoc">Obtiene el vector arriba (eje Y) de la cámara.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:115</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_af160a8000655866c7782b9192f794c96"><div class="ttname"><a href="class_g_e_camera.html#af160a8000655866c7782b9192f794c96">GECamera::setMoveRight</a></div><div class="ttdeci">void setMoveRight(bool flag)</div><div class="ttdoc">Activa o desactiva el desplazamiento a la derecha.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:355</div></div>
+<div class="ttc" id="aclass_g_e_camera_html_afd8491948b0482d6b542983b3052915f"><div class="ttname"><a href="class_g_e_camera.html#afd8491948b0482d6b542983b3052915f">GECamera::turnLeft</a></div><div class="ttdeci">void turnLeft()</div><div class="ttdoc">Rota el observador un paso hacia su izquierda.</div><div class="ttdef"><b>Definition</b> GECamera.cpp:226</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_23ed62d68ba96d0c485cdb821755d287.html">MVPVulkan</a></li><li class="navelem"><a href="_g_e_camera_8h.html">GECamera.h</a></li>
+    <li class="footer">Generado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
+  </ul>
+</div>
+</body>
+</html>

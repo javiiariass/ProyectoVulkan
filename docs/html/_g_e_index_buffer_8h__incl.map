@@ -1,0 +1,10 @@
+<map id="MVPVulkan/GEIndexBuffer.h" name="MVPVulkan/GEIndexBuffer.h">
+<area shape="rect" id="Node000001" title="Declaración de la clase GEIndexBuffer para buffers de índices." alt="" coords="23,5,212,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,155,118,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,30,89,81,70,141,66,138,84,79,109,35"/>
+<area shape="rect" id="Node000003" href="$_g_e_graphics_context_8h.html" title="Declaración de la clase GEGraphicsContext que almacena el contexto gráfico de Vulkan." alt="" coords="99,80,248,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="128,30,157,68,152,68,127,35"/>
+<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="157,107,95,148,92,144,151,108"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="142,155,248,181"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="179,105,189,141,184,139,176,109"/>
+</map>

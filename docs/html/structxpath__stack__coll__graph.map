@@ -1,0 +1,8 @@
+<map id="xpath_stack" name="xpath_stack">
+<area shape="rect" id="Node000001" title=" " alt="" coords="32,224,124,251"/>
+<area shape="rect" id="Node000002" href="$structxpath__allocator.html" title=" " alt="" coords="23,104,133,131"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,145,81,224,75,223,76,148"/>
+<area shape="rect" id="Node000003" href="$structxpath__memory__block.html" title=" " alt="" coords="5,5,151,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="79,45,81,104,75,103,77,50"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="166,10,177,19,169,27,152,30,150,25,167,22,172,19,166,15"/>
+</map>

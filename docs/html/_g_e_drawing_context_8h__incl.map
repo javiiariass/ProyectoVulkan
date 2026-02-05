@@ -1,0 +1,14 @@
+<map id="MVPVulkan/GEDrawingContext.h" name="MVPVulkan/GEDrawingContext.h">
+<area shape="rect" id="Node000001" title="Declaración de la clase GEDrawingContext para gestionar swapchain y present." alt="" coords="53,5,270,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,155,118,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,35,86,53,70,66,58,81,53,95,51,110,55,140,50,139,46,110,48,94,54,79,67,62,83,49,121,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="69,80,126,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="152,31,121,70,117,66,148,34"/>
+<area shape="rect" id="Node000004" href="$_g_e_graphics_context_8h.html" title="Declaración de la clase GEGraphicsContext que almacena el contexto gráfico de Vulkan." alt="" coords="151,80,300,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="173,30,207,68,202,68,172,35"/>
+<area shape="rect" id="Node000006" href="$_g_e_window_position_8h.html" title="Declaración de la estructura GEWindowPosition para ventanas." alt="" coords="325,80,470,107"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="203,30,344,74,339,76,202,35"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="200,108,105,150,103,145,194,107"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="173,155,278,181"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="227,105,228,140,223,138,224,109"/>
+</map>

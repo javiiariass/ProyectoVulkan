@@ -1,0 +1,7 @@
+<map id="Gráfico de jerarquía de clases" name="Gráfico de jerarquía de clases">
+<area shape="rect" id="Node000000" href="$structxml__allocator.html" title=" " alt="" coords="15,5,113,32"/>
+<area shape="rect" id="Node000001" href="$structxml__document__struct.html" title=" " alt="" coords="171,31,317,57"/>
+<area shape="poly" id="edge8_Node000000_Node000001" title=" " alt="" coords="128,25,173,33,168,34,129,30"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,56,123,83"/>
+<area shape="poly" id="edge9_Node000002_Node000001" title=" " alt="" coords="137,56,173,54,168,55,138,62"/>
+</map>

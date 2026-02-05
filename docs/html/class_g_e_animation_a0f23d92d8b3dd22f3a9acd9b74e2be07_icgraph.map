@@ -1,0 +1,5 @@
+<map id="GEAnimation::getSkeletonPosition" name="GEAnimation::getSkeletonPosition">
+<area shape="rect" id="Node000001" title="Obtiene la posición del esqueleto interpolada." alt="" coords="256,5,431,48"/>
+<area shape="rect" id="Node000002" href="$class_g_e_animation.html#a0c0c9b1891d41bae1e7cf2ae6bde46cc" title="Aplica la animación actual al esqueleto." alt="" coords="5,13,208,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="237,27,208,29,208,24,243,27"/>
+</map>

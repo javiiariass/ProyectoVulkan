@@ -1,0 +1,20 @@
+<map id="xpath_string::from_heap" name="xpath_string::from_heap">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,107,167,133"/>
+<area shape="rect" id="Node000002" href="$classxpath__string.html#abe89ae1270e25022aa8ccc332f5afbb3" title=" " alt="" coords="218,5,344,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,104,213,48,240,37,235,41,216,53,114,108"/>
+<area shape="rect" id="Node000003" href="$classxpath__string.html#af3866c73a21542e26032d5d052327cc1" title=" " alt="" coords="395,40,547,83"/>
+<area shape="poly" id="edge7_Node000001_Node000003" title=" " alt="" coords="166,105,381,73,378,77,168,110"/>
+<area shape="rect" id="Node000005" href="$classxpath__string.html#a8469bd7512df66adabd3f5144c4b2ef7" title=" " alt="" coords="609,95,744,121"/>
+<area shape="poly" id="edge8_Node000001_Node000005" title=" " alt="" coords="167,116,594,107,592,112,167,121"/>
+<area shape="rect" id="Node000007" href="$classxpath__string.html#a6c415f55011c6b816446d7454d1e9d2c" title=" " alt="" coords="215,157,347,200"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="133,131,203,153,198,156,133,137"/>
+<area shape="rect" id="Node000008" href="$classxpath__string.html#a93704af22ba77956cae8ec65f84658d8" title=" " alt="" coords="215,224,347,267"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="105,131,155,168,216,210,224,216,219,216,213,214,152,173,104,137"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="343,30,382,40,377,41,344,35"/>
+<area shape="rect" id="Node000006" href="$pugixml_8cpp.html#a775f7b78d2f13c1b72d69b114599461d" title=" " alt="" coords="806,44,877,71"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="343,12,530,10,644,16,758,29,793,40,788,40,757,35,644,21,530,16,344,18"/>
+<area shape="rect" id="Node000004" href="$structxpath__allocator.html#a6c13fefbd7038d78b336987f396c8415" title=" " alt="" coords="595,44,758,71"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="548,57,582,59,577,60,548,62"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="548,76,603,91,598,91,548,81"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="722,91,788,73,793,72,723,97"/>
+</map>

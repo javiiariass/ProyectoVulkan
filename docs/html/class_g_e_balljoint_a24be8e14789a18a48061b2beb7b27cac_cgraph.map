@@ -1,0 +1,5 @@
+<map id="GEBalljoint::initialize" name="GEBalljoint::initialize">
+<area shape="rect" id="Node000001" title="Inicializa las piezas de la articulación." alt="" coords="5,5,147,32"/>
+<area shape="rect" id="Node000002" href="$class_g_e_balljoint.html#a26c862fcf041ae1703e1f2b5faa701d7" title="Calcula la matriz de transformación local." alt="" coords="195,5,378,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,16,182,19,176,19,147,21"/>
+</map>

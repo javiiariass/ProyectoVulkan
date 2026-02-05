@@ -1,0 +1,9 @@
+<map id="MVPVulkan/resource.h" name="MVPVulkan/resource.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="274,5,428,32"/>
+<area shape="rect" id="Node000002" href="$_g_e_application_8cpp.html" title="Implementación de la clase GEApplication." alt="" coords="5,80,207,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="296,38,150,82,148,77,292,35"/>
+<area shape="rect" id="Node000003" href="$_g_e_rendering_context_8cpp.html" title="Implementación de la clase GERenderingContext." alt="" coords="230,80,472,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="353,46,353,81,349,78,349,50"/>
+<area shape="rect" id="Node000004" href="$_g_e_scene_8cpp.html" title="Escena con animación de tiro libre de baloncesto." alt="" coords="496,80,670,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="406,34,545,79,540,79,405,40"/>
+</map>

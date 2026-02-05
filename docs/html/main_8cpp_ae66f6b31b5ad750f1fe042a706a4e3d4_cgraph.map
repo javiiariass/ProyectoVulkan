@@ -1,0 +1,31 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,139,55,165"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html#ac560c73351b96bd41b62c1d5596de936" title="Imprime los controles de la aplicación en consola." alt="" coords="120,113,216,140"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="54,145,107,136,103,140,56,150"/>
+<area shape="rect" id="Node000003" href="$class_g_e_application.html#a2a7d38dd9a5bca43fc115b09704915a4" title="Ejecuta la aplicación." alt="" coords="103,164,233,191"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="54,154,90,161,86,164,56,159"/>
+<area shape="rect" id="Node000004" href="$class_g_e_application.html#a461c4a6a6d343e4a5fdd993068fb8af1" title="Libera los recursos y finaliza la aplicación." alt="" coords="302,88,459,115"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="205,161,232,150,256,136,280,124,304,118,299,121,282,129,258,141,234,154,207,166"/>
+<area shape="rect" id="Node000005" href="$class_g_e_application.html#ae473a6cb8cc8aa8a76a19a8df91d6e49" title="Inicializa la ventana GLFW." alt="" coords="292,139,469,165"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="233,167,280,163,275,165,234,172"/>
+<area shape="rect" id="Node000013" href="$class_g_e_application.html#ac34507dbd747e24e4e1f443b5a756dbb" title="Inicializa la posición de la ventana." alt="" coords="281,189,480,216"/>
+<area shape="poly" id="edge12_Node000003_Node000013" title=" " alt="" coords="233,182,268,188,263,189,234,188"/>
+<area shape="rect" id="Node000014" href="$class_g_e_application.html#adde238fa4ed636bfebd76be73af395b7" title="Bucle principal que procesa eventos y dibuja cada frame." alt="" coords="296,248,465,275"/>
+<area shape="poly" id="edge13_Node000003_Node000014" title=" " alt="" coords="198,189,282,226,324,243,318,242,280,230,197,194"/>
+<area shape="rect" id="Node000006" href="$class_g_e_application.html#a028396b9bae6c5697fc358e8260b3312" title="Respuesta a un evento de movimiento del cursor." alt="" coords="528,5,724,48"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="457,136,479,125,494,109,502,93,511,75,527,58,532,57,536,55,530,62,515,78,507,95,499,112,482,129,459,141"/>
+<area shape="rect" id="Node000007" href="$class_g_e_application.html#ae38335734c12fd0bac757536085068fa" title="Respuesta a un evento de redimensionamiento de la ventana." alt="" coords="537,72,715,115"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="439,136,525,117,520,119,440,141"/>
+<area shape="rect" id="Node000009" href="$class_g_e_application.html#aff889e80a2c5e7e0bf9b530b7ae3cc16" title="Respuesta a un evento de teclado." alt="" coords="534,139,718,165"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="469,149,521,152,516,152,470,155"/>
+<area shape="rect" id="Node000012" href="$class_g_e_application.html#a41dd9caf88a4ca14c2c177076ce4ecfd" title="Respuesta a un evento de botón de ratón." alt="" coords="531,189,721,232"/>
+<area shape="poly" id="edge11_Node000005_Node000012" title=" " alt="" coords="440,163,522,185,517,185,439,169"/>
+<area shape="rect" id="Node000008" href="$class_g_e_application.html#aba108b6e4e758a6ffa21bf644bce3ab8" title="Reconstruye los objetos con el nuevo tamaño de ventana." alt="" coords="801,80,948,107"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="715,91,787,93,782,94,716,96"/>
+<area shape="rect" id="Node000010" href="$class_g_e_scene.html#a971e9b981ad219b661db89f03f6d3179" title="Maneja acciones de teclado." alt="" coords="800,135,948,161"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="719,148,787,149,782,150,719,153"/>
+<area shape="rect" id="Node000011" href="$class_g_e_application.html#ae1a2c4de09efffbc0a40eb0f1505cf96" title="Cambia entre pantalla completa y modo ventana." alt="" coords="772,185,977,212"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="700,163,787,182,782,182,700,169"/>
+<area shape="rect" id="Node000015" href="$class_g_e_application.html#a2b00b2d665876b63d4b227c933964c37" title="Lanza la generación del dibujo." alt="" coords="556,256,696,283"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="465,261,543,267,537,267,465,267"/>
+</map>

@@ -1,0 +1,29 @@
+<map id="GERenderingContext::createGraphicsPipeline" name="GERenderingContext::createGraphicsPipeline">
+<area shape="rect" id="Node000001" title="Crea el Pipeline de renderizado." alt="" coords="5,365,169,408"/>
+<area shape="rect" id="Node000002" href="$class_g_e_rendering_context.html#a30b91a68b3ab264ec7943ba1ffa14f96" title="Crea la información sobre el Fragment Shader." alt="" coords="238,5,434,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,364,100,307,122,229,138,188,159,147,185,108,215,74,227,66,224,71,219,78,189,111,164,149,143,190,127,231,105,308,94,365"/>
+<area shape="rect" id="Node000005" href="$class_g_e_rendering_context.html#af69fff24d2239c503976bfd98496eb54" title="Crea la información sobre la etapa de mezcla de colores." alt="" coords="248,155,424,213"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="98,364,143,295,177,257,215,223,236,212,233,217,218,227,180,260,148,298,102,366"/>
+<area shape="rect" id="Node000006" href="$class_g_e_rendering_context.html#a1ed7be455efa66dc53a325d0ef41cd31" title="Crea la información sobre los tests de profundidad y de plantilla." alt="" coords="243,237,429,296"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="117,363,163,334,215,306,231,300,227,304,218,310,166,339,121,367"/>
+<area shape="rect" id="Node000007" href="$class_g_e_rendering_context.html#a60ecf0b35e0a983cf9deb3c3d10cb2cc" title="Crea la información para el ensamblado de primitivas." alt="" coords="237,320,435,379"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="168,372,224,365,220,368,171,377"/>
+<area shape="rect" id="Node000008" href="$class_g_e_rendering_context.html#afbcc3fb57b630a02a26505ebaab9613b" title="Crea el esquema de los conjuntos de descriptores." alt="" coords="261,403,411,445"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="168,396,247,409,243,412,170,401"/>
+<area shape="rect" id="Node000009" href="$class_g_e_rendering_context.html#a49a8f3e1323aa8bca61eff8d9a563956" title="Crea la información de la etapa de muestreo." alt="" coords="245,469,426,528"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="124,406,218,455,234,463,229,464,216,460,124,411"/>
+<area shape="rect" id="Node000010" href="$class_g_e_rendering_context.html#a0a4e5219ca485904f858c7eb1de15520" title="Crea la información de la etapa de rasterización." alt="" coords="242,552,430,611"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="101,405,149,471,181,507,218,538,231,547,225,547,215,542,178,511,145,475,101,411"/>
+<area shape="rect" id="Node000011" href="$class_g_e_rendering_context.html#a0bdaf567aa35edb4521a03818a7abab0" title="Crea la descripción de los atributos de los vértices." alt="" coords="247,635,424,693"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="94,406,112,452,137,509,172,569,194,596,218,621,236,634,231,635,215,625,190,600,168,572,132,512,107,454,94,411"/>
+<area shape="rect" id="Node000012" href="$class_g_e_rendering_context.html#a131bc8d204c9ae3faf715f36bfdba8f2" title="Crea la información del viewport." alt="" coords="239,717,432,776"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="91,406,104,466,126,545,142,588,163,630,188,669,219,703,229,714,224,713,215,707,184,672,158,632,137,590,121,547,99,467,91,411"/>
+<area shape="rect" id="Node000013" href="$class_g_e_rendering_context.html#aa10b997efa5b9408fefb7bbefff219cf" title="Crea la información sobre el Vertex Shader." alt="" coords="217,88,455,131"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="91,364,105,317,130,257,166,194,189,166,215,141,223,137,220,141,218,145,193,169,170,197,134,259,110,319,96,365"/>
+<area shape="rect" id="Node000003" href="$class_g_e_rendering_context.html#a0915e69629916660bd8b22fedf4b2e1c" title="Crea un shader a partir de su código en SPIR&#45;V." alt="" coords="506,16,654,59"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="433,33,493,35,488,38,435,38"/>
+<area shape="rect" id="Node000004" href="$class_g_e_rendering_context.html#a50bcdd8c7da9656f5c93d7385a5eb714" title="Extrae el contenido de un fichero incluido como recurso de la aplicación." alt="" coords="503,84,657,127"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="433,60,492,78,487,80,435,66"/>
+<area shape="poly" id="edge13_Node000013_Node000003" title=" " alt="" coords="414,85,454,73,498,62,494,65,456,79,417,90"/>
+<area shape="poly" id="edge14_Node000013_Node000004" title=" " alt="" coords="454,105,490,106,485,108,457,110"/>
+</map>

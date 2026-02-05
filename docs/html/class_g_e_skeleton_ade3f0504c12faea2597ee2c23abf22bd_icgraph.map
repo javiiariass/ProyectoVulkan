@@ -1,0 +1,5 @@
+<map id="GESkeleton::buildSkeleton" name="GESkeleton::buildSkeleton">
+<area shape="rect" id="Node000001" title="Construye la jerarquía de articulaciones desde body.skel." alt="" coords="223,5,400,32"/>
+<area shape="rect" id="Node000002" href="$class_g_e_skeleton.html#ad854854fdf1e4d090553d4d6edbfe095" title="Constructor del esqueleto." alt="" coords="5,5,175,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,19,175,21,175,16,210,19"/>
+</map>

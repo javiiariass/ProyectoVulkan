@@ -1,0 +1,7 @@
+<map id="GEBalljoint::addCommandsRecursive" name="GEBalljoint::addCommandsRecursive">
+<area shape="rect" id="Node000001" title="Añade comandos recursivamente." alt="" coords="5,23,188,65"/>
+<area shape="rect" id="Node000002" href="$class_g_e_balljoint.html#ace7cdc556f1583ec09405db12e8b002e" title="Añade los comandos de dibujo." alt="" coords="236,5,418,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,31,223,30,217,31,188,37"/>
+<area shape="rect" id="Node000003" href="$class_g_e_balljoint.html#a0f468b4618ae46410622a32a83569714" title="Construye una articulación." alt="" coords="247,56,406,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="188,51,235,59,229,59,188,57"/>
+</map>

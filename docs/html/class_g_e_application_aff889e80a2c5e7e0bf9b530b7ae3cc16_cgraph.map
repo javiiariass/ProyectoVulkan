@@ -1,0 +1,7 @@
+<map id="GEApplication::keyCallback" name="GEApplication::keyCallback">
+<area shape="rect" id="Node000001" title="Respuesta a un evento de teclado." alt="" coords="5,31,190,57"/>
+<area shape="rect" id="Node000002" href="$class_g_e_scene.html#a971e9b981ad219b661db89f03f6d3179" title="Maneja acciones de teclado." alt="" coords="266,5,414,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="190,32,253,27,248,29,191,37"/>
+<area shape="rect" id="Node000003" href="$class_g_e_application.html#ae1a2c4de09efffbc0a40eb0f1505cf96" title="Cambia entre pantalla completa y modo ventana." alt="" coords="238,56,443,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="190,51,225,57,220,57,190,56"/>
+</map>

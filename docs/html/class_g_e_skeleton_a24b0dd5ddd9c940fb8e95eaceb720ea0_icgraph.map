@@ -1,0 +1,8 @@
+<map id="GESkeleton::createJointFromData" name="GESkeleton::createJointFromData">
+<area shape="rect" id="Node000001" title="Crea recursivamente las articulaciones desde los datos parseados." alt="" coords="448,29,669,56"/>
+<area shape="poly" id="edge3_Node000001_Node000001" title=" " alt="" coords="600,14,587,10,559,8,533,10,518,15,515,20,522,30,517,28,510,21,515,11,531,5,559,3,589,5,605,15"/>
+<area shape="rect" id="Node000002" href="$class_g_e_skeleton.html#ade3f0504c12faea2597ee2c23abf22bd" title="Construye la jerarquía de articulaciones desde body.skel." alt="" coords="223,29,400,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="430,43,401,45,400,40,435,43"/>
+<area shape="rect" id="Node000003" href="$class_g_e_skeleton.html#ad854854fdf1e4d090553d4d6edbfe095" title="Constructor del esqueleto." alt="" coords="5,29,175,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="205,43,175,45,175,40,210,43"/>
+</map>

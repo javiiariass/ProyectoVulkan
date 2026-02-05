@@ -1,0 +1,25 @@
+<map id="MVPVulkan/pugixml/pugixml.hpp" name="MVPVulkan/pugixml/pugixml.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="418,5,631,32"/>
+<area shape="rect" id="Node000002" href="$_g_e_x_m_l_parser_8h.html" title="Parser para archivos .skel (XML) usando pugixml." alt="" coords="318,80,507,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="490,42,434,82,431,77,495,39"/>
+<area shape="rect" id="Node000012" href="$pugixml_8cpp.html" title=" " alt="" coords="530,80,743,107"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="557,38,620,79,614,80,557,43"/>
+<area shape="rect" id="Node000003" href="$_g_e_skeleton_8h.html" title="Declaración de la clase GESkeleton que representa un esqueleto con articulaciones jerárquicas." alt="" coords="220,155,394,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="380,117,327,156,324,152,384,114"/>
+<area shape="rect" id="Node000011" href="$_g_e_x_m_l_parser_8cpp.html" title="Implementación del parser XML usando pugixml." alt="" coords="418,155,620,181"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="444,113,503,154,498,154,443,118"/>
+<area shape="rect" id="Node000004" href="$_g_e_animation_8cpp.html" title="Implementación del sistema de animación por keyframes." alt="" coords="8,229,204,256"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="256,189,143,231,140,226,260,185"/>
+<area shape="rect" id="Node000005" href="$_g_e_scene_8h.html" title="Declaración de la clase GEScene que contiene la escena con esqueleto animado." alt="" coords="227,229,388,256"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="309,195,310,230,305,228,306,199"/>
+<area shape="rect" id="Node000010" href="$_g_e_skeleton_8cpp.html" title="Implementación de GESkeleton con carga desde archivo .skel." alt="" coords="412,229,600,256"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="356,184,474,228,469,229,356,190"/>
+<area shape="rect" id="Node000006" href="$_g_e_application_8h.html" title="Declaración de la clase GEApplication que crea y lanza la aplicación gráfica." alt="" coords="111,304,298,331"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="279,264,224,306,221,301,275,267"/>
+<area shape="rect" id="Node000009" href="$_g_e_scene_8cpp.html" title="Escena con animación de tiro libre de baloncesto." alt="" coords="323,304,497,331"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="338,263,395,303,389,303,337,268"/>
+<area shape="rect" id="Node000007" href="$_g_e_application_8cpp.html" title="Implementación de la clase GEApplication." alt="" coords="5,379,207,405"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="178,339,124,381,122,376,173,341"/>
+<area shape="rect" id="Node000008" href="$main_8cpp.html" title="Punto de entrada principal de la aplicación MVPVulkan." alt="" coords="230,379,376,405"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="235,338,289,378,284,378,233,343"/>
+</map>

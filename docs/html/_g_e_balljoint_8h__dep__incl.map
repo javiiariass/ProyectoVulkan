@@ -1,0 +1,22 @@
+<map id="MVPVulkan/GEBalljoint.h" name="MVPVulkan/GEBalljoint.h">
+<area shape="rect" id="Node000001" title="Declaración de la clase GEBalljoint para articulaciones jerárquicas." alt="" coords="82,5,252,32"/>
+<area shape="rect" id="Node000002" href="$_g_e_animation_8cpp.html" title="Implementación del sistema de animación por keyframes." alt="" coords="5,155,201,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,41,86,58,65,81,61,100,67,119,79,138,93,154,87,155,75,141,62,122,56,100,61,79,83,54,113,36"/>
+<area shape="rect" id="Node000003" href="$_g_e_balljoint_8cpp.html" title="Implementación de la clase GEBalljoint con soporte jerárquico." alt="" coords="75,80,259,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="168,45,170,80,164,79,166,50"/>
+<area shape="rect" id="Node000004" href="$_g_e_skeleton_8h.html" title="Declaración de la clase GESkeleton que representa un esqueleto con articulaciones jerárquicas." alt="" coords="282,80,457,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="216,35,336,78,332,81,217,40"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="307,113,151,156,149,152,310,109"/>
+<area shape="rect" id="Node000005" href="$_g_e_scene_8h.html" title="Declaración de la clase GEScene que contiene la escena con esqueleto animado." alt="" coords="256,155,416,181"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="359,119,344,156,340,153,356,123"/>
+<area shape="rect" id="Node000010" href="$_g_e_skeleton_8cpp.html" title="Implementación de GESkeleton con carga desde archivo .skel." alt="" coords="441,155,629,181"/>
+<area shape="poly" id="edge10_Node000004_Node000010" title=" " alt="" coords="413,111,509,154,503,154,412,116"/>
+<area shape="rect" id="Node000006" href="$_g_e_application_8h.html" title="Declaración de la clase GEApplication que crea y lanza la aplicación gráfica." alt="" coords="140,229,327,256"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="308,189,253,231,250,226,304,192"/>
+<area shape="rect" id="Node000009" href="$_g_e_scene_8cpp.html" title="Escena con animación de tiro libre de baloncesto." alt="" coords="352,229,526,256"/>
+<area shape="poly" id="edge9_Node000005_Node000009" title=" " alt="" coords="367,188,424,229,418,229,366,193"/>
+<area shape="rect" id="Node000007" href="$_g_e_application_8cpp.html" title="Implementación de la clase GEApplication." alt="" coords="34,304,236,331"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="207,265,153,306,151,301,202,266"/>
+<area shape="rect" id="Node000008" href="$main_8cpp.html" title="Punto de entrada principal de la aplicación MVPVulkan." alt="" coords="259,304,406,331"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="264,263,318,304,313,303,262,268"/>
+</map>

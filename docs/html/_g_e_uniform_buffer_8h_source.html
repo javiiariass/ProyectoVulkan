@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Animación Vulkan: Archivo de código fuente MVPVulkan/GEUniformBuffer.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">var page_layout=1;</script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="side-nav" class="ui-resizable side-nav-resizable"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Animación Vulkan<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Animación de tiro libre baloncesto con motor gráfico desarrollado en clase</div>
+  </td>
+ </tr>
+   <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td></tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_g_e_uniform_buffer_8h_source.html','',''); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','Buscar',true);
+});
+</script>
+<div id="main-nav"></div>
+<div id="container"><div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">GEUniformBuffer.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_g_e_uniform_buffer_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="_g_e_graphics_context_8h.html">GEGraphicsContext.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;vulkan/vulkan.h&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span></div>
+<div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="class_g_e_uniform_buffer.html">   11</a></span><span class="keyword">class </span><a class="code hl_function" href="class_g_e_uniform_buffer.html#a7a7172f9f89393362736ec472352ab92">GEUniformBuffer</a></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="class_g_e_uniform_buffer.html#a788436b233821dff4a8f70d18b76b845">   14</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_variable" href="class_g_e_uniform_buffer.html#a788436b233821dff4a8f70d18b76b845">bufferSize</a>;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="class_g_e_uniform_buffer.html#a2848d04c7f6c4231c293ee71ac72e718">   15</a></span>    std::vector&lt;VkBuffer&gt; <a class="code hl_variable" href="class_g_e_uniform_buffer.html#a2848d04c7f6c4231c293ee71ac72e718">buffers</a>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="class_g_e_uniform_buffer.html#ae795775a2323797743766115b6197a23">   16</a></span>    std::vector&lt;VkDeviceMemory&gt; <a class="code hl_variable" href="class_g_e_uniform_buffer.html#ae795775a2323797743766115b6197a23">memories</a>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <a class="code hl_function" href="class_g_e_uniform_buffer.html#a7a7172f9f89393362736ec472352ab92">GEUniformBuffer</a>(<a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a>* gc, uint32_t imageCount, <span class="keywordtype">size_t</span> <a class="code hl_variable" href="class_g_e_uniform_buffer.html#a788436b233821dff4a8f70d18b76b845">bufferSize</a>);</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_uniform_buffer.html#a170b34644ea3d73dbf43497b01b66890">update</a>(<a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a>* gc, uint32_t currentImage, <span class="keywordtype">size_t</span> size, <span class="keyword">const</span> <span class="keywordtype">void</span>* data);</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_g_e_uniform_buffer.html#a20499e90376aaf016e3d950a8d2918bb">destroy</a>(<a class="code hl_class" href="class_g_e_graphics_context.html">GEGraphicsContext</a>* gc);</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>};</div>
+</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="ttc" id="a_g_e_graphics_context_8h_html"><div class="ttname"><a href="_g_e_graphics_context_8h.html">GEGraphicsContext.h</a></div><div class="ttdoc">Declaración de la clase GEGraphicsContext que almacena el contexto gráfico de Vulkan.</div></div>
+<div class="ttc" id="aclass_g_e_graphics_context_html"><div class="ttname"><a href="class_g_e_graphics_context.html">GEGraphicsContext</a></div><div class="ttdoc">Clase que almacena el contexto gráfico de Vulkan (instancia y dispositivo).</div><div class="ttdef"><b>Definition</b> GEGraphicsContext.h:17</div></div>
+<div class="ttc" id="aclass_g_e_uniform_buffer_html_a170b34644ea3d73dbf43497b01b66890"><div class="ttname"><a href="class_g_e_uniform_buffer.html#a170b34644ea3d73dbf43497b01b66890">GEUniformBuffer::update</a></div><div class="ttdeci">void update(GEGraphicsContext *gc, uint32_t currentImage, size_t size, const void *data)</div><div class="ttdoc">Actualiza el valor almacenado en un Uniform Buffer.</div><div class="ttdef"><b>Definition</b> GEUniformBuffer.cpp:65</div></div>
+<div class="ttc" id="aclass_g_e_uniform_buffer_html_a20499e90376aaf016e3d950a8d2918bb"><div class="ttname"><a href="class_g_e_uniform_buffer.html#a20499e90376aaf016e3d950a8d2918bb">GEUniformBuffer::destroy</a></div><div class="ttdeci">void destroy(GEGraphicsContext *gc)</div><div class="ttdoc">Destruye los campos de un Uniform Buffer.</div><div class="ttdef"><b>Definition</b> GEUniformBuffer.cpp:77</div></div>
+<div class="ttc" id="aclass_g_e_uniform_buffer_html_a2848d04c7f6c4231c293ee71ac72e718"><div class="ttname"><a href="class_g_e_uniform_buffer.html#a2848d04c7f6c4231c293ee71ac72e718">GEUniformBuffer::buffers</a></div><div class="ttdeci">std::vector&lt; VkBuffer &gt; buffers</div><div class="ttdef"><b>Definition</b> GEUniformBuffer.h:15</div></div>
+<div class="ttc" id="aclass_g_e_uniform_buffer_html_a788436b233821dff4a8f70d18b76b845"><div class="ttname"><a href="class_g_e_uniform_buffer.html#a788436b233821dff4a8f70d18b76b845">GEUniformBuffer::bufferSize</a></div><div class="ttdeci">size_t bufferSize</div><div class="ttdef"><b>Definition</b> GEUniformBuffer.h:14</div></div>
+<div class="ttc" id="aclass_g_e_uniform_buffer_html_a7a7172f9f89393362736ec472352ab92"><div class="ttname"><a href="class_g_e_uniform_buffer.html#a7a7172f9f89393362736ec472352ab92">GEUniformBuffer::GEUniformBuffer</a></div><div class="ttdeci">GEUniformBuffer(GEGraphicsContext *gc, uint32_t imageCount, size_t bufferSize)</div><div class="ttdoc">Crea una lista de Uniform Buffers asociados a cada imagen a generar.</div><div class="ttdef"><b>Definition</b> GEUniformBuffer.cpp:16</div></div>
+<div class="ttc" id="aclass_g_e_uniform_buffer_html_ae795775a2323797743766115b6197a23"><div class="ttname"><a href="class_g_e_uniform_buffer.html#ae795775a2323797743766115b6197a23">GEUniformBuffer::memories</a></div><div class="ttdeci">std::vector&lt; VkDeviceMemory &gt; memories</div><div class="ttdef"><b>Definition</b> GEUniformBuffer.h:16</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_23ed62d68ba96d0c485cdb821755d287.html">MVPVulkan</a></li><li class="navelem"><a href="_g_e_uniform_buffer_8h.html">GEUniformBuffer.h</a></li>
+    <li class="footer">Generado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
+  </ul>
+</div>
+</body>
+</html>

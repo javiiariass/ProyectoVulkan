@@ -1,0 +1,784 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Animación Vulkan: Referencia de la clase GEGraphicsContext</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">var page_layout=1;</script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="side-nav" class="ui-resizable side-nav-resizable"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Animación Vulkan<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Animación de tiro libre baloncesto con motor gráfico desarrollado en clase</div>
+  </td>
+ </tr>
+   <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
+          <input type="text" id="MSearchField" value="" placeholder="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
+          </span>
+        </div>
+</td></tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+</div><!-- top -->
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_g_e_graphics_context.html','','class_g_e_graphics_context-members'); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','Buscar',true);
+});
+</script>
+<div id="main-nav"></div>
+<div id="container"><div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Referencia de la clase GEGraphicsContext</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Clase que almacena el contexto gráfico de Vulkan (instancia y dispositivo).  
+ <a href="#details">Más...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_g_e_graphics_context_8h_source.html">GEGraphicsContext.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:ad05a5cd5b918fc0b820616688057c39a" id="r_ad05a5cd5b918fc0b820616688057c39a"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ad05a5cd5b918fc0b820616688057c39a">GEGraphicsContext</a> (GLFWwindow *window)</td></tr>
+<tr class="memdesc:ad05a5cd5b918fc0b820616688057c39a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construye el contexto gráfico de Vulkan.  <br /></td></tr>
+<tr class="memitem:afb054d883b64cf080abf636c18b81426" id="r_afb054d883b64cf080abf636c18b81426"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#afb054d883b64cf080abf636c18b81426">~GEGraphicsContext</a> ()</td></tr>
+<tr class="memdesc:afb054d883b64cf080abf636c18b81426"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruye el contexto gráfico y libera recursos.  <br /></td></tr>
+<tr class="memitem:ad35321242b0a2bb7e00b2ef0a515d402" id="r_ad35321242b0a2bb7e00b2ef0a515d402"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#ad35321242b0a2bb7e00b2ef0a515d402">findMemoryType</a> (uint32_t typeFilter, VkMemoryPropertyFlags properties)</td></tr>
+<tr class="memdesc:ad35321242b0a2bb7e00b2ef0a515d402"><td class="mdescLeft">&#160;</td><td class="mdescRight">Busca el tipo de memoria adecuado para un filtro y propiedades dadas.  <br /></td></tr>
+<tr class="memitem:a0d7cc8d858bf9deed9bf31b2d5b7ea36" id="r_a0d7cc8d858bf9deed9bf31b2d5b7ea36"><td class="memItemLeft">VkFormat&#160;</td><td class="memItemRight"><a class="el" href="#a0d7cc8d858bf9deed9bf31b2d5b7ea36">findDepthFormat</a> ()</td></tr>
+<tr class="memdesc:a0d7cc8d858bf9deed9bf31b2d5b7ea36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Busca el formato de imagen adecuado para el buffer de profundidad.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Atributos públicos</h2></td></tr>
+<tr class="memitem:a3db6fa7a902054f1888a231a8d9481ab" id="r_a3db6fa7a902054f1888a231a8d9481ab"><td class="memItemLeft">VkInstance&#160;</td><td class="memItemRight"><a class="el" href="#a3db6fa7a902054f1888a231a8d9481ab">instance</a></td></tr>
+<tr class="memdesc:a3db6fa7a902054f1888a231a8d9481ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instancia de Vulkan.  <br /></td></tr>
+<tr class="memitem:abecf5540e98b76e56d9c1fdf35935613" id="r_abecf5540e98b76e56d9c1fdf35935613"><td class="memItemLeft">VkSurfaceKHR&#160;</td><td class="memItemRight"><a class="el" href="#abecf5540e98b76e56d9c1fdf35935613">surface</a></td></tr>
+<tr class="memdesc:abecf5540e98b76e56d9c1fdf35935613"><td class="mdescLeft">&#160;</td><td class="mdescRight">Superficie de presentación.  <br /></td></tr>
+<tr class="memitem:a4233726461cb8666e4d18f8174c773f5" id="r_a4233726461cb8666e4d18f8174c773f5"><td class="memItemLeft">VkPhysicalDevice&#160;</td><td class="memItemRight"><a class="el" href="#a4233726461cb8666e4d18f8174c773f5">physicalDevice</a></td></tr>
+<tr class="memdesc:a4233726461cb8666e4d18f8174c773f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dispositivo físico seleccionado.  <br /></td></tr>
+<tr class="memitem:a0a2e27af4ff18bb5a509deaa7992cc14" id="r_a0a2e27af4ff18bb5a509deaa7992cc14"><td class="memItemLeft">VkDevice&#160;</td><td class="memItemRight"><a class="el" href="#a0a2e27af4ff18bb5a509deaa7992cc14">device</a></td></tr>
+<tr class="memdesc:a0a2e27af4ff18bb5a509deaa7992cc14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dispositivo lógico.  <br /></td></tr>
+<tr class="memitem:a62a5721b6200e93767498e34d24ca9d2" id="r_a62a5721b6200e93767498e34d24ca9d2"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#a62a5721b6200e93767498e34d24ca9d2">graphicsQueueFamilyIndex</a></td></tr>
+<tr class="memdesc:a62a5721b6200e93767498e34d24ca9d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Índice de la familia de colas para gráficos.  <br /></td></tr>
+<tr class="memitem:a1cbd4b005cfda695edcdbf622f67b835" id="r_a1cbd4b005cfda695edcdbf622f67b835"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#a1cbd4b005cfda695edcdbf622f67b835">presentQueueFamilyIndex</a></td></tr>
+<tr class="memdesc:a1cbd4b005cfda695edcdbf622f67b835"><td class="mdescLeft">&#160;</td><td class="mdescRight">Índice de la familia de colas para presentación.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Métodos privados</h2></td></tr>
+<tr class="memitem:a537d64701b6e6ecb96c2eb16bf5cb43c" id="r_a537d64701b6e6ecb96c2eb16bf5cb43c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a537d64701b6e6ecb96c2eb16bf5cb43c">createInstance</a> ()</td></tr>
+<tr class="memdesc:a537d64701b6e6ecb96c2eb16bf5cb43c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crea la instancia de Vulkan.  <br /></td></tr>
+<tr class="memitem:a8345f73d6f391f9afde8febbc4c8dc8b" id="r_a8345f73d6f391f9afde8febbc4c8dc8b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8345f73d6f391f9afde8febbc4c8dc8b">createSurface</a> (GLFWwindow *window)</td></tr>
+<tr class="memdesc:a8345f73d6f391f9afde8febbc4c8dc8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crea la superficie para la ventana GLFW.  <br /></td></tr>
+<tr class="memitem:a0fa73d6028a93f4912e510309846da86" id="r_a0fa73d6028a93f4912e510309846da86"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0fa73d6028a93f4912e510309846da86">pickPhysicalDevice</a> ()</td></tr>
+<tr class="memdesc:a0fa73d6028a93f4912e510309846da86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selecciona el dispositivo físico adecuado.  <br /></td></tr>
+<tr class="memitem:aee42a876bc9fbc67c6ef46dbda09491f" id="r_aee42a876bc9fbc67c6ef46dbda09491f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aee42a876bc9fbc67c6ef46dbda09491f">createLogicalDevice</a> ()</td></tr>
+<tr class="memdesc:aee42a876bc9fbc67c6ef46dbda09491f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crea el dispositivo lógico y configura las colas.  <br /></td></tr>
+<tr class="memitem:ab7132fb73eff3eafe6fdece3fc8b21e7" id="r_ab7132fb73eff3eafe6fdece3fc8b21e7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab7132fb73eff3eafe6fdece3fc8b21e7">showInstanceProperties</a> ()</td></tr>
+<tr class="memdesc:ab7132fb73eff3eafe6fdece3fc8b21e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Muestra propiedades de la instancia Vulkan (depuración).  <br /></td></tr>
+<tr class="memitem:a8d07ce73bc62675db9b9ec97659e3187" id="r_a8d07ce73bc62675db9b9ec97659e3187"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a8d07ce73bc62675db9b9ec97659e3187">isDeviceSuitable</a> (VkPhysicalDevice pDevice)</td></tr>
+<tr class="memdesc:a8d07ce73bc62675db9b9ec97659e3187"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comprueba si un dispositivo físico es adecuado.  <br /></td></tr>
+<tr class="memitem:aaf6502eeb2b63c29b12729b657b0ee95" id="r_aaf6502eeb2b63c29b12729b657b0ee95"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aaf6502eeb2b63c29b12729b657b0ee95">showDevices</a> ()</td></tr>
+<tr class="memdesc:aaf6502eeb2b63c29b12729b657b0ee95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Muestra y escribe en fichero las propiedades de los dispositivos detectados.  <br /></td></tr>
+<tr class="memitem:ab7782a268d0c244506262dd6ce3a1571" id="r_ab7782a268d0c244506262dd6ce3a1571"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab7782a268d0c244506262dd6ce3a1571">resumeDeviceProperties</a> (VkPhysicalDevice pDevice, int index)</td></tr>
+<tr class="memdesc:ab7782a268d0c244506262dd6ce3a1571"><td class="mdescLeft">&#160;</td><td class="mdescRight">Escribe en fichero las características detalladas de un dispositivo.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Atributos privados</h2></td></tr>
+<tr class="memitem:a1fd04d777db576d78fa11e7a1ff0b7ce" id="r_a1fd04d777db576d78fa11e7a1ff0b7ce"><td class="memItemLeft">VkPhysicalDeviceMemoryProperties&#160;</td><td class="memItemRight"><a class="el" href="#a1fd04d777db576d78fa11e7a1ff0b7ce">memProperties</a></td></tr>
+<tr class="memdesc:a1fd04d777db576d78fa11e7a1ff0b7ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Propiedades de memoria del dispositivo.  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Clase que almacena el contexto gráfico de Vulkan (instancia y dispositivo). </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Documentación de constructores y destructores</h2>
+<a id="ad05a5cd5b918fc0b820616688057c39a" name="ad05a5cd5b918fc0b820616688057c39a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad05a5cd5b918fc0b820616688057c39a">&#9670;&#160;</a></span>GEGraphicsContext()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GEGraphicsContext::GEGraphicsContext </td>
+          <td>(</td>
+          <td class="paramtype">GLFWwindow *</td>          <td class="paramname"><span class="paramname"><em>window</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construye el contexto gráfico de Vulkan. </p>
+<p>Crea un contexto gráfico de Vulkan (instancia, dispositivo físico y lógico).</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">window</td><td>Ventana GLFW sobre la que crear el contexto.</td></tr>
+    <tr><td class="paramname">window</td><td>Ventana GLFW sobre la que crear el contexto. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>Ver también</dt><dd>GLFWwindow </dd></dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#a537d64701b6e6ecb96c2eb16bf5cb43c">createInstance()</a>, <a class="el" href="#aee42a876bc9fbc67c6ef46dbda09491f">createLogicalDevice()</a>, <a class="el" href="#a8345f73d6f391f9afde8febbc4c8dc8b">createSurface()</a> y <a class="el" href="#a0fa73d6028a93f4912e510309846da86">pickPhysicalDevice()</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_g_e_graphics_context_ad05a5cd5b918fc0b820616688057c39a_cgraph.svg" width="546" height="254"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="afb054d883b64cf080abf636c18b81426" name="afb054d883b64cf080abf636c18b81426"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb054d883b64cf080abf636c18b81426">&#9670;&#160;</a></span>~GEGraphicsContext()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GEGraphicsContext::~GEGraphicsContext </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destruye el contexto gráfico y libera recursos. </p>
+<p>Destruye el contexto gráfico. </p>
+
+<p class="reference">Hace referencia a <a class="el" href="#a0a2e27af4ff18bb5a509deaa7992cc14">device</a>, <a class="el" href="#a3db6fa7a902054f1888a231a8d9481ab">instance</a> y <a class="el" href="#abecf5540e98b76e56d9c1fdf35935613">surface</a>.</p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Documentación de funciones miembro</h2>
+<a id="a537d64701b6e6ecb96c2eb16bf5cb43c" name="a537d64701b6e6ecb96c2eb16bf5cb43c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a537d64701b6e6ecb96c2eb16bf5cb43c">&#9670;&#160;</a></span>createInstance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEGraphicsContext::createInstance </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Crea la instancia de Vulkan. </p>
+
+<p class="reference">Hace referencia a <a class="el" href="#a3db6fa7a902054f1888a231a8d9481ab">instance</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="#ad05a5cd5b918fc0b820616688057c39a">GEGraphicsContext()</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_g_e_graphics_context_a537d64701b6e6ecb96c2eb16bf5cb43c_icgraph.svg" width="352" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aee42a876bc9fbc67c6ef46dbda09491f" name="aee42a876bc9fbc67c6ef46dbda09491f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee42a876bc9fbc67c6ef46dbda09491f">&#9670;&#160;</a></span>createLogicalDevice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEGraphicsContext::createLogicalDevice </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Crea el dispositivo lógico y configura las colas. </p>
+<p>Crea el dispositivo lógico sobre el que generar los gráficos y selecciona la familia de colas sobre el dispositivo. </p>
+
+<p class="reference">Hace referencia a <a class="el" href="#a0a2e27af4ff18bb5a509deaa7992cc14">device</a>, <a class="el" href="#a62a5721b6200e93767498e34d24ca9d2">graphicsQueueFamilyIndex</a>, <a class="el" href="#a4233726461cb8666e4d18f8174c773f5">physicalDevice</a> y <a class="el" href="#a1cbd4b005cfda695edcdbf622f67b835">presentQueueFamilyIndex</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="#ad05a5cd5b918fc0b820616688057c39a">GEGraphicsContext()</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_g_e_graphics_context_aee42a876bc9fbc67c6ef46dbda09491f_icgraph.svg" width="352" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a8345f73d6f391f9afde8febbc4c8dc8b" name="a8345f73d6f391f9afde8febbc4c8dc8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8345f73d6f391f9afde8febbc4c8dc8b">&#9670;&#160;</a></span>createSurface()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEGraphicsContext::createSurface </td>
+          <td>(</td>
+          <td class="paramtype">GLFWwindow *</td>          <td class="paramname"><span class="paramname"><em>window</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Crea la superficie para la ventana GLFW. </p>
+<p>Crea la superficie sobre la que mostrar la representación gráfica.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">window</td><td>Ventana GLFW.</td></tr>
+    <tr><td class="paramname">window</td><td>Ventana GLFW sobre la que crear la superficie. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>Ver también</dt><dd>GLFWwindow </dd></dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#a3db6fa7a902054f1888a231a8d9481ab">instance</a> y <a class="el" href="#abecf5540e98b76e56d9c1fdf35935613">surface</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="#ad05a5cd5b918fc0b820616688057c39a">GEGraphicsContext()</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_g_e_graphics_context_a8345f73d6f391f9afde8febbc4c8dc8b_icgraph.svg" width="352" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a0d7cc8d858bf9deed9bf31b2d5b7ea36" name="a0d7cc8d858bf9deed9bf31b2d5b7ea36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d7cc8d858bf9deed9bf31b2d5b7ea36">&#9670;&#160;</a></span>findDepthFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VkFormat GEGraphicsContext::findDepthFormat </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Busca el formato de imagen adecuado para el buffer de profundidad. </p>
+<p>Busca el formato adecuado para el buffer de profundidad.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>Formato de profundidad soportado. </dd></dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#a4233726461cb8666e4d18f8174c773f5">physicalDevice</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_g_e_rendering_context.html#ab52c54295c5991f41c1202bd7d9df7bf">GERenderingContext::createRenderPass()</a> y <a class="el" href="class_g_e_depth_buffer.html#ad70d23702ff51a80eff64902d0219172">GEDepthBuffer::GEDepthBuffer()</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_g_e_graphics_context_a0d7cc8d858bf9deed9bf31b2d5b7ea36_icgraph.svg" width="612" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ad35321242b0a2bb7e00b2ef0a515d402" name="ad35321242b0a2bb7e00b2ef0a515d402"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad35321242b0a2bb7e00b2ef0a515d402">&#9670;&#160;</a></span>findMemoryType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t GEGraphicsContext::findMemoryType </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>typeFilter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VkMemoryPropertyFlags</td>          <td class="paramname"><span class="paramname"><em>properties</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Busca el tipo de memoria adecuado para un filtro y propiedades dadas. </p>
+<p>Busca el tipo de memoria adecuado para el filtro indicado.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">typeFilter</td><td>Máscara de tipos de memoria disponibles. </td></tr>
+    <tr><td class="paramname">properties</td><td>Propiedades de memoria requeridas. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Índice del tipo de memoria adecuado.</dd></dl>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">typeFilter</td><td>Filtro de tipos de memoria. </td></tr>
+    <tr><td class="paramname">properties</td><td>Propiedades de memoria requeridas. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Índice del tipo de memoria adecuado. </dd></dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#a1fd04d777db576d78fa11e7a1ff0b7ce">memProperties</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_g_e_depth_buffer.html#ad70d23702ff51a80eff64902d0219172">GEDepthBuffer::GEDepthBuffer()</a>, <a class="el" href="class_g_e_index_buffer.html#a1fad8bda87d8728aa5e190d9908b395d">GEIndexBuffer::GEIndexBuffer()</a>, <a class="el" href="class_g_e_uniform_buffer.html#a7a7172f9f89393362736ec472352ab92">GEUniformBuffer::GEUniformBuffer()</a> y <a class="el" href="class_g_e_vertex_buffer.html#ab5720d5b613f82f6fc5fc93451f1d865">GEVertexBuffer::GEVertexBuffer()</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_g_e_graphics_context_ad35321242b0a2bb7e00b2ef0a515d402_icgraph.svg" width="411" height="222"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a8d07ce73bc62675db9b9ec97659e3187" name="a8d07ce73bc62675db9b9ec97659e3187"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d07ce73bc62675db9b9ec97659e3187">&#9670;&#160;</a></span>isDeviceSuitable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GEGraphicsContext::isDeviceSuitable </td>
+          <td>(</td>
+          <td class="paramtype">VkPhysicalDevice</td>          <td class="paramname"><span class="paramname"><em>pDevice</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Comprueba si un dispositivo físico es adecuado. </p>
+<p>Verifica si un dispositivo físico admite generación de gráficos.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pDevice</td><td>Dispositivo físico a verificar. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true si es adecuado.</dd></dl>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pDevice</td><td>Dispositivo físico a verificar. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true si el dispositivo es adecuado, false en caso contrario. </dd></dl>
+
+<p class="reference">Hace referencia a <a class="el" href="#a62a5721b6200e93767498e34d24ca9d2">graphicsQueueFamilyIndex</a>, <a class="el" href="#a1cbd4b005cfda695edcdbf622f67b835">presentQueueFamilyIndex</a> y <a class="el" href="#abecf5540e98b76e56d9c1fdf35935613">surface</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="#a0fa73d6028a93f4912e510309846da86">pickPhysicalDevice()</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_g_e_graphics_context_a8d07ce73bc62675db9b9ec97659e3187_icgraph.svg" width="546" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a0fa73d6028a93f4912e510309846da86" name="a0fa73d6028a93f4912e510309846da86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fa73d6028a93f4912e510309846da86">&#9670;&#160;</a></span>pickPhysicalDevice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEGraphicsContext::pickPhysicalDevice </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Selecciona el dispositivo físico adecuado. </p>
+<p>Selecciona el dispositivo físico sobre el que generar los gráficos. </p>
+
+<p class="reference">Hace referencia a <a class="el" href="#a3db6fa7a902054f1888a231a8d9481ab">instance</a>, <a class="el" href="#a8d07ce73bc62675db9b9ec97659e3187">isDeviceSuitable()</a>, <a class="el" href="#a1fd04d777db576d78fa11e7a1ff0b7ce">memProperties</a> y <a class="el" href="#a4233726461cb8666e4d18f8174c773f5">physicalDevice</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="#ad05a5cd5b918fc0b820616688057c39a">GEGraphicsContext()</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_g_e_graphics_context_a0fa73d6028a93f4912e510309846da86_cgraph.svg" width="352" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_g_e_graphics_context_a0fa73d6028a93f4912e510309846da86_icgraph.svg" width="352" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ab7782a268d0c244506262dd6ce3a1571" name="ab7782a268d0c244506262dd6ce3a1571"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7782a268d0c244506262dd6ce3a1571">&#9670;&#160;</a></span>resumeDeviceProperties()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEGraphicsContext::resumeDeviceProperties </td>
+          <td>(</td>
+          <td class="paramtype">VkPhysicalDevice</td>          <td class="paramname"><span class="paramname"><em>pDevice</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>index</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Escribe en fichero las características detalladas de un dispositivo. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pDevice</td><td>Dispositivo físico a describir. </td></tr>
+    <tr><td class="paramname">index</td><td>Índice del dispositivo. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">Hace referencia a <a class="el" href="_g_e_graphics_context_8cpp.html#a6fb22a96dfccac10a6d4bfcc7e1251db">BOOL</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="#aaf6502eeb2b63c29b12729b657b0ee95">showDevices()</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas a esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_g_e_graphics_context_ab7782a268d0c244506262dd6ce3a1571_icgraph.svg" width="370" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aaf6502eeb2b63c29b12729b657b0ee95" name="aaf6502eeb2b63c29b12729b657b0ee95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf6502eeb2b63c29b12729b657b0ee95">&#9670;&#160;</a></span>showDevices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEGraphicsContext::showDevices </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Muestra y escribe en fichero las propiedades de los dispositivos detectados. </p>
+<p>Muestra los dispositivos físicos disponibles y genera un archivo con las propiedades de cada uno. </p>
+
+<p class="reference">Hace referencia a <a class="el" href="#a3db6fa7a902054f1888a231a8d9481ab">instance</a>, <a class="el" href="#a4233726461cb8666e4d18f8174c773f5">physicalDevice</a> y <a class="el" href="#ab7782a268d0c244506262dd6ce3a1571">resumeDeviceProperties()</a>.</p>
+<div class="dynheader">
+Gráfico de llamadas de esta función:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_g_e_graphics_context_aaf6502eeb2b63c29b12729b657b0ee95_cgraph.svg" width="370" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ab7132fb73eff3eafe6fdece3fc8b21e7" name="ab7132fb73eff3eafe6fdece3fc8b21e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7132fb73eff3eafe6fdece3fc8b21e7">&#9670;&#160;</a></span>showInstanceProperties()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GEGraphicsContext::showInstanceProperties </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Muestra propiedades de la instancia Vulkan (depuración). </p>
+<p>Muestra las propiedades de la instancia. </p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Documentación de datos miembro</h2>
+<a id="a0a2e27af4ff18bb5a509deaa7992cc14" name="a0a2e27af4ff18bb5a509deaa7992cc14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a2e27af4ff18bb5a509deaa7992cc14">&#9670;&#160;</a></span>device</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VkDevice GEGraphicsContext::device</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Dispositivo lógico. </p>
+
+<p class="reference">Referenciado por <a class="el" href="class_g_e_command_context.html#aa470192248eb31f617e4a364caed065b">GECommandContext::createCommandBuffers()</a>, <a class="el" href="class_g_e_command_context.html#af81206d0958cc4e98efe3df5d9bcf6d4">GECommandContext::createCommandPool()</a>, <a class="el" href="class_g_e_rendering_context.html#a306a0d9b0571d41b8a86da3f1a71b366">GERenderingContext::createFramebuffers()</a>, <a class="el" href="class_g_e_rendering_context.html#aba96e7a9f6699afaa6b695cb3e7373e2">GERenderingContext::createGraphicsPipeline()</a>, <a class="el" href="#aee42a876bc9fbc67c6ef46dbda09491f">createLogicalDevice()</a>, <a class="el" href="class_g_e_rendering_context.html#afbcc3fb57b630a02a26505ebaab9613b">GERenderingContext::createPipelineLayout()</a>, <a class="el" href="class_g_e_drawing_context.html#a6ec9944df81a299e39fab513d9e4211f">GEDrawingContext::createQueues()</a>, <a class="el" href="class_g_e_rendering_context.html#ab52c54295c5991f41c1202bd7d9df7bf">GERenderingContext::createRenderPass()</a>, <a class="el" href="class_g_e_rendering_context.html#a0915e69629916660bd8b22fedf4b2e1c">GERenderingContext::createShaderModule()</a>, <a class="el" href="class_g_e_drawing_context.html#addf8c95330fdbf47864e9244ccc417db">GEDrawingContext::createSwapChain()</a>, <a class="el" href="class_g_e_command_context.html#a3b5f5a7aaa0b0bfb0ab459fe77cd1ad3">GECommandContext::destroy()</a>, <a class="el" href="class_g_e_depth_buffer.html#af2140e5c6bd677258c261e393ac85d7a">GEDepthBuffer::destroy()</a>, <a class="el" href="class_g_e_descriptor_set.html#aca5df37cb26af016cdc95afa4ac45dec">GEDescriptorSet::destroy()</a>, <a class="el" href="class_g_e_drawing_context.html#a6452623682c0fd047e657c208f03575f">GEDrawingContext::destroy()</a>, <a class="el" href="class_g_e_index_buffer.html#aff1918612ab1a2cb7ba816e8942b78d5">GEIndexBuffer::destroy()</a>, <a class="el" href="class_g_e_rendering_context.html#a853ccf3e3b30c2947689d212545b968b">GERenderingContext::destroy()</a>, <a class="el" href="class_g_e_uniform_buffer.html#a20499e90376aaf016e3d950a8d2918bb">GEUniformBuffer::destroy()</a>, <a class="el" href="class_g_e_vertex_buffer.html#acabbd35c14459c0f226121215b0354bb">GEVertexBuffer::destroy()</a>, <a class="el" href="class_g_e_depth_buffer.html#ad70d23702ff51a80eff64902d0219172">GEDepthBuffer::GEDepthBuffer()</a>, <a class="el" href="class_g_e_descriptor_set.html#abf800f5c42de90e6342e480332774338">GEDescriptorSet::GEDescriptorSet()</a>, <a class="el" href="class_g_e_drawing_context.html#a29f15ea54b46e71e37d45067270349ae">GEDrawingContext::GEDrawingContext()</a>, <a class="el" href="class_g_e_index_buffer.html#a1fad8bda87d8728aa5e190d9908b395d">GEIndexBuffer::GEIndexBuffer()</a>, <a class="el" href="class_g_e_uniform_buffer.html#a7a7172f9f89393362736ec472352ab92">GEUniformBuffer::GEUniformBuffer()</a>, <a class="el" href="class_g_e_vertex_buffer.html#ab5720d5b613f82f6fc5fc93451f1d865">GEVertexBuffer::GEVertexBuffer()</a>, <a class="el" href="class_g_e_drawing_context.html#aaeccb09fc78b1f6ebf86d19e161f6a1a">GEDrawingContext::recreate()</a>, <a class="el" href="class_g_e_drawing_context.html#a496872a1cf2f8dcb21afbb6fcc811032">GEDrawingContext::submitGraphicsCommands()</a>, <a class="el" href="class_g_e_uniform_buffer.html#a170b34644ea3d73dbf43497b01b66890">GEUniformBuffer::update()</a>, <a class="el" href="class_g_e_drawing_context.html#a480c44e7d10888633cd8e8554405faf0">GEDrawingContext::waitForNextImage()</a> y <a class="el" href="#afb054d883b64cf080abf636c18b81426">~GEGraphicsContext()</a>.</p>
+
+</div>
+</div>
+<a id="a62a5721b6200e93767498e34d24ca9d2" name="a62a5721b6200e93767498e34d24ca9d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62a5721b6200e93767498e34d24ca9d2">&#9670;&#160;</a></span>graphicsQueueFamilyIndex</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t GEGraphicsContext::graphicsQueueFamilyIndex</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Índice de la familia de colas para gráficos. </p>
+
+<p class="reference">Referenciado por <a class="el" href="class_g_e_command_context.html#af81206d0958cc4e98efe3df5d9bcf6d4">GECommandContext::createCommandPool()</a>, <a class="el" href="#aee42a876bc9fbc67c6ef46dbda09491f">createLogicalDevice()</a>, <a class="el" href="class_g_e_drawing_context.html#a6ec9944df81a299e39fab513d9e4211f">GEDrawingContext::createQueues()</a>, <a class="el" href="class_g_e_drawing_context.html#addf8c95330fdbf47864e9244ccc417db">GEDrawingContext::createSwapChain()</a> y <a class="el" href="#a8d07ce73bc62675db9b9ec97659e3187">isDeviceSuitable()</a>.</p>
+
+</div>
+</div>
+<a id="a3db6fa7a902054f1888a231a8d9481ab" name="a3db6fa7a902054f1888a231a8d9481ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3db6fa7a902054f1888a231a8d9481ab">&#9670;&#160;</a></span>instance</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VkInstance GEGraphicsContext::instance</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Instancia de Vulkan. </p>
+
+<p class="reference">Referenciado por <a class="el" href="#a537d64701b6e6ecb96c2eb16bf5cb43c">createInstance()</a>, <a class="el" href="#a8345f73d6f391f9afde8febbc4c8dc8b">createSurface()</a>, <a class="el" href="#a0fa73d6028a93f4912e510309846da86">pickPhysicalDevice()</a>, <a class="el" href="#aaf6502eeb2b63c29b12729b657b0ee95">showDevices()</a> y <a class="el" href="#afb054d883b64cf080abf636c18b81426">~GEGraphicsContext()</a>.</p>
+
+</div>
+</div>
+<a id="a1fd04d777db576d78fa11e7a1ff0b7ce" name="a1fd04d777db576d78fa11e7a1ff0b7ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fd04d777db576d78fa11e7a1ff0b7ce">&#9670;&#160;</a></span>memProperties</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">VkPhysicalDeviceMemoryProperties GEGraphicsContext::memProperties</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Propiedades de memoria del dispositivo. </p>
+
+<p class="reference">Referenciado por <a class="el" href="#ad35321242b0a2bb7e00b2ef0a515d402">findMemoryType()</a> y <a class="el" href="#a0fa73d6028a93f4912e510309846da86">pickPhysicalDevice()</a>.</p>
+
+</div>
+</div>
+<a id="a4233726461cb8666e4d18f8174c773f5" name="a4233726461cb8666e4d18f8174c773f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4233726461cb8666e4d18f8174c773f5">&#9670;&#160;</a></span>physicalDevice</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VkPhysicalDevice GEGraphicsContext::physicalDevice</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Dispositivo físico seleccionado. </p>
+
+<p class="reference">Referenciado por <a class="el" href="#aee42a876bc9fbc67c6ef46dbda09491f">createLogicalDevice()</a>, <a class="el" href="class_g_e_drawing_context.html#addf8c95330fdbf47864e9244ccc417db">GEDrawingContext::createSwapChain()</a>, <a class="el" href="#a0d7cc8d858bf9deed9bf31b2d5b7ea36">findDepthFormat()</a>, <a class="el" href="#a0fa73d6028a93f4912e510309846da86">pickPhysicalDevice()</a> y <a class="el" href="#aaf6502eeb2b63c29b12729b657b0ee95">showDevices()</a>.</p>
+
+</div>
+</div>
+<a id="a1cbd4b005cfda695edcdbf622f67b835" name="a1cbd4b005cfda695edcdbf622f67b835"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cbd4b005cfda695edcdbf622f67b835">&#9670;&#160;</a></span>presentQueueFamilyIndex</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t GEGraphicsContext::presentQueueFamilyIndex</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Índice de la familia de colas para presentación. </p>
+
+<p class="reference">Referenciado por <a class="el" href="#aee42a876bc9fbc67c6ef46dbda09491f">createLogicalDevice()</a>, <a class="el" href="class_g_e_drawing_context.html#a6ec9944df81a299e39fab513d9e4211f">GEDrawingContext::createQueues()</a>, <a class="el" href="class_g_e_drawing_context.html#addf8c95330fdbf47864e9244ccc417db">GEDrawingContext::createSwapChain()</a> y <a class="el" href="#a8d07ce73bc62675db9b9ec97659e3187">isDeviceSuitable()</a>.</p>
+
+</div>
+</div>
+<a id="abecf5540e98b76e56d9c1fdf35935613" name="abecf5540e98b76e56d9c1fdf35935613"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abecf5540e98b76e56d9c1fdf35935613">&#9670;&#160;</a></span>surface</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VkSurfaceKHR GEGraphicsContext::surface</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Superficie de presentación. </p>
+
+<p class="reference">Referenciado por <a class="el" href="#a8345f73d6f391f9afde8febbc4c8dc8b">createSurface()</a>, <a class="el" href="class_g_e_drawing_context.html#addf8c95330fdbf47864e9244ccc417db">GEDrawingContext::createSwapChain()</a>, <a class="el" href="#a8d07ce73bc62675db9b9ec97659e3187">isDeviceSuitable()</a> y <a class="el" href="#afb054d883b64cf080abf636c18b81426">~GEGraphicsContext()</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación de esta clase está generada de los siguientes archivos:<ul>
+<li>MVPVulkan/<a class="el" href="_g_e_graphics_context_8h_source.html">GEGraphicsContext.h</a></li>
+<li>MVPVulkan/<a class="el" href="_g_e_graphics_context_8cpp.html">GEGraphicsContext.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="class_g_e_graphics_context.html">GEGraphicsContext</a></li>
+    <li class="footer">Generado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
+  </ul>
+</div>
+</body>
+</html>
